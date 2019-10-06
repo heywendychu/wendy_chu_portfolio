@@ -1,27 +1,31 @@
-import React from 'react';
+import React from 'react'
 
 import styled from 'styled-components'
+
+import Header from './UserInterface/Header'
 
 const Page = styled.div`
 
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
 
   width: 100vw;
   height: 100vh;
 
+  overflow: scroll;
+
+  background: #ffede5;
+
 `
 
-const DogFrame = styled.img`
-  max-height: 60vh;
-
-`
 
 const App = () => {
   return (
     <Page>
-      <DogFrame src="https://s.abcnews.com/images/Lifestyle/puppy-ht-3-er-170907_4x3_992.jpg"/>
+      <Header  />
+
+
     </Page>
   )
 }
