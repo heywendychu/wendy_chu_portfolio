@@ -4,17 +4,17 @@ import styled from 'styled-components'
 
 const Container = styled.div`
 
-    height: 116px;
+    min-height: 116px;
     width: 100%;
 
-    border-bottom: 1px solid rgba(33, 53, 113, 0.26);
+    border-bottom: 1px solid rgba(33, 53, 113, 0.15);
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     @media (max-width: 768px) {
-        height: 134px;
+        min-height: 134px;
 
         flex-direction: column;
         justify-content: space-evenly;
