@@ -19,11 +19,14 @@ const Container = styled.div`
 const Title = styled.h3`
 
     margin: 0;
+    
 
     font-size: 13px;
     font-weight: 500;
     line-height: 1.85;
     letter-spacing: 0.8px;
+
+    font-family: 'Roboto Mono', monospace;
 
     color: #213571;
 

@@ -11,6 +11,10 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
 
+    @media (max-width: 768px) {
+        margin: ${props => props.spaceAbove * 0.7}px 0 0 0;
+    }
+
 `
 
 const Title = styled.h2`
@@ -23,6 +27,8 @@ const Title = styled.h2`
     font-weight: 500;
     line-height: 1.85;
     letter-spacing: 2.43px;
+
+    font-family: 'Roboto Mono', monospace;
 
 `
 
