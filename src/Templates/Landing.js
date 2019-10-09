@@ -7,6 +7,7 @@ import Company from '../UserInterface/Company'
 import ProjectLink from '../UserInterface/ProjectLink'
 import Paragraph from '../UserInterface/Paragraph'
 import ProfilePicture from '../ProfilePicture'
+import SpanLink from '../UserInterface/SpanLink'
 
 
 const Container = styled.div`
@@ -118,7 +119,7 @@ const Landing = props => {
             <Section id="contact" title="CONTACT" spaceAbove={0}>
                 
                 <Paragraph width='560px'>
-                    I’m currently looking for a full-time senior product/UX designer role at a company with a design-centered culture. If you think we might be a good fit, please email me at <span>hi@wendychu.design</span> to get in touch!
+                    I’m currently looking for a full-time senior product/UX designer role at a company with a design-centered culture. If you think we might be a good fit, please email me at <SpanLink>hi@wendychu.design</SpanLink> to get in touch!
                 </Paragraph>
 
             </Section>
