@@ -9,16 +9,67 @@ const Container = styled.div`
 
 const choosePage = route => {
 
+
     const data = [
+
+
     {route: "template",
     password: null,
     content:
         <Container>
-            <h1>Project</h1>
+            <h1>Template</h1>
             
         </Container>
-    }
-    ]
+    },
+
+
+    {route: "primary-navigation-redesign",
+    password: null,
+    content:
+        <Container>
+            <h1>Primary Navigation Redesign</h1>
+            
+        </Container>
+    },
+
+
+    {route: "primary-product-detail-page",
+    password: null,
+    content:
+        <Container>
+            <h1>Primary Product Detail Page</h1>
+            
+        </Container>
+    },
+
+
+    {route: "primary-style-guide",
+    password: null,
+    content:
+        <Container>
+            <h1>Primary Style Guide</h1>
+            
+        </Container>
+    },
+
+
+    {route: "ralph-lauren-find-a-store",
+    password: null,
+    content:
+        <Container>
+            <h1>RL Find a Store</h1>
+            
+        </Container>
+    },
+
+    {route: "ralph-lauren-mobile-webstore",
+    password: null,
+    content:
+        <Container>
+            <h1>RL Mobile Webstore</h1>
+            
+        </Container>
+    }]
 
     const selected = data.find( d => d.route === route)
 
@@ -28,12 +79,10 @@ const choosePage = route => {
         </Container>)
 
 
-
 }
 
 
 const Project = props => {
-    console.log("dynamic route:", props.match.params.name)
     return choosePage(props.match.params.name)
 }
 

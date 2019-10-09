@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { HashLink } from 'react-router-hash-link'
+
 import styled from 'styled-components'
 
 const Container = styled.div`
@@ -29,7 +31,7 @@ const Symbol = styled.svg`
     }
 `
 
-const Link = styled.a`
+const HeaderLink = styled(HashLink)`
     height: 24px;
     margin: 16px 40px 0 0;
     font-family: 'Roboto Mono', monospace;
@@ -38,6 +40,8 @@ const Link = styled.a`
     font-size: 13px;
     line-height: 1.85;
     letter-spacing: 2.43px;
+
+    text-decoration: none;
 
     cursor: pointer;
 
@@ -50,8 +54,6 @@ const Spacer = styled.div`
     
     max-width: 1200px;
     width: 100vw;
-
-    
 
     display: flex;
     justify-content: space-between;
@@ -77,9 +79,9 @@ const Header = props => {
                 </g>
             </Symbol>
             <LinkList>
-                <Link>ABOUT ME</Link>
-                <Link>WORK</Link>
-                <Link>CONTACT</Link>
+                <HeaderLink smooth to="/#about">ABOUT ME</HeaderLink>
+                <HeaderLink smooth to="/#work">WORK</HeaderLink>
+                <HeaderLink smooth to="/#contact">CONTACT</HeaderLink>
             </LinkList>
         </Spacer>
         </Container>

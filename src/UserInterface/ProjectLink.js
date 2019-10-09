@@ -1,8 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import styled from 'styled-components'
 
-const Container = styled.a`
+const Container = styled(Link)`
+
+    text-decoration: none;
+
     width: fit-content;
     
     line-height: 1.5;
@@ -29,10 +33,10 @@ const Span = styled.span`
     box-shadow: 0 1px 0 rgba(33, 53, 113, 0.26);
 `
 
-const Link = props => {
+const ProjectLink = props => {
     return (
-        <Container><Span>{props.text}</Span></Container>
+        <Container to={`/projects/${props.route}`}><Span>{props.text}</Span></Container>
     )
 }
 
-export default Link
+export default ProjectLink

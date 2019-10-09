@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 import Section from '../UserInterface/Section'
 import Company from '../UserInterface/Company'
-import Link from '../UserInterface/Link'
+import ProjectLink from '../UserInterface/ProjectLink'
 import Paragraph from '../UserInterface/Paragraph'
 import ProfilePicture from '../ProfilePicture'
 
@@ -78,10 +78,11 @@ const Spacer = styled.div`
 const Landing = props => {
     return (
         <Container className="test">
+
+            <span id="about"></span>
             <Section title="ABOUT ME" spaceAbove={120}>
-
+                
                 <MainRow>
-
                 <Column width="60%" maxWidth="500px">
                     <Headline>Hi, I'm Wendy Chu.</Headline>
                     <ProfilePicture margin={24} dimension={256} displayFor="mobile"/>
@@ -95,31 +96,29 @@ const Landing = props => {
 
                 </MainRow>
 
-
-                
-
-
-
             </Section>
 
+            <span id="work"></span>
             <Section title="WORK" spaceAbove={104}>
+                
                 <CompanyContainer>
                     <Company title="Primary.com">
-                        <Link text="Navigation Redesign" />
-                        <Link text="Product Detail Page" />
-                        <Link text="Style Guide" />
+                        <ProjectLink text="Navigation Redesign" route="primary-navigation-redesign" />
+                        <ProjectLink text="Product Detail Page" route="primary-product-detail-page" />
+                        <ProjectLink text="Style Guide" route="primary-style-guide" />
                     </Company>
                     <Company title="Ralph Lauren">
-                        <Link text="Find a Store" />
-                        <Link text="Mobile Webstore" />
+                        <ProjectLink text="Find a Store" route="ralph-lauren-find-a-store"/>
+                        <ProjectLink text="Mobile Webstore" route="ralph-lauren-mobile-webstore"/>
                     </Company>
                 </CompanyContainer>
             </Section>
 
-            <Section title="CONTACT" spaceAbove={0}>
-
+            <span id="contact"></span>
+            <Section id="contact" title="CONTACT" spaceAbove={0}>
+                
                 <Paragraph width='560px'>
-                    I’m currently looking for a full-time senior product/UX designer role at a company with a design-centered culture. If you think we might be a good fit, please email me at hi@wendychu.design to get in touch!
+                    I’m currently looking for a full-time senior product/UX designer role at a company with a design-centered culture. If you think we might be a good fit, please email me at <span>hi@wendychu.design</span> to get in touch!
                 </Paragraph>
 
             </Section>
