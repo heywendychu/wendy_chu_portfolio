@@ -21,7 +21,7 @@ const Container = styled.div`
 
 const CompanyContainer = styled.div`
 
-    margin: 40px 0 0 24px;
+    margin: 40px 0 0 0;
 
     display: flex;
 
@@ -41,6 +41,8 @@ const Headline = styled.h1`
     color: #1b2c63;
     font-weight: 400;
 
+    margin: 32px 0 0 0;
+
     @media (max-width: 768px) {
         line-height: 1.25;
         font-size: 40px;
@@ -48,24 +50,59 @@ const Headline = styled.h1`
     }
 `
 
+const MainRow = styled.div`
+
+    width: 100%;
+    display: flex;
+
+`
+
+const Column = styled.div`
+    width: ${props => props.width};
+    max-width: ${props => props.maxWidth};
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 768px) {
+        display: ${props => props.off ? "none" : "block"};
+        width: fit-content;
+        align-items: center;
+    }
+
+`
+
+const Spacer = styled.div`
+    height: 100px;
+`
+
 const Landing = props => {
     return (
-        <Container>
+        <Container className="test">
             <Section title="ABOUT ME" spaceAbove={120}>
 
+                <MainRow>
+
+                <Column width="60%" maxWidth="500px">
+                    <Headline>Hi, I'm Wendy Chu.</Headline>
+                    <ProfilePicture margin={24} dimension={256} displayFor="mobile"/>
+                    <Paragraph width="100%" maxWidth="543px">I’m a human-centered digital product designer in Brooklyn, NY. I strive to make the world a little bit more thoughtful, inclusive, and beautiful. </Paragraph>
+                    <Paragraph width="100%" maxWidth="543px">I research, strategize, wireframe, prototype, push pixels, write a bit of code, and never stop learning. Although I can do a whole lot on my own, I’m happiest when I collaborate with others. </Paragraph>
+                    <Paragraph width="100%" maxWidth="543px">A few of my favorite things: design systems, seamless omnichannel experiences, and one-on-one chats over coffee or tea.</Paragraph>
+                </Column>
+                <Column width="40%" maxWidth="400px" off={true}>
+                    <ProfilePicture margin={108} dimension={300} displayFor="desktop"/>
+                </Column>
+
+                </MainRow>
 
 
-                <Headline>Hi, I'm Wendy Chu.</Headline>
-                <ProfilePicture dimension={300} displayFor="mobile"/>
-                <Paragraph width="60%" maxWidth="543px">I’m a human-centered digital product designer in Brooklyn, NY. I strive to make the world a little bit more thoughtful, inclusive, and beautiful. </Paragraph>
-                <Paragraph width="60%" maxWidth="543px">I research, strategize, wireframe, prototype, push pixels, write a bit of code, and never stop learning. Although I can do a whole lot on my own, I’m happiest when I collaborate with others. </Paragraph>
-                <Paragraph width="60%" maxWidth="543px">A few of my favorite things: design systems, seamless omnichannel experiences, and one-on-one chats over coffee or tea.</Paragraph>
+                
 
 
 
             </Section>
 
-            <Section title="WORK" spaceAbove={120}>
+            <Section title="WORK" spaceAbove={104}>
                 <CompanyContainer>
                     <Company title="Primary.com">
                         <Link text="Navigation Redesign" />
@@ -86,6 +123,8 @@ const Landing = props => {
                 </Paragraph>
 
             </Section>
+
+            <Spacer/>
 
         </Container>
     );

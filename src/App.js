@@ -20,7 +20,6 @@ const Page = styled.div`
 
   background: #ffede5;
 
-  padding: 0 0 200px 0;
 
 `
 

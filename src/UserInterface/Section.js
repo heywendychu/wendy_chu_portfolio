@@ -7,6 +7,7 @@ const Container = styled.div`
     margin: ${props => props.spaceAbove}px 0 0 0;
 
     width: 80vw;
+    max-width: 800px;
 
     display: flex;
     flex-direction: column;
@@ -45,7 +46,7 @@ const RedLine = styled.div`
 
 const Section = props => {
     return (
-        <Container spaceAbove={props.spaceAbove}>
+        <Container spaceAbove={props.spaceAbove} >
             <Row><RedLine /><Title>{props.title}</Title></Row>
             {props.children}
         </Container>

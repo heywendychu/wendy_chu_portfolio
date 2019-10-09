@@ -14,6 +14,8 @@ const Container = styled.a`
 
     margin: 32px 0 0 0;
 
+    cursor: pointer;
+
     
 
     @media (max-width: 768px) {

@@ -1,12 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import pic from './images/profile.png'
 
 const Container = styled.img`
 
-    width: ${props => props.dimension}px;
-    height: ${props => props.dimension}px;
+    margin: ${props => props.margin}px 0 0 ${props => props.margin/2}px;
+    
+
+    width: 90%;
+    height: auto;
 
     display: ${props => props.displayFor === "desktop" ? 'block' : 'none'};
 
@@ -15,9 +17,8 @@ const Container = styled.img`
         align-self: center;
         width: 90%;
         height: auto;
-        max-width: 304px;
+        max-width: 240px;
         
-
     }
 
 
@@ -27,7 +28,7 @@ const Container = styled.img`
 
 const ProfilePicture = props => {
     return (
-        <Container src="/images/profile.png" alt="Me!" dimension={props.dimension} displayFor={props.displayFor} />
+        <Container src="/images/profile.png" alt="Me!" margin={props.margin} dimension={props.dimension} displayFor={props.displayFor} />
     );
 }
 
