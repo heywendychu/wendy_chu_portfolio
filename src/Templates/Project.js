@@ -109,19 +109,6 @@ const choosePage = (route, password, setPassword) => {
 
     const data = [
 
-
-    {route: "template",
-    password: null,
-    content:
-        <Container>
-            <ProjectHeader 
-                
-            />
-            
-        </Container>
-    },
-
-
     {route: "primary-navigation-redesign",
     password: null,
     content:
@@ -226,6 +213,13 @@ const choosePage = (route, password, setPassword) => {
             
         </Container>
     }]
+
+
+
+
+
+
+    
 
     const selected = data.find( d => d.route === route)
 
