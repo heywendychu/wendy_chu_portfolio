@@ -19,7 +19,6 @@ const Container = styled.p`
 
     }
 
-
 `
 
 const Paragraph = props => {

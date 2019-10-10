@@ -34,8 +34,14 @@ const Title = styled.h2`
 `
 
 const Row = styled.div`
+    margin: 0 0 0 ${props => props.indent ? "104px" : "0"};
+    width: fit-content;
     display: flex;
     align-items: center;
+
+    @media (max-width: 768px) {
+        margin: 0;
+    }
 `
 
 const RedLine = styled.div`
@@ -47,7 +53,7 @@ const RedLine = styled.div`
 const Section = props => {
     return (
         <Container spaceAbove={props.spaceAbove} >
-            <Row><RedLine /><Title>{props.title}</Title></Row>
+            <Row indent={props.indent} ><RedLine /><Title>{props.title}</Title></Row>
             {props.children}
         </Container>
     );

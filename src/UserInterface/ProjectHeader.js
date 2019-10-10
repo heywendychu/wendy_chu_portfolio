@@ -6,7 +6,7 @@ const Container = styled.div`
 
     margin: 80px 0 0 0;
 
-    width: 90%;
+    width: 100%;
     max-width: 800px;
 
 `
@@ -69,10 +69,10 @@ const BigPicture = styled.img`
     width: 100%;
     height: auto;
 
-    margin: 64px 0 0 0;
+    margin: 56px 0 0 0;
 
     @media (max-width: 768px) {
-        margin: 40px 0 0 0;
+        margin: 32px 0 0 0;
     }
 
 `
@@ -103,7 +103,7 @@ const ProjectHeader = props => {
             <Title>{props.title}</Title>
             <Responsibilities><span style={{fontWeight: '500'}}>Responsibilities:</span> {props.responsibilities}</Responsibilities>
             <BigPicture src={`/images/${props.pictureFile}`} alt={props.alt}/>
-            <Caption>{props.caption}</Caption>
+            {props.caption ? <Caption>{props.caption}</Caption> : null}
 
             
         </Container>
