@@ -1,14 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import styled from 'styled-components'
 
+
+import ProjectHeader from '../UserInterface/ProjectHeader'
+
 const Container = styled.div`
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 `
 
 
-const choosePage = route => {
-
+const choosePage = (route, password, setPassword) => {
 
     const data = [
 
@@ -17,7 +25,9 @@ const choosePage = route => {
     password: null,
     content:
         <Container>
-            <h1>Template</h1>
+            <ProjectHeader 
+                
+            />
             
         </Container>
     },
@@ -27,7 +37,15 @@ const choosePage = route => {
     password: null,
     content:
         <Container>
-            <h1>Primary Navigation Redesign</h1>
+            <ProjectHeader 
+                company="Primary.com"
+                date="May 2019"
+                title="Navigation Redesign"
+                responsibilities="UX Research, Information Architecture, Interaction Design, Visual Design"
+                pictureFile="laptop-mockup.png"
+                alt=" "
+                caption=" An informative caption"
+            />
             
         </Container>
     },
@@ -73,17 +91,31 @@ const choosePage = route => {
 
     const selected = data.find( d => d.route === route)
 
-    return selected ? selected.content : (
+
+    if (selected && (!selected.password || selected.password === password)) {
+        return selected.content
+    } else if (selected) {
+        return (
+        <Container>
+            <h1>Enter Password</h1>
+        </Container>
+        )
+    } else {
+        return (
         <Container>
             <h1>404</h1>
-        </Container>)
-
+        </Container>
+        )        
+    }
 
 }
 
 
 const Project = props => {
-    return choosePage(props.match.params.name)
+
+    const [password, setPassword] = useState(null)
+
+    return choosePage(props.match.params.name, password, setPassword)
 }
 
 
