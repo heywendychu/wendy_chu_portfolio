@@ -6,6 +6,7 @@ const Container = styled.div`
 
     margin: ${props => props.spaceAbove}px 0 0 0;
 
+    height: fit-content;
     width: 80vw;
     max-width: 800px;
 
