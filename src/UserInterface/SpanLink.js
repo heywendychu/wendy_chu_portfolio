@@ -12,6 +12,11 @@ const Container = styled.a`
 
     font-weight: 700;
 
+    :hover {
+        color: #de3c2c;
+        text-decoration: none;
+    }
+
 `
 
 const SpanLink = props => {

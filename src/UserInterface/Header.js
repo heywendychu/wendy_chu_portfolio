@@ -47,6 +47,11 @@ const HeaderLink = styled(HashLink)`
 
     cursor: pointer;
 
+    :hover {
+        color: #de3c2c;
+        text-decoration: none;
+    }
+
     @media (max-width: 768px) {
         margin: 0 16px;
     }

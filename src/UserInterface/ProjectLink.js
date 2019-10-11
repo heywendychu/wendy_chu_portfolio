@@ -19,6 +19,7 @@ const Container = styled(Link)`
     margin: 32px 0 0 0;
 
     cursor: pointer;
+    
 
     
 
@@ -31,6 +32,10 @@ const Container = styled(Link)`
 
 const Span = styled.span`
     box-shadow: 0 1px 0 rgba(33, 53, 113, 0.26);
+
+    :hover {
+        box-shadow: 0 1px 0 rgba(33, 53, 113, 1);
+    }
 `
 
 const ProjectLink = props => {
