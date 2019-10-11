@@ -102,6 +102,8 @@ const ProjectHeader = props => {
             <TopInfo>{props.company}{props.date ? ` | ${props.date}` : null}</TopInfo>
             <Title>{props.title}</Title>
             <Responsibilities><span style={{fontWeight: '500'}}>Responsibilities:</span> {props.responsibilities}</Responsibilities>
+            <br/>
+            <Responsibilities>{props.roleSummary}</Responsibilities>
             <BigPicture src={`/images/${props.pictureFile}`} alt={props.alt}/>
             {props.caption ? <Caption>{props.caption}</Caption> : null}
 
