@@ -31,7 +31,7 @@ const Picture = styled.img`
 
 const Caption = styled.div`
 
-    margin: 16px 0 0 0;
+    margin: 16px 0 24px 0;
 
     font-family: 'Roboto Mono', monospace;
     font-size: 12px;

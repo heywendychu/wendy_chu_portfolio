@@ -198,9 +198,11 @@ const choosePage = (route, password, setPassword) => {
                 
                 <P><B>Design</B></P>
                 <Ul>
-                    <Li>Sketched multiple desktop and mobile concepts based on research to quickly run by engineers and stakeholders.</Li></Ul>
-                       
+                    <Li>Sketched multiple desktop and mobile concepts based on research to quickly run by engineers and stakeholders.</Li>
                     <ImageGroup desktop="PrimaryNav/sketches-m@2x.png" mobile="" alt="" caption="Navigation Sketches" />
+                    </Ul>
+                       
+                    
                         
                 <Ul>
                     <br/>
@@ -218,7 +220,7 @@ const choosePage = (route, password, setPassword) => {
                 <Ul>
                     <Li>Collaborated with engineers and stakeholders on design & interaction details and reasonable content limits for the CMS</Li>
                     <Li>Lead extensive QA of the design to ensure that it aligned with the design system, and worked with engineers to refine final visual design and animations</Li>
-                    <Li><SpanLink href="http://www.primary.com">View it live on Primary.com</SpanLink></Li><br/>
+                    <Li><SpanLink href="http://www.primary.com">View it live on Primary.com</SpanLink></Li><br/><br/>
                     </Ul>
 
                     <iframe src="https://player.vimeo.com/video/365849063" width="100%" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen title="Desktop navigation animation"></iframe><br/><br/>
@@ -265,8 +267,141 @@ const choosePage = (route, password, setPassword) => {
     password: null,
     content:
         <Container>
-            <h1>Primary Product Detail Page</h1>
+            <ProjectHeader 
+                company="Primary.com"
+                date="Oct 2019"
+                title="Product Detail Page"
+                responsibilities="UX Research, Strategy, UX Design, Visual Design"
+                roleSummary="Managed a UX research freelancer and a freelance UI Designer for parts of this project. Worked closely with internal stakeholders and engineers."
+                pictureFile="wclogo.png"
+                alt="Primary Product Detail Page - Desktop"
+                caption="Product Detail Page - Desktop"
+            />
+        <Section title="" spaceAbove={40} indent={true}>
+           <ImageGroup desktop="wclogo.png" mobile="" alt="Product Detail Page - Mobile" caption="Product Detail Page - Mobile"  />
+           </Section>
+             <Section title="OBJECTIVES" spaceAbove={80} indent={true}>
+                 <br/>
+                <Ul>
+                    <Li>Make it easier for users to select their desired size & color of products by displaying more specific availability information (bidirectional stock indication) </Li>
+                    <Li>Increase add to bag rate by moving selectors higher up on the page </Li>
+                    <Li>Display product photography more prominently and flexibly </Li>
+                    <Li>Communicate design details and quality</Li>
+                    <Li>Reinforce our commitment to gender-free apparel</Li>
+                    <Li>Align with established interaction patterns and best practices</Li>
+                    <Li>Update visual design to be consistent with refreshed brand style guide</Li>
+                    <Li>Improve accessibility by ensuring that all text passes WCAG 2.0 AAA contrast standards and increasing the smallest text size. </Li>
+                 
+                </Ul>
+             </Section>
+
+
+
+            <Section title="BACKGROUND" spaceAbove={80} indent={true}>
+
+            <ImageGroup desktop="wclogo.png" mobile="" alt="" caption="Old product detail page" />
+                <P>The product detail page (PDP) is arguably the most important page at the top of the purchase funnel, and most of our best-performing Facebook ads and emails link directly to a PDP. As a result, a redesign project started and stopped many times before finally being prioritized, and was the result of significant research and thinking. The biggest motivations were: </P>
+
+                <Ul>
+                    <Li><B>Usability issues & standard patterns:</B>  On the vast majority of ecommerce product detail pages (PDPs), color selection is positioned above size. Primary’s PDP, however, had size selection before color selection. Usability testing I’d conducted on Primary's PDP showed that, despite size being positioned above color,  about half the time users would look through colors before selecting their appropriate size. This works fine if every size and color is in stock, users became confused when a color suddenly went out of stock after they selected a size, because it goes against the color-first convention that they've subconsciously become used to. 
+                    </Li>
+
+                    <Li><B>Inefficiency:</B> On mobile (~70% of traffic), positioning color swatches below size selections forced users to repeatedly scroll up and down the page when selecting a color and subsequently viewing an image.<br/><br/>
+                    On desktop, the product details appeared above the size/color selectors and the add to bag button, causing users to have to scroll in order to view selections and add products to their bag, especially on products with longer descriptions. Changing this would make size/color selection significantly more efficient, and we hoped that it would thereby increase the add to bag rate.</Li>
+
+                    <Li><B>Accessibility:</B> In usability testing, users occasionally mentioned having difficulty reading text or wished that text was bigger. The text in size selectors and the size chart was indeed small, and the text contrast oftentimes did not pass WCAG 2.0 standards.</Li>
+
+                    <Li><B>New and improved photography:</B> Primary used to photograph and retouch every size and color combination for their on-model images. However, I discovered in usability that users typically wouldn’t notice this detail and would occasionally even get distracted by the extra information. As a result, we shifted the photo strategy and began photographing fewer sizes of children and investing in higher quality photos and more angles.
+                    <br/><br/>
+                    The new photos were amazing, but the existing photo slots were both limited in number and fairly small. It also took a significant number of clicks/work for users to look through all of the images. We needed a better way to display all of this new imagery and allow users to easily look through it all. 
+                    </Li>
+
+                    <Li><B>Desire to communicate product quality:</B> Although Primary has consistently received high NPS scores (usually in the high 80s to low 90s), a common complaint has been about the prices, which are reasonable, but not quite bargainous. The products are both ethically produced and high quality, with thoughtful design details (pockets on dresses, thumbholes on hoodies, OEKO-Tex certified fabric), but that’s not obvious from looking on the website, which is a huge missed opportunity.
+                    <br/><br/>
+                    We hypothesized that communicating product quality with better imagery and product attribute icon callouts would serve to elevate both the site experience and the products themselves, so that users would believe that they are getting amazing quality for a fair price.     
+                    </Li>
+                </Ul>
+
+            </Section>
+
+
+
+            <Section title="DESIGN & IMPLEMENTATION PROCESS" spaceAbove={80} indent={true}>
+            <P><B>Research</B></P>
+            <Ul>
+                <Li>Compiled existing user research & data, and conducted competitive analysis of other ecommerce sites.</Li>
+                <Li>With assistance from a freelancer UX researcher, I conducted competitive usability testing on a subset of competitor PDPs that we believed to have a good experience based on usability heuristics. We focused on bi-directional size/color selection (J. Crew), vertically scrolling images on desktop (Everlane, Aritzia, Totokaelo). </Li>
+
+                <ImageGroup desktop="wclogo.png" mobile="" alt="" caption="J.Crew's bidirectional stock indication"  />
+                <ImageGroup desktop="wclogo.png" mobile="" alt="" caption="Everlane's vertically scrolling product images"  /><br/>
+                <ImageGroup desktop="wclogo.png" mobile="" alt="" caption="Totokaelo's 2-column layout"  />
+                <Ul noMargin={true}>
+                    <Li><B>Results:</B> Bidirectional size and color selection was intuitive for all 10 users we tested. Users generally liked the ease of being able to scroll through images vertically and found it intuitive. However, some found Totokaelo’s 2-column layout to be distracting and preferred to view larger images in a single column instead. Users also preferred having thumbnails on the side so that they could preview and jump to their desired image.
+                    </Li>
+                </Ul>
+            </Ul>
+            <P><B>Design</B></P>
+            <Ul>
+                <Li>
+                After usability testing, I jumped right into rough mockups because I already had some older designs and a good sense of the project objectives, as noted above. I put together some low-fidelity mockups based on the research results to get buy-in and alignment on the design from stakeholders. The response was quite positive, with the only open questions being which product attributes we most wanted to elevate. 
+                </Li>
+            <ImageGroup desktop="wclogo.png" mobile="" alt="" caption="wires-v2"  /> 
+            <Li>
+            After getting buy-in and feedback, I worked with a freelance UI designer to refine the visual design of the page, using the existing style guide. 
+            </Li>
+            </Ul>
+            <ImageGroup desktop="wclogo.png" mobile="" alt="" caption="Refined mockups"  />
+
+            <Ul>
+            <Li>
+            Because a change to the image layout would impact an expensive upcoming photoshoot, I wanted to make extra sure that we were going in the right direction in terms of the image display. With help from a freelance UX researcher, we put together some rough Invision prototypes of the different versions for balanced comparison testing of the image layout.<br/>
+            <Ul noMargin={true}>
+            <Li>On Desktop: <SpanLink href="https://invis.io/HRS0FHRA86U">single column with thumbnails</SpanLink>, <SpanLink href="https://invis.io/H3UCNABZECR">single column without thumbnails</SpanLink>, and <SpanLink href="https://invis.io/UCUCNBA6935">two-column without thumbnails</SpanLink>. </Li>
             
+            <Li>On Mobile: <SpanLink href="https://invis.io/MKUCNFQBT68">visual peek affordance</SpanLink></Li>
+            <Li><B>Results: </B> The results of prototype testing were similar to what we saw in competitive testing, so we were able to confidently move forward with a single-column scrollable layout with thumbnails. </Li>
+            </Ul>
+            </Li>
+            <Li>
+            I then took the final design from the UI designer, cleaned it up in a few places where things didn’t match the style guide, and made it ready for production in Zeplin. 
+            </Li>
+            </Ul>
+            <ImageGroup desktop="wclogo.png" mobile="" alt="" caption="Final mockups"  />
+
+        <P><B>Prioritize</B></P>
+            <Ul>
+            <Li>
+            I worked with a team of two engineers to break down and prioritize the different phases of the PDP project. We initially broke it down into three main phases: 
+            <Ul noMargin={true}>
+                <Li><B>1.1:</B> Size & color selectors and the add to bag area so that we can isolate the bidirectional behavior for A/B testing purposes.</Li>
+                <Li><B>1.2:</B> Refactor the rest of the page — we were gradually transitioning the app from Angular to React.</Li>
+                <Li><B>1.3:</B> Implement scrolling images and product attribute icons — these would require more decision-making from other teams, and would thus take longer to finalize</Li>
+            </Ul>
+            </Li>
+            </Ul>
+        <P><B>Build</B></P>
+            <Ul>
+                <Li>During the build phase, I collaborated closely with the engineers building the project in an agile process we constantly communicated during this process in order to collaboratively solve new issues and edge cases. <br/><br/>
+                For example: Our engineer discovered that it was actually extremely difficult to set up the size swatches as originally designed because swatches would require different border styling depending on their position, and it was complicated to determine the position given the responsiveness of the page. We solved this by working through a few design variations together before settling on an option we thought worked best. 
+            <ImageGroup desktop="wclogo.png" mobile="" alt="" caption="Size selector variations"  />
+                </Li>
+            </Ul>
+
+        <P><B>Test</B></P>
+            <Ul>
+                <Li>We released an internal test of the original phase 1.1 internally, and the feedback about the new layout and bidirectional interaction was very positive, as internal users found it more efficient to use.</Li>
+            </Ul>
+
+            </Section>
+
+
+
+            <Section title="RESULTS" spaceAbove={80} indent={true}>
+
+
+            </Section>
+
+             <Spacer />
         </Container>
     },
 
