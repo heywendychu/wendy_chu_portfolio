@@ -79,7 +79,7 @@ const BigPicture = styled.img`
 
 const Caption = styled.div`
 
-    margin: 24px 0 0 0;
+    margin: 16px 0 0 0;
 
     font-family: 'Roboto Mono', monospace;
     font-size: 12px;

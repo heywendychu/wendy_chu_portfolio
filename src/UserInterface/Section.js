@@ -54,7 +54,7 @@ const RedLine = styled.div`
 const Section = props => {
     return (
         <Container spaceAbove={props.spaceAbove} >
-            <Row indent={props.indent} ><RedLine /><Title>{props.title}</Title></Row>
+            {props.title === "" ? null : <Row indent={props.indent} ><RedLine /><Title>{props.title}</Title></Row>}
             {props.children}
         </Container>
     );

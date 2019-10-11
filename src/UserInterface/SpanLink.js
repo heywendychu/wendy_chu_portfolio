@@ -16,7 +16,7 @@ const Container = styled.a`
 
 const SpanLink = props => {
     return (
-        <Container href={props.href}>
+        <Container href={props.href} target="_blank">
             {props.children}
         </Container>
     );
