@@ -7,6 +7,7 @@ import Header from './UserInterface/Header'
 import Landing from './Templates/Landing'
 import Project from './Templates/Project'
 
+import ScrollToTop from 'react-router-scroll-top'
 
 const Page = styled.div`
 
@@ -26,6 +27,7 @@ const Page = styled.div`
 
 const App = () => {
   return (
+    <ScrollToTop>
     <Page>
       
       <Header />
@@ -34,6 +36,7 @@ const App = () => {
         <Route path="/" component={Landing}/>
       </Switch>
     </Page>
+    </ScrollToTop>
   )
 }
 

@@ -7,14 +7,16 @@ const Container = styled.a`
 
     cursor: pointer;
 
+    color: #1b2c63;
+    
+
     font-weight: 700;
-    text-decoration: underline;
 
 `
 
 const SpanLink = props => {
     return (
-        <Container>
+        <Container href={props.href}>
             {props.children}
         </Container>
     );
