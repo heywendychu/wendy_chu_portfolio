@@ -223,7 +223,7 @@ const choosePage = (route, password, setPassword) => {
                     <Li><SpanLink href="http://www.primary.com">View it live on Primary.com</SpanLink></Li><Spacer height="40" />
                     </Ul>
 
-                    <iframe src="https://player.vimeo.com/video/365849063" width="100%" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen title="Desktop navigation animation"></iframe><Spacer height="64" />
+                    <iframe src="https://player.vimeo.com/video/365849063" width="100%" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen title="Desktop navigation animation"></iframe><Spacer height="" />
                     <iframe src="https://player.vimeo.com/video/365849339" width="100%" height="600px" title="Mobile navigation animation" frameborder="0" ></iframe><br/>
                     
                 
@@ -273,12 +273,12 @@ const choosePage = (route, password, setPassword) => {
                 title="Product Detail Page"
                 responsibilities="UX Research, Strategy, UX Design, Visual Design"
                 roleSummary="Managed a UX research freelancer and a freelance UI designer for parts of this project. Worked closely with internal stakeholders and engineers."
-                pictureFile="wclogo.png"
+                pictureFile="PrimaryPDP/pdp-laptop-mockup@2x.png"
                 alt="Primary Product Detail Page - Desktop"
                 caption="Product Detail Page - Desktop"
             />
         <Section title="" spaceAbove={40} indent={true}>
-           <ImageGroup desktop="wclogo.png" mobile="" alt="Product Detail Page - Mobile" caption="Product Detail Page - Mobile"  />
+           <ImageGroup desktop="PrimaryPDP/pdp-i-phone-mockup@2x.png" mobile="" alt="Product Detail Page - Mobile" caption="Product Detail Page - Mobile"  />
            </Section>
              <Section title="OBJECTIVES" spaceAbove={80} indent={true}>
                  <br/>
@@ -299,8 +299,8 @@ const choosePage = (route, password, setPassword) => {
 
             <Section title="BACKGROUND" spaceAbove={80} indent={true}>
 
-            <ImageGroup desktop="wclogo.png" mobile="" alt="" caption="Old product detail page" />
-                <P>The product detail page (PDP) is arguably the most important page at the top of the purchase funnel, and most of our best-performing Facebook ads and emails link directly to a PDP. As a result, a redesign project started and stopped many times before finally being prioritized, and was the result of significant research and thinking. The biggest motivations were: </P>
+           <P> <ImageGroup desktop="PrimaryPDP/old-pdp@2x.png" mobile="" alt="" caption="Old product detail page" /></P>
+                <P>The product detail page (PDP) is arguably the most important page at the top of the purchase funnel, and most of our best-performing Facebook ads and emails link directly to PDPs. As a result, a redesign project started and stopped many times before finally being prioritized, and was the result of significant research and thinking. The biggest motivations were: </P>
 
                 <Ul>
                     <Li><B>Usability issues & standard patterns:</B>  On the vast majority of ecommerce product detail pages (PDPs), color selection is positioned above size. Primary’s PDP, however, had size selection before color selection. 
@@ -334,7 +334,7 @@ const choosePage = (route, password, setPassword) => {
                 <Li>Compiled existing user research & data, and conducted competitive analysis of other ecommerce sites.</Li>
                 <Li>With assistance from a freelancer UX researcher, I conducted competitive usability testing on a subset of competitor PDPs that we believed to have a good experience based on usability heuristics. We focused on bi-directional size/color selection (J. Crew), vertically scrolling images on desktop (Everlane, Aritzia, Totokaelo). </Li>
 
-                <ImageGroup desktop="PrimaryPDP/Jcrew_Bidirectional_2.gif" mobile="" alt="" caption="J.Crew's bidirectional size/color selectors"  /><Spacer/>
+                <P><ImageGroup desktop="PrimaryPDP/Jcrew_Bidirectional_2.gif" mobile="" alt="" caption="J.Crew's bidirectional size/color selectors"  /></P><Spacer/>
                 <ImageGroup desktop="PrimaryPDP/EverlaneScroll.gif" mobile="" alt="" caption="Everlane's vertically scrolling product images"  /><Spacer/>
                 <ImageGroup desktop="PrimaryPDP/pdp-totokaelo@2x.jpg" mobile="" alt="" caption="Totokaelo's 2-column image layout"  />
                 <Ul noMargin={true}>
@@ -347,7 +347,7 @@ const choosePage = (route, password, setPassword) => {
                 <Li>
                 After usability testing, I jumped right into rough mockups because I already had some older designs and a good sense of the project objectives, as noted above. I put together some low-fidelity mockups based on the research results to get buy-in and alignment on the design from stakeholders. The response was quite positive, with the only open questions being which product attributes we most wanted to elevate. 
                 </Li></Ul>
-        <ImageGroup desktop="PrimaryPDP/pdp-rough-mocks@2x.png" mobile="" alt="" caption="Rough Mockups"  /> 
+        <P><ImageGroup desktop="PrimaryPDP/pdp-rough-mocks@2x.png" mobile="" alt="" caption="Rough Mockups"  /> </P>
            <Ul>
             <Li>
             After getting buy-in and feedback, I worked with a freelance UI designer to refine the visual design of the page, using the existing style guide. 
@@ -386,7 +386,7 @@ const choosePage = (route, password, setPassword) => {
                 <Li>During the build phase, I collaborated closely with the engineers building the project in an agile process we constantly communicated during this process in order to collaboratively solve new issues and edge cases. <Spacer />
 
                 For example: Our engineer discovered that it was actually extremely difficult to set up the size swatches as originally designed because swatches would require different border styling depending on their position, and it was complicated to determine the position given the responsiveness of the page. We solved this by working through a few design variations together before settling on an option we thought worked best. 
-            <ImageGroup desktop="wclogo.png" mobile="" alt="" caption="Size selector variations"  />
+            <P><ImageGroup desktop="PrimaryPDP/PDPSizeSelectors.jpg" mobile="" alt="" caption="Size selector variations"  /></P>
                 </Li>
             </Ul>
 
@@ -407,7 +407,7 @@ const choosePage = (route, password, setPassword) => {
 
             <Section title="TO BE CONTINUED" spaceAbove={80} indent={true}>
             <P>
-                We pulled back phase 1.1 from internal testing, and an A/B test of the new PDP phases 1.1 & 1.2 vs the current PDP should be coming shortly! 
+                At the time of writing, this project is still in progress. We pulled back phase 1.1 from internal testing, and an A/B test of the new PDP phases 1.1 & 1.2 vs the current PDP should be coming shortly! 
                 </P>
             </Section> 
 
@@ -420,9 +420,27 @@ const choosePage = (route, password, setPassword) => {
     password: null,
     content:
         <Container>
-            <h1>Primary Style Guide</h1>
-            
+             <ProjectHeader 
+                company="Primary.com"
+                date=""
+                title="Style Guide"
+                responsibilities="System Design, Documentation, Visual Design, Interaction Design"
+                roleSummary="Created, iterated on, and maintained Primary's first digital style guide and component library, working closely with partners in engineering. Managed Sketch component library and Zeplin style guide. Advocated for usage and consistency across the organization and discouraged creation of one-offs."
+                pictureFile="PrimarySG/Combo-colors-text@2x.png"
+                alt="Colors & Text Styles"
+                caption="Colors & Text Styles"
+            />
+            <Section title="" spaceAbove={40} indent={true}>
+                <ImageGroup desktop="PrimarySG/Combo-links-buttons@2x.png" mobile="PrimarySG/combo-links-buttons-m@2x.png" alt="" caption="Link & Button Styles"  />
+            </Section>
+            <Section title="MOVING TOWARD A DESIGN SYSTEM" spaceAbove={80} indent={true}>
+                <ImageGroup desktop="PrimarySG/colors-new@2x.jpg" mobile="" alt="" caption="The beginning of the Primary Design System."  />
+            </Section>
+            <P>More information coming soon! In the meantime, you can view the full style guide on <SpanLink href="https://sketch.cloud/s/0Go8O/p/style-guide">Sketch Cloud</SpanLink>.</P>
+
+        <Spacer height="104"/>
         </Container>
+    
     },
 
 
