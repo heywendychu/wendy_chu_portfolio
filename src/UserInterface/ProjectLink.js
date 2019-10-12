@@ -34,7 +34,7 @@ const Span = styled.span`
     box-shadow: 0 1px 0 rgba(33, 53, 113, 0.26);
 
     :hover {
-        box-shadow: 0 1px 0 rgba(33, 53, 113, 1);
+        box-shadow: 0 1px 0 #DE3C2C;
     }
 `
 

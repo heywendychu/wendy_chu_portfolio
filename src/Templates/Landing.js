@@ -29,7 +29,7 @@ const CompanyContainer = styled.div`
     display: flex;
 
     @media (max-width: 768px) {
-        margin: 40px 0 0 0;
+        margin: 24px 0 0 0;
         flex-direction: column;
         flex-wrap: no-wrap;
     }
@@ -104,19 +104,25 @@ const Landing = props => {
             </Section>
 
             <span id="work"></span>
-            <Section title="WORK" spaceAbove={104}>
-                
+            <Section title="RECENT WORK" spaceAbove={104}>
+                <br/>
+            
                 <CompanyContainer>
                     <Company title="Primary.com">
                         <ProjectLink text="Navigation Redesign" route="primary-navigation-redesign" />
                         <ProjectLink text="Product Detail Page" route="primary-product-detail-page" />
                         <ProjectLink text="Style Guide" route="primary-style-guide" />
                     </Company>
-                    <Company title="Ralph Lauren">
+                    {/* <Company title="Ralph Lauren">
                         <ProjectLink text="Find a Store" route="ralph-lauren-find-a-store"/>
                         <ProjectLink text="Mobile Webstore" route="ralph-lauren-mobile-webstore"/>
-                    </Company>
+                    </Company> */}
+                   
                 </CompanyContainer>
+                <br/><Paragraph width='560px'>
+                    For my complete work history, please refer to my <SpanLink href="https://www.linkedin.com/in/wendychu">Linkedin profile</SpanLink>.
+                </Paragraph>
+                <br/><br/><br/><br/><br/>
             </Section>
 
             <span id="contact"></span>
