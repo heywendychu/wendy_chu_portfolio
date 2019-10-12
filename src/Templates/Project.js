@@ -220,10 +220,10 @@ const choosePage = (route, password, setPassword) => {
                 <Ul>
                     <Li>Collaborated with engineers and stakeholders on design & interaction details and reasonable content limits for the CMS</Li>
                     <Li>Lead extensive QA of the design to ensure that it aligned with the design system, and worked with engineers to refine final visual design and animations</Li>
-                    <Li><SpanLink href="http://www.primary.com">View it live on Primary.com</SpanLink></Li><Spacer />
+                    <Li><SpanLink href="http://www.primary.com">View it live on Primary.com</SpanLink></Li><Spacer height="40" />
                     </Ul>
 
-                    <iframe src="https://player.vimeo.com/video/365849063" width="100%" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen title="Desktop navigation animation"></iframe><Spacer />
+                    <iframe src="https://player.vimeo.com/video/365849063" width="100%" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen title="Desktop navigation animation"></iframe><Spacer height="64" />
                     <iframe src="https://player.vimeo.com/video/365849339" width="100%" height="600px" title="Mobile navigation animation" frameborder="0" ></iframe><br/>
                     
                 
