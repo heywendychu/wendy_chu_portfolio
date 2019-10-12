@@ -207,20 +207,26 @@ const choosePage = (route, password, setPassword) => {
                 <Ul>
                     <br/>
                     <Li>Created low fidelity designs in Sketch, which I used to gather feedback from engineers and stakeholders. Made revisions based on their feedback.</Li>
-                    <Li>Tested medium-fidelity desktop & mobile InVision prototypeswith help from our UX researcher and made minor visual revisions. <br/>
+                    <Li>Tested medium-fidelity desktop & mobile InVision prototypes with help from our UX researcher and made minor visual revisions. <br/>
                     <Ul noMargin={true}>
-                        <Li><SpanLink href="https://invis.io/XBUCJBHJYN6#/360602640_Navigation_-320--_Main">View Mobile Prototype</SpanLink></Li>
                         <Li><SpanLink href="https://invis.io/7GUCJ9RRM3K">View Desktop Prototype</SpanLink></Li>
+                        <Li><SpanLink href="https://invis.io/XBUCJBHJYN6#/360602640_Navigation_-320--_Main">View Mobile Prototype</SpanLink></Li>
+                    </Ul></Li>
+
                     </Ul>
-                        
-                    </Li>
+                    <ImageGroup desktop="PrimaryNav/invision-desktop-nav@2x.jpg" mobile="" alt="" caption="Invision Desktop Navigation Prototype" />
+                    <ImageGroup desktop="PrimaryNav/invision-mobile-nav@2x.jpg" mobile="" alt="" caption="Invision Mobile Navigation Prototype" />
+                <Ul>
+                    
+                    
+                    
                     <Li>Created pixel-perfect production-ready designs to communicate with engineers in Zeplin.</Li>
                 </Ul>
             <P><B>3. Build</B></P>
                 <Ul>
                     <Li>Collaborated with engineers and stakeholders on design & interaction details and reasonable content limits for the CMS</Li>
                     <Li>Lead extensive QA of the design to ensure that it aligned with the design system, and worked with engineers to refine final visual design and animations</Li>
-                    <Li><SpanLink href="http://www.primary.com">View it live on Primary.com</SpanLink></Li><Spacer height="40" />
+                    <Li>This navigation is currently live at <SpanLink href="http://www.primary.com">Primary.com</SpanLink>!</Li><Spacer height="40" />
                     </Ul>
 
                     <iframe src="https://player.vimeo.com/video/365849063" width="100%" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen title="Desktop navigation animation"></iframe><Spacer height="" />
@@ -229,15 +235,18 @@ const choosePage = (route, password, setPassword) => {
                 
             <P><B>4. Test</B></P>
                 <Ul>
-                    <Li>After implementation, we conducted internal usability testing of the final product before releasing it to the public as a 50/50 A/B test for a month</Li>
+                    <Li>After implementation, we conducted internal usability testing of the final product before releasing it to the public as a 50/50 A/B test for one month.</Li>
                     <Li>We also conducted post-launch usability testing with external users experience to validate that the final product worked as expected for users.</Li>
                 </Ul>
             </Section>
             <Section title="RESULTS" spaceAbove={80} indent={true}>
-                <P>By all accounts, the project was a success, and after the A/B test validation, we released it to 100% of users.</P>
-                <P>Metrics-wise, we increased PLP view rate on desktop by 15%, and decreased PDP view rate by 4%. There were no changes to PDP/PLP view rate on mobile or to our lead metric, add-to-bag rate, on desktop or mobile. Given the unchanged add-to-bag rate, we concluded that it's a positive trade-off since more users are progressing down the funnel than before.</P>
-                <P>In usability testing, users didn’t run into any of the previous usability issues, and were able to more quickly navigate to their desired categories. They also had an easier user flow going from Navigation to PLP to PDP and back to PLP.</P>
-                <P>With the new design, we were able to double the number of top-level categories that could be shown from 4 to 8, allowing Primary’s navigation to be more seasonal and editorial. Internal stakeholders were thrilled with the new editorial content slots and the ease with which they could change the navigation.</P>
+                <P>The project was a success, and after the A/B test validation, we <B>released it to 100% of users</B>.</P>
+
+                <P>Metrics-wise, we <B>increased PLP view rate on desktop by 15%</B>, and decreased PDP view rate by only 4%. There were no changes to PDP/PLP view rate on mobile or to our lead metric, add-to-bag rate, on desktop or mobile. Given the unchanged add-to-bag rate, we concluded that it's a positive trade-off since <B>more users are progressing down the funnel</B> than before.</P>
+
+                <P>In usability testing, users didn’t run into any of the previous usability issues, and were able to <B>navigate more quickly</B> to their desired categories. They also had an easier user flow going from Navigation to PLP to PDP and back to PLP.</P>
+
+                <P>With the new design, we were able to <B>double the number of top-level categories</B> that could be shown from 4 to 8, allowing Primary’s navigation to be more seasonal and editorial. Internal stakeholders were thrilled with the new editorial content slots and the ease with which they could change the navigation.</P>
             </Section>
 {/* 
             <Section title="TEAM" spaceAbove={80} indent={true}>
@@ -445,7 +454,7 @@ const choosePage = (route, password, setPassword) => {
 
 
     {route: "ralph-lauren-find-a-store",
-    password: null,
+    password: "squiggle",
     content:
         <Container>
             <h1>RL Find a Store</h1>
@@ -454,7 +463,7 @@ const choosePage = (route, password, setPassword) => {
     },
 
     {route: "ralph-lauren-mobile-webstore",
-    password: null,
+    password: "squiggle",
     content:
         <Container>
             <h1>RL Mobile Webstore</h1>
