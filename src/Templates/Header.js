@@ -26,6 +26,8 @@ const Symbol = styled.svg`
 
     margin: 0 0 8px 24px;
 
+    cursor: pointer;
+
     @media (max-width: 768px) {
         height: 39px;
         width: 51px;

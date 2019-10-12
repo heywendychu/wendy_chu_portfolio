@@ -7,6 +7,8 @@ import ProjectHeader from '../UserInterface/ProjectHeader'
 import Section from '../UserInterface/Section'
 import ImageGroup from '../UserInterface/ImageGroup'
 import SpanLink from '../UserInterface/SpanLink'
+import Company from '../UserInterface/Company'
+import ProjectLink from '../UserInterface/ProjectLink'
 
 const Container = styled.div`
 
@@ -108,6 +110,32 @@ const Spacer = styled.div`
 `
 
 
+const CompanyContainer = styled.div`
+
+    margin: 40px 0 0 0;
+
+    display: flex;
+
+    @media (max-width: 768px) {
+        margin: 40px 0 0 0;
+        flex-direction: column;
+        flex-wrap: no-wrap;
+    }
+
+`
+
+
+
+
+
+
+
+
+
+
+
+
+
 const choosePage = (route, password, setPassword) => {
 
     const data = [
@@ -142,7 +170,7 @@ const choosePage = (route, password, setPassword) => {
                     <Li>Update visual design to be consistent with refreshed brand style guide.</Li>
                 </Ul>
 
-</Section>
+            </Section>
             <Section title="BACKGROUND" spaceAbove={80} indent={true}>
   
                 <P>Many factors motivated this navigation/landing page redesign project:
@@ -257,7 +285,6 @@ const choosePage = (route, password, setPassword) => {
 
 
 
-            <Spacer />
             
         </Container>
     },
@@ -401,7 +428,7 @@ const choosePage = (route, password, setPassword) => {
 
             </Section>
 
-             <Spacer />
+             
         </Container>
     },
 
@@ -467,7 +494,27 @@ const Project = props => {
 
     const [password, setPassword] = useState(null)
 
-    return choosePage(props.match.params.name, password, setPassword)
+    return (
+        <>
+        {choosePage(props.match.params.name, password, setPassword)}
+        <Section title="WORK" spaceAbove={104}>
+                
+                <CompanyContainer>
+                    <Company title="Primary.com">
+                        <ProjectLink text="Navigation Redesign" route="primary-navigation-redesign" />
+                        <ProjectLink text="Product Detail Page" route="primary-product-detail-page" />
+                        <ProjectLink text="Style Guide" route="primary-style-guide" />
+                    </Company>
+                    <Company title="Ralph Lauren">
+                        <ProjectLink text="Find a Store" route="ralph-lauren-find-a-store"/>
+                        <ProjectLink text="Mobile Webstore" route="ralph-lauren-mobile-webstore"/>
+                    </Company>
+                </CompanyContainer>
+        </Section>
+        </>
+
+    )
+        
 }
 
 

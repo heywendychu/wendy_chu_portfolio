@@ -3,7 +3,7 @@ import { Route, Switch } from 'react-router-dom'
 
 import styled from 'styled-components'
 
-import Header from './UserInterface/Header'
+import Header from './Templates/Header'
 import Landing from './Templates/Landing'
 import Project from './Templates/Project'
 
@@ -35,6 +35,7 @@ const App = () => {
         <Route path="/projects/:name" component={Project}/>
         <Route path="/" component={Landing}/>
       </Switch>
+
     </Page>
     </ScrollToTop>
   )

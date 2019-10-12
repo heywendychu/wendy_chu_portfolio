@@ -78,6 +78,8 @@ const Spacer = styled.div`
     height: 100px;
 `
 
+
+
 const Landing = props => {
     return (
         <Container className="test">
@@ -126,6 +128,8 @@ const Landing = props => {
             </Section>
 
             <Spacer/>
+
+            
 
         </Container>
     );
