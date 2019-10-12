@@ -185,16 +185,15 @@ const choosePage = (route, password, setPassword) => {
                             <Li>This is important, because most other retailers’ product assortments would naturally reflect seasonality as they phase products in and out of stock, but Primary’s assortment had always been intended to be evergreen, so this was a critical piece of insight for the business.</Li>
                        
                         </Ul> </Li>
-                    <Li>Conducted competitive analysis and competitive user testing with help from our UX researcher to quickly validate general directions for desktop and mobile. We were trying to decide between a few different interaction models on desktop and mobile, as shown below.</Li></Ul>
-                    <ImageGroup desktop="PrimaryNav/comp-analysis@2x.png" mobile="" alt="" caption="Competitive Examples Gathered" /><Spacer />
-                   <Ul>     
-                        <Li><B>Results:</B></Li> 
-                        <Ul noMargin={true}>
-                            <Li>I was able to narrow options down to a traditional hamburger menu on mobile and simple text-based flyouts on desktop, with space for some editorial content.</Li> 
+                    <Li>Conducted competitive analysis and competitive user testing with help from our UX researcher to quickly validate general directions for desktop and mobile. We were trying to decide between a few different interaction models on desktop and mobile, as shown below. <Spacer/>
+                    <B>Results:</B>
+                    <Ul noMargin={true}>
+                            <Li>I narrowed the options down to a traditional hamburger menu on mobile and simple text-based flyouts on desktop, with space for some editorial content.</Li> 
                             <Li>These were both the most common patterns in our competitive analysis and the ones that users preferred, likely because of their familiarity. </Li>
-                        </Ul>
-                        
-                </Ul>
+                        </Ul></Li></Ul>
+
+                    <ImageGroup desktop="PrimaryNav/comp-analysis@2x.png" mobile="" alt="" caption="Competitive Examples Gathered" /><Spacer />
+            
                 
             <P><B>2. Design</B></P>
                 <Ul>
@@ -207,11 +206,11 @@ const choosePage = (route, password, setPassword) => {
                 <Ul>
                     <br/>
                     <Li>Created low fidelity designs in Sketch, which I used to gather feedback from engineers and stakeholders. Made revisions based on their feedback.</Li>
-                    <Li>Tested medium-fidelity desktop & mobile InVision prototypes with help from our UX researcher and made minor visual revisions. <br/>
-                    <Ul noMargin={true}>
-                        <Li><SpanLink href="https://invis.io/7GUCJ9RRM3K">View Desktop Prototype</SpanLink></Li>
-                        <Li><SpanLink href="https://invis.io/XBUCJBHJYN6#/360602640_Navigation_-320--_Main">View Mobile Prototype</SpanLink></Li>
-                    </Ul></Li>
+                    <Li>Tested medium-fidelity desktop & mobile InVision prototypes with help from our UX researcher and made minor visual revisions. <Spacer/>
+                    
+                        <SpanLink href="https://invis.io/7GUCJ9RRM3K">Desktop Prototype</SpanLink><Spacer/>
+                        <SpanLink href="https://invis.io/XBUCJBHJYN6#/360602640_Navigation_-320--_Main">Mobile Prototype</SpanLink>
+                    </Li>
 
                     </Ul>
                     <ImageGroup desktop="PrimaryNav/invision-desktop-nav@2x.jpg" mobile="" alt="" caption="Invision Desktop Navigation Prototype" />
@@ -240,7 +239,7 @@ const choosePage = (route, password, setPassword) => {
                 </Ul>
             </Section>
             <Section title="RESULTS" spaceAbove={80} indent={true}>
-                <P>The project was a success, and after the A/B test validation, we <B>released it to 100% of users</B>.</P>
+                <P>The project was considered a success, and after the A/B test validation, we <B>released it to 100% of users</B>.</P>
 
                 <P>Metrics-wise, we <B>increased PLP view rate on desktop by 15%</B>, and decreased PDP view rate by only 4%. There were no changes to PDP/PLP view rate on mobile or to our lead metric, add-to-bag rate, on desktop or mobile. Given the unchanged add-to-bag rate, we concluded that it's a positive trade-off since <B>more users are progressing down the funnel</B> than before.</P>
 
