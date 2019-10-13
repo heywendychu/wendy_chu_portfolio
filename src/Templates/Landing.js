@@ -112,10 +112,10 @@ const Landing = props => {
                         <ProjectLink text="Product Detail Page" route="primary-product-detail-page" />
                         <ProjectLink text="Style Guide" route="primary-style-guide" />
                     </Company>
-                    <Company title="Ralph Lauren">
+                    {/* <Company title="Ralph Lauren">
                         <ProjectLink text="Find a Store" route="ralph-lauren-find-a-store"/>
                         <ProjectLink text="Mobile Webstore" route="ralph-lauren-mobile-webstore"/>
-                    </Company>
+                    </Company> */}
                 </CompanyContainer>
             </Section>
 
