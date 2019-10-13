@@ -114,7 +114,7 @@ const CompanyContainer = styled.div`
 
     display: flex;
 
-    margin: 32px 0 0 0;
+    margin: 64px 0 0 0;
 
     @media (max-width: 768px) {
         margin: 40px 0 0 0;
@@ -526,11 +526,11 @@ const Project = props => {
     return (
         <>
         {choosePage(props.match.params.name, password, setPassword)}
-        <Spacer height="64"/>
+        <Spacer height="104"/>
         
         <Footer>
             <CompanyContainer>
-                <Company title="Primary.com" footer={true}>
+                <Company title="More from Primary.com:" footer={true}>
                     <ProjectLink text="Navigation Redesign" route="primary-navigation-redesign" footer={true} currentRoute={props.match.params.name}/>
                     <ProjectLink text="Product Detail Page" route="primary-product-detail-page" footer={true} currentRoute={props.match.params.name}/>
                     <ProjectLink text="Style Guide" route="primary-style-guide" footer={true} currentRoute={props.match.params.name}/>
@@ -542,7 +542,6 @@ const Project = props => {
             </CompanyContainer>
             <Spacer height="104"/>
         </Footer>
-        <Spacer height="64"/>
         
         </>
 

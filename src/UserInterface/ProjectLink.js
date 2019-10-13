@@ -10,9 +10,9 @@ const Container = styled(Link)`
     width: fit-content;
     
     line-height: 1.5;
-    letter-spacing: 0.53px;
-    color:  ${props => props.present ? 'gray' : '#1b2c63'};
-    font-size: ${props => props.footer ? '16px' : '32px'};
+    
+    color:  ${props => props.present ? '#de3c2c' : '#1b2c63'};
+    font-size: ${props => props.footer ? '13px' : '32px'};
 
     font-family: ${props => props.footer ? "'Roboto Mono'" : 'CanelaWeb'};
 
@@ -43,7 +43,6 @@ const Container = styled(Link)`
 
 const Span = styled.span`
    
-
     ${props => props.present ? null : 'box-shadow: 0 1px 0 rgba(33, 53, 113, 0.26);'}
 
     :hover {
