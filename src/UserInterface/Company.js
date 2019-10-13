@@ -8,7 +8,7 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
 
-    margin: 0 100px 24px 0;
+    margin: ${props => props.footer ? '0 16px' : '0 100px 24px 0'};
 
     @media (max-width: 768px) {
         margin: 0 0 16px 0;
@@ -34,7 +34,7 @@ const Title = styled.h3`
 
 const Company = props => {
     return (
-        <Container>
+        <Container footer={props.footer}>
             <Title>{props.title}</Title>
             {props.children}
         </Container>

@@ -11,14 +11,25 @@ const Container = styled(Link)`
     
     line-height: 1.5;
     letter-spacing: 0.53px;
-    color: #1b2c63;
-    font-size: 32px;
+    color:  ${props => props.present ? 'gray' : '#1b2c63'};
+    font-size: ${props => props.footer ? '16px' : '32px'};
 
-    font-family: CanelaWeb;
+    font-family: ${props => props.footer ? "'Roboto Mono'" : 'CanelaWeb'};
 
-    margin: 32px 0 0 0;
+    margin: ${props => props.footer ? '16px 0 0 0' : '32px 0 0 0'};
 
-    cursor: pointer;
+    cursor: ${props => props.present ? "auto" : "pointer"};
+
+    ${props => props.footer ? "text-transform: uppercase" : null}
+
+    ${props => props.footer ? "font-weight: 500;" : null}
+    ${props => props.footer ? "letter-spacing: 2.43px;" : null}
+    
+    
+
+    
+
+    
     
 
     
@@ -31,16 +42,19 @@ const Container = styled(Link)`
 `
 
 const Span = styled.span`
-    box-shadow: 0 1px 0 rgba(33, 53, 113, 0.26);
+   
+
+    ${props => props.present ? null : 'box-shadow: 0 1px 0 rgba(33, 53, 113, 0.26);'}
 
     :hover {
-        box-shadow: 0 1px 0 #DE3C2C;
+        ${props => props.present ? null : 'box-shadow: 0 1px 0 #DE3C2C;'}
     }
+
 `
 
 const ProjectLink = props => {
     return (
-        <Container to={`/projects/${props.route}`}><Span>{props.text}</Span></Container>
+        <Container present={props.route === props.currentRoute} footer={props.footer} to={`/projects/${props.route}`}><Span present={props.route === props.currentRoute}>{props.text}</Span></Container>
     )
 }
 

@@ -112,25 +112,26 @@ const Spacer = styled.div`
 
 const CompanyContainer = styled.div`
 
-    margin: 40px 0 0 0;
-
     display: flex;
+
+    margin: 32px 0 0 0;
 
     @media (max-width: 768px) {
         margin: 40px 0 0 0;
         flex-direction: column;
-        flex-wrap: no-wrap;
     }
 
 `
 
+const Footer = styled.div`
+    width: 100%;
+    border-top: 1px solid rgba(33, 53, 113, 0.15);
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-
-
-
-
-
+`
 
 
 
@@ -287,13 +288,6 @@ const choosePage = (route, password, setPassword) => {
 
            
 
-
-
-
-
-
-
-            <Spacer height="104"/>
             
         </Container>
     },
@@ -447,16 +441,6 @@ const choosePage = (route, password, setPassword) => {
                 </P>
             </Section> 
 
-<<<<<<< HEAD
-            <Section title="RESULTS" spaceAbove={80} indent={true}>
-
-
-            </Section>
-
-             
-=======
-             <Spacer height="104"/>
->>>>>>> c5f0e17a297cf0571adcc6962b938068d1e7dd25
         </Container>
     },
 
@@ -483,7 +467,6 @@ const choosePage = (route, password, setPassword) => {
             </Section>
             <P>More information coming soon! In the meantime, you can view the full style guide on <SpanLink href="https://sketch.cloud/s/0Go8O/p/style-guide">Sketch Cloud</SpanLink>.</P>
 
-        <Spacer height="104"/>
         </Container>
     
     },
@@ -543,20 +526,24 @@ const Project = props => {
     return (
         <>
         {choosePage(props.match.params.name, password, setPassword)}
-        <Section title="WORK" spaceAbove={104}>
-                
-                <CompanyContainer>
-                    <Company title="Primary.com">
-                        <ProjectLink text="Navigation Redesign" route="primary-navigation-redesign" />
-                        <ProjectLink text="Product Detail Page" route="primary-product-detail-page" />
-                        <ProjectLink text="Style Guide" route="primary-style-guide" />
-                    </Company>
-                    <Company title="Ralph Lauren">
-                        <ProjectLink text="Find a Store" route="ralph-lauren-find-a-store"/>
-                        <ProjectLink text="Mobile Webstore" route="ralph-lauren-mobile-webstore"/>
-                    </Company>
-                </CompanyContainer>
-        </Section>
+        <Spacer height="64"/>
+        
+        <Footer>
+            <CompanyContainer>
+                <Company title="Primary.com" footer={true}>
+                    <ProjectLink text="Navigation Redesign" route="primary-navigation-redesign" footer={true} currentRoute={props.match.params.name}/>
+                    <ProjectLink text="Product Detail Page" route="primary-product-detail-page" footer={true} currentRoute={props.match.params.name}/>
+                    <ProjectLink text="Style Guide" route="primary-style-guide" footer={true} currentRoute={props.match.params.name}/>
+                </Company>
+                {/* <Company title="Ralph Lauren">
+                    <ProjectLink text="Find a Store" route="ralph-lauren-find-a-store"/>
+                    <ProjectLink text="Mobile Webstore" route="ralph-lauren-mobile-webstore"/>
+                </Company> */}
+            </CompanyContainer>
+            <Spacer height="104"/>
+        </Footer>
+        <Spacer height="64"/>
+        
         </>
 
     )
