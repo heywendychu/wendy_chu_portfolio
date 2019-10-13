@@ -8,7 +8,7 @@ const Container = styled.a`
     cursor: pointer;
 
     color: #1b2c63;
-    
+    text-decoration-color: rgba(33, 53, 113, 0.5);
 
     font-weight: 700;
 
