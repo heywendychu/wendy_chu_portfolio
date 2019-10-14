@@ -122,7 +122,7 @@ const Landing = props => {
             <span id="contact"></span>
             <Section id="contact" title="CONTACT" spaceAbove={104}>
                 <Paragraph width='560px'>
-                    I’m currently looking for a full-time senior product/UX designer role at a company with a design-centered culture. If you think we might be a good fit, please email me at <SpanLink href="mailto:hi@wendychu.design">hi@wendychu.design</SpanLink> to get in touch!
+                    I’m currently looking for a full-time senior product/UX designer role at a company with a design-centered culture. If you think we might be a good fit, please email me at <SpanLink href="mailto:wenxiu.chu@gmail.com">wenxiu.chu@gmail.com</SpanLink> to get in touch!
                 </Paragraph>
 
             </Section>
