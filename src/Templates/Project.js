@@ -502,7 +502,7 @@ const choosePage = (route, password, setPassword) => {
             </Section>
             <P>More information coming soon! In the meantime, you can view the full style guide on <SpanLink href="https://sketch.cloud/s/0Go8O/p/style-guide">Sketch Cloud</SpanLink>.</P>
 
-        <Spacer height="104"/>
+        
         </Container>
     
     },
