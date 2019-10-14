@@ -6,6 +6,7 @@ import styled from 'styled-components'
 import ProjectHeader from '../UserInterface/ProjectHeader'
 import Section from '../UserInterface/Section'
 import ImageGroup from '../UserInterface/ImageGroup'
+
 import SpanLink from '../UserInterface/SpanLink'
 import Company from '../UserInterface/Company'
 import ProjectLink from '../UserInterface/ProjectLink'
@@ -171,7 +172,7 @@ const choosePage = (route, password, setPassword) => {
                     <Li>Update visual design to be consistent with refreshed brand style guide.</Li>
                 </Ul>
 
-            </Section>
+</Section>
             <Section title="BACKGROUND" spaceAbove={80} indent={true}>
   
                 <P>Many factors motivated this navigation/landing page redesign project:
@@ -288,6 +289,13 @@ const choosePage = (route, password, setPassword) => {
 
            
 
+
+
+
+
+
+
+            <Spacer height="104"/>
             
         </Container>
     },
@@ -441,6 +449,7 @@ const choosePage = (route, password, setPassword) => {
                 </P>
             </Section> 
 
+             <Spacer height="104"/>
         </Container>
     },
 
@@ -463,10 +472,37 @@ const choosePage = (route, password, setPassword) => {
                 <ImageGroup desktop="PrimarySG/Combo-links-buttons@2x.png" mobile="PrimarySG/combo-links-buttons-m@2x.png" alt="" caption="Link & Button Styles"  />
             </Section>
             <Section title="MOVING TOWARD A DESIGN SYSTEM" spaceAbove={80} indent={true}>
-                <ImageGroup desktop="PrimarySG/colors-new@2x.jpg" mobile="" alt="" caption="The beginning of the Primary Design System."  />
+            <ImageGroup desktop="PrimarySG/colors-new@2x.jpg" mobile="" alt="" caption="The beginning of the Primary Design System."  />
+                <P>As both the design system and the team grew, design system documentation became more fragemented. We had  information in various Confluence pages, Zeplin, the code itself, and, in people's minds and passed down through oral tradition. Onboarding full-time and freelance designers and engineers into the design system became a huge growing pain. We needed to create a more accessible and centralized place to store our style guide.</P>
+
+                <P>Typically, design system documentation written by engineers was written for other engineers, and didn't contain visuals or provide enough detail around use cases for product design. Conversely, the visual documentation I had created had been created for myself and other designers, and didn't always refer to actual code or utility class names. This worked when most of the users of the system were also building the system, and others could be taught piecemeal, but as the team grew and design system knowledge became more diluted, it became harder and more time-consuming to rely on engineers to educate each other on usage. Furthermore, there was simply more nuance to design than anyone could easily commit to memory, and there wasn't a single source of truth other than, well, me. And that certainly would not scale. </P>
+                    
+                    <P>The engineers working on the styleguide and I had been discussing this issue for a while, and had agreed that a centralized internal styleguide site would be the ideal solution, because it would be fairly simple to manage, new components could be easily added as they were built, any changes would automatically propagate, and all of the relevant information would be easily accessible to internal users. However, none of us had bandwidth or management approval to work on it. As a result, that idea sat in our minds for a while, never becoming reality.</P> 
+                    
+                    <P>When there was a companywide hackaton a few months later, one of the engineers and I jumped at the opportunity to dedicate some time to fleshing out the idea. We ended up tackling the problem from two different dierctions: he worked on getting an MVP page of the existing components and documentation up in a digital format while I used my usual design process to envision what a better future state might look like.  </P>  </Section>
+
+            <Section title="DESIGNING DESIGN SYSTEM 2.0" spaceAbove={80} indent={true}><Spacer/>
+                <Ul>
+                <Li><B>Background:</B>  Because of the aforementioned issues with the existing design documentation, I wanted to create a resource to address the needs of both designers and engineers while also adhering to established best practices in design systems.
+                </Li>
+                <Li><B>Research:</B> I was fortunate to be able to draw on my close working relationships with engineers at Primary. As the only product designer at the companyall design questions would eventually come to me, so I had been able to track trends in the kinds of questions being asked. , but I didn't want to merely stop there. So I looked into design system best practices in order to see how other organizations had done it. 
+
+                <Spacer/>I began by looking at other examples of public design systems in this <SpanLink href="https://designsystemsrepo.com/design-systems-recent/">design system gallery</SpanLink> to gather ideas and identify common methods of documentation. I particularly liked Shopify's <SpanLink href="https://polaris.shopify.com/">Polaris Design System</SpanLink> as well as <SpanLink href="https://etrade.design/colors">Etrade's</SpanLink> and <SpanLink href="https://blocks.cbrebuild.com/styles/colors/">CBRE Build's</SpanLink> representations of colors. And of course, I also looked at Google's <SpanLink href="https://material.io/">Material Design System</SpanLink>, on which the original Primary Design System was loosely based. <Spacer/>
+
+                 My biggest “aha” moment coming out of this was that it's not enough to just document what the components are or how to use them. It was also important to explain the <B>underlying principles</B> of the system alongside. We had just focused on documenting the "what" and "how," and hadn’t given enough time to documenting the “why,” relying instead on ad hoc conversations to communicate this to our internal users. <Spacer/>
+
+                Engineers tend to be natural systems thinkers, and lack of documentation about the conceptual basis for the system made design decisions seem more arbitrary and less, well, systemic. It also failed to support an important personal goal I'd had since starting as the sole product designer at Primary: creating more product design understanding across the organization in order to scale design in the absence of more designers. 
+                
+                </Li> 
+                
+                <Li><B>Planning & Information Architecture:</B> After the research, I created an inventory of the components that already existed and organized them into common sections, resulting in a rough information architecture of the existing system. This would simultaneously function as a to-do list for tackling the project a little at a time in the future.</Li>
+                </Ul>
+                <P></P>
+             
             </Section>
             <P>More information coming soon! In the meantime, you can view the full style guide on <SpanLink href="https://sketch.cloud/s/0Go8O/p/style-guide">Sketch Cloud</SpanLink>.</P>
 
+        <Spacer height="104"/>
         </Container>
     
     },
@@ -522,7 +558,7 @@ const choosePage = (route, password, setPassword) => {
 const Project = props => {
 
     const [password, setPassword] = useState(null)
-
+    
     return (
         <>
         {choosePage(props.match.params.name, password, setPassword)}
@@ -546,7 +582,7 @@ const Project = props => {
         </>
 
     )
-        
+
 }
 
 
