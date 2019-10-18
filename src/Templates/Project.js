@@ -11,6 +11,8 @@ import SpanLink from '../UserInterface/SpanLink'
 import Company from '../UserInterface/Company'
 import ProjectLink from '../UserInterface/ProjectLink'
 
+
+
 const Container = styled.div`
 
 
@@ -144,161 +146,154 @@ const choosePage = (route, password, setPassword) => {
 
     {route: "primary-navigation-redesign",
     password: null,
-    content:
-        <Container>
-            <ProjectHeader 
-                company="Primary.com"
-                date="May 2019"
-                title="Navigation Redesign"
-                responsibilities="UX Research, Information Architecture, Interaction Design, Visual Design"
-                roleSummary="Managed one freelance UX researcher. Worked closely with internal stakeholders and engineers."
-                pictureFile="PrimaryNav/laptop-mockup.png"
-                alt="Desktop Navigation Flyout"
-                caption="Desktop Navigation Flyout"
-            />
-           <Section title="" spaceAbove={40} indent={true}>
-           <ImageGroup desktop="PrimaryNav/mobile-navigation-d.png" mobile="PrimaryNav/mobile-navigation-m.png" alt="Mobile Navigation" caption="Mobile Navigation"  />
-           </Section>
-          
-           <Section title="OBJECTIVES" spaceAbove={80} indent={true}>
-
-                <P>The project was meant to accomplish the following things:</P>
-
-                <Ul>
-                    <Li>Create a scalable and adminable navigation system that enables Primary to do more product storytelling. </Li>
-                    <Li>Drive desktop users to PLPs rather than PDPs without negatively impacting the key metric: Add to Bag rate. </Li>
-                    <Li>Address user-facing experience, accessibility information architecture, and product naming issues present in the existing navigation.</Li>
-                    <Li>Align with established interaction patterns and best practices.</Li>
-                    <Li>Update visual design to be consistent with refreshed brand style guide.</Li>
-                </Ul>
-
-</Section>
-            <Section title="BACKGROUND" spaceAbove={80} indent={true}>
-  
-                <P>Many factors motivated this navigation/landing page redesign project:
+    content: <Container>
+    <ProjectHeader 
+        company="Primary.com"
+        date="May 2019"
+        title="Navigation Redesign"
+        responsibilities="UX Research, Information Architecture, Interaction Design, Visual Design"
+        roleSummary="Managed one freelance UX researcher. Worked closely with internal stakeholders and engineers."
+        pictureFile="PrimaryNav/laptop-mockup.png"
+        alt="Desktop Navigation Flyout"
+        caption="Desktop Navigation Flyout"
+    />
+    <Section title="" spaceAbove={40} indent={true}>
+    <ImageGroup desktop="PrimaryNav/mobile-navigation-d.png" mobile="PrimaryNav/mobile-navigation-m.png" alt="Mobile Navigation" caption="Mobile Navigation"  />
+    </Section>
+    
+    <Section title="OBJECTIVES" spaceAbove={80} indent={true}>
+    
+        <P>The project was meant to accomplish the following things:</P>
+    
+        <Ul>
+            <Li>Create a scalable and adminable navigation system that enables Primary to do more product storytelling. </Li>
+            <Li>Drive desktop users to PLPs rather than PDPs without negatively impacting the key metric: Add to Bag rate. </Li>
+            <Li>Address user-facing experience, accessibility information architecture, and product naming issues present in the existing navigation.</Li>
+            <Li>Align with established interaction patterns and best practices.</Li>
+            <Li>Update visual design to be consistent with refreshed brand style guide.</Li>
+        </Ul>
+    
+    </Section>
+    <Section title="BACKGROUND" spaceAbove={80} indent={true}>
+    
+        <P>Many factors motivated this navigation/landing page redesign project:
+    
+       
+        </P>
+        <ImageGroup desktop="PrimaryNav/old-desktop-nav-d@2x.jpg" mobile="" alt="" caption="Old Desktop Navigation" />
+        <br/>
+        <Ul>
+            <Li><B>Product assortment growth: </B> Primary’s navigation had been the same since they launched in 2015 with just a few dozen products. By early 2019, the product assortment had grown to 300+, and it had become more and more challenging to communicate the the assortment within the existing navigation without breaking it.</Li>
+    
+            <Li><B>Desire for more product storytelling: </B> The creative and merchandising teams wanted to do more editorial storytelling and to communicate seasonality. Editorial emails had historically been high performers, but there was no way to leverage that content in the site experience, which seemed like a significant missed opportunity.</Li>
+    
+            <Li><B>Quantitative & qualitative data:</B> Analytics data and usability testing observations showed significant UX issues, especially in the desktop experience:</Li> 
             
-               
-                </P>
-                <ImageGroup desktop="PrimaryNav/old-desktop-nav-d@2x.jpg" mobile="" alt="" caption="Old Desktop Navigation" />
-                <br/>
-                <Ul>
-                    <Li><B>Product assortment growth: </B> Primary’s navigation had been the same since they launched in 2015 with just a few dozen products. By early 2019, the product assortment had grown to 300+, and it had become more and more challenging to communicate the the assortment within the existing navigation without breaking it.</Li>
-
-                    <Li><B>Desire for more product storytelling: </B> The creative and merchandising teams wanted to do more editorial storytelling and to communicate seasonality. Editorial emails had historically been high performers, but there was no way to leverage that content in the site experience, which seemed like a significant missed opportunity.</Li>
-
-                    <Li><B>Quantitative & qualitative data:</B> Analytics data and usability testing observations showed significant UX issues, especially in the desktop experience:</Li> 
-                    
-                        <Ul noMargin={true}>
-                            <Li>In testing, desktop users (who make up ~70% of purchases) struggled with flyouts because small hover areas required precise mouse movements. </Li>
-                            <Li>Within the desktop flyouts, products were shown as small thumbnails that were difficult for users to see. This wasn’t a good way to showcase our products.</Li>
-                            <Li>Analytics showed that most desktop users wouldn’t reach a product landing page (PLP) and would instead go directly to product detail pages (PDPs). Once there, it was difficult for users to view more products because they would need to go through the navigation again, amplifying the usability issues.</Li>
-                            <Li>Analytics also showed that the default “top 10” category flyout was by far the most interacted-with, which suggests that users might have missed the ability to view other categories for products more specific to their interests. </Li>
-                        </Ul>
-
-                    <Li><B>Non-standard product naming:</B> Primary had been using some unconventional terms to refer to its product categories, (e.g. “babysuits” instead of “bodysuits” and “Per4orm” instead of “active”). </Li>
-                   
-                    <Li><B>Rethinking the product taxonomy:</B> There were also plans in the works to reorganize products according to internally understood attributes like cut and fabric. But I was skeptical and wanted to see how users would naturally categorize our products.</Li>
-                          
+                <Ul noMargin={true}>
+                    <Li>In testing, desktop users (who make up ~70% of purchases) struggled with flyouts because small hover areas required precise mouse movements. </Li>
+                    <Li>Within the desktop flyouts, products were shown as small thumbnails that were difficult for users to see. This wasn’t a good way to showcase our products.</Li>
+                    <Li>Analytics showed that most desktop users wouldn’t reach a product landing page (PLP) and would instead go directly to product detail pages (PDPs). Once there, it was difficult for users to view more products because they would need to go through the navigation again, amplifying the usability issues.</Li>
+                    <Li>Analytics also showed that the default “top 10” category flyout was by far the most interacted-with, which suggests that users might have missed the ability to view other categories for products more specific to their interests. </Li>
                 </Ul>
-            </Section>
-
-            <Section title="DESIGN & IMPLEMENTATION PROCESS" spaceAbove={80} indent={true}>
-                <P>The design process was done in a very collaborative agile way, with twice-weekly in-person check-ins between design and engineering and daily written standups. I was heavily involved in all parts of the process, which is detailed below.</P>
-            <P><B>1. Research</B></P>
-                <Ul>
-                    <Li>Compiled existing user research & data and conducted stakeholder interviews.</Li>
-                    <Li>Conducted visual cardsorting of kids & baby products using Optimalsort.<Spacer />
-                    <B>Results:</B><br/>
-                        <Ul noMargin={true}>
-                        
-                            <Li>Most users talked about how they would organize their children’s closets by seasonality. Instead of arranging things by cut or fabric as merchandising had originally planned, they tended to arrange things by category, and then by seasonal attributes like sleeve length.</Li>
-                            <Li>This is important, because most other retailers’ product assortments would naturally reflect seasonality as they phase products in and out of stock, but Primary’s assortment had always been intended to be evergreen, so this was a critical piece of insight for the business.</Li>
-                       
-                        </Ul> </Li>
-                    <Li>Conducted competitive analysis and competitive user testing with help from our UX researcher to quickly validate general directions for desktop and mobile. We were trying to decide between a few different interaction models on desktop and mobile, as shown below. <Spacer/>
-                    <B>Results:</B>
-                    <Ul noMargin={true}>
-                            <Li>I narrowed the options down to a traditional hamburger menu on mobile and simple text-based flyouts on desktop, with space for some editorial content.</Li> 
-                            <Li>These were both the most common patterns in our competitive analysis and the ones that users preferred, likely because of their familiarity. </Li>
-                        </Ul></Li></Ul>
-
-                    <ImageGroup desktop="PrimaryNav/comp-analysis@2x.png" mobile="" alt="" caption="Competitive Examples Gathered" /><Spacer />
-            
-                
-            <P><B>2. Design</B></P>
-                <Ul>
-                    <Li>Sketched multiple desktop and mobile concepts based on research to quickly run by engineers and stakeholders.</Li>
-                    <ImageGroup desktop="PrimaryNav/sketches-m@2x.png" mobile="" alt="" caption="Navigation Sketches" />
-                    </Ul>
-                       
-                    
-                        
-                <Ul>
-                    <br/>
-                    <Li>Created low fidelity designs in Sketch, which I used to gather feedback from engineers and stakeholders. Made revisions based on their feedback.</Li>
-                    <Li>Tested medium-fidelity desktop & mobile InVision prototypes with help from our UX researcher and made minor visual revisions. <Spacer/>
-                    
-                        <SpanLink href="https://invis.io/7GUCJ9RRM3K">Desktop Prototype</SpanLink><Spacer/>
-                        <SpanLink href="https://invis.io/XBUCJBHJYN6#/360602640_Navigation_-320--_Main">Mobile Prototype</SpanLink>
-                    </Li>
-
-                    </Ul>
-                    <ImageGroup desktop="PrimaryNav/invision-desktop-nav@2x.jpg" mobile="" alt="" caption="Invision Desktop Navigation Prototype" />
-                    <ImageGroup desktop="PrimaryNav/invision-mobile-nav@2x.jpg" mobile="" alt="" caption="Invision Mobile Navigation Prototype" />
-                <Ul>
-                    
-                    
-                    
-                    <Li>Created pixel-perfect production-ready designs to communicate with engineers in Zeplin.</Li>
-                </Ul>
-            <P><B>3. Build</B></P>
-                <Ul>
-                    <Li>Collaborated with engineers and stakeholders on design & interaction details and reasonable content limits for the CMS</Li>
-                    <Li>Lead extensive QA of the design to ensure that it aligned with the design system, and worked with engineers to refine final visual design and animations</Li>
-                    <Li>This navigation is currently live at <SpanLink href="http://www.primary.com">Primary.com</SpanLink>!</Li><Spacer height="40" />
-                    </Ul>
-
-                    <iframe src="https://player.vimeo.com/video/365849063" width="100%" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen title="Desktop navigation animation"></iframe><Spacer height="" />
-                    <iframe src="https://player.vimeo.com/video/365849339" width="100%" height="600px" title="Mobile navigation animation" frameborder="0" ></iframe><br/>
-                    
-                
-            <P><B>4. Test</B></P>
-                <Ul>
-                    <Li>After implementation, we conducted internal usability testing of the final product before releasing it to the public as a 50/50 A/B test for one month.</Li>
-                    <Li>We also conducted post-launch usability testing with external users experience to validate that the final product worked as expected for users.</Li>
-                </Ul>
-            </Section>
-            <Section title="RESULTS" spaceAbove={80} indent={true}>
-                <P>The project was considered a success, and after the A/B test validation, we <B>released it to 100% of users</B>.</P>
-
-                <P>Metrics-wise, we <B>increased PLP view rate on desktop by 15%</B>, and decreased PDP view rate by only 4%. There were no changes to PDP/PLP view rate on mobile or to our lead metric, add-to-bag rate, on desktop or mobile. Given the unchanged add-to-bag rate, we concluded that it's a positive trade-off since <B>more users are progressing down the funnel</B> than before.</P>
-
-                <P>In usability testing, users didn’t run into any of the previous usability issues, and were able to <B>navigate more quickly</B> to their desired categories. They also had an easier user flow going from Navigation to PLP to PDP and back to PLP.</P>
-
-                <P>With the new design, we were able to <B>double the number of top-level categories</B> that could be shown from 4 to 8, allowing Primary’s navigation to be more seasonal and editorial. Internal stakeholders were thrilled with the new editorial content slots and the ease with which they could change the navigation.</P>
-            </Section>
-{/* 
-            <Section title="TEAM" spaceAbove={80} indent={true}>
-
-                <P>
-                <B>Research & Design:</B> Wendy Chu (me!)<br/>
-                <B>Engineering:</B> Mathieu Lue, Justin Sheckler
-                </P>
-
-            </Section> */}
-
+    
+            <Li><B>Non-standard product naming:</B> Primary had been using some unconventional terms to refer to its product categories, (e.g. “babysuits” instead of “bodysuits” and “Per4orm” instead of “active”). </Li>
            
-
-
-
-
-
-
-
-          
+            <Li><B>Rethinking the product taxonomy:</B> There were also plans in the works to reorganize products according to internally understood attributes like cut and fabric. But I was skeptical and wanted to see how users would naturally categorize our products.</Li>
+                  
+        </Ul>
+    </Section>
+    
+    <Section title="DESIGN & IMPLEMENTATION PROCESS" spaceAbove={80} indent={true}>
+        <P>The design process was done in a very collaborative agile way, with twice-weekly in-person check-ins between design and engineering and daily written standups. I was heavily involved in all parts of the process, which is detailed below.</P>
+    <P><B>1. Research</B></P>
+        <Ul>
+            <Li>Compiled existing user research & data and conducted stakeholder interviews.</Li>
+            <Li>Conducted visual cardsorting of kids & baby products using Optimalsort.<Spacer />
+            <B>Results:</B><br/>
+                <Ul noMargin={true}>
+                
+                    <Li>Most users talked about how they would organize their children’s closets by seasonality. Instead of arranging things by cut or fabric as merchandising had originally planned, they tended to arrange things by category, and then by seasonal attributes like sleeve length.</Li>
+                    <Li>This is important, because most other retailers’ product assortments would naturally reflect seasonality as they phase products in and out of stock, but Primary’s assortment had always been intended to be evergreen, so this was a critical piece of insight for the business.</Li>
+               
+                </Ul> </Li>
+            <Li>Conducted competitive analysis and competitive user testing with help from our UX researcher to quickly validate general directions for desktop and mobile. We were trying to decide between a few different interaction models on desktop and mobile, as shown below. <Spacer/>
+            <B>Results:</B>
+            <Ul noMargin={true}>
+                    <Li>I narrowed the options down to a traditional hamburger menu on mobile and simple text-based flyouts on desktop, with space for some editorial content.</Li> 
+                    <Li>These were both the most common patterns in our competitive analysis and the ones that users preferred, likely because of their familiarity. </Li>
+                </Ul></Li></Ul>
+    
+            <ImageGroup desktop="PrimaryNav/comp-analysis@2x.png" mobile="" alt="" caption="Competitive Examples Gathered" /><Spacer />
+    
+        
+    <P><B>2. Design</B></P>
+        <Ul>
+            <Li>Sketched multiple desktop and mobile concepts based on research to quickly run by engineers and stakeholders.</Li>
+            <ImageGroup desktop="PrimaryNav/sketches-m@2x.png" mobile="" alt="" caption="Navigation Sketches" />
+            </Ul>
+               
             
-        </Container>
-    },
+                
+        <Ul>
+            <br/>
+            <Li>Created low fidelity designs in Sketch, which I used to gather feedback from engineers and stakeholders. Made revisions based on their feedback.</Li>
+            <Li>Tested medium-fidelity desktop & mobile InVision prototypes with help from our UX researcher and made minor visual revisions. <Spacer/>
+            
+                <SpanLink href="https://invis.io/7GUCJ9RRM3K">Desktop Prototype</SpanLink><Spacer/>
+                <SpanLink href="https://invis.io/XBUCJBHJYN6#/360602640_Navigation_-320--_Main">Mobile Prototype</SpanLink>
+            </Li>
+    
+            </Ul>
+            <ImageGroup desktop="PrimaryNav/invision-desktop-nav@2x.jpg" mobile="" alt="" caption="Invision Desktop Navigation Prototype" />
+            <ImageGroup desktop="PrimaryNav/invision-mobile-nav@2x.jpg" mobile="" alt="" caption="Invision Mobile Navigation Prototype" />
+        <Ul>
+            
+            
+            
+            <Li>Created pixel-perfect production-ready designs to communicate with engineers in Zeplin.</Li>
+        </Ul>
+    <P><B>3. Build</B></P>
+        <Ul>
+            <Li>Collaborated with engineers and stakeholders on design & interaction details and reasonable content limits for the CMS</Li>
+            <Li>Lead extensive QA of the design to ensure that it aligned with the design system, and worked with engineers to refine final visual design and animations</Li>
+            <Li>This navigation is currently live at <SpanLink href="http://www.primary.com">Primary.com</SpanLink>!</Li><Spacer height="40" />
+            </Ul>
+    
+            <iframe src="https://player.vimeo.com/video/365849063" width="100%" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen title="Desktop navigation animation"></iframe><Spacer height="" />
+            <iframe src="https://player.vimeo.com/video/365849339" width="100%" height="600px" title="Mobile navigation animation" frameborder="0" ></iframe><br/>
+            
+        
+    <P><B>4. Test</B></P>
+        <Ul>
+            <Li>After implementation, we conducted internal usability testing of the final product before releasing it to the public as a 50/50 A/B test for one month.</Li>
+            <Li>We also conducted post-launch usability testing with external users experience to validate that the final product worked as expected for users.</Li>
+        </Ul>
+    </Section>
+    <Section title="RESULTS" spaceAbove={80} indent={true}>
+        <P>The project was considered a success, and after the A/B test validation, we <B>released it to 100% of users</B>.</P>
+    
+        <P>Metrics-wise, we <B>increased PLP view rate on desktop by 15%</B>, and decreased PDP view rate by only 4%. There were no changes to PDP/PLP view rate on mobile or to our lead metric, add-to-bag rate, on desktop or mobile. Given the unchanged add-to-bag rate, we concluded that it's a positive trade-off since <B>more users are progressing down the funnel</B> than before.</P>
+    
+        <P>In usability testing, users didn’t run into any of the previous usability issues, and were able to <B>navigate more quickly</B> to their desired categories. They also had an easier user flow going from Navigation to PLP to PDP and back to PLP.</P>
+    
+        <P>With the new design, we were able to <B>double the number of top-level categories</B> that could be shown from 4 to 8, allowing Primary’s navigation to be more seasonal and editorial. Internal stakeholders were thrilled with the new editorial content slots and the ease with which they could change the navigation.</P>
+    </Section>
+    {/* 
+    <Section title="TEAM" spaceAbove={80} indent={true}>
+    
+        <P>
+        <B>Research & Design:</B> Wendy Chu (me!)<br/>
+        <B>Engineering:</B> Mathieu Lue, Justin Sheckler
+        </P>
+    
+    </Section> */}
+    
+    
+    
+    </Container>
+
+
+},
 
 
     {route: "primary-product-detail-page",
@@ -368,8 +363,11 @@ const choosePage = (route, password, setPassword) => {
 
             <Section title="DESIGN & IMPLEMENTATION PROCESS" spaceAbove={80} indent={true}>
             <P><B>1. Research</B></P>
+         
             <Ul>
-                <Li>Compiled existing user research & data, and conducted competitive analysis of other ecommerce sites.</Li>
+                <Li>I began by gathering my many rounds of previous PDP design artifacts and pulled out the things that were still relevant in order to jump start the new project.</Li>
+                <ImageGroup desktop="PrimaryPDP/pdp-drafts@2x.png" mobile="" alt="" caption="Previous PDP design explorations, addressing challenges such as multiple prices, multiple patterns, and elevated imagery."  /><Spacer/>
+                <Li>I also compiled existing user research & data, and conducted competitive analysis of other ecommerce sites.</Li>
                 <Li>With assistance from a freelancer UX researcher, I conducted competitive usability testing on a subset of competitor PDPs that we believed to have a good experience based on usability heuristics. We focused on bi-directional size/color selection (J. Crew), vertically scrolling images on desktop (Everlane, Aritzia, Totokaelo). </Li>
 
                 <P><ImageGroup desktop="PrimaryPDP/Jcrew_Bidirectional_2.gif" mobile="" alt="" caption="J.Crew's bidirectional size/color selectors"  /></P><Spacer/>
@@ -383,7 +381,9 @@ const choosePage = (route, password, setPassword) => {
             <P><B>2. Design</B></P>
             <Ul>
                 <Li>
-                After usability testing, I jumped right into rough mockups because I already had some older designs and a good sense of the project objectives, as noted above. I put together some low-fidelity mockups based on the research results to get buy-in and alignment on the design from stakeholders. The response was quite positive, with the only open questions being which product attributes we most wanted to elevate. 
+                After usability testing, I jumped right into rough mockups because I already had some older designs and a good sense of the project objectives, as noted above. I put together low-fidelity mockups based on the research results to get buy-in and alignment on the design from stakeholders. 
+                <Spacer/>
+                The response was quite positive, with the only open questions being around which product attributes we most wanted to elevate. We decided to put a pin in that part of the concept until merchandising could work on that content strategy.
                 </Li></Ul>
         <P><ImageGroup desktop="PrimaryPDP/pdp-rough-mocks@2x.png" mobile="" alt="" caption="Rough Mockups"  /> </P>
            <Ul>
@@ -403,7 +403,7 @@ const choosePage = (route, password, setPassword) => {
             </Ul>
             </Li>
             <Li>
-            I then took the final design from the UI designer, cleaned it up in a few places where things didn’t match the style guide, and made it ready for production in Zeplin. 
+            I then took the final designs from the UI designer, cleaned it up in a few places where things didn’t match the style guide, and made it ready for production in Zeplin. 
             </Li>
             </Ul>
             <ImageGroup desktop="PrimaryPDP/pdp-andrii@2x.png" mobile="" alt="" caption="Final mockups"  />
@@ -411,11 +411,11 @@ const choosePage = (route, password, setPassword) => {
         <P><B>3. Prioritize</B></P>
             <Ul>
             <Li>
-            I worked with a team of two engineers to break down and prioritize the different phases of the PDP project. We initially broke it down into three main phases: 
+            After the design was ready for production, I worked with a team of two engineers to break down and prioritize the different phases of the PDP project. We initially broke it down into three main phases: 
             <Ul noMargin={true}>
-                <Li><B>1.1:</B> Size & color selectors and the add to bag area so that we can isolate the bidirectional behavior for A/B testing purposes.</Li>
-                <Li><B>1.2:</B> Refactor the rest of the page — we were gradually transitioning the app from Angular to React.</Li>
-                <Li><B>1.3:</B> Implement scrolling images and product attribute icons — these would require more decision-making from other teams, and would thus take longer to finalize</Li>
+                <Li><B>1.1:</B> Update the size & color selectors and the add to bag area so that we can isolate the bidirectional behavior for A/B testing purposes.</Li>
+                <Li><B>1.2:</B> Refactor the rest of the page (we were gradually transitioning the app from Angular to React).</Li>
+                <Li><B>1.3:</B> Implement scrolling images and product attribute icons — We planned for these to happen last because, though we were very excited about them, we didn't want these to be a dependency for any other phase because these would require more decision-making from other teams, and would take longer to finalize. </Li>
             </Ul>
             </Li>
             </Ul>
@@ -445,7 +445,7 @@ const choosePage = (route, password, setPassword) => {
 
             <Section title="TO BE CONTINUED" spaceAbove={80} indent={true}>
             <P>
-                At the time of writing, this project is still in progress. We pulled back phase 1.1 from internal testing, and an A/B test of the new PDP phases 1.1 & 1.2 vs the current PDP should be coming shortly! 
+                At the time of writing, this project is still in progress. We found a critical caching bug in our platform that caused us to put the project on hold. Because the bug was found in October 2019, which is peak season for Primary (due to Halloween DIY), an A/B test of the new PDP phases 1.1 & 1.2 vs the current PDP will likely be on hold until early 2020.  
                 </P>
             </Section> 
 
@@ -471,13 +471,72 @@ const choosePage = (route, password, setPassword) => {
             <Section title="" spaceAbove={40} indent={true}>
                 <ImageGroup desktop="PrimarySG/Combo-links-buttons@2x.png" mobile="PrimarySG/combo-links-buttons-m@2x.png" alt="" caption="Link & Button Styles"  />
             </Section>
+            <Section title="BACKGROUND" spaceAbove={80} indent={true}>
+                <P>I was the first product designer hired at Primary, and I would be a team of one for nearly all of my time there. Because of that, my first priority was creatig a way to scale my work for the biggest possible organizational impact. To achieve this, one of the first things that I tackled was a unified digital style guide/design system. </P>
+                
+                <P>Before I started at Primary, digital products were designed by more traditional brand designers who didn't have much experience with or understanding of digital design or code. Engineers would custom-style every new component, which would both take a long time and create lots of bloat. As a result, the app CSS contained hundereds of different text style combinations, randomly-sized spacings, and dozens of slightly different interface colors. Most of these subtle variations weren't particularly purposeful or intentional — they were just symptomatic of a lack of systemic design thinking and poor design/engineering collaboration. </P>
+
+                <P>Fortunately, I was received buy-in on this idea very early on from both my manager and the engineering team. In fact, one of the senior engineers, who eventually became my first design system partner, had already taken it upon himself to do a visual audit of some existing patterns to highlight the many inconsistencies. This was an excellent jumping-off point for the project and our close collaboration.</P>
+            </Section>
+
+            <Section title="CREATING THE STYLE GUIDE" spaceAbove={80} indent={true}>
+                     <P><B>1. Understanding the Problem:</B> Despite knowing the importance of having a design system and having worked within one before, I had never created one from scratch, and had never needed to understand the way it would be structured in the code. Fortunately, my engineering partner had worked on a design system before at Etsy, and gave me a crash course on their design system's principles and a quick demonstration of how they used CSS utility classes, which was the first thing we would tackle.</P> 
+
+                     <P>I watched as he quickly changed the styling of some components by adding a combination of class names in the browser inspector. I had been used to CSS structured the other way around, with classes for specific components. By contrast, the utility class system seemed much easier to learn, manage, and apply and seemed way more flexible.</P>
+
+                     <P>This left me to decide on what the text styles, spacers, and names themselves should be.</P>
+                     
+                    <P><B>2. Research:</B> I began by searching for design system resources online, and found a fairly mixed bag. Design systems were still rather new at the time (March 2018), and though there existed some documentation, there weren't quite as many that persuasively explained the reasons behind the choices. However, <SpanLink href="https://medium.com/eightshapes-llc/space-in-design-systems-188bcbae0d62">this article from Eightshapes</SpanLink> and <SpanLink href="https://medium.com/@ethersystem/generating-design-system-spacing-aa69714160bc">this article from Ether</SpanLink> persuasively argued for a base-8 system for the following reasons: </P>
+                        <Ul>
+                            <Li>The base font size is usually 16px.</Li>
+                            <Li>Most standard screen sizes are divisible by 8.</Li>
+                            <Li>Base-8 scales better than base-10, as it can be divided evenly in half twice.</Li>
+                            <Li>Base-8 gives designers a good number of meaningful options, but not too many the way base-6 (which Etsy used at the time) might.</Li>
+                            <Li>Google's Material Design system is base-8, it scales well, and they probably put a lot of thought into it.</Li>
+                        </Ul>
+                    
+                   <P><B>3. Design:</B> Having decided on a base-8 system, many key decisions logically followed: </P>
+                   <Ul>
+                        <Li>Spacings would scale using the Fibonacci sequence per the suggestion from the Ether article. 
+                    <ImageGroup desktop="PrimarySG/sg-spacing@2x.jpg" mobile="" alt="" caption="Primary's standard set of spacings."/>
+                    </Li>
+                    <Li> The standard text size would be 16px, and text would scale up and down from there. 
+                       
+                    <Spacer/>Valuing numerical precision, I initially tried to create new text sizes in inrements of 8 and 4, once I tried creating some components, with the initial sizes, it was clear the system needed some more fine-grained scaling. 
+
+                    <Spacer/>After playing around with some different scaling options, I settled on differences of 2, 4, or multiples of 8, with the differences between adjacent styles being smaller going down, and larger going up. It wasn't quite as mathematically elegant as the Fibonacci sequence, but visually, it seemed to scale gracefully.
+                    
+                    <ImageGroup desktop="PrimarySG/sg-text-styles@2x.jpg" mobile="" alt="" caption="Primary's text styles."/></Li> 
+
+                    <Li>I even initially tried creating my own grid system, roughly based on Bootstrap, but with 16px gutters instead of 15px ones, for the sake of maintaining a base-8 system. However, after discussing it with my engineering partner, I learned that we were already using the unadulterated Bootstrap grid on nearly all of our pages, and that even such a small change to the gutters could have a huge potential to break things all over the app. Because of that, though the numerical inconsistency bothered me, we decided to just keep our Bootstrap grid and breakpoints as they were. 
+                    <ImageGroup desktop="PrimarySG/sg-breakpoints@2x.jpg" mobile="" alt="" caption="Primary's breakpoints."/></Li> 
+                    </Ul>
+                <P><B>4. Test:</B> Though I made the process sound very simple and logical above, in reality, there was a lot of guessing and checking and testing while I was working on developing the text styles and spacings. Design is, after all, not just math and logic, but feelings and aesthetics as well, and creating text scales and spacings in isolation would be a pointless exercise if they didn't work well in the context of a page. Because of this, I was simultaneously working on Primary's <SpanLink href="https://www.primary.com/ambassador/nicole">Ambassador Program page template</SpanLink> and testing out type, spacing scales, and colors as I went along. 
+
+                <ImageGroup desktop="PrimarySG/primary-ambassador-page@2x.jpg" mobile="" alt="" caption={<>Primary's Ambassador Program page. The first page to use the new style guide text and spacing utilities. <SpanLink href="https://www.primary.com/ambassador/nicole">View it live</SpanLink>.</>}/>
+                </P>
+                <P>Testing on an actual page revealed issues around responsivness:</P>
+                <Ul>
+                <Li>Larger text sizes that worked well on large desktop screens looked far too big on a mobile phone. As a result, we built responsiveness into the text utilities, automatically shifting from the mobile size to the desktop size on viewports above 768px. This meant modifying the larger text sizes so that text on smaller screens would also look proportional and retain the intended information hierarchy. The smaller sizes remained the same on smaller screens in order to preserve legibility.</Li>
+
+                <Li>Similarly, larger spacings that looked airy on large desktop screens created disproportionally massive gaps on mobile. To account for this, we created responsive spacing utilities tied to our bootstrap breakpoints so that we could now specify at which breakpoint a spacer size changes from one number to another. <Spacer/>
+                
+                I also discovered that using the Fibonacci sequence for the spacing sizes allowed us to use the following rule of thumb: for any vertical space that looked right on desktop screens, the size that looked right on mobile screens was usually one size down, and vice versa. This realization led to significantly faster decisions when it came to designing vertical page flows, and allowed engineers to create reasonable-looking layouts on their own, a huge success in terms of scaling design.
+                 </Li>
+                </Ul>
+
+                <P><B>5. Iterate:</B> As we used the style guide for more and more things, we made changes along the way, revisiting text weights and sizes, adding and removing utilities, deprecating fonts and colors, and adding more components and documentation. The style guide images shown here are merely the current state at the time of writing, and don't reflect the dozens of changes made since its inception over a year ago. 
+                </P>
+
+            </Section>
+
             <Section title="MOVING TOWARD A DESIGN SYSTEM" spaceAbove={80} indent={true}>
             <ImageGroup desktop="PrimarySG/colors-new@2x.jpg" mobile="" alt="" caption="The beginning of the Primary Design System."  />
                 <P>As both the design system and the team grew, design system documentation became more fragemented. We had  information in various Confluence pages, Zeplin, the code itself, and, in people's minds and passed down through oral tradition. Onboarding full-time and freelance designers and engineers into the design system became a huge growing pain. We needed to create a more accessible and centralized place to store our style guide.</P>
 
                 <P>Typically, design system documentation written by engineers was written for other engineers, and didn't contain visuals or provide enough detail around use cases for product design. Conversely, the visual documentation I had created had been created for myself and other designers, and didn't always refer to actual code or utility class names. This worked when most of the users of the system were also building the system, and others could be taught piecemeal, but as the team grew and design system knowledge became more diluted, it became harder and more time-consuming to rely on engineers to educate each other on usage. Furthermore, there was simply more nuance to design than anyone could easily commit to memory, and there wasn't a single source of truth other than, well, me. And that certainly would not scale. </P>
                     
-                    <P>The engineers working on the styleguide and I had been discussing this issue for a while, and had agreed that a centralized internal styleguide site would be the ideal solution, because it would be fairly simple to manage, new components could be easily added as they were built, any changes would automatically propagate, and all of the relevant information would be easily accessible to internal users. However, none of us had bandwidth or management approval to work on it. As a result, that idea sat in our minds for a while, never becoming reality.</P> 
+                    <P>My engineering colleagues and I had been discussing this issue for a while, and had agreed that a centralized internal styleguide site would be the ideal solution, because it would be fairly simple to manage, new components could be easily added as they were built, any changes would automatically propagate, and all of the relevant information would be easily accessible to internal users. However, none of us had bandwidth or management approval to work on it. As a result, that idea sat in our minds for a while, never becoming reality.</P> 
                     
                     <P>When there was a companywide hackaton a few months later, one of the engineers and I jumped at the opportunity to dedicate some time to fleshing out the idea. We ended up tackling the problem from two different dierctions: he worked on getting an MVP page of the existing components and documentation up in a digital format while I used my usual design process to envision what a better future state might look like.  </P>  </Section>
 
@@ -495,7 +554,7 @@ const choosePage = (route, password, setPassword) => {
                 
                 </Li> 
                 
-                <Li><B>Planning & Information Architecture:</B> After the research, I created an inventory of the components that already existed and organized them into common sections, resulting in a rough information architecture of the existing system. This would simultaneously function as a to-do list for tackling the project a little at a time in the future.</Li>
+                <Li><B>Planning & Information Architecture:</B> After the research, I created an inventory of the components that already existed and organized them into common sections, resulting in a rough information architecture of the existing system. This would simultaneously function as a to-do list for tackling the project a little at a time once the hackathon was over.</Li>
                 </Ul>
                 <P></P>
              
@@ -509,10 +568,19 @@ const choosePage = (route, password, setPassword) => {
 
 
     {route: "ralph-lauren-find-a-store",
-    password: "squiggle",
+    password: "",
     content:
         <Container>
-            <h1>RL Find a Store</h1>
+             <ProjectHeader 
+                company="Ralph Lauren"
+                date=""
+                title="Reserve in Store"
+                responsibilities="User Research, Strategy, UX Design"
+                roleSummary="Designed and created Primary's Find in Store feature. Built upon the existing experience to create Reserve in Store, which added the ability to automatically reserve items using a web interface."
+                pictureFile="PrimarySG/Combo-colors-text@2x.png"
+                alt="Colors & Text Styles"
+                caption="Colors & Text Styles"
+            />
             
         </Container>
     },

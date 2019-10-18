@@ -8,7 +8,7 @@ const Container = styled.div`
 
     height: fit-content;
     width: 80vw;
-    max-width: 800px;
+    max-width: 840px;
 
     display: flex;
     flex-direction: column;

@@ -10,7 +10,7 @@ const Container = styled.a`
     color: #1b2c63;
     // text-decoration-color: rgba(33, 53, 113, 0.5);
     text-decoration: none;
-    box-shadow: 0 1px 0 rgba(33, 53, 113, 0.26);
+    box-shadow: 0 1px 0 rgba(33, 53, 113, 0.18);
     font-weight: 700;
 
     :hover {
