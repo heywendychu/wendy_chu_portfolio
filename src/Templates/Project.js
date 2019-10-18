@@ -461,7 +461,7 @@ const choosePage = (route, password, setPassword) => {
              <ProjectHeader 
                 company="Primary.com"
                 date=""
-                title="Design System Creation"
+                title="Style Guide & Design System"
                 responsibilities="System Design, Documentation, Visual Design, Interaction Design"
                 roleSummary="Created, iterated on, and maintained Primary's first digital design system in close partnership with engineers. Managed Sketch component library and Zeplin style guide. Advocated for usage and consistency across the organization and discouraged creation of one-offs."
                 pictureFile="PrimarySG/Combo-colors-text@2x.png"
@@ -637,7 +637,7 @@ const Project = props => {
                 <Company title="More from Primary.com:" footer={true}>
                     <ProjectLink text="Navigation Redesign" route="primary-navigation-redesign" footer={true} currentRoute={props.match.params.name}/>
                     <ProjectLink text="Product Detail Page" route="primary-product-detail-page" footer={true} currentRoute={props.match.params.name}/>
-                    <ProjectLink text="Design System Creation" route="primary-style-guide" footer={true} currentRoute={props.match.params.name}/>
+                    <ProjectLink text="Design System" route="primary-style-guide" footer={true} currentRoute={props.match.params.name}/>
                 </Company>
                 {/* <Company title="Ralph Lauren">
                     <ProjectLink text="Find a Store" route="ralph-lauren-find-a-store"/>

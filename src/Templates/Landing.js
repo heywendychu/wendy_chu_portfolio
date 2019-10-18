@@ -110,7 +110,7 @@ const Landing = props => {
                     <Company title="Primary.com">
                         <ProjectLink text="Navigation Redesign" route="primary-navigation-redesign" />
                         <ProjectLink text="Product Detail Page" route="primary-product-detail-page" />
-                        <ProjectLink text="Design System Creation" route="primary-style-guide" />
+                        <ProjectLink text="Style Guide & Design System" route="primary-style-guide" />
                     </Company>
                     {/* <Company title="Ralph Lauren">
                         <ProjectLink text="Find a Store" route="ralph-lauren-find-a-store"/>
