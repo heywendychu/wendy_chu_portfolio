@@ -204,7 +204,7 @@ const choosePage = (route, password, setPassword) => {
     </Section>
     
     <Section title="DESIGN & IMPLEMENTATION PROCESS" spaceAbove={80} indent={true}>
-        <P>The design process was done in a very collaborative agile way, with twice-weekly in-person check-ins between design and engineering and daily written standups. I was heavily involved in all parts of the process, which is detailed below.</P>
+        <P>The design process was collaborative and agile, with twice-weekly progress check-ins between design and engineering and daily standups. My role in this process was essential, as detailed below.</P>
     <P><B>1. Research</B></P>
         <Ul>
             <Li>Compiled existing user research & data and conducted stakeholder interviews.</Li>
@@ -471,6 +471,20 @@ const choosePage = (route, password, setPassword) => {
             <Section title="" spaceAbove={40} indent={true}>
                 <ImageGroup desktop="PrimarySG/Combo-links-buttons@2x.png" mobile="PrimarySG/combo-links-buttons-m@2x.png" alt="" caption="Link & Button Styles"  />
             </Section>
+
+            <Section title="OBJECTIVES" spaceAbove={80} indent={true}>
+                <Ul>
+                    <Li>Create visual and interaction consistency across the different parts of Primary's e-commerce web app.</Li>
+                    <Li>As a product design team of one, scale product design across the organization by empowering engineers and traditional marketing designers to easily make reasonable web design choices.</Li>
+                    <Li>Fold accessibility into the design system, so that all future products would pass WCAG 2.0 contrast ratios.</Li>
+                    <Li>Decrease the amount of code that needed to be loaded in order to improve site performance.</Li>
+                    <Li>Make it faster to design, code, and iterate on new products. </Li>
+                    <Li>Ensure that visual differences are meaningful and thought through.</Li>
+                    
+                </Ul>
+
+            </Section>
+
             <Section title="BACKGROUND" spaceAbove={80} indent={true}>
                 <P>I was the first product designer hired at Primary, and I would be a team of one for nearly all of my time there. Because of that, my first priority was creatig a way to scale my work for the biggest possible organizational impact. To achieve this, one of the first things that I tackled was a unified digital style guide/design system. </P>
                 
@@ -567,29 +581,101 @@ const choosePage = (route, password, setPassword) => {
     },
 
 
-    {route: "ralph-lauren-find-a-store",
+    {route: "ralph-lauren-reserve-in-store",
     password: "",
     content:
         <Container>
              <ProjectHeader 
                 company="Ralph Lauren"
-                date=""
+                date="2015 - 2017"
                 title="Reserve in Store"
-                responsibilities="User Research, Strategy, UX Design"
-                roleSummary="Designed and created Primary's Find in Store feature. Built upon the existing experience to create Reserve in Store, which added the ability to automatically reserve items using a web interface."
-                pictureFile="PrimarySG/Combo-colors-text@2x.png"
-                alt="Colors & Text Styles"
-                caption="Colors & Text Styles"
+                responsibilities="User Research, Strategy, UX Design, Service Design, Prototyping"
+                roleSummary="Worked with a product manager, store director, visual designer, and developer throughout the project."
+                pictureFile="wclogo.png"
+                alt="Reserve in Store overlay"
+                caption="Reserve in Store desktop overlay."
             />
+             <Section title="" spaceAbove={24} indent={true}>
+                 <ImageGroup desktop="wclogo.png" mobile="" alt="" caption="Reserve in Store mobile flow."/>
+            </Section>
+
+            <Section title="OBJECTIVES" spaceAbove={80} indent={true}>
+                <P>This project had 3 distinct phases, each of which had different objectives.</P>
+                <Ul>
+                    <Li><B>Phase 1: Find in Store -</B> Allow users to locate products they are considering online in a nearby Ralph Lauren store so that they can receive it faster and/or make a final decision after interacting with the product in person. This was meant to  be an MVP and a basis for further omnichannel integration.</Li>
+                    <Li><B>Phase 2: Reserve in store  -</B> Allow users to easily reserve products online for in-store browsing and purchase.</Li>
+                    <Li><B>Phase 3: UX Improvements & Replatforming -</B> Redesign and refactor the experience for as part of the replatforming initiative.</Li>
+                </Ul>
+            </Section>
+
+            <Section title="CHALLENGES" spaceAbove={80} indent={true}>
+                <br/>
+            <Ul>
+                    <Li>Technical & platform limitations: It was difficult to develop on the eBay commerce platform, so this functionality needed to be built using an A/B testing platform called Monetate.</Li>
+                    <Li>Relatively small store footprint: There were only a few dozen non-outlet Ralph Lauren stores that would have the same inventory as the website, and they are concentrated mostly on the US east coast.</Li>
+                    <Li>Many omnichannel touchpoints: Because the experience would span across the website, email, and stores, coordinating all of those parts of the experience would be challenging.</Li>
+                    <Li>Difficult to track completion: Because the transaction would end in stores, it would be difficult to accurately track completion and conversion rates, and we would have to rely on store associates' reports for any information. 
+                    <Li>Cannibalization concerns: Because the digital and store revenue streams were separate, there were concerns that encouraging users to visit stores would actually take a way from digital revenue. </Li>
+                    <Li>Uncertain store availability: In-store stock levels couldn't be confirmed until a store associate actually located the item, so there was always room for an unhappy path and customer disappointment.</Li>
+                    </Li>
+                </Ul>
+                </Section>
+
+            <Section title="PHASE 1: FIND IN STORE" spaceAbove={80} indent={true}>
+                <P><B>Research:</B> The product manager and I began this project by collaborating on a competitive analysis. We identified competitors with find in store functionality like Gap, Target, and Home Depot, and discussed which experiences we liked and didn't like.</P>
+                
+                <P>We then conducted some guerilla user research with some of our non-product coworkers in order to gain some quick user insight, and learned the following: 
+                </P>
+                <Ul>
+                <Li>Users wanted an integrated way to get directions to the store.</Li>
+                <Li>Users generally preferred stores being grouped first by whether there was stock available and then by distance from their location, as this made it easiest for them to see the relevant stores.</Li>
+                <Li>Users would sometimes select a different size or color if their first choice wasn't available because they valued seeing the item in person.</Li>
+                <Li>If the item wasn't available in a nearby store, users still wanted to be able to easily add the product to their bag.</Li>
+                </Ul>
+
+                <P><B>Design:</B> Next, the product manager documented the user flow, and I created wireframes of the experience, which later became an <SpanLink href="https://ltk0op.axshare.com/#p=in_store_availability">Axure prototype</SpanLink> as it was the most effective way to document and communicate the flows, logic, and various states involved. We incorporated the learnings from guerilla usability testing by:</P>
+                <Ul>
+                    <Li>Linking to the store locator experience as a lightweight way to provide directions to the store</Li>
+                    <Li>Sorting by availability by default, rather than distance, as we had originally planned.</Li>
+                    <Li>Making it easy to change the product selection in the Find in Store overlay while populating any selections on the PDP by default.</Li>
+                    <Li>Incorporating logic so that only products that might be available in stores at all would display a "Find in Store" link, to minimize user frustration.</Li>
+                    <Li>Adding an Add to Bag CTA to the null search results state.</Li>
+                </Ul>
+                <ImageGroup desktop="RLHOPS/RL-FIS-prototype.png" mobile="" alt="" caption={<>Find in store desktop prototype. <SpanLink href="https://ltk0op.axshare.com/#p=in_store_availability">View it live</SpanLink>.</>}/>
+                
+                <P>We then worked with a visual designer to create production-ready mockups before working with an engineer to build out the experience.</P>
+
+                <P><B>Results:</B> After we released the experience, we very quickly received positive feedback from stores. In just the first few weeks, dozens of stores had been contacted about products, and one such contact was directly responsible for selling an expensive watch worth $20k. The experience gave the stores teams many new customer contacts, bringing more customers into the world of Ralph Lauren.</P>
+                </Section>    
+
+            
+            <Section title="PHASE 2: RESERVE IN STORE" spaceAbove={80} indent={true}>
+            <P>
+                After Find in Store was a success, we sought to make the 
+            </P>
+            <Ul>
+                <Li>The product manager and I began the project with competitive research. We looked at what competitors with excellent </Li>
+            </Ul>
+                </Section>
             
         </Container>
     },
 
-    {route: "ralph-lauren-mobile-webstore",
+    {route: "ralph-lauren-returns-flow",
     password: "squiggle",
     content:
         <Container>
-            <h1>RL Mobile Webstore</h1>
+         
+             <ProjectHeader 
+                company="Ralph Lauren"
+                date="2017"
+                title="Returns Process"
+                responsibilities="User Research, Strategy, UX Design, Service Design"
+                roleSummary="Designed and created Primary's Find in Store feature. Built upon the existing experience to create Reserve in Store, which added the ability to automatically reserve items using a web interface."
+                pictureFile="wclogo.png"
+                alt="Reserve in Store overlay"
+                caption="Reserve in Store overlay."
+            />
             
         </Container>
     }]

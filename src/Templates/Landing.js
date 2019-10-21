@@ -92,8 +92,8 @@ const Landing = props => {
                     <Headline>Hi, I'm Wendy Chu.</Headline>
                     <ProfilePicture margin={24} dimension={256} displayFor="mobile"/>
                     <Paragraph width="100%" maxWidth="543px">I’m a human-centered digital product designer in Brooklyn, NY. I strive to make the world a little bit more thoughtful, inclusive, and beautiful. I've previously created digital experiences at <SpanLink href="https://www.primary.com">Primary</SpanLink>, <SpanLink href="https://tinybeans.com/">Tinybeans</SpanLink>, and <SpanLink href="https://www.ralphlauren.com/">Ralph Lauren</SpanLink>. </Paragraph>
-                    <Paragraph width="100%" maxWidth="543px">I research, strategize, wireframe, prototype, push pixels, write a bit of code, and never stop learning. Although I can do a whole lot on my own, I’m happiest when I collaborate with others. </Paragraph>
-                    <Paragraph width="100%" maxWidth="543px">A few of my favorite things: design systems, seamless omnichannel experiences, and one-on-one chats over coffee or tea.</Paragraph>
+                    <Paragraph width="100%" maxWidth="543px">I research, strategize, wireframe, prototype, push pixels, and write a bit of code. I am always learning more in order to gain a more holistic understanding of design, so I’m happiest when I can collaborate with others and learn from what they do. </Paragraph>
+                    <Paragraph width="100%" maxWidth="543px">A few of my favorite things: design systems, seamless cross-channel experiences, mobile design,  and one-on-one chats over coffee or tea.</Paragraph>
                 </Column>
                 <Column width="40%" maxWidth="400px" off={true}>
                     <ProfilePicture margin={108} dimension={300} displayFor="desktop"/>
@@ -110,7 +110,7 @@ const Landing = props => {
                     <Company title="Primary.com">
                         <ProjectLink text="Navigation Redesign" route="primary-navigation-redesign" />
                         <ProjectLink text="Product Detail Page" route="primary-product-detail-page" />
-                        <ProjectLink text="Style Guide & Design System" route="primary-style-guide" />
+                        <ProjectLink text="Design System" route="primary-style-guide" />
                     </Company>
                     {/* <Company title="Ralph Lauren">
                         <ProjectLink text="Find a Store" route="ralph-lauren-find-a-store"/>
@@ -122,7 +122,7 @@ const Landing = props => {
             <span id="contact"></span>
             <Section id="contact" title="CONTACT" spaceAbove={104}>
                 <Paragraph width='560px'>
-                    I’m currently looking for a full-time senior product/UX designer role at a company with a design-centered culture. If you think we might be a good fit, please email me at <SpanLink href="mailto:hi@wendychu.design">hi@wendychu.design</SpanLink> to get in touch!
+                    I’m currently looking for a full-time senior product/UX designer role at a company with a design-centered culture. If you think we might be a good fit, please get in touch with me at <SpanLink href="mailto:wenxiu.chu@gmail.com">wenxiu.chu@gmail.com</SpanLink>!
                 </Paragraph>
 
             </Section>
