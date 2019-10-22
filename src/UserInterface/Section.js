@@ -34,6 +34,12 @@ const Title = styled.h2`
 
 `
 
+const RedLine = styled.div`
+    width: 40px;
+    height: 2px;
+    background: #de3c2c;
+`
+
 const Row = styled.div`
     margin: 0 0 0 ${props => props.indent ? "104px" : "0"};
     width: fit-content;
@@ -45,11 +51,6 @@ const Row = styled.div`
     }
 `
 
-const RedLine = styled.div`
-    width: 40px;
-    height: 2px;
-    background: #de3c2c;
-`
 
 const Section = props => {
     return (

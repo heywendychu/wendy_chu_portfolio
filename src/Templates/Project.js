@@ -112,16 +112,32 @@ const Spacer = styled.div`
     height: ${props=>props.height ? props.height : "16"}px;
 `
 
+const CompanyWrapper = styled.div`
+    width: 80vw;
+    max-width: 840px;
+
+    display: flex;
+
+    flex-direction: column;
+
+`
 
 const CompanyContainer = styled.div`
 
     display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    width: 100%;
 
     margin: 64px 0 0 0;
 
     @media (max-width: 768px) {
         margin: 40px 0 0 0;
         flex-direction: column;
+        flex-wrap: no-wrap;
     }
 
 `
@@ -130,9 +146,15 @@ const Footer = styled.div`
     width: 100%;
     border-top: 1px solid rgba(33, 53, 113, 0.15);
 
+    padding-top: 24px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media (max-width: 768px) {
+        padding-top: 40px;
+    }
 
 `
 
@@ -721,17 +743,20 @@ const Project = props => {
         <Spacer height="104"/>
         
         <Footer>
-            <CompanyContainer>
-                <Company title="More from Primary.com:" footer={true}>
-                    <ProjectLink text="Navigation Redesign" route="primary-navigation-redesign" footer={true} currentRoute={props.match.params.name}/>
-                    <ProjectLink text="Product Detail Page" route="primary-product-detail-page" footer={true} currentRoute={props.match.params.name}/>
-                    <ProjectLink text="Design System" route="primary-style-guide" footer={true} currentRoute={props.match.params.name}/>
-                </Company>
-                {/* <Company title="Ralph Lauren">
-                    <ProjectLink text="Find a Store" route="ralph-lauren-find-a-store"/>
-                    <ProjectLink text="Mobile Webstore" route="ralph-lauren-mobile-webstore"/>
-                </Company> */}
-            </CompanyContainer>
+            <CompanyWrapper>
+                <CompanyContainer>
+                    <Company title="More from Primary.com:" footer={true}>
+                        <ProjectLink text="Navigation Redesign" route="primary-navigation-redesign"  currentRoute={props.match.params.name}/>
+                        <ProjectLink text="Product Detail Page" route="primary-product-detail-page"  currentRoute={props.match.params.name}/>
+                        <ProjectLink text="Design System" route="primary-style-guide" currentRoute={props.match.params.name}/>
+                    </Company>
+                    {/* <Company title="Ralph Lauren" footer={true}>
+                        <ProjectLink text="Find a Store" route="ralph-lauren-find-a-store" currentRoute={props.match.params.name}/>
+                        <ProjectLink text="Mobile Webstore" route="ralph-lauren-mobile-webstore" currentRoute={props.match.params.name}/>
+                    </Company> */}
+                </CompanyContainer>
+
+            </CompanyWrapper>
             <Spacer height="104"/>
         </Footer>
         

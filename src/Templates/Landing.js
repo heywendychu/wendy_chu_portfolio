@@ -28,6 +28,8 @@ const CompanyContainer = styled.div`
 
     display: flex;
 
+    flex-wrap: wrap;
+
     @media (max-width: 768px) {
         margin: 40px 0 0 0;
         flex-direction: column;
@@ -120,7 +122,7 @@ const Landing = props => {
             </Section>
 
             <span id="contact"></span>
-            <Section id="contact" title="CONTACT" spaceAbove={104}>
+            <Section id="contact" title="CONTACT" spaceAbove={40}>
                 <Paragraph width='560px'>
                     I’m currently looking for a full-time senior product/UX designer role at a company with a design-centered culture. If you think we might be a good fit, please get in touch with me at <SpanLink href="mailto:wenxiu.chu@gmail.com">wenxiu.chu@gmail.com</SpanLink>!
                 </Paragraph>
