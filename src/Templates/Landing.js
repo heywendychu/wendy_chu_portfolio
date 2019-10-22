@@ -92,7 +92,7 @@ const Landing = props => {
                     <Headline>Hi, I'm Wendy Chu.</Headline>
                     <ProfilePicture margin={24} dimension={256} displayFor="mobile"/>
                     <Paragraph width="100%" maxWidth="543px">I’m a human-centered digital product designer in Brooklyn, NY. I strive to make the world a little bit more thoughtful, inclusive, and beautiful. I've previously created digital experiences at <SpanLink href="https://www.primary.com">Primary</SpanLink>, <SpanLink href="https://tinybeans.com/">Tinybeans</SpanLink>, and <SpanLink href="https://www.ralphlauren.com/">Ralph Lauren</SpanLink>. </Paragraph>
-                    <Paragraph width="100%" maxWidth="543px">I research, strategize, wireframe, prototype, push pixels, and write a bit of code. I am always learning more in order to gain a more holistic understanding of design, so I’m happiest when I can collaborate with others and learn from what they do. </Paragraph>
+                    <Paragraph width="100%" maxWidth="543px">My approach to design is holistic. I research, strategize, wireframe, prototype, push pixels, and write a bit of code. I never stop learning, and I’m at my best when collaborating with others. </Paragraph>
                     <Paragraph width="100%" maxWidth="543px">A few of my favorite things: design systems, seamless cross-channel experiences, mobile design,  and one-on-one chats over coffee or tea.</Paragraph>
                 </Column>
                 <Column width="40%" maxWidth="400px" off={true}>
