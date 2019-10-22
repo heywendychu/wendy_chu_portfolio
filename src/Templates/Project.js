@@ -651,7 +651,9 @@ const choosePage = (route, password, setPassword) => {
             
             <Section title="PHASE 2: RESERVE IN STORE" spaceAbove={80} indent={true}>
             <P>
-                After Find in Store was a success, we sought to make the 
+                After Find in Store was a success, we sought to make the experience even smoother for users by integrating a simple way for them to place an item on hold at a store directly through the interface. </P>
+
+                <P><B>Research:</B> Previously, users who wanted to confirm availability would have to call the store or send an email, but we knew from talking to store associates and customers that people didn't necessarily like the experience of calling, as they might need to wait a while. Emailing was also not ideal because users would need to draft their own message, and might not include all the information that a store associate would need, leading to more back and forth and a sub-optimal experience for both sides. 
             </P>
             <Ul>
                 <Li>The product manager and I began the project with competitive research. We looked at what competitors with excellent </Li>
