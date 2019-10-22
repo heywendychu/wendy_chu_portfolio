@@ -12,31 +12,20 @@ const Container = styled(Link)`
     line-height: 1.5;
     
     color:  ${props => props.present ? '#de3c2c' : '#1b2c63'};
-    font-size: ${props => props.footer ? '13px' : '32px'};
+    font-size: ${props => props.footer ? '24px' : '28px'};
 
-    font-family: ${props => props.footer ? "'Roboto Mono'" : 'CanelaWeb'};
+    font-family: CanelaWeb;
 
-    margin: ${props => props.footer ? '16px 0 0 0' : '32px 0 0 0'};
+    margin: 32px 0 0 0;
 
     cursor: ${props => props.present ? "auto" : "pointer"};
 
-    ${props => props.footer ? "text-transform: uppercase" : null}
 
-    ${props => props.footer ? "font-weight: 500;" : null}
-    ${props => props.footer ? "letter-spacing: 2.43px;" : null}
-    
-    
-
-    
-
-    
-    
-
-    
+        
 
     @media (max-width: 768px) {
-        font-size: 28px;
-        line-height: 1.71;
+        font-size: ${props => props.footer ? '24px' : '28px'};
+        line-height: 1.4;
         letter-spacing: 0.47px;
     }
 `
@@ -53,7 +42,7 @@ const Span = styled.span`
 
 const ProjectLink = props => {
     return (
-        <Container present={props.route === props.currentRoute} footer={props.footer} to={`/projects/${props.route}`}><Span present={props.route === props.currentRoute}>{props.text}</Span></Container>
+        <Container present={props.route === props.currentRoute} footer={props.currentRoute} to={`/projects/${props.route}`}><Span present={props.route === props.currentRoute}>{props.text}</Span></Container>
     )
 }
 
