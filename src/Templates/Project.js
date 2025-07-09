@@ -1573,6 +1573,767 @@ const choosePage = (route, password, setPassword) => {
             // alt="Reserve in Store overlay"
             // caption="Reserve in Store overlay."
           />
+          <Section>
+            <div>
+              <div>
+                <div>
+                  <figure>
+                    <a href="https://www.notion.so">
+                      <img src="https://www.notion.so" />
+                    </a>
+                  </figure>
+                  <h1>About the company</h1>
+                  <P>
+                    VTS (View The Space) is a company that develops SaaS
+                    products for commercial real estate. At the time I worked on
+                    this project, VTS had recently expanded into property
+                    management software with VTS Activate, a platform that
+                    allows commercial building managers to publish content and
+                    engage with their tenants.
+                  </P>
+                  <h1>About the project</h1>
+                  <P>
+                    My team was responsible for adding access management
+                    functionality to the existing Activate platform. The team
+                    comprised of 1 product manager, 10 engineers, 2 QAs, 1
+                    designer (me!).
+                  </P>
+                  <h2>What is access management?</h2>
+                  <P>
+                    Access management is the ability to manage who can access
+                    different parts of a building.
+                  </P>
+                  <figure>
+                    <a href="https://www.notion.so">
+                      <img src="https://www.notion.so" />
+                    </a>
+                  </figure>
+                  <P>
+                    For example, if you are an employee who works in an office
+                    building, you would need access to the lobby, the floor
+                    containing your company’s office, and the office itself, but
+                    perhaps you shouldn’t have access to other floors or
+                    restricted areas like a security office.
+                  </P>
+                  <P>
+                    Buildings that want this level of access control typically
+                    use keycards to manage access, and the keycards themselves
+                    are managed with access management software. Access
+                    credentials can also be stored digitally on a mobile device,
+                    adding greater convenience to tenants and easier management
+                    for security personnel.
+                  </P>
+                  <P>
+                    <strong>The scope I worked on: </strong>
+                  </P>
+                  <Ul>
+                    <Li>
+                      Admins can digitally grant and remove access and set
+                      access groups (locations) for each user
+                    </Li>
+                  </Ul>
+                  <Ul>
+                    <Li>
+                      Admins can grant access management permissions to other
+                      users
+                    </Li>
+                  </Ul>
+                  <Ul>
+                    <Li>
+                      Employees (end users) can use their phone as a keycard
+                    </Li>
+                  </Ul>
+                  <P>
+                    Due to complexity, I’ll be focusing on just the admin
+                    portion for this case study.
+                  </P>
+                  <h2>The business case for access management</h2>
+                  <P>
+                    Access management helped the business by gaining incremental
+                    revenue from both new and existing customers.
+                  </P>
+                  <figure>
+                    <a href="https://www.notion.so">
+                      <img src="https://www.notion.so" />
+                    </a>
+                  </figure>
+                  <P>
+                    <strong>New customers: </strong>It was common knowledge in
+                    the industry that access control was dominated by a few
+                    companies with old technology and clunky interfaces. By
+                    digitizing keycards and creating an intuitive interface to
+                    manage them, we attracted new customers to the Activate
+                    platform on the strength of the access management product.
+                  </P>
+                  <P>
+                    <strong>Existing customers: </strong>Access control was a
+                    paid add-on feature that worked within the Activate
+                    platform. Managing access through Activate would allow
+                    building managers to reduce the number of tools they use,
+                    streamline their operations, and potentially reduce their
+                    costs. Because most buildings that used Activate’s content
+                    publishing tools were larger ones with access control
+                    systems, it was a good fit for the existing customer base.
+                  </P>
+                  <P></P>
+                  <P>
+                    <strong>Potential network effects</strong>
+                  </P>
+                  <P>
+                    Access management presented a huge acquisition opportunity
+                    for VTS, as property managers could upsell their tenants on
+                    the ability to manage their own employees’ access. To do
+                    that, tenants would also need an Activate subscription.
+                    Because most of the buildings we served had dozens of
+                    businesses within, it was a huge potential opportunity for
+                    growth.
+                  </P>
+                  <P>
+                    Better yet, such an arrangement would benefit both parties.
+                    Property personnel wouldn’t need to manually manage access
+                    for those building employees, and companies would no longer
+                    need to go through an intermediary to modify their
+                    employees’ access.
+                  </P>
+                  <h1>Competitive research &amp; user interviews</h1>
+                  <P>
+                    Before embarking on design, I interviewed several existing
+                    and prospective clients with my PM and available squad
+                    engineers.
+                  </P>
+                  <figure>
+                    <div>
+                      <span>💡</span>
+                    </div>
+                    <div>
+                      <P>
+                        <em>
+                          Sidenote: It’s important to me that everyone on the
+                          squad can listen to and observe our users firsthand so
+                          that they can better understand our average, less
+                          tech-savvy users. The experience is much more
+                          memorable than if I were to share clips or a report,
+                          and gets us all on the same page.
+                        </em>
+                      </P>
+                    </div>
+                  </figure>
+                  <P>
+                    I asked users to demonstrate how they performed common
+                    tasks: setting up access for a new user, changing access,
+                    and removing access from a user. To prepare for these
+                    interviews, I first wrote down what I hoped to learn, and
+                    then wrote out a set of questions I wanted to ask. However,
+                    I kept these interviews conversational, and asked impromptu
+                    questions on relevant topics that came up.
+                  </P>
+                  <P></P>
+                  <P>
+                    A selection of screenshots from our main competitive
+                    reference, HID, are shown below. Note: sensitive PII data
+                    has been blurred.
+                  </P>
+                  <figure>
+                    <a href="Access%20Management%20Case%20Study%201d9a83b969a0808c8622c5d8c77b02cd/HID_Mobile_IDs_-_blur.png">
+                      <img src="Access%20Management%20Case%20Study%201d9a83b969a0808c8622c5d8c77b02cd/HID_Mobile_IDs_-_blur.png" />
+                    </a>
+                    <figcaption>
+                      HID’s table does the job, but could benefit from better
+                      visual hierarchy and more specific inline actions for
+                      efficiency.
+                    </figcaption>
+                  </figure>
+                  <figure>
+                    <a href="Access%20Management%20Case%20Study%201d9a83b969a0808c8622c5d8c77b02cd/image.png">
+                      <img src="Access%20Management%20Case%20Study%201d9a83b969a0808c8622c5d8c77b02cd/image.png" />
+                    </a>
+                    <figcaption>
+                      HID’s user details page is very long, with many different
+                      sections (2 screen heights’ worth of content can be seen
+                      above). This page would benefit from more efficient use of
+                      space and anchor links, which would to allow users to find
+                      what they need more quickly.
+                    </figcaption>
+                  </figure>
+                  <h2>
+                    <strong>Pain points</strong>
+                  </h2>
+                  <Ul>
+                    <Li>
+                      <strong>Existing workflows required many steps. </strong>
+                      Though expert users stated that these workflows were easy,
+                      the time it took to perform the tasks for a single user
+                      was more than<strong>1 minute.</strong>
+                      It may not sound like much time, but considering how
+                      frequently our users would need to perform these tasks, it
+                      added up.
+                    </Li>
+                  </Ul>
+                  <Ul>
+                    <Li>
+                      <strong>
+                        Interfaces had weak information hierarchy{" "}
+                      </strong>
+                      — Many pages are long and contain a great deal of
+                      information, but there is no navigation (tabs, anchor
+                      links, etc.) when users land on these pages.
+                    </Li>
+                  </Ul>
+                  <Ul>
+                    <Li>
+                      <strong>
+                        Layout made inefficient use of screen real estate —{" "}
+                      </strong>
+                      Information could have been displayed more compactly
+                      without sacrificing usability or aesthetics. Though white
+                      space is important to include in a design, much of the
+                      white space in these interfaces looked unintentional.
+                    </Li>
+                  </Ul>
+                  <Ul>
+                    <Li>
+                      <strong>User data intake was very manual</strong> — most
+                      users copied names and emails from a spreadsheet or paper
+                      to input the names and emails of each user.
+                    </Li>
+                  </Ul>
+                  <P>
+                    After discussing with my PM and engineering lead, we agreed
+                    that it was feasible to address the above issues in the
+                    product we were building, as we did not yet have an existing
+                    product.
+                  </P>
+                  <h2>User roles</h2>
+                  <P>
+                    The user interviews also gave me a deeper understanding of
+                    the user roles we would serve and what they would be doing
+                    in the access management product.
+                  </P>
+                  <h3>
+                    <strong>Property manager</strong>
+                  </h3>
+                  <Ul>
+                    <Li>
+                      The general manager of a particular building. Manages
+                      security personnel.
+                    </Li>
+                  </Ul>
+                  <Ul>
+                    <Li>Expert at managing access control systems.</Li>
+                  </Ul>
+                  <Ul>
+                    <Li>
+                      Can grant and remove access for all users in the building.
+                    </Li>
+                  </Ul>
+                  <Ul>
+                    <Li>
+                      Can grant and remove admin rights for all users in the
+                      building.
+                    </Li>
+                  </Ul>
+                  <h3>
+                    <strong>Security personnel </strong>
+                  </h3>
+                  <Ul>
+                    <Li>
+                      Responsible for managing day-to-day access for tenants and
+                      visitors of the building. Typically located in a front
+                      desk area.
+                    </Li>
+                  </Ul>
+                  <Ul>
+                    <Li>Proficient at managing access control systems.</Li>
+                  </Ul>
+                  <Ul>
+                    <Li>
+                      Can grant and remove access for tenants of the building.
+                    </Li>
+                  </Ul>
+                  <h3>
+                    <strong>Company access admin </strong>
+                  </h3>
+                  <Ul>
+                    <Li>
+                      Works for a tenant company as a general admin or
+                      receptionist. Responsible for coordinating employee access
+                      with the building security team, among other admin tasks.
+                    </Li>
+                  </Ul>
+                  <Ul>
+                    <Li>
+                      Little to no experience managing access control systems.
+                    </Li>
+                  </Ul>
+                  <Ul>
+                    <Li>
+                      Can grant and remove access for their company’s employees.
+                    </Li>
+                  </Ul>
+                  <h3>
+                    <strong>Employee </strong>
+                  </h3>
+                  <Ul>
+                    <Li>Works for a tenant company in the building</Li>
+                  </Ul>
+                  <Ul>
+                    <Li>No experience managing access control systems.</Li>
+                  </Ul>
+                  <Ul>
+                    <Li>Doesn’t need to use the admin side of access at all</Li>
+                  </Ul>
+                  <P>
+                    Identifying and splitting these roles out helped my team
+                    think critically about how each role would experience the
+                    product instead of thinking about everything as a jumble of
+                    features. Defining the user roles contextualized what we
+                    were building and why, and gave us a common language to talk
+                    about the different user roles
+                  </P>
+                  <h1>Design &amp; testing</h1>
+                  <P>
+                    Design and testing for this project happened on a rolling
+                    basis over the course of ~ 9 months. I designed and worked
+                    iteratively with my squad to deliver multiple bundles of
+                    value to our users and stakeholders. I worked with my squad
+                    to ensure that each user-facing release made sense as a
+                    whole. Some of those bundles are detailed below.
+                  </P>
+                  <h1>Phase 1: Polish existing functionality</h1>
+                  <P>
+                    One of my favorite parts of joining a new team is examining
+                    what exists with my fresh pair of eyes. One of the first
+                    things I do is to sit down with my PM and/or EM and take a
+                    tour of the product, asking questions as they occur to me to
+                    understand the decisions that had already been made. Though
+                    I also seek out qualitative and quantitative user data at
+                    this time, I find that my heuristic analysis of a product is
+                    often pretty closely aligned with user feedback.
+                  </P>
+                  <P>
+                    Below is the user access table design that existed when I
+                    first joined the team.
+                  </P>
+                  <figure>
+                    <a href="Access%20Management%20Case%20Study%201d9a83b969a0808c8622c5d8c77b02cd/image%201.png">
+                      <img src="Access%20Management%20Case%20Study%201d9a83b969a0808c8622c5d8c77b02cd/image%201.png" />
+                    </a>
+                    <figcaption>
+                      The existing design before I joined the team.
+                    </figcaption>
+                  </figure>
+                  <P>
+                    The customer success team had already started to hold
+                    training sessions with actual users on this version of the
+                    table. These training sessions worked well as covert
+                    usability tests, as I could observe how users interacted
+                    with the product, what they struggled to do, and where they
+                    had questions. Some of the biggest issues I noticed:
+                  </P>
+                  <Ul>
+                    <Li>
+                      The actions dropdown at the end of each row was hidden
+                      behind a horizontal scroll due to the number of columns.
+                    </Li>
+                  </Ul>
+                  <Ul>
+                    <Li>
+                      Users had difficulty understanding the toggle as relating
+                      to mobile access status, because the table header was not
+                      always visible.
+                    </Li>
+                  </Ul>
+                  <Ul>
+                    <Li>
+                      Users were startled by the modal that appeared after
+                      clicking on the toggle. It felt abrupt and did not match
+                      their interaction expectations.
+                      <figure>
+                        <a href="Access%20Management%20Case%20Study%201d9a83b969a0808c8622c5d8c77b02cd/image%202.png">
+                          <img src="Access%20Management%20Case%20Study%201d9a83b969a0808c8622c5d8c77b02cd/image%202.png" />
+                        </a>
+                        <figcaption>
+                          Modal that appeared when users click on the toggle to
+                          enable mobile access.
+                        </figcaption>
+                      </figure>
+                    </Li>
+                  </Ul>
+                  <Ul>
+                    <Li>
+                      Users had difficulty trtacking the change in status, and
+                      thought the system wasn’t working or that they had done
+                      something wrong.
+                    </Li>
+                  </Ul>
+                  <h2>My design changes</h2>
+                  <P>
+                    Based on the information I gathered from user interviews and
+                    these training sessions, I changed several parts of the
+                    experience.
+                  </P>
+                  <figure>
+                    <a href="Access%20Management%20Case%20Study%201d9a83b969a0808c8622c5d8c77b02cd/image%203.png">
+                      <img src="Access%20Management%20Case%20Study%201d9a83b969a0808c8622c5d8c77b02cd/image%203.png" />
+                    </a>
+                  </figure>
+                  <ol type="1">
+                    <Li>
+                      <strong>More efficient use of space:</strong> Space
+                      efficiency is important because 1280px is our user base’s
+                      third most common screen resolution. The previous design
+                      required so much truncation at that screen width, that it
+                      was barely usable. After checking with my team I was able
+                      to hide and group information to make a more compact and
+                      usable interface. I grouped the name and primary email
+                      into one column, hid the company column if it was all the
+                      same company, and hid the source and sync status columns,
+                      as this was only relevant to our internal team. These
+                      changes allowed our users to focus on only the most
+                      relevant information, and made the table less daunting for
+                      company access admins.
+                    </Li>
+                  </ol>
+                  <ol type="1">
+                    <Li>
+                      <strong>Replaced toggle with status chip: </strong>
+                      Enabling and disabling access required communication to an
+                      external access integration. This meant that we could only
+                      display the status change optimistically, or not display
+                      the change until after a table refresh. We also didn’t
+                      have a pattern for a toggle loading state, and I hadn’t
+                      seen anything like that in the wild. As a solution, I
+                      replaced the toggle with a status chip with a dropdown to
+                      change the mobile access status for each user. Though a
+                      dropdown is slightly less efficient than a toggle, I
+                      wasn’t too worried about it since a user’s access was
+                      unlikely to be enabled or disabled frequently, as a user’s
+                      access would most often be enabled when they’re hired or
+                      disabled when they leave the company. Also, a status chip
+                      has the benefit of being able to display multiple states
+                      (see below), which made it easier to see each user’s
+                      mobile access status, and would allow us to communicate
+                      other, more complex statuses in the future.
+                    </Li>
+                  </ol>
+                  <ol type="1">
+                    <Li>
+                      <strong>Additional status feedback:</strong> Because
+                      enabling and disabling mobile access was asynchronous, it
+                      was important for users to be informed that their request
+                      was received. I added a processing state (with an animated
+                      spinner) to the status chip as well as toasts to confirm
+                      the intended action.
+                      <figure>
+                        <a href="Access%20Management%20Case%20Study%201d9a83b969a0808c8622c5d8c77b02cd/image%204.png">
+                          <img src="Access%20Management%20Case%20Study%201d9a83b969a0808c8622c5d8c77b02cd/image%204.png" />
+                        </a>
+                      </figure>
+                      <P>
+                        <br />
+                        Ideally, I would have had a toast come up when the
+                        action had been completed, but my engineering lead told
+                        me that wasn’t feasible. After some brainstorming, we
+                        landed on an idea that was both user-friendly and
+                        technically simple: refresh the table after a few
+                        seconds so that the status chip would (hopefully) have
+                        changed from processing to another status, communicating
+                        the same information to users. Though these are small
+                        interaction details, they made users feel confident that
+                        things were working — even if the status didn’t change
+                        immediately. <br />
+                      </P>
+                    </Li>
+                  </ol>
+                  <P></P>
+                  <h2>Results</h2>
+                  <P>
+                    After these changes were implemented in code, I saw a
+                    sizable increase in qualitative usability during onboarding
+                    sessions with company access admins:
+                  </P>
+                  <Ul>
+                    <Li>
+                      Users were able to accomplish their tasks quicker than
+                      before, and had fewer questions.
+                    </Li>
+                  </Ul>
+                  <Ul>
+                    <Li>
+                      Furthermore, users were able to figure out how to do the
+                      tasks by themselves, making the training sessions
+                      practically unnecessary.
+                    </Li>
+                  </Ul>
+                  <Ul>
+                    <Li>
+                      We received unprompted comments about how “simple” and
+                      “easy to use” the product was, from users who were
+                      pleasantly surprised — which to me is the ultimate sign of
+                      a job well done.
+                    </Li>
+                  </Ul>
+                  <h1>
+                    Phase 2: Scaling - Access-enabled invitation &amp; admin
+                    roles
+                  </h1>
+                  <P>
+                    Because our revenue for access management was tied to the
+                    number of access-enabled users, we decided to focus next on
+                    functionality that would increase the rate at which
+                    access-enabled users could be added. At this point, we had a
+                    usable product for controlling access, but key operations
+                    like adding and importing users were being handled manually
+                    by our internal team. In order to scale up, we would need to
+                    build workflows that would allow users to do these tasks.
+                  </P>
+                  <P>
+                    I held a quick-and-dirty brainstorm session in which we
+                    looked at the existing interfaces, discussed desired
+                    functionality and potential design solutions, and estimated
+                    sizing for both engineering and design. After discussing
+                    options and taking our aggressive timeline into account, we
+                    decided to do two tracks of work in parallel: bulk user
+                    invitation with access enablement and admin role assignment.
+                    These two areas were fairly separate in the codebase and the
+                    product, so working on them in parallel wouldn’t be
+                    counterproductive. Though I knew that this would result in a
+                    lot of work falling on me at once, I felt confident about
+                    the approaches we’d just discussed. Worst case, I could
+                    deliver a subset of the design to get engineers going while
+                    I finished the rest, or I could renegotiate timelines.
+                  </P>
+                  <h2>Access-enabled invitation</h2>
+                  <P>
+                    I decided to tackle the invitation flow first, as user
+                    invitation flows already existed, so I wouldn’t need to
+                    start from scratch. However, the existing interfaces were
+                    outdated and contained solely within modals, and they ended
+                    up being a bit of work to revamp.
+                  </P>
+                  <div>
+                    <div>
+                      <figure>
+                        <a href="Access%20Management%20Case%20Study%201d9a83b969a0808c8622c5d8c77b02cd/image%205.png">
+                          <img src="Access%20Management%20Case%20Study%201d9a83b969a0808c8622c5d8c77b02cd/image%205.png" />
+                        </a>
+                        <figcaption>
+                          Existing single invitation modal
+                        </figcaption>
+                      </figure>
+                    </div>
+                    <div>
+                      <figure>
+                        <a href="Access%20Management%20Case%20Study%201d9a83b969a0808c8622c5d8c77b02cd/image%206.png">
+                          <img src="Access%20Management%20Case%20Study%201d9a83b969a0808c8622c5d8c77b02cd/image%206.png" />
+                        </a>
+                        <figcaption>Existing bulk invitation modal</figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                  <h3>Option 1: Minimal UI changes</h3>
+                  <P>
+                    As a designer, it pained me to see such crude interfaces,
+                    but I needed to take the timeline into account as well. In
+                    an effort to minimize scope, I initially proposed cleaning
+                    up the modal interfaces by replacing old components with
+                    design system components, moving around some buttons to add
+                    add clarity, and adding the new functionality on top of
+                    those updates. Below are the designs I came up with.
+                  </P>
+                  <div>
+                    <div>
+                      <figure>
+                        <a href="Access%20Management%20Case%20Study%201d9a83b969a0808c8622c5d8c77b02cd/image%207.png">
+                          <img src="Access%20Management%20Case%20Study%201d9a83b969a0808c8622c5d8c77b02cd/image%207.png" />
+                        </a>
+                        <figcaption>
+                          Single invitation modal with minimal UI updates and
+                          added functionality
+                        </figcaption>
+                      </figure>
+                    </div>
+                    <div>
+                      <figure>
+                        <a href="Access%20Management%20Case%20Study%201d9a83b969a0808c8622c5d8c77b02cd/image%208.png">
+                          <img src="Access%20Management%20Case%20Study%201d9a83b969a0808c8622c5d8c77b02cd/image%208.png" />
+                        </a>
+                        <figcaption>
+                          Bulk invitation modal with minimal UI updates and new
+                          functionality
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                  <P>
+                    I didn’t like the idea of the complex bulk invite
+                    functionality being contained in a modal, especially because
+                    checking the “Enable mobile access…” option would require
+                    users to select access groups, which would potentially
+                    require a second modal. But given the desire to ship this
+                    functionality quickly, I wanted to provide the squad with a
+                    minimal option, as there would be opportunities to refine
+                    the experience later. Besides, just making the UI updates
+                    would already be an improvement, so it would still be a win.
+                  </P>
+                  <h3>Option 2: Full page ahead!</h3>
+                  <P>
+                    Time permitting, I often mock up and show a version that may
+                    be a bit larger in scope, but offers a significantly better
+                    user experience in exchange. In this case, I mocked up a
+                    full-page version of the form because the additional space
+                    made it easier to view the list of invited users and to
+                    display the access group selection on the same page, rather
+                    than in a second step. Plus, it aligned with the latest
+                    Activate design language.
+                  </P>
+                  <P>
+                    , we ended up implementing this version. When I presented
+                    this to my squad at our weekly design refinement session,
+                    the team preferred this version because the modal component
+                    was challenging to work with and moving that functionality
+                    to a page would be easy. To help cut scope, we also decided
+                    to retire the single user invitation modal because it didn’t
+                    make sense to build and maintain two different workflows. A
+                    win all around!
+                  </P>
+                  <figure>
+                    <a href="Access%20Management%20Case%20Study%201d9a83b969a0808c8622c5d8c77b02cd/image%209.png">
+                      <img src="Access%20Management%20Case%20Study%201d9a83b969a0808c8622c5d8c77b02cd/image%209.png" />
+                    </a>
+                    <figcaption>
+                      The full page version of the bulk invite form, which my
+                      squad preferred.
+                    </figcaption>
+                  </figure>
+                  <h3>Enable mobile access on top or at the bottom?</h3>
+                  <P>
+                    Though we were all aligned on implementing the full page
+                    form, we debated whether the “Enable mobile access” checkbox
+                    should be located above or below the user invitation fields.
+                    I had thought was that it would make the most sense below,
+                    because it was a secondary setting — users entering a form
+                    to invite users would be primed to enter names and emails,
+                    so putting mobile access first could feel strange, and users
+                    could miss it if they skipped to the other form fields and
+                    hit the “Send invites” button. However, my PM made the fair
+                    point that because the same settings would apply to all of
+                    the invited users in a batch (i.e. they couldn’t be set per
+                    user), it would make more sense to lead with the option to
+                    enable mobile access.
+                  </P>
+                  <P>
+                    We ultimately put it above the invite fields to give mobile
+                    access more priority on the page. I had asked the design
+                    team and other stakeholders for their opinions, and there
+                    was a slight preference towards putting it on top. Both
+                    options seemed reasonable to me, and this was a case where
+                    we just needed to make a decision, as changing the position
+                    after the fact would be easy. I still wonder which one would
+                    have worked better in practice, but I didn’t have a chance
+                    to see users interact with it after implementation; wider
+                    rollout was delayed because another business unit was also
+                    planning to make changes to this form, and we needed to
+                    coordinate. (Note: Mobile access enablement was not the only
+                    bulk action. There could be more depending on the specific
+                    “channel” a user was inviting people to.)
+                  </P>
+                  <P></P>
+                  <figure>
+                    <a href="Access%20Management%20Case%20Study%201d9a83b969a0808c8622c5d8c77b02cd/image%2010.png">
+                      <img src="Access%20Management%20Case%20Study%201d9a83b969a0808c8622c5d8c77b02cd/image%2010.png" />
+                    </a>
+                    <figcaption>
+                      Users will only see the access group selection fields if
+                      they check to enable mobile access.
+                    </figcaption>
+                  </figure>
+                  <P></P>
+                  <P></P>
+                  <P></P>
+                  <P></P>
+                  <P></P>
+                  <P></P>
+                  <h1>Scratch</h1>
+                  <hr />
+                  <P></P>
+                  <ol type="1">
+                    <Li>
+                      <strong>More intuitive error states: </strong>Sync status
+                      was only relevant if something went wrong in the backend,
+                      so I replaced it with an error state. I also removed the
+                      red error state when no access control groups were
+                      assigned, because they were only relevant when mobile
+                      access was on.
+                    </Li>
+                  </ol>
+                  <figure>
+                    <a href="Access%20Management%20Case%20Study%201d9a83b969a0808c8622c5d8c77b02cd/99da0c55-02d6-4ea4-ba9b-5273bb270717.png">
+                      <img src="Access%20Management%20Case%20Study%201d9a83b969a0808c8622c5d8c77b02cd/99da0c55-02d6-4ea4-ba9b-5273bb270717.png" />
+                    </a>
+                    <figcaption>
+                      This error icon only displays when there is an issue that
+                      a user needs to address (e.g. an action could not be
+                      completed).
+                    </figcaption>
+                  </figure>
+                  <P></P>
+                  <P></P>
+                  <figure>
+                    <a href="Access%20Management%20Case%20Study%201d9a83b969a0808c8622c5d8c77b02cd/image%2011.png">
+                      <img src="Access%20Management%20Case%20Study%201d9a83b969a0808c8622c5d8c77b02cd/image%2011.png" />
+                    </a>
+                    <figcaption>
+                      A live screenshot of the same table.
+                    </figcaption>
+                  </figure>
+                  <P>
+                    <strong>
+                      The user stories I designed for this project were:{" "}
+                    </strong>
+                  </P>
+                  <Ul>
+                    <Li>
+                      Admins can digitally enable and disable user access and
+                      set the level of access for each user
+                    </Li>
+                  </Ul>
+                  <Ul>
+                    <Li>
+                      Admins can grant access management permissions to other
+                      users
+                    </Li>
+                  </Ul>
+                </div>
+              </div>
+              <P></P>
+              <Ul>
+                <Li>UX Principles</Li>
+              </Ul>
+              <Ul>
+                <Li>Marketing Analytics</Li>
+              </Ul>
+              <Ul>
+                <Li>Listing sharing</Li>
+              </Ul>
+              <ol type="1">
+                <Li>
+                  <strong>Simpler language:</strong> Though many users would be
+                  familiar with access control jargon, our largest user persona
+                  group would be company access admins, who are laypeople
+                  unlikely to be familiar with terms like “ACGs” or “Sync
+                  status.” I removed the “sync status” column altogether, as it
+                  was only relevant to our internal team, and shortened “Access
+                  control groups” to just “access groups.” Because real-world
+                  access group names are oftentimes long and incomprehensible
+                  (think: someone else’s filenames), I chose to hide them behind
+                  a tooltip, and displayed only the number of access groups a
+                  user had assigned. This also helped with more efficient use of
+                  space.
+                </Li>
+              </ol>
+            </div>
+          </Section>
         </Container>
       ),
     },
