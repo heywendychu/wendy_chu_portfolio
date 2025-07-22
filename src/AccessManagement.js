@@ -3,10 +3,6 @@ import styled from "styled-components";
 import ProjectHeader from "./UserInterface/ProjectHeader";
 import Section from "./UserInterface/Section";
 import ImageGroup from "./UserInterface/ImageGroup";
-import ProjectLink from "./UserInterface/ProjectLink";
-
-import SpanLink from "./UserInterface/SpanLink";
-import Company from "./UserInterface/Company";
 
 const Container = styled.div`
   margin: 0 70px;
@@ -94,52 +90,6 @@ const B = styled.span`
   font-weight: 700;
 `;
 
-const Spacer = styled.div`
-  height: ${(props) => (props.height ? props.height : "16")}px;
-`;
-
-const CompanyWrapper = styled.div`
-  width: 80vw;
-  max-width: 840px;
-
-  display: flex;
-
-  flex-direction: column;
-`;
-
-const CompanyContainer = styled.div`
-  display: flex;
-
-  flex-wrap: wrap;
-
-  justify-content: center;
-
-  width: 100%;
-
-  margin: 64px 0 0 0;
-
-  @media (max-width: 768px) {
-    margin: 40px 0 0 0;
-    flex-direction: column;
-    flex-wrap: no-wrap;
-  }
-`;
-
-const Footer = styled.div`
-  width: 100%;
-  border-top: 1px solid rgba(33, 53, 113, 0.15);
-
-  padding-top: 24px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  @media (max-width: 768px) {
-    padding-top: 40px;
-  }
-`;
-
 export const AccessManagement = (
   <Container>
     <ProjectHeader
@@ -188,9 +138,6 @@ export const AccessManagement = (
         parts of a building.
       </P>
       <P>
-        <a href="https://www.notion.so" />
-      </P>
-      <P>
         For example, if you are an employee who works in an office building, you
         would need access to the lobby, the floor containing your company’s
         office, and the office itself, but perhaps you shouldn’t have access to
@@ -228,9 +175,6 @@ export const AccessManagement = (
       <P>
         Access management helped the business by gaining incremental revenue
         from both new and existing customers.
-      </P>
-      <P>
-        <a href="https://www.notion.so" />
       </P>
       <P>
         <B>New customers:</B> It was common knowledge in the industry that
@@ -277,7 +221,9 @@ export const AccessManagement = (
         prospective clients with my PM and available squad engineers.
       </P>
       <P>
-        💡
+        <span role="img" aria-label="idea">
+          💡
+        </span>
         <em>
           Sidenote: It’s important to me that everyone on the squad can listen
           to and observe our users firsthand so that they can better understand
@@ -791,8 +737,6 @@ export const AccessManagement = (
         spaceAbove={40}
         id="result"
         title="Result"
-        indent={true}
-        spaceAbove={40}
       ></Section>
       <P>
         I didn’t have a chance to see users interact with it at scale after
