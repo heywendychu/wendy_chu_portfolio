@@ -96,9 +96,9 @@ export const AccessManagement = (
       company="VTS"
       date="2024"
       title="Access Management Case Study"
-      responsibilities="UX Research, Information Architecture, Interaction Design, Visual Design"
-      roleSummary="Managed 1 product manager, 10 engineers, and 2 QAs."
-      pictureFile="PrimaryNav/laptop-mockup.png"
+      responsibilities="Discovery, UX/UI Design, Prototyping, Usability testing, Design QA "
+      roleSummary="End-to-end design of admin & end user-facing interfaces for unlocking doors in commercial buildings."
+      pictureFile="VTSAccess/AMgroup.png"
       alt=""
       caption=""
     />
@@ -192,11 +192,11 @@ export const AccessManagement = (
         ones with access control systems, it was a good fit for the existing
         customer base.
       </P>
+
       <P>
         <B>Potential network effects</B>
-      </P>
-      <P>
-        Access management presented a huge acquisition opportunity for VTS, as
+        <br />
+        Access management presented a huge user acquisition opportunity for VTS, as
         property managers could upsell their tenants on the ability to manage
         their own employees’ access. To do that, tenants would also need an
         Activate subscription. Because most of the buildings we served had
@@ -204,7 +204,7 @@ export const AccessManagement = (
         growth.
       </P>
       <P>
-        Better yet, such an arrangement would benefit both parties. Property
+        Such an arrangement would benefit both parties. Property
         personnel wouldn’t need to manually manage access for those building
         employees, and companies would no longer need to go through an
         intermediary to modify their employees’ access.
@@ -221,11 +221,9 @@ export const AccessManagement = (
         prospective clients with my PM and available squad engineers.
       </P>
       <P>
-        <span role="img" aria-label="idea">
-          💡
-        </span>
+
         <em>
-          Sidenote: It’s important to me that everyone on the squad can listen
+          <B>Sidenote:</B> It’s important to me that everyone on the squad can listen
           to and observe our users firsthand so that they can better understand
           our average, less tech-savvy users. The experience is much more
           memorable than if I were to share clips or a report, and gets us all
@@ -252,10 +250,8 @@ export const AccessManagement = (
           caption="HID’s table does the job, but could benefit from better visual hierarchy and more specific inline actions for efficiency. "
         />
       </P>
-      <P>
-        HID’s table does the job, but could benefit from better visual hierarchy
-        and more specific inline actions for efficiency.
-      </P>
+
+
       <P>
         <ImageGroup
           desktop="VTSAccess/image.png"
@@ -264,12 +260,7 @@ export const AccessManagement = (
           caption="HID’s user details page is very long, with many different sections (2 screen heights’ worth of content can be seen above). This page would benefit from more efficient use of space and anchor links, which would to allow users to find what they need more quickly. "
         />
       </P>
-      <P>
-        HID’s user details page is very long, with many different sections (2
-        screen heights’ worth of content can be seen above). This page would
-        benefit from more efficient use of space and anchor links, which would
-        to allow users to find what they need more quickly.
-      </P>
+
     </Section>
     <Section
       title="Pain points"
@@ -314,12 +305,7 @@ export const AccessManagement = (
         roles we would serve and what they would be doing in the access
         management product.
       </P>
-      <Section
-        indent={true}
-        spaceAbove={40}
-        title="Property manager"
-        id="-property-manager-"
-      ></Section>
+      <P><B>Property manager</B></P>
       <Ul>
         <Li>
           The general manager of a particular building. Manages security
@@ -331,12 +317,7 @@ export const AccessManagement = (
           Can grant and remove admin rights for all users in the building.
         </Li>
       </Ul>
-      <Section
-        indent={true}
-        spaceAbove={40}
-        title="Security personnel"
-        id="-security-personnel-"
-      ></Section>
+      <P><B>Security personnel</B></P>
       <Ul>
         <Li>
           Responsible for managing day-to-day access for tenants and visitors of
@@ -345,12 +326,7 @@ export const AccessManagement = (
         <Li>Proficient at managing access control systems.</Li>
         <Li>Can grant and remove access for tenants of the building.</Li>
       </Ul>
-      <Section
-        indent={true}
-        spaceAbove={40}
-        title="Company access admin"
-        id="-company-access-admin-"
-      ></Section>
+      <P><B>Company access admin</B></P>
       <Ul>
         <Li>
           Works for a tenant company as a general admin or receptionist.
@@ -360,12 +336,7 @@ export const AccessManagement = (
         <Li>Little to no experience managing access control systems.</Li>
         <Li>Can grant and remove access for their company’s employees.</Li>
       </Ul>
-      <Section
-        indent={true}
-        spaceAbove={40}
-        title="Employee"
-        id="-employee-"
-      ></Section>
+      <P><B>Employee</B></P>
       <Ul>
         <Li>Works for a tenant company in the building</Li>
         <Li>No experience managing access control systems.</Li>
@@ -417,14 +388,14 @@ export const AccessManagement = (
           desktop="VTSAccess/image%201.png"
           mobile=""
           alt=""
-          caption="The existing design before I joined the team."
+          caption="The user access table design from before I joined the team."
         />
       </P>
-      <P>The existing design before I joined the team.</P>
+
       <P>
-        The customer success team had already started to hold training sessions
-        with actual users on this version of the table. These training sessions
-        worked well as covert usability tests, as I could observe how users
+        I was fortunate in that the customer success team had already started to hold training sessions
+        with actual users on this version of the table, and these training sessions
+        worked well as free covert usability tests. I could observe how users
         interacted with the product, what they struggled to do, and where they
         had questions. Some of the biggest issues I noticed:
       </P>
@@ -471,7 +442,7 @@ export const AccessManagement = (
           desktop="VTSAccess/image%203.png"
           mobile=""
           alt=""
-          caption="image.png"
+          caption=""
         />
       </P>
       <Ol>
@@ -515,7 +486,7 @@ export const AccessManagement = (
             desktop="VTSAccess/image%204.png"
             mobile=""
             alt=""
-            caption="image.png"
+            caption=""
           />
           Ideally, I would have had a toast come up when the action had been
           completed, but my engineering lead told me that wasn’t feasible. After
@@ -602,7 +573,7 @@ export const AccessManagement = (
           caption="Existing single invitation modal"
         />
       </P>
-      <P>Existing single invitation modal</P>
+
       <P>
         <ImageGroup
           desktop="VTSAccess/image%206.png"
@@ -611,7 +582,6 @@ export const AccessManagement = (
           caption="Existing bulk invitation modal "
         />
       </P>
-      <P>Existing bulk invitation modal</P>
       <Section
         indent={true}
         spaceAbove={40}
@@ -634,9 +604,7 @@ export const AccessManagement = (
           caption="Single invitation modal with minimal UI updates and added functionality"
         />
       </P>
-      <P>
-        Single invitation modal with minimal UI updates and added functionality
-      </P>
+
       <P>
         <ImageGroup
           desktop="VTSAccess/image%208.png"
@@ -645,7 +613,7 @@ export const AccessManagement = (
           caption="Bulk invitation modal with minimal UI updates and new functionality"
         />
       </P>
-      <P>Bulk invitation modal with minimal UI updates and new functionality</P>
+
       <P>
         I didn’t like the idea of the complex bulk invite functionality being
         contained in a modal, especially because checking the “Enable mobile
@@ -659,7 +627,7 @@ export const AccessManagement = (
       <Section
         indent={true}
         spaceAbove={40}
-        title="Option 2: Full page ahead!"
+        title="Option 2: Full page (the winner!)"
         id="option-2-full-page-ahead-"
       ></Section>
       <P>
@@ -672,7 +640,7 @@ export const AccessManagement = (
         language.
       </P>
       <P>
-        , we ended up implementing this version. When I presented this to my
+        We ended up implementing this version. When I presented this to my
         squad at our weekly design refinement session, the team preferred this
         version because the modal component was challenging to work with and
         moving that functionality to a page would be easy. To help cut scope, we
@@ -688,9 +656,7 @@ export const AccessManagement = (
           caption="The full page version of the bulk invite form, which my squad preferred."
         />
       </P>
-      <P>
-        The full page version of the bulk invite form, which my squad preferred.
-      </P>
+
       <Section
         indent={true}
         spaceAbove={40}
@@ -717,10 +683,6 @@ export const AccessManagement = (
           alt=""
           caption="Users would only see the access group selection fields if they check to enable mobile access. "
         />
-      </P>
-      <P>
-        Users would only see the access group selection fields if they check to
-        enable mobile access.
       </P>
       <P>
         We ultimately put the checkbox above the invite fields to give mobile
@@ -755,11 +717,7 @@ export const AccessManagement = (
       indent={true}
       id="access-enabled-invitation"
     >
-      <P>
-        <a href="https://www.notion.so/Scratch-224a83b969a0802bbc1ec6eeaf365b40?pvs=21">
-          Scratch
-        </a>
-      </P>
+
     </Section>
   </Container>
 );

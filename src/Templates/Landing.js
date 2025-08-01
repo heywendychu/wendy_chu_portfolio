@@ -65,7 +65,9 @@ const Column = styled.div`
     align-items: center;
   }
 `;
-
+const B = styled.span`
+  font-weight: 700;
+`;
 const Spacer = styled.div`
   height: 100px;
 `;
@@ -74,32 +76,31 @@ const Landing = (props) => {
   return (
     <Container className="test">
       <span id="about"></span>
-      <Section title="ABOUT ME" spaceAbove={120}>
+      <Section title="ABOUT ME" spaceAbove={80}>
         <MainRow>
           <Column width="60%" maxWidth="500px">
             <Headline>Hi, I'm Wendy Chu.</Headline>
             <ProfilePicture margin={24} dimension={256} displayFor="mobile" />
+            <Paragraph width="100%" maxWidth="543px">I’m a staff-level digital product designer in Los Angeles, CA. </Paragraph>
             <Paragraph width="100%" maxWidth="543px">
-              I’m a human-centered digital product designer in Brooklyn, NY. I
-              strive to make the world a little bit more thoughtful, inclusive,
-              and beautiful. I've previously created digital experiences at{" "}
-              <SpanLink href="https://www.primary.com">Primary</SpanLink>,{" "}
-              <SpanLink href="https://tinybeans.com/">Tinybeans</SpanLink>, and{" "}
+              I have 14+ years of experience in UX design across B2B SaaS, B2C e-commerce, data visualization, responsive web, native mobile, and design systems.
+              I've previously crafted digital experiences at{" "}
+              <SpanLink href="https://www.vts.com">View The Space</SpanLink>,{" "}
+              <SpanLink href="https://www.primary.com">Primary</SpanLink>,
+              and{" "}
               <SpanLink href="https://www.ralphlauren.com/">
                 Ralph Lauren
               </SpanLink>
               .{" "}
             </Paragraph>
             <Paragraph width="100%" maxWidth="543px">
-              My approach to design is holistic. I research, strategize,
-              wireframe, prototype, push pixels, and write a bit of code. I
-              never stop learning, and I’m at my best when collaborating with
-              others.{" "}
+              I’m a design Swiss Army knife. {/* I enjoy collaborating with product managers, engineers, and stakeholders in an organization that recognizes the business value of product design. I prefer working at a remote-first or remote-friendly company.*/}
+              I research, strategize, prototype, and shepherd my designs all the way to QA and production.
+              I enjoy collaborating with product managers, engineers, stakeholders, and users to create solutions that balance everyone's needs.
+              Most of all, I love learning new things from my colleagues and teaching them about UX. {" "}
             </Paragraph>
             <Paragraph width="100%" maxWidth="543px">
-              A few of my favorite things: design systems, seamless
-              cross-channel experiences, mobile design, and one-on-one chats
-              over coffee or tea.
+
             </Paragraph>
           </Column>
           <Column width="40%" maxWidth="400px" off={true}>
@@ -109,7 +110,7 @@ const Landing = (props) => {
       </Section>
 
       <span id="work"></span>
-      <Section title="WORK" spaceAbove={104}>
+      <Section title="WORK" spaceAbove={48}>
         <CompanyContainer>
           <Company title="VTS">
             <ProjectLink
@@ -137,9 +138,11 @@ const Landing = (props) => {
 
       <span id="contact"></span>
       <Section id="contact" title="CONTACT" spaceAbove={40}>
-        <Paragraph width="560px">
-          I’m currently looking for a full-time senior product/UX designer role
-          at a company with a design-centered culture. If you think we might be
+        <Paragraph width="70%">
+          I’m currently looking for a full-time <B>remote senior/staff product design</B> role.
+          I'd be most interested in: designing tools, design systems,
+          experiences that bridge digital and physical.
+          If you think we might be
           a good fit, please get in touch with me at{" "}
           <SpanLink href="mailto:wenxiu.chu@gmail.com">
             wenxiu.chu@gmail.com
