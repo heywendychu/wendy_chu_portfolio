@@ -26,7 +26,7 @@ const Title = styled.h2`
   font-weight: 500;
   line-height: 1.85;
   letter-spacing: 2.43px;
-text-transform:uppercase;
+  text-transform:uppercase;
   font-family: "Roboto Mono", monospace;
 `;
 
