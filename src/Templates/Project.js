@@ -882,14 +882,26 @@ const choosePage = (route, password, setPassword) => {
             </Ul>
           </Section>
 
-          <Section title="TO BE CONTINUED" spaceAbove={80} indent={true}>
+          <Section title="RESULTS" spaceAbove={80} indent={true}>
             <P>
-              At the time of writing, this project is still in progress. We
-              found a critical caching bug in our platform that caused us to put
-              the project on hold. Because the bug was found in October 2019,
-              which is peak season for Primary (due to Halloween DIY), an A/B
-              test of the new PDP phases 1.1 & 1.2 vs the current PDP will
-              likely be on hold until early 2020.
+              The new PDP was completed in late 2019, and was shown to 50% of users in an A/B test. After the test ran for a few months, we saw a sizable boost in almost every metric we tracked:</P>
+            <P><B>Desktop</B>
+              <Ul noMargin={true}>
+                <Li>Add to Cart: <B>+4%</B> </Li>
+                <Li>Order Value: <B>+2.7%</B></Li>
+                <Li>Basket Size: <B>+2.4%</B></Li>
+                <Li>Checkout Starts: <B>+3%</B></Li>
+                <Li>Checkout Completions: <B>+2.4%</B></Li>
+              </Ul>
+
+              <B>Mobile</B>
+              <Ul noMargin={true}>
+                <Li>Add to cart: <B>-2%</B> </Li>
+                <Li>Order Value: <B>+5%</B></Li>
+                <Li>Basket Size: <B>+5%</B></Li>
+                <Li>Checkout Starts: <B>+4%</B></Li>
+                <Li>Checkout Completions: <B>+4.6%</B></Li>
+              </Ul>
             </P>
           </Section>
         </Container>
