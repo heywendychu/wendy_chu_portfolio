@@ -496,10 +496,10 @@ const choosePage = (route, password, setPassword) => {
         <Container>
           <ProjectHeader
             company="Primary.com"
-            date="In Progress"
+            date="Jan 2020"
             title="Product Detail Page"
             responsibilities="UX Research, Strategy, UX Design, Visual Design"
-            roleSummary="Managed a UX research freelancer and a freelance UI designer for parts of this project. Worked closely with internal stakeholders and engineers."
+            roleSummary="Increased conversion and by 4.6% on mobile and 2.4% on desktop. Managed a UX research freelancer and a freelance UI designer for parts of this project. Worked closely with internal stakeholders and engineers."
             pictureFile="PrimaryPDP/pdp-laptop-mockup@2x.png"
             alt="Primary Product Detail Page - Desktop"
             caption="Product Detail Page - Desktop"
@@ -881,10 +881,9 @@ const choosePage = (route, password, setPassword) => {
               </Li>
             </Ul>
           </Section>
-
-          <Section title="RESULTS" spaceAbove={80} indent={true}>
+          <Section title="RESULTS" spaceAbove={64} indent={true}>
             <P>
-              The new PDP was completed in late 2019, and was shown to 50% of users in an A/B test. After the test ran for a few months, we saw a sizable boost in almost every metric we tracked:</P>
+              The new PDP was completed in late 2019, and was released to the public as a 50/50 A/B test for one month. It was considered a big success on desktop and mobile, as we saw a significant boost in almost every metric we tracked:</P>
             <P><B>Desktop</B>
               <Ul noMargin={true}>
                 <Li>Add to Cart: <B>+4%</B> </Li>
@@ -896,12 +895,15 @@ const choosePage = (route, password, setPassword) => {
 
               <B>Mobile</B>
               <Ul noMargin={true}>
-                <Li>Add to cart: <B>-2%</B> </Li>
+                <Li>Add to cart: -2% </Li>
                 <Li>Order Value: <B>+5%</B></Li>
                 <Li>Basket Size: <B>+5%</B></Li>
                 <Li>Checkout Starts: <B>+4%</B></Li>
                 <Li>Checkout Completions: <B>+4.6%</B></Li>
               </Ul>
+              If these numbers seem small to you, it's important to remember that it is challenging to influence conversion on an e-commerce site using design alone, and that these are <B>statistically significant results</B> from an A/B test. In the realm of a business that does millions of dollars of sales per year, these numbers represent a significant increase in revenue that will continue forward in time.
+
+              What's most interesting to me about these numbers is that the add to cart rate decreased on mobile, yet none of the other metrics did. My best guess is that the taller aspect ratio of the new photography pushed down the add to cart button by a little bit on mobile, but the overall design served to <B>elevate the brand</B> and the products, <B>increasing consumer confidenc</B>e and perceived product value. Further iterations to increase the add to cart rate could display the size and color swatches in a horizontally scrolling container, display a "sticky" Add to Cart button that is always visible, or decrease the height of the images slightly so that the Add to Cart button is higher up on the page.
             </P>
           </Section>
         </Container>
