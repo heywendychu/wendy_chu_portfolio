@@ -499,28 +499,7 @@ export const AccessManagement = (
           immediately.
         </Li>
       </Ol>
-      <Section title="Results" spaceAbove={40} indent={true} id="results">
-        <P>
-          After these changes were implemented in code, I saw a sizable increase
-          in qualitative usability during onboarding sessions with company
-          access admins:
-        </P>
-        <Ul>
-          <Li>
-            Users were able to accomplish their tasks quicker than before, and
-            had fewer questions.
-          </Li>
-          <Li>
-            Furthermore, users were able to figure out how to do the tasks by
-            themselves, making the training sessions practically unnecessary.
-          </Li>
-          <Li>
-            We received unprompted comments about how “simple” and “easy to use”
-            the product was, from users who were pleasantly surprised — which to
-            me is the ultimate sign of a job well done.
-          </Li>
-        </Ul>
-      </Section>
+
     </Section>
     <Section
       id="phase-2-scaling"
@@ -640,10 +619,12 @@ export const AccessManagement = (
         language.
       </P>
       <P>
-        We ended up implementing this version. When I presented this to my
+        I'm particularly glad I took the time in this case, as we ended up implementing this preferred version. When I presented this to my
         squad at our weekly design refinement session, the team preferred this
         version because the modal component was challenging to work with and
-        moving that functionality to a page would be easy. To help cut scope, we
+        moving that functionality to a page would be easy. </P>
+      <P>
+        To help cut scope, we
         also decided to retire the single user invitation modal because it
         didn’t make sense to build and maintain two different workflows. A win
         all around!
@@ -694,30 +675,39 @@ export const AccessManagement = (
         the only bulk action. There could be more depending on the specific
         “channel” a user was inviting people to.)
       </P>
-      <Section
-        indent={true}
-        spaceAbove={40}
-        id="result"
-        title="Result"
-      ></Section>
+
+      <Section title="Results" spaceAbove={40} indent={true} id="results">
+        <P>
+          After these changes were implemented, we observed a sizable increase
+          in qualitative usability during onboarding sessions with company
+          access admins:
+        </P>
+        <Ul>
+          <Li>
+            Users were able to accomplish their tasks <B>~12% faster</B> than before, on average and
+            had <B>fewer questions</B> in the process.
+          </Li>
+          <Li>
+            Furthermore, due to the more intuitive interface, <B>users were able to figure out how to do many of the tasks by themselves</B>, decreasing the need for training sessions, which would save our internal team time and reduce the costs of offering the product.
+          </Li>
+          <Li>
+            In several of the sessions, we also received <B>unprompted comments about how “simple” and “easy to use” the product was</B>, from users who were pleasantly surprised. To
+            me, this is the ultimate sign of a job well done.
+          </Li>
+        </Ul>
+      </Section>
+      <Section title="To be continued..." spaceAbove={40} indent={true} id="next steps"></Section>
       <P>
-        I didn’t have a chance to see users interact with it at scale after
+        I wish I'd had a chance to see users interact with these changes at scale after
         implementation (wider rollout was delayed because another business unit
-        was also planning to make changes to this form), so I still wonder which
-        one would have worked better in practice. However, watched a few users
-        interact with it during our training sessions, and they had no issues
-        with it, though it’s worth noting that they were being guided. Still,
-        considering the before and after, I am confident that we improved the
-        usability, appearance, and functionality of this page.
+        was also planning to make changes to this form), so that I could learn how our quantitiative metrics improved after implementation.
+
+        However, we were focused on shipping user role assignment flows next, and felt confident about the changes based on our training session observations, so we continued onward.
+
       </P>
     </Section>
-    <Section
-      title="Access-enabled invitation"
-      spaceAbove={40}
-      indent={true}
-      id="access-enabled-invitation"
-    >
 
-    </Section>
+
+
   </Container>
 );
