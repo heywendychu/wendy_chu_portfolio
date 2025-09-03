@@ -10,7 +10,7 @@ import SpanLink from "../UserInterface/SpanLink";
 import Company from "../UserInterface/Company";
 import ProjectLink from "../UserInterface/ProjectLink";
 import { AccessManagement } from "../AccessManagement";
-
+import { MobileAccess } from "../MobileAccess";
 const Container = styled.div`
   margin: 0 70px;
 
@@ -1577,6 +1577,11 @@ const choosePage = (route, password, setPassword) => {
       route: "vts-access-management",
       // password: "squiggle",
       content: AccessManagement,
+    },
+    {
+      route: "vts-mobile-access",
+      // password: "squiggle",
+      content: MobileAccess,
     },
   ];
 

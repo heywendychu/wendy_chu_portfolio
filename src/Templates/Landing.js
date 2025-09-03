@@ -117,6 +117,10 @@ const Landing = (props) => {
               text="Access Management"
               route="vts-access-management"
             />
+            <ProjectLink
+              text="Mobile Access"
+              route="vts-mobile-access"
+            />
           </Company>
           <Company title="Primary.com">
             <ProjectLink
