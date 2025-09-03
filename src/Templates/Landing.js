@@ -117,6 +117,10 @@ const Landing = (props) => {
               text="Access Management"
               route="vts-access-management"
             />
+            {/* <ProjectLink
+              text="Mobile Access"
+              route="vts-mobile-access"
+            />*/}
           </Company>
           <Company title="Primary.com">
             <ProjectLink
@@ -139,13 +143,13 @@ const Landing = (props) => {
       <span id="contact"></span>
       <Section id="contact" title="CONTACT" spaceAbove={40}>
         <Paragraph width="70%">
-          I’m currently looking for a full-time <B>remote senior/staff product design</B> role.
-          I'd be most interested in: designing tools, design systems,
+          I’m currently looking for a full-time <B>senior/staff product design</B> role, preferably remote.
+          I'd be most interested in: marketplaces, SaaS tools, design systems,and
           experiences that bridge digital and physical.
           If you think we might be
-          a good fit, please get in touch with me at{" "}
-          <SpanLink href="mailto:wenxiu.chu@gmail.com">
-            wenxiu.chu@gmail.com
+          a good fit, I'd love to chat! Get in touch with me at{" "}
+          <SpanLink href="mailto:hi@wendychu.design">
+            hi@wendychu.design
           </SpanLink>
           !
         </Paragraph>

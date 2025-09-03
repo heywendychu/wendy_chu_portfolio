@@ -3,7 +3,7 @@ import styled from "styled-components";
 import ProjectHeader from "./UserInterface/ProjectHeader";
 import Section from "./UserInterface/Section";
 import ImageGroup from "./UserInterface/ImageGroup";
-import SpanLink from "./UserInterface/SpanLink";
+
 const Container = styled.div`
   margin: 0 70px;
 
@@ -90,14 +90,15 @@ const B = styled.span`
   font-weight: 700;
 `;
 
-export const AccessManagement = (
+export const MobileAccess = (
   <Container>
     <ProjectHeader
       company="VTS"
       date="2024"
-      title="Access Management Case Study"
+      title="Mobile Access"
       responsibilities="Discovery, UX/UI Design, Prototyping, Usability testing, Design QA "
-      roleSummary="End-to-end design of admin & end user-facing interfaces for unlocking doors in commercial buildings."
+      roleSummary="End-to-end design of mobile
+       interfaces for unlocking doors in commercial buildings."
       pictureFile="VTSAccess/AMgroup.png"
       alt=""
       caption=""
@@ -675,19 +676,8 @@ export const AccessManagement = (
         the only bulk action. There could be more depending on the specific
         “channel” a user was inviting people to.)
       </P>
-      <Section title="Prototype" spaceAbove={40} indent={true} id="prototype">
-        <P>To help illustrate how everything fit together, I created a medium-fidelty clickable prototype in Figma to illustrate the workflows. Try it out below, or <SpanLink href="https://www.figma.com/proto/aN6i5F4K2myDmuxIEYJmHt/IMS-Access?content-scaling=fixed&kind=proto&node-id=9249-253010&page-id=9249%3A252125&scaling=min-zoom&starting-point-node-id=9249%3A253010&t=ZKn8pEOJGi8ps67f-1">view it in a new tab</SpanLink>.{" "}
 
 
-        </P>
-        <P></P>
-        <iframe
-          style={{
-            border: "1px solid rgba(0,0,0,0.1)",
-          }}
-          width="800" height="600" src="https://embed.figma.com/proto/aN6i5F4K2myDmuxIEYJmHt/IMS-Access?page-id=9249%3A252125&node-id=9249-253010&scaling=contain&viewport-controls=true&starting-point-node-id=9249%3A253010&embed-host=share" allowfullscreen></iframe>
-
-      </Section>
       <Section title="Results" spaceAbove={40} indent={true} id="results">
         <P>
           After these changes were implemented, we observed a sizable increase
