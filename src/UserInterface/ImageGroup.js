@@ -20,7 +20,7 @@ const Picture = styled.img`
   }
 `;
 
-const Caption = styled.div`
+export const Caption = styled.div`
   margin: 16px 0 24px 0;
 
   font-family: "Roboto Mono", monospace;

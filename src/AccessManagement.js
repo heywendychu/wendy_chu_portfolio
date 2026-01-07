@@ -2,8 +2,11 @@ import React from "react";
 import styled from "styled-components";
 import ProjectHeader from "./UserInterface/ProjectHeader";
 import Section from "./UserInterface/Section";
-import ImageGroup from "./UserInterface/ImageGroup";
+import ImageGroup, { Caption } from "./UserInterface/ImageGroup";
 import SpanLink from "./UserInterface/SpanLink";
+
+
+
 const Container = styled.div`
   margin: 0 70px;
 
@@ -686,7 +689,8 @@ export const AccessManagement = (
             border: "1px solid rgba(0,0,0,0.1)",
           }}
           width="800" height="600" src="https://embed.figma.com/proto/aN6i5F4K2myDmuxIEYJmHt/IMS-Access?page-id=9249%3A252125&node-id=9249-253010&scaling=contain&viewport-controls=true&starting-point-node-id=9249%3A253010&embed-host=share" allowfullscreen></iframe>
-
+        <Caption> <SpanLink href="https://www.figma.com/proto/aN6i5F4K2myDmuxIEYJmHt/IMS-Access?content-scaling=fixed&kind=proto&node-id=9249-253010&page-id=9249%3A252125&scaling=min-zoom&starting-point-node-id=9249%3A253010&t=ZKn8pEOJGi8ps67f-1">View prototype in a new tab </SpanLink>{" "}
+        </Caption>
       </Section>
       <Section title="Results" spaceAbove={40} indent={true} id="results">
         <P>

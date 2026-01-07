@@ -96,10 +96,10 @@ export const MobileAccess = (
       company="VTS"
       date="2024"
       title="Mobile Access"
-      responsibilities="Discovery, UX/UI Design, Prototyping, Usability testing, Design QA "
+      responsibilities="Discovery, UX/UI Design, UI Animation, Prototyping, Design QA"
       roleSummary="End-to-end design of mobile
        interfaces for unlocking doors in commercial buildings."
-      pictureFile="VTSAccess/AMgroup.png"
+      pictureFile="MobileAccess/MA1.png"
       alt=""
       caption=""
     />
@@ -112,9 +112,7 @@ export const MobileAccess = (
       <P>
         VTS (View The Space) is a company that develops SaaS products for
         commercial real estate. At the time I worked on this project, VTS had
-        recently expanded into property management software with VTS Activate, a
-        platform that allows commercial building managers to publish content and
-        engage with their tenants.
+        recently expanded into property management software with VTS Activate, and mobile access (the ability to unlock doors with a mobile device), was a major play for growth.
       </P>
     </Section>
     <Section
@@ -124,145 +122,23 @@ export const MobileAccess = (
       indent={true}
     >
       <P>
-        My team was responsible for adding access management functionality to
-        the existing Activate platform. The team comprised of 1 product manager,
-        10 engineers, 2 QAs, 1 designer (me!).
-      </P>
-      <Section
-        title="What is access management?"
-        spaceAbove={40}
-        indent={true}
-        id="what-is-access-management-"
-      ></Section>
-      <P>
-        Access management is the ability to manage who can access different
-        parts of a building.
-      </P>
-      <P>
-        For example, if you are an employee who works in an office building, you
-        would need access to the lobby, the floor containing your company’s
-        office, and the office itself, but perhaps you shouldn’t have access to
-        other floors or restricted areas like a security office.
-      </P>
-      <P>
-        Buildings that want this level of access control typically use keycards
-        to manage access, and the keycards themselves are managed with access
-        management software. Access credentials can also be stored digitally on
-        a mobile device, adding greater convenience to tenants and easier
-        management for security personnel.
-      </P>
-      <P>
-        <B>The scope I worked on:</B>
-      </P>
-      <Ul>
-        <Li>
-          Admins can digitally grant and remove access and set access groups
-          (locations) for each user
-        </Li>
-        <Li>Admins can grant access management permissions to other users</Li>
-        <Li>Employees (end users) can use their phone as a keycard</Li>
-      </Ul>
-      <P>
-        Due to complexity, I’ll be focusing on just the admin portion for this
-        case study.
-      </P>
-    </Section>
+        My team was responsible for improving existing consumer-facing mobile keycard functionality and expanding it to integrate with additional security systems.
+        The team comprised of 1 product manager,
+        5 engineers, 1 QA, and 1 designer (me!).
+      </P></Section>
+
+
     <Section
-      title="The business case for access management"
-      indent={true}
+      title="Why mobile access mattered"
       spaceAbove={40}
-      id="the-business-case-for-access-management"
-    >
-      <P>
-        Access management helped the business by gaining incremental revenue
-        from both new and existing customers.
-      </P>
-      <P>
-        <B>New customers:</B> It was common knowledge in the industry that
-        access control was dominated by a few companies with old technology and
-        clunky interfaces. By digitizing keycards and creating an intuitive
-        interface to manage them, we attracted new customers to the Activate
-        platform on the strength of the access management product.
-      </P>
-      <P>
-        <B>Existing customers:</B> Access control was a paid add-on feature that
-        worked within the Activate platform. Managing access through Activate
-        would allow building managers to reduce the number of tools they use,
-        streamline their operations, and potentially reduce their costs. Because
-        most buildings that used Activate’s content publishing tools were larger
-        ones with access control systems, it was a good fit for the existing
-        customer base.
-      </P>
-
-      <P>
-        <B>Potential network effects</B>
-        <br />
-        Access management presented a huge user acquisition opportunity for VTS, as
-        property managers could upsell their tenants on the ability to manage
-        their own employees’ access. To do that, tenants would also need an
-        Activate subscription. Because most of the buildings we served had
-        dozens of businesses within, it was a huge potential opportunity for
-        growth.
-      </P>
-      <P>
-        Such an arrangement would benefit both parties. Property
-        personnel wouldn’t need to manually manage access for those building
-        employees, and companies would no longer need to go through an
-        intermediary to modify their employees’ access.
-      </P>
-    </Section>
-    <Section
-      id="competitive-research-user-interviews"
       indent={true}
-      spaceAbove={80}
-      title="Competitive research &amp; user interviews"
+      id="The-existing-workflow"
     >
       <P>
-        Before embarking on design, I interviewed several existing and
-        prospective clients with my PM and available squad engineers.
-      </P>
-      <P>
 
-        <em>
-          <B>Sidenote:</B> It’s important to me that everyone on the squad can listen
-          to and observe our users firsthand so that they can better understand
-          our average, less tech-savvy users. The experience is much more
-          memorable than if I were to share clips or a report, and gets us all
-          on the same page.
-        </em>
       </P>
-      <P>
-        I asked users to demonstrate how they performed common tasks: setting up
-        access for a new user, changing access, and removing access from a user.
-        To prepare for these interviews, I first wrote down what I hoped to
-        learn, and then wrote out a set of questions I wanted to ask. However, I
-        kept these interviews conversational, and asked impromptu questions on
-        relevant topics that came up.
-      </P>
-      <P>
-        A selection of screenshots from our main competitive reference, HID, are
-        shown below. Note: sensitive PII data has been blurred.
-      </P>
-      <P>
-        <ImageGroup
-          desktop="VTSAccess/HID_Mobile_IDs_-_blur.png"
-          mobile=""
-          alt=""
-          caption="HID’s table does the job, but could benefit from better visual hierarchy and more specific inline actions for efficiency. "
-        />
-      </P>
-
-
-      <P>
-        <ImageGroup
-          desktop="VTSAccess/image.png"
-          mobile=""
-          alt=""
-          caption="HID’s user details page is very long, with many different sections (2 screen heights’ worth of content can be seen above). This page would benefit from more efficient use of space and anchor links, which would to allow users to find what they need more quickly. "
-        />
-      </P>
-
     </Section>
+
     <Section
       title="Pain points"
       indent={true}

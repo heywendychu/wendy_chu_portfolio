@@ -94,7 +94,7 @@ const Landing = (props) => {
               .{" "}
             </Paragraph>
             <Paragraph width="100%" maxWidth="543px">
-              I’m a design Swiss Army knife. {/* I enjoy collaborating with product managers, engineers, and stakeholders in an organization that recognizes the business value of product design. I prefer working at a remote-first or remote-friendly company.*/}
+              Think of me as a design Swiss Army knife. {/* I enjoy collaborating with product managers, engineers, and stakeholders in an organization that recognizes the business value of product design. I prefer working at a remote-first or remote-friendly company.*/}
               I research, strategize, prototype, and shepherd my designs all the way to QA and production.
               I enjoy collaborating with product managers, engineers, stakeholders, and users to create solutions that balance everyone's needs.
               Most of all, I love learning new things from my colleagues and teaching them about UX. {" "}
