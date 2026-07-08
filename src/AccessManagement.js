@@ -416,7 +416,7 @@ export const AccessManagement = (
             desktop="VTSAccess/image%202.png"
             mobile=""
             alt=""
-            caption=" Modal that appeared when users click on the toggle to enable mobile access."
+            caption=" Modal that appeared when users click on the toggle to enable mobile access. This was updated as well. :) "
           />
           Modal that appeared when users click on the toggle to enable mobile
           access.
@@ -460,22 +460,13 @@ export const AccessManagement = (
           access admins.
         </Li>
         <Li>
-          <B>Replaced toggle with status chip:</B> Enabling and disabling access
-          required communication to an external access integration. This meant
-          that we could only display the status change optimistically, or not
-          display the change until after a table refresh. We also didn’t have a
-          pattern for a toggle loading state, and I hadn’t seen anything like
-          that in the wild. As a solution, I replaced the toggle with a status
-          chip with a dropdown to change the mobile access status for each user.
-          Though a dropdown is slightly less efficient than a toggle, I wasn’t
-          too worried about it since a user’s access was unlikely to be enabled
-          or disabled frequently, as a user’s access would most often be enabled
-          when they’re hired or disabled when they leave the company. Also, a
-          status chip has the benefit of being able to display multiple states
-          (see below), which made it easier to see each user’s mobile access
-          status, and would allow us to communicate other, more complex statuses
-          in the future.
+          <B>Replaced toggle with status chip:</B> A toggle was a poor fit for the access enablement action, as a toggle affordance conveys a simple and immediate action, while enabling access was an async, external process that could take some time.
+          To better represent the nature of the action, I replaced the toggle with a status chip that contained a dropdown, which could easily accommodate a loading state and convey more complex statuses.
+          The dropdown menu interaction also allowed the confirmation modal to feel more natural, as a modal often appears after selection of a dropdown item, but rarely after a toggle interaction.
+          Though a toggle is more efficient, users are unlikely to enable or disable a particular user's access frequently enough for it to make a difference, so the tradeoff still made sense.
+
         </Li>
+
         <Li>
           <B>Additional status feedback:</B> Because enabling and disabling
           mobile access was asynchronous, it was important for users to be
@@ -499,7 +490,6 @@ export const AccessManagement = (
           immediately.
         </Li>
       </Ol>
-
     </Section>
     <Section
       id="phase-2-scaling"
@@ -507,8 +497,7 @@ export const AccessManagement = (
       indent={true}
       spaceAbove={80}
     >
-      <P>
-        Revenue for access management was tied to the number of access-enabled
+      <P>Revenue for access management was tied to the number of access-enabled
         users, so we decided to focus next on functionality that would increase
         the rate at which access-enabled users could be added. Although we had a
         usable product for controlling access, key tasks like adding and
@@ -703,23 +692,26 @@ export const AccessManagement = (
             Furthermore, due to the more intuitive interface, <B>users were able to figure out how to do many of the tasks by themselves</B>, decreasing the need for training sessions, which would save our internal team time and reduce the costs of offering the product.
           </Li>
           <Li>
-            In several of the sessions, we also received <B>unprompted comments about how “simple” and “easy to use” the product was</B>, from users who were pleasantly surprised. To
-            me, this is the ultimate sign of a job well done.
+            In several of the sessions, we also received <B>unprompted comments about how “simple” and “easy to use” the product was</B>, from users who were pleasantly surprised.
           </Li>
         </Ul>
+        <P>
+          This updated functionality also gave our existing customers more confidence in our product.
+          In particular, Todd, the property manager who represented our largest account, was thrilled, as this functionality was an absolute requirement for him and his team.
+          He was excited to roll out access management to more of his buildings and evangelize the system to other property managers in his network.
+        </P>
+
       </Section>
       <Section title="To be continued..." spaceAbove={40} indent={true} id="next steps"></Section>
       <P>
         I wish I'd had a chance to see users interact with these changes at scale after
-        implementation (wider rollout was delayed because another business unit
-        was also planning to make changes to this form), so that I could learn how our quantitiative metrics improved after implementation.
-
-        However, we were focused on shipping user role assignment flows next, and felt confident about the changes based on our training session observations, so we continued onward.
-
+        implementation, so that I could learn how our quantitiative metrics improved after implementation. However, wider rollout was delayed because another business unit
+        was also planning to make changes to this form.
+        However, based on the qualitative usability data and positive fedback from key stakeholders, the team felt confident enough about the changes, to move on to the second part of scaling: role assignment.
       </P>
     </Section>
 
 
 
-  </Container>
+  </Container >
 );

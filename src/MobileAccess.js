@@ -696,6 +696,9 @@ export const MobileAccess = (
             In several of the sessions, we also received <B>unprompted comments about how “simple” and “easy to use” the product was</B>, from users who were pleasantly surprised. To
             me, this is the ultimate sign of a job well done.
           </Li>
+          <Li>
+            Most importantly, Todd, the property manager who represented our largest account, was thrilled, as this functionality was an absolute requirement for him and his team. A definite win for the team!
+          </Li>
         </Ul>
       </Section>
       <Section title="To be continued..." spaceAbove={40} indent={true} id="next steps"></Section>

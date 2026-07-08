@@ -81,11 +81,10 @@ const Landing = (props) => {
           <Column width="60%" maxWidth="500px">
             <Headline>Hi, I'm Wendy Chu.</Headline>
             <ProfilePicture margin={24} dimension={256} displayFor="mobile" />
-            <Paragraph width="100%" maxWidth="543px">I’m a staff-level digital product designer in Los Angeles, CA. </Paragraph>
-            <Paragraph width="100%" maxWidth="543px">
-              I have 14+ years of experience in UX design across B2B SaaS, B2C e-commerce, data visualization, responsive web, native mobile, and design systems.
+            <Paragraph width="100%" maxWidth="543px">Staff-level product designer in Los Angeles, CA, with 14+ years of experience across B2B and B2C.
               I've previously crafted digital experiences at{" "}
-              <SpanLink href="https://www.vts.com">View The Space</SpanLink>,{" "}
+              <SpanLink href="https://www.allbirds.com/">Allbirds</SpanLink>,{" "}
+              <SpanLink href="https://www.vts.com">VTS</SpanLink>,{" "}
               <SpanLink href="https://www.primary.com">Primary</SpanLink>,
               and{" "}
               <SpanLink href="https://www.ralphlauren.com/">
@@ -93,14 +92,18 @@ const Landing = (props) => {
               </SpanLink>
               .{" "}
             </Paragraph>
+
             <Paragraph width="100%" maxWidth="543px">
-              I’m a design Swiss Army knife. {/* I enjoy collaborating with product managers, engineers, and stakeholders in an organization that recognizes the business value of product design. I prefer working at a remote-first or remote-friendly company.*/}
-              I research, strategize, prototype, and shepherd my designs all the way to QA and production.
-              I enjoy collaborating with product managers, engineers, stakeholders, and users to create solutions that balance everyone's needs.
-              Most of all, I love learning new things from my colleagues and teaching them about UX. {" "}
+              As a design practitioner, I have deep experience across the entire product design process. I consistently drive projects from strategy and ideation to execution and delivery with a bias toward iteration and experimentation.
+              Product managers love that I am data-driven, focus on delivering user value, and naturally break big projects into smaller iterative phases.
+              Engineers love that I collaborate with them on solutions, can speak to the technical side of things, and strive to improve design documentation for their sakes.
+              QAs love that I do my own design QA pass. Users love my passion for understanding and solving their problems.
+              Design managers love my drive to learn new things and improve existing processes and communication methods.
+              {" "}
             </Paragraph>
             <Paragraph width="100%" maxWidth="543px">
-
+              As a design leader, I distinguish myself through excellent cross-functional collaboration and communication, and by balancing big-picture thinking and detail-oriented design work.
+              I have a knack for coaxing order out of chaos. I love tackling ambiguous problems and creating processes and frameworks that foster communication, collaboration, and inclusion.
             </Paragraph>
           </Column>
           <Column width="40%" maxWidth="400px" off={true}>
