@@ -1,4 +1,7 @@
 import React from "react";
+import Lightbox from "yet-another-react-lightbox";
+import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
+import Zoom from "yet-another-react-lightbox/plugins/zoom";
 
 import styled from "styled-components";
 
@@ -18,6 +21,8 @@ const Picture = styled.img`
     (max-width: 768px) {
     display: ${(props) => (props.toggle === "desktop" ? "none" : "block")};
   }
+
+  cursor: zoom-in;
 `;
 
 const Caption = styled.div`
@@ -31,12 +36,15 @@ const Caption = styled.div`
 `;
 
 const ImageGroup = (props) => {
+  const [open, setOpen] = React.useState(false);
+
   return (
     <Container>
       <Picture
         toggle={props.mobile ? "desktop" : null}
         src={`/images/${props.desktop}`}
         alt={props.alt}
+        onClick={() => setOpen(true)}
       />
       {props.mobile ? (
         <Picture
@@ -46,6 +54,13 @@ const ImageGroup = (props) => {
         />
       ) : null}
       <Caption>{props.caption}</Caption>
+      <Lightbox
+        open={open}
+        carousel={{ finite: true }}
+        close={() => setOpen(false)}
+        slides={[{ src: `/images/${props.desktop}` }]}
+        plugins={[Fullscreen, Zoom]}
+      />
     </Container>
   );
 };

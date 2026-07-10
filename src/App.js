@@ -8,6 +8,7 @@ import Landing from "./Templates/Landing";
 import Project from "./Templates/Project";
 
 import ScrollToTop from "react-router-scroll-top";
+import "yet-another-react-lightbox/styles.css";
 
 const Page = styled.div`
   display: flex;

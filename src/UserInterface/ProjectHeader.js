@@ -1,4 +1,7 @@
 import React from "react";
+import Lightbox from "yet-another-react-lightbox";
+import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
+import Zoom from "yet-another-react-lightbox/plugins/zoom";
 
 import styled from "styled-components";
 
@@ -67,6 +70,8 @@ const BigPicture = styled.img`
   @media (max-width: 768px) {
     margin: 32px 0 0 0;
   }
+
+  cursor: zoom-in;
 `;
 
 const Caption = styled.div`
@@ -85,6 +90,8 @@ const Caption = styled.div`
 `;
 
 const ProjectHeader = (props) => {
+  const [open, setOpen] = React.useState(false);
+
   return (
     <Container>
       <RedLine />
@@ -99,8 +106,20 @@ const ProjectHeader = (props) => {
       </Responsibilities>
       <br />
       <Responsibilities>{props.roleSummary}</Responsibilities>
-      <BigPicture src={`/images/${props.pictureFile}`} alt={props.alt} />
+      <BigPicture
+        src={`/images/${props.pictureFile}`}
+        alt={props.alt}
+        onClick={() => setOpen(true)}
+      />
       {props.caption ? <Caption>{props.caption}</Caption> : null}
+
+      <Lightbox
+        open={open}
+        carousel={{ finite: true }}
+        close={() => setOpen(false)}
+        slides={[{ src: `/images/${props.pictureFile}` }]}
+        plugins={[Fullscreen, Zoom]}
+      />
     </Container>
   );
 };
