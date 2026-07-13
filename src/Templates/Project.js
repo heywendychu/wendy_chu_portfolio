@@ -5,12 +5,14 @@ import styled from "styled-components";
 import ProjectHeader from "../UserInterface/ProjectHeader";
 import Section from "../UserInterface/Section";
 import ImageGroup from "../UserInterface/ImageGroup";
+import Heading from "../UserInterface/Heading";
 
 import SpanLink from "../UserInterface/SpanLink";
 import Company from "../UserInterface/Company";
 import ProjectLink from "../UserInterface/ProjectLink";
 import { AccessManagement } from "../AccessManagement";
 import { MobileAccess } from "../MobileAccess";
+import { AllbirdsPDP } from "../AllbirdsPDP";
 const Container = styled.div`
   margin: 0 70px;
 
@@ -275,9 +277,7 @@ const choosePage = (route, password, setPassword) => {
               standups. My role in this process was essential, as detailed
               below.
             </P>
-            <P>
-              <B>1. Research</B>
-            </P>
+            <Heading level={3}>1. Research</Heading>
             <Ul>
               <Li>
                 Compiled existing user research & data and conducted stakeholder
@@ -336,9 +336,7 @@ const choosePage = (route, password, setPassword) => {
             />
             <Spacer />
 
-            <P>
-              <B>2. Design</B>
-            </P>
+            <Heading level={3}>2. Design</Heading>
             <Ul>
               <Li>
                 Sketched multiple desktop and mobile concepts based on research
@@ -390,9 +388,7 @@ const choosePage = (route, password, setPassword) => {
                 with engineers in Zeplin.
               </Li>
             </Ul>
-            <P>
-              <B>3. Build</B>
-            </P>
+            <Heading level={3}>3. Build</Heading>
             <Ul>
               <Li>
                 Collaborated with engineers and stakeholders on design &
@@ -429,9 +425,7 @@ const choosePage = (route, password, setPassword) => {
             ></iframe>
             <br />
 
-            <P>
-              <B>4. Test</B>
-            </P>
+            <Heading level={3}>4. Test</Heading>
             <Ul>
               <Li>
                 After implementation, we conducted internal usability testing of
@@ -642,9 +636,7 @@ const choosePage = (route, password, setPassword) => {
             spaceAbove={80}
             indent={true}
           >
-            <P>
-              <B>1. Research</B>
-            </P>
+            <Heading level={3}>1. Research</Heading>
 
             <Ul>
               <Li>
@@ -707,9 +699,7 @@ const choosePage = (route, password, setPassword) => {
                 </Li>
               </Ul>
             </Ul>
-            <P>
-              <B>2. Design</B>
-            </P>
+            <Heading level={3}>2. Design</Heading>
             <Ul>
               <Li>
                 After usability testing, I jumped right into rough mockups
@@ -793,9 +783,7 @@ const choosePage = (route, password, setPassword) => {
               caption="Final mockups"
             />
 
-            <P>
-              <B>3. Prioritize</B>
-            </P>
+            <Heading level={3}>3. Prioritize</Heading>
             <Ul>
               <Li>
                 After the design was ready for production, I worked with a team
@@ -823,9 +811,7 @@ const choosePage = (route, password, setPassword) => {
                 </Ul>
               </Li>
             </Ul>
-            <P>
-              <B>4. Build</B>
-            </P>
+            <Heading level={3}>4. Build</Heading>
             <Ul>
               <Li>
                 During the build phase, I collaborated closely with the
@@ -850,9 +836,7 @@ const choosePage = (route, password, setPassword) => {
               </Li>
             </Ul>
 
-            <P>
-              <B>5. Test</B>
-            </P>
+            <Heading level={3}>5. Test</Heading>
             <Ul>
               <Li>
                 We released phase 1.1 internally, and the feedback about the new
@@ -1002,8 +986,9 @@ const choosePage = (route, password, setPassword) => {
             spaceAbove={80}
             indent={true}
           >
+            <Heading level={3}>1. Understanding the Problem</Heading>
             <P>
-              <B>1. Understanding the Problem:</B> Despite knowing the
+              Despite knowing the
               importance of having a design system and having worked within one
               before, I had never created one from scratch, and had never needed
               to understand the way it would be structured in the code.
@@ -1027,8 +1012,9 @@ const choosePage = (route, password, setPassword) => {
               themselves should be.
             </P>
 
+            <Heading level={3}>2. Research</Heading>
             <P>
-              <B>2. Research:</B> I began by searching for design system
+              I began by searching for design system
               resources online, and found a fairly mixed bag. Design systems
               were still rather new at the time (March 2018), and though there
               existed some documentation, there weren't quite as many that
@@ -1059,8 +1045,9 @@ const choosePage = (route, password, setPassword) => {
               </Li>
             </Ul>
 
+            <Heading level={3}>3. Design</Heading>
             <P>
-              <B>3. Design:</B> Having decided on a base-8 system, many key
+              Having decided on a base-8 system, many key
               decisions logically followed:{" "}
             </P>
             <Ul>
@@ -1117,8 +1104,9 @@ const choosePage = (route, password, setPassword) => {
                 />
               </Li>
             </Ul>
+            <Heading level={3}>4. Test</Heading>
             <P>
-              <B>4. Test:</B> Though I made the process sound very simple and
+              Though I made the process sound very simple and
               logical above, in reality, there was a lot of guessing and
               checking and testing while I was working on developing the text
               styles and spacings. Design is, after all, not just math and
@@ -1179,8 +1167,9 @@ const choosePage = (route, password, setPassword) => {
               </Li>
             </Ul>
 
+            <Heading level={3}>5. Iterate</Heading>
             <P>
-              <B>5. Iterate:</B> As we used the style guide for more and more
+              As we used the style guide for more and more
               things, we made changes along the way, revisiting text weights and
               sizes, adding and removing utilities, deprecating fonts and
               colors, and adding more components and documentation. The style
@@ -1574,6 +1563,10 @@ const choosePage = (route, password, setPassword) => {
     },
 
     {
+      route: "allbirds-pdp",
+      content: AllbirdsPDP,
+    },
+    {
       route: "vts-access-management",
       // password: "squiggle",
       content: AccessManagement,
@@ -1615,6 +1608,13 @@ const Project = (props) => {
       <Footer>
         <CompanyWrapper>
           <CompanyContainer>
+            <Company title="More from Allbirds:" footer={true}>
+              <ProjectLink
+                text="Product Detail Page"
+                route="allbirds-pdp"
+                currentRoute={props.match.params.name}
+              />
+            </Company>
             <Company title="More from Primary.com:" footer={true}>
               <ProjectLink
                 text="Navigation Redesign"
