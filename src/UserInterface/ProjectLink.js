@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import { useParams } from "react-router-dom";
 import styled from "styled-components";
 
 const Container = styled(Link)`
@@ -16,8 +16,6 @@ const Container = styled(Link)`
   font-family: CanelaWeb;
 
   margin: 32px 0 0 0;
-
-  cursor: ${(props) => (props.present ? "auto" : "pointer")};
 
   @media (max-width: 768px) {
     font-size: ${(props) => (props.footer ? "24px" : "28px")};
@@ -36,13 +34,14 @@ const Span = styled.span`
 `;
 
 const ProjectLink = (props) => {
+  const { name: currentRoute } = useParams();
   return (
     <Container
-      present={props.route === props.currentRoute}
-      footer={props.currentRoute}
+      present={props.route === currentRoute}
+      footer={props.footer}
       to={`/projects/${props.route}`}
     >
-      <Span present={props.route === props.currentRoute}>{props.text}</Span>
+      <Span present={props.route === currentRoute}>{props.text}</Span>
     </Container>
   );
 };

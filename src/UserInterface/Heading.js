@@ -49,11 +49,11 @@ const H2 = styled.h2`
 
 const H3 = styled.h3`
   ${sideMargins}
-  margin-top: 32px;
+  margin-top: 24px;
   margin-bottom: 0;
 
   font-family: "Noto Sans", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 1.6;
   letter-spacing: 0.2px;
@@ -66,11 +66,11 @@ const H3 = styled.h3`
 
 const H4 = styled.h4`
   ${sideMargins}
-  margin-top: 24px;
+  margin-top: 21px;
   margin-bottom: 0;
 
   font-family: "Noto Sans", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.2px;
@@ -86,9 +86,7 @@ const tags = { 2: H2, 3: H3, 4: H4 };
 
 const Heading = (props) => {
   const Tag = tags[props.level] || H3;
-  return (
-    <Tag id={props.id}>{props.children}</Tag>
-  );
+  return <Tag id={props.id}>{props.children}</Tag>;
 };
 
 export default Heading;
