@@ -5,12 +5,14 @@ import styled from "styled-components";
 import ProjectHeader from "../UserInterface/ProjectHeader";
 import Section from "../UserInterface/Section";
 import ImageGroup from "../UserInterface/ImageGroup";
+import Heading from "../UserInterface/Heading";
 
 import SpanLink from "../UserInterface/SpanLink";
 import Company from "../UserInterface/Company";
 import ProjectLink from "../UserInterface/ProjectLink";
 import { AccessManagement } from "../AccessManagement";
 import { MobileAccess } from "../MobileAccess";
+import { AllbirdsPDP } from "../AllbirdsPDP";
 const Container = styled.div`
   margin: 0 70px;
 
@@ -104,7 +106,7 @@ const CompanyContainer = styled.div`
 
   flex-wrap: wrap;
 
-  justify-content: center;
+  justify-content: left;
 
   width: 100%;
 
@@ -275,9 +277,7 @@ const choosePage = (route, password, setPassword) => {
               standups. My role in this process was essential, as detailed
               below.
             </P>
-            <P>
-              <B>1. Research</B>
-            </P>
+            <Heading level={3}>1. Research</Heading>
             <Ul>
               <Li>
                 Compiled existing user research & data and conducted stakeholder
@@ -336,9 +336,7 @@ const choosePage = (route, password, setPassword) => {
             />
             <Spacer />
 
-            <P>
-              <B>2. Design</B>
-            </P>
+            <Heading level={3}>2. Design</Heading>
             <Ul>
               <Li>
                 Sketched multiple desktop and mobile concepts based on research
@@ -390,9 +388,7 @@ const choosePage = (route, password, setPassword) => {
                 with engineers in Zeplin.
               </Li>
             </Ul>
-            <P>
-              <B>3. Build</B>
-            </P>
+            <Heading level={3}>3. Build</Heading>
             <Ul>
               <Li>
                 Collaborated with engineers and stakeholders on design &
@@ -429,9 +425,7 @@ const choosePage = (route, password, setPassword) => {
             ></iframe>
             <br />
 
-            <P>
-              <B>4. Test</B>
-            </P>
+            <Heading level={3}>4. Test</Heading>
             <Ul>
               <Li>
                 After implementation, we conducted internal usability testing of
@@ -538,7 +532,8 @@ const choosePage = (route, password, setPassword) => {
               </Li>
               <Li>
                 Improve accessibility by ensuring that all text passes WCAG 2.0
-                AAA contrast standards and increasing the smallest text size.{" "}
+                AAA contrast standards and increasing the smallest text
+                size.{" "}
               </Li>
             </Ul>
           </Section>
@@ -642,9 +637,7 @@ const choosePage = (route, password, setPassword) => {
             spaceAbove={80}
             indent={true}
           >
-            <P>
-              <B>1. Research</B>
-            </P>
+            <Heading level={3}>1. Research</Heading>
 
             <Ul>
               <Li>
@@ -707,9 +700,7 @@ const choosePage = (route, password, setPassword) => {
                 </Li>
               </Ul>
             </Ul>
-            <P>
-              <B>2. Design</B>
-            </P>
+            <Heading level={3}>2. Design</Heading>
             <Ul>
               <Li>
                 After usability testing, I jumped right into rough mockups
@@ -793,9 +784,7 @@ const choosePage = (route, password, setPassword) => {
               caption="Final mockups"
             />
 
-            <P>
-              <B>3. Prioritize</B>
-            </P>
+            <Heading level={3}>3. Prioritize</Heading>
             <Ul>
               <Li>
                 After the design was ready for production, I worked with a team
@@ -823,9 +812,7 @@ const choosePage = (route, password, setPassword) => {
                 </Ul>
               </Li>
             </Ul>
-            <P>
-              <B>4. Build</B>
-            </P>
+            <Heading level={3}>4. Build</Heading>
             <Ul>
               <Li>
                 During the build phase, I collaborated closely with the
@@ -850,9 +837,7 @@ const choosePage = (route, password, setPassword) => {
               </Li>
             </Ul>
 
-            <P>
-              <B>5. Test</B>
-            </P>
+            <Heading level={3}>5. Test</Heading>
             <Ul>
               <Li>
                 We released phase 1.1 internally, and the feedback about the new
@@ -883,27 +868,64 @@ const choosePage = (route, password, setPassword) => {
           </Section>
           <Section title="RESULTS" spaceAbove={64} indent={true}>
             <P>
-              The new PDP was completed in late 2019, and was released to the public as a 50/50 A/B test for one month. It was considered a big success on desktop and mobile, as we saw a significant boost in almost every metric we tracked:</P>
-            <P><B>Desktop</B>
+              The new PDP was completed in late 2019, and was released to the
+              public as a 50/50 A/B test for one month. It was considered a big
+              success on desktop and mobile, as we saw a significant boost in
+              almost every metric we tracked:
+            </P>
+            <P>
+              <B>Desktop</B>
               <Ul noMargin={true}>
-                <Li>Add to Cart: <B>+4%</B> </Li>
-                <Li>Order Value: <B>+2.7%</B></Li>
-                <Li>Basket Size: <B>+2.4%</B></Li>
-                <Li>Checkout Starts: <B>+3%</B></Li>
-                <Li>Checkout Completions: <B>+2.4%</B></Li>
+                <Li>
+                  Add to Cart: <B>+4%</B>{" "}
+                </Li>
+                <Li>
+                  Order Value: <B>+2.7%</B>
+                </Li>
+                <Li>
+                  Basket Size: <B>+2.4%</B>
+                </Li>
+                <Li>
+                  Checkout Starts: <B>+3%</B>
+                </Li>
+                <Li>
+                  Checkout Completions: <B>+2.4%</B>
+                </Li>
               </Ul>
-
               <B>Mobile</B>
               <Ul noMargin={true}>
                 <Li>Add to cart: -2% </Li>
-                <Li>Order Value: <B>+5%</B></Li>
-                <Li>Basket Size: <B>+5%</B></Li>
-                <Li>Checkout Starts: <B>+4%</B></Li>
-                <Li>Checkout Completions: <B>+4.6%</B></Li>
+                <Li>
+                  Order Value: <B>+5%</B>
+                </Li>
+                <Li>
+                  Basket Size: <B>+5%</B>
+                </Li>
+                <Li>
+                  Checkout Starts: <B>+4%</B>
+                </Li>
+                <Li>
+                  Checkout Completions: <B>+4.6%</B>
+                </Li>
               </Ul>
-              If these numbers seem small to you, it's important to remember that it is challenging to influence conversion on an e-commerce site using design alone, and that these are <B>statistically significant results</B> from an A/B test. In the realm of a business that does millions of dollars of sales per year, these numbers represent a significant increase in revenue that will continue forward in time.
-
-              What's most interesting to me about these numbers is that the add to cart rate decreased on mobile, yet none of the other metrics did. My best guess is that the taller aspect ratio of the new photography pushed down the add to cart button by a little bit on mobile, but the overall design served to <B>elevate the brand</B> and the products, <B>increasing consumer confidenc</B>e and perceived product value. Further iterations to increase the add to cart rate could display the size and color swatches in a horizontally scrolling container, display a "sticky" Add to Cart button that is always visible, or decrease the height of the images slightly so that the Add to Cart button is higher up on the page.
+              If these numbers seem small to you, it's important to remember
+              that it is challenging to influence conversion on an e-commerce
+              site using design alone, and that these are{" "}
+              <B>statistically significant results</B> from an A/B test. In the
+              realm of a business that does millions of dollars of sales per
+              year, these numbers represent a significant increase in revenue
+              that will continue forward in time. What's most interesting to me
+              about these numbers is that the add to cart rate decreased on
+              mobile, yet none of the other metrics did. My best guess is that
+              the taller aspect ratio of the new photography pushed down the add
+              to cart button by a little bit on mobile, but the overall design
+              served to <B>elevate the brand</B> and the products,{" "}
+              <B>increasing consumer confidenc</B>e and perceived product value.
+              Further iterations to increase the add to cart rate could display
+              the size and color swatches in a horizontally scrolling container,
+              display a "sticky" Add to Cart button that is always visible, or
+              decrease the height of the images slightly so that the Add to Cart
+              button is higher up on the page.
             </P>
           </Section>
         </Container>
@@ -954,7 +976,8 @@ const choosePage = (route, password, setPassword) => {
                 improve site performance.
               </Li>
               <Li>
-                Make it faster to design, code, and iterate on new products.{" "}
+                Make it faster to design, code, and iterate on new
+                products.{" "}
               </Li>
               <Li>
                 Ensure that visual differences are meaningful and thought
@@ -1002,15 +1025,16 @@ const choosePage = (route, password, setPassword) => {
             spaceAbove={80}
             indent={true}
           >
+            <Heading level={3}>1. Understanding the Problem</Heading>
             <P>
-              <B>1. Understanding the Problem:</B> Despite knowing the
-              importance of having a design system and having worked within one
-              before, I had never created one from scratch, and had never needed
-              to understand the way it would be structured in the code.
-              Fortunately, my engineering partner had worked on a design system
-              before at Etsy, and gave me a crash course on their design
-              system's principles and a quick demonstration of how they used CSS
-              utility classes, which was the first thing we would tackle.
+              Despite knowing the importance of having a design system and
+              having worked within one before, I had never created one from
+              scratch, and had never needed to understand the way it would be
+              structured in the code. Fortunately, my engineering partner had
+              worked on a design system before at Etsy, and gave me a crash
+              course on their design system's principles and a quick
+              demonstration of how they used CSS utility classes, which was the
+              first thing we would tackle.
             </P>
 
             <P>
@@ -1027,12 +1051,13 @@ const choosePage = (route, password, setPassword) => {
               themselves should be.
             </P>
 
+            <Heading level={3}>2. Research</Heading>
             <P>
-              <B>2. Research:</B> I began by searching for design system
-              resources online, and found a fairly mixed bag. Design systems
-              were still rather new at the time (March 2018), and though there
-              existed some documentation, there weren't quite as many that
-              persuasively explained the reasons behind the choices. However,{" "}
+              I began by searching for design system resources online, and found
+              a fairly mixed bag. Design systems were still rather new at the
+              time (March 2018), and though there existed some documentation,
+              there weren't quite as many that persuasively explained the
+              reasons behind the choices. However,{" "}
               <SpanLink href="https://medium.com/eightshapes-llc/space-in-design-systems-188bcbae0d62">
                 this article from Eightshapes
               </SpanLink>{" "}
@@ -1040,7 +1065,8 @@ const choosePage = (route, password, setPassword) => {
               <SpanLink href="https://medium.com/@ethersystem/generating-design-system-spacing-aa69714160bc">
                 this article from Ether
               </SpanLink>{" "}
-              persuasively argued for a base-8 system for the following reasons:{" "}
+              persuasively argued for a base-8 system for the following
+              reasons:{" "}
             </P>
             <Ul>
               <Li>The base font size is usually 16px.</Li>
@@ -1059,9 +1085,10 @@ const choosePage = (route, password, setPassword) => {
               </Li>
             </Ul>
 
+            <Heading level={3}>3. Design</Heading>
             <P>
-              <B>3. Design:</B> Having decided on a base-8 system, many key
-              decisions logically followed:{" "}
+              Having decided on a base-8 system, many key decisions logically
+              followed:{" "}
             </P>
             <Ul>
               <Li>
@@ -1117,15 +1144,16 @@ const choosePage = (route, password, setPassword) => {
                 />
               </Li>
             </Ul>
+            <Heading level={3}>4. Test</Heading>
             <P>
-              <B>4. Test:</B> Though I made the process sound very simple and
-              logical above, in reality, there was a lot of guessing and
-              checking and testing while I was working on developing the text
-              styles and spacings. Design is, after all, not just math and
-              logic, but feelings and aesthetics as well, and creating text
-              scales and spacings in isolation would be a pointless exercise if
-              they didn't work well in the context of a page. Because of this, I
-              was simultaneously working on Primary's{" "}
+              Though I made the process sound very simple and logical above, in
+              reality, there was a lot of guessing and checking and testing
+              while I was working on developing the text styles and spacings.
+              Design is, after all, not just math and logic, but feelings and
+              aesthetics as well, and creating text scales and spacings in
+              isolation would be a pointless exercise if they didn't work well
+              in the context of a page. Because of this, I was simultaneously
+              working on Primary's{" "}
               <SpanLink href="https://www.primary.com/ambassador/nicole">
                 Ambassador Program page template
               </SpanLink>{" "}
@@ -1179,14 +1207,15 @@ const choosePage = (route, password, setPassword) => {
               </Li>
             </Ul>
 
+            <Heading level={3}>5. Iterate</Heading>
             <P>
-              <B>5. Iterate:</B> As we used the style guide for more and more
-              things, we made changes along the way, revisiting text weights and
-              sizes, adding and removing utilities, deprecating fonts and
-              colors, and adding more components and documentation. The style
-              guide images shown here are merely the current state at the time
-              of writing, and don't reflect the dozens of changes made since its
-              inception over a year ago.
+              As we used the style guide for more and more things, we made
+              changes along the way, revisiting text weights and sizes, adding
+              and removing utilities, deprecating fonts and colors, and adding
+              more components and documentation. The style guide images shown
+              here are merely the current state at the time of writing, and
+              don't reflect the dozens of changes made since its inception over
+              a year ago.
             </P>
           </Section>
 
@@ -1574,6 +1603,10 @@ const choosePage = (route, password, setPassword) => {
     },
 
     {
+      route: "allbirds-pdp",
+      content: AllbirdsPDP,
+    },
+    {
       route: "vts-access-management",
       // password: "squiggle",
       content: AccessManagement,
@@ -1615,27 +1648,26 @@ const Project = (props) => {
       <Footer>
         <CompanyWrapper>
           <CompanyContainer>
-            <Company title="More from Primary.com:" footer={true}>
+            <Company title="Allbirds">
+              <ProjectLink text="Product Detail Page" route="allbirds-pdp" />
+            </Company>
+            <Company title="VTS">
+              <ProjectLink
+                text="Access Management"
+                route="vts-access-management"
+              />
+            </Company>
+            <Company title="Primary.com">
               <ProjectLink
                 text="Navigation Redesign"
                 route="primary-navigation-redesign"
-                currentRoute={props.match.params.name}
               />
               <ProjectLink
                 text="Product Detail Page"
                 route="primary-product-detail-page"
-                currentRoute={props.match.params.name}
               />
-              <ProjectLink
-                text="Design System"
-                route="primary-style-guide"
-                currentRoute={props.match.params.name}
-              />
+              <ProjectLink text="Design System" route="primary-style-guide" />
             </Company>
-            {/* <Company title="Ralph Lauren" footer={true}>
-                        <ProjectLink text="Find a Store" route="ralph-lauren-find-a-store" currentRoute={props.match.params.name}/>
-                        <ProjectLink text="Mobile Webstore" route="ralph-lauren-mobile-webstore" currentRoute={props.match.params.name}/>
-                    </Company> */}
           </CompanyContainer>
         </CompanyWrapper>
         <Spacer height="104" />

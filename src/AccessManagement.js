@@ -3,6 +3,7 @@ import styled from "styled-components";
 import ProjectHeader from "./UserInterface/ProjectHeader";
 import Section from "./UserInterface/Section";
 import ImageGroup from "./UserInterface/ImageGroup";
+import Heading from "./UserInterface/Heading";
 import SpanLink from "./UserInterface/SpanLink";
 const Container = styled.div`
   margin: 0 70px;
@@ -150,9 +151,7 @@ export const AccessManagement = (
         a mobile device, adding greater convenience to tenants and easier
         management for security personnel.
       </P>
-      <P>
-        <B>The scope I worked on:</B>
-      </P>
+      <Heading level={3}>The scope I worked on:</Heading>
       <Ul>
         <Li>
           Admins can digitally grant and remove access and set access groups
@@ -305,7 +304,7 @@ export const AccessManagement = (
         roles we would serve and what they would be doing in the access
         management product.
       </P>
-      <P><B>Property manager</B></P>
+      <Heading level={3}>Property manager</Heading>
       <Ul>
         <Li>
           The general manager of a particular building. Manages security
@@ -317,7 +316,7 @@ export const AccessManagement = (
           Can grant and remove admin rights for all users in the building.
         </Li>
       </Ul>
-      <P><B>Security personnel</B></P>
+      <Heading level={3}>Security personnel</Heading>
       <Ul>
         <Li>
           Responsible for managing day-to-day access for tenants and visitors of
@@ -326,7 +325,7 @@ export const AccessManagement = (
         <Li>Proficient at managing access control systems.</Li>
         <Li>Can grant and remove access for tenants of the building.</Li>
       </Ul>
-      <P><B>Company access admin</B></P>
+      <Heading level={3}>Company access admin</Heading>
       <Ul>
         <Li>
           Works for a tenant company as a general admin or receptionist.
@@ -336,7 +335,7 @@ export const AccessManagement = (
         <Li>Little to no experience managing access control systems.</Li>
         <Li>Can grant and remove access for their company’s employees.</Li>
       </Ul>
-      <P><B>Employee</B></P>
+      <Heading level={3}>Employee</Heading>
       <Ul>
         <Li>Works for a tenant company in the building</Li>
         <Li>No experience managing access control systems.</Li>

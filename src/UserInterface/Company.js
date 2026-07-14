@@ -34,7 +34,6 @@ const Title = styled.h3`
 `;
 
 const Company = (props) => {
-  console.log(props.title, props.children.length);
   return (
     <Container footer={props.footer}>
       <Title>{props.title}</Title>

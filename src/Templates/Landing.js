@@ -115,6 +115,9 @@ const Landing = (props) => {
       <span id="work"></span>
       <Section title="WORK" spaceAbove={48}>
         <CompanyContainer>
+          <Company title="Allbirds">
+            <ProjectLink text="Product Detail Page" route="allbirds-pdp" />
+          </Company>
           <Company title="VTS">
             <ProjectLink
               text="Access Management"
