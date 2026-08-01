@@ -15,7 +15,7 @@ const Container = styled(Link)`
 
   font-family: CanelaWeb;
 
-  margin: 32px 0 0 0;
+  margin: 16px 0 0 0;
 
   @media (max-width: 768px) {
     font-size: ${(props) => (props.footer ? "24px" : "28px")};

@@ -25,6 +25,17 @@ const Container = styled.div`
   }
 `;
 
+const Column = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 768px) {
+    display: ${(props) => (props.off ? "none" : "block")};
+    width: fit-content;
+    align-items: center;
+  }
+`;
+
 const P = styled.p`
   text-align: left;
   font-size: 16px;
@@ -106,7 +117,7 @@ const CompanyContainer = styled.div`
 
   flex-wrap: wrap;
 
-  justify-content: left;
+  justify-content: space-evenly;
 
   width: 100%;
 
@@ -1648,26 +1659,30 @@ const Project = (props) => {
       <Footer>
         <CompanyWrapper>
           <CompanyContainer>
-            <Company title="Allbirds">
-              <ProjectLink text="Product Detail Page" route="allbirds-pdp" />
-            </Company>
-            <Company title="VTS">
-              <ProjectLink
-                text="Access Management"
-                route="vts-access-management"
-              />
-            </Company>
-            <Company title="Primary.com">
-              <ProjectLink
-                text="Navigation Redesign"
-                route="primary-navigation-redesign"
-              />
-              <ProjectLink
-                text="Product Detail Page"
-                route="primary-product-detail-page"
-              />
-              <ProjectLink text="Design System" route="primary-style-guide" />
-            </Company>
+            <Column>
+              <Company title="Allbirds">
+                <ProjectLink text="Product Detail Page" route="allbirds-pdp" />
+              </Company>
+              <Company title="VTS">
+                <ProjectLink
+                  text="Access Management"
+                  route="vts-access-management"
+                />
+              </Company>
+            </Column>
+            <Column>
+              <Company title="Primary.com">
+                <ProjectLink
+                  text="Navigation Redesign"
+                  route="primary-navigation-redesign"
+                />
+                <ProjectLink
+                  text="Product Detail Page"
+                  route="primary-product-detail-page"
+                />
+                <ProjectLink text="Design System" route="primary-style-guide" />
+              </Company>
+            </Column>
           </CompanyContainer>
         </CompanyWrapper>
         <Spacer height="104" />

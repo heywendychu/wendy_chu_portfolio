@@ -81,12 +81,13 @@ const Landing = (props) => {
           <Column width="60%" maxWidth="500px">
             <Headline>Hi, I'm Wendy Chu.</Headline>
             <ProfilePicture margin={24} dimension={256} displayFor="mobile" />
-            <Paragraph width="100%" maxWidth="543px">Staff-level product designer in Los Angeles, CA, with 14+ years of experience across B2B and B2C.
-              I've previously crafted digital experiences at{" "}
+            <Paragraph width="100%" maxWidth="543px">
+              Staff-level product designer in Los Angeles, CA, with 14+ years of
+              experience across B2B and B2C. I've previously crafted digital
+              experiences at{" "}
               <SpanLink href="https://www.allbirds.com/">Allbirds</SpanLink>,{" "}
               <SpanLink href="https://www.vts.com">VTS</SpanLink>,{" "}
-              <SpanLink href="https://www.primary.com">Primary</SpanLink>,
-              and{" "}
+              <SpanLink href="https://www.primary.com">Primary</SpanLink>, and{" "}
               <SpanLink href="https://www.ralphlauren.com/">
                 Ralph Lauren
               </SpanLink>
@@ -94,16 +95,26 @@ const Landing = (props) => {
             </Paragraph>
 
             <Paragraph width="100%" maxWidth="543px">
-              As a design practitioner, I have deep experience across the entire product design process. I consistently drive projects from strategy and ideation to execution and delivery with a bias toward iteration and experimentation.
-              Product managers love that I am data-driven, focus on delivering user value, and naturally break big projects into smaller iterative phases.
-              Engineers love that I collaborate with them on solutions, can speak to the technical side of things, and strive to improve design documentation for their sakes.
-              QAs love that I do my own design QA pass. Users love my passion for understanding and solving their problems.
-              Design managers love my drive to learn new things and improve existing processes and communication methods.
-              {" "}
+              As a design practitioner, I have deep experience across the entire
+              product design process. I consistently drive projects from
+              strategy and ideation to execution and delivery with a bias toward
+              iteration and experimentation. Product managers love that I am
+              data-driven, focus on delivering user value, and naturally break
+              big projects into smaller iterative phases. Engineers love that I
+              collaborate with them on solutions, can speak to the technical
+              side of things, and strive to improve design documentation for
+              their sakes. QAs love that I do my own design QA pass. Users love
+              my passion for understanding and solving their problems. Design
+              managers love my drive to learn new things and improve existing
+              processes and communication methods.{" "}
             </Paragraph>
             <Paragraph width="100%" maxWidth="543px">
-              As a design leader, I distinguish myself through excellent cross-functional collaboration and communication, and by balancing big-picture thinking and detail-oriented design work.
-              I have a knack for coaxing order out of chaos. I love tackling ambiguous problems and creating processes and frameworks that foster communication, collaboration, and inclusion.
+              As a design leader, I distinguish myself through excellent
+              cross-functional collaboration and communication, and by balancing
+              big-picture thinking and detail-oriented design work. I have a
+              knack for coaxing order out of chaos. I love tackling ambiguous
+              problems and creating processes and frameworks that foster
+              communication, collaboration, and inclusion.
             </Paragraph>
           </Column>
           <Column width="40%" maxWidth="400px" off={true}>
@@ -115,30 +126,34 @@ const Landing = (props) => {
       <span id="work"></span>
       <Section title="WORK" spaceAbove={48}>
         <CompanyContainer>
-          <Company title="Allbirds">
-            <ProjectLink text="Product Detail Page" route="allbirds-pdp" />
-          </Company>
-          <Company title="VTS">
-            <ProjectLink
-              text="Access Management"
-              route="vts-access-management"
-            />
-            {/* <ProjectLink
+          <Column width="50%">
+            <Company title="Allbirds">
+              <ProjectLink text="Product Detail Page" route="allbirds-pdp" />
+            </Company>
+            <Company title="VTS">
+              <ProjectLink
+                text="Access Management"
+                route="vts-access-management"
+              />
+              {/* <ProjectLink
               text="Mobile Access"
               route="vts-mobile-access"
             />*/}
-          </Company>
-          <Company title="Primary.com">
-            <ProjectLink
-              text="Navigation Redesign"
-              route="primary-navigation-redesign"
-            />
-            <ProjectLink
-              text="Product Detail Page"
-              route="primary-product-detail-page"
-            />
-            <ProjectLink text="Design System" route="primary-style-guide" />
-          </Company>
+            </Company>
+          </Column>
+          <Column width="50%">
+            <Company title="Primary.com">
+              <ProjectLink
+                text="Navigation Redesign"
+                route="primary-navigation-redesign"
+              />
+              <ProjectLink
+                text="Product Detail Page"
+                route="primary-product-detail-page"
+              />
+              <ProjectLink text="Design System" route="primary-style-guide" />
+            </Company>
+          </Column>
           {/* <Company title="Ralph Lauren">
                         <ProjectLink text="Find a Store" route="ralph-lauren-find-a-store"/>
                         <ProjectLink text="Mobile Webstore" route="ralph-lauren-mobile-webstore"/>
@@ -149,10 +164,10 @@ const Landing = (props) => {
       <span id="contact"></span>
       <Section id="contact" title="CONTACT" spaceAbove={40}>
         <Paragraph width="70%">
-          I’m currently looking for a full-time <B>senior/staff product design</B> role, preferably remote.
-          I'd be most interested in: marketplaces, SaaS tools, design systems,and
-          experiences that bridge digital and physical.
-          If you think we might be
+          I’m currently looking for a full-time{" "}
+          <B>senior/staff product design</B> role, preferably remote. I'd be
+          most interested in: marketplaces, SaaS tools, design systems,and
+          experiences that bridge digital and physical. If you think we might be
           a good fit, I'd love to chat! Get in touch with me at{" "}
           <SpanLink href="mailto:hi@wendychu.design">
             hi@wendychu.design

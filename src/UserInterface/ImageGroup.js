@@ -17,8 +17,9 @@ const Picture = styled.img`
 
   margin: 40px 0 0 0;
 
-  display: ${(props) => (props.toggle === "mobile" ? "none" : "block")} @media
-    (max-width: 768px) {
+  display: ${(props) => (props.toggle === "mobile" ? "none" : "block")};
+
+  @media (max-width: 768px) {
     display: ${(props) => (props.toggle === "desktop" ? "none" : "block")};
   }
 
