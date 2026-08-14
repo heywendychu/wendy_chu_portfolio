@@ -54,27 +54,37 @@ export const ListingShare = (
       alt=""
       caption=""
     />
-    <Section>
-      <Carousel>
-        <ImageGroup
-          desktop="VTSAccess/HID_Mobile_IDs_-_blur.png"
-          mobile=""
-          alt=""
-          caption="HID’s table does the job, but could benefit from better visual hierarchy and more specific inline actions for efficiency. "
-        />
-        <ImageGroup
-          desktop="VTSAccess/HID_Mobile_IDs_-_blur.png"
-          mobile=""
-          alt=""
-          caption="HID’s table does the job, but could benefit from better visual hierarchy and more specific inline actions for efficiency. "
-        />
-        <ImageGroup
-          desktop="VTSAccess/HID_Mobile_IDs_-_blur.png"
-          mobile=""
-          alt=""
-          caption="HID’s table does the job, but could benefit from better visual hierarchy and more specific inline actions for efficiency. "
-        />
-      </Carousel>
-    </Section>
+    <Carousel>
+      <ImageGroup
+        desktop="VTSAccess/HID_Mobile_IDs_-_blur.png"
+        mobile=""
+        alt=""
+        caption="HID’s table does the job, but could benefit from better visual hierarchy and more specific inline actions for efficiency. "
+      />
+      <ImageGroup
+        desktop="VTSAccess/image.png"
+        mobile=""
+        alt=""
+        caption="HID’s user details page is very long, with many different sections (2 screen heights’ worth of content can be seen above). This page would benefit from more efficient use of space and anchor links, which would to allow users to find what they need more quickly. "
+      />
+      <ImageGroup
+        desktop="VTSAccess/HID_Mobile_IDs_-_blur.png"
+        mobile=""
+        alt=""
+        caption="HID’s table does the job, but could benefit from better visual hierarchy and more specific inline actions for efficiency. "
+      />
+      <ImageGroup
+        desktop="VTSAccess/image.png"
+        mobile=""
+        alt=""
+        caption="HID’s user details page is very long, with many different sections (2 screen heights’ worth of content can be seen above). This page would benefit from more efficient use of space and anchor links, which would to allow users to find what they need more quickly. "
+      />
+      <ImageGroup
+        desktop="VTSAccess/HID_Mobile_IDs_-_blur.png"
+        mobile=""
+        alt=""
+        caption="HID’s table does the job, but could benefit from better visual hierarchy and more specific inline actions for efficiency. "
+      />
+    </Carousel>
   </Container>
 );
