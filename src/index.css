@@ -21,3 +21,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.swiper-slide-thumb-active {
+  border-bottom: solid 4px #de3c2c;
+}

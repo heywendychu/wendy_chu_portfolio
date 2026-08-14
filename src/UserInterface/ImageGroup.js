@@ -58,6 +58,10 @@ const ImageGroup = (props) => {
       <Lightbox
         open={open}
         carousel={{ finite: true }}
+        render={{
+          buttonPrev: () => null,
+          buttonNext: () => null,
+        }}
         close={() => setOpen(false)}
         slides={[{ src: `/images/${props.desktop}` }]}
         plugins={[Fullscreen, Zoom]}

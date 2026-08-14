@@ -196,18 +196,18 @@ export const MobileAccess = (
       <P>
         <B>Potential network effects</B>
         <br />
-        Access management presented a huge user acquisition opportunity for VTS, as
-        property managers could upsell their tenants on the ability to manage
+        Access management presented a huge user acquisition opportunity for VTS,
+        as property managers could upsell their tenants on the ability to manage
         their own employees’ access. To do that, tenants would also need an
         Activate subscription. Because most of the buildings we served had
         dozens of businesses within, it was a huge potential opportunity for
         growth.
       </P>
       <P>
-        Such an arrangement would benefit both parties. Property
-        personnel wouldn’t need to manually manage access for those building
-        employees, and companies would no longer need to go through an
-        intermediary to modify their employees’ access.
+        Such an arrangement would benefit both parties. Property personnel
+        wouldn’t need to manually manage access for those building employees,
+        and companies would no longer need to go through an intermediary to
+        modify their employees’ access.
       </P>
     </Section>
     <Section
@@ -221,13 +221,12 @@ export const MobileAccess = (
         prospective clients with my PM and available squad engineers.
       </P>
       <P>
-
         <em>
-          <B>Sidenote:</B> It’s important to me that everyone on the squad can listen
-          to and observe our users firsthand so that they can better understand
-          our average, less tech-savvy users. The experience is much more
-          memorable than if I were to share clips or a report, and gets us all
-          on the same page.
+          <B>Sidenote:</B> It’s important to me that everyone on the squad can
+          listen to and observe our users firsthand so that they can better
+          understand our average, less tech-savvy users. The experience is much
+          more memorable than if I were to share clips or a report, and gets us
+          all on the same page.
         </em>
       </P>
       <P>
@@ -251,7 +250,6 @@ export const MobileAccess = (
         />
       </P>
 
-
       <P>
         <ImageGroup
           desktop="VTSAccess/image.png"
@@ -260,7 +258,6 @@ export const MobileAccess = (
           caption="HID’s user details page is very long, with many different sections (2 screen heights’ worth of content can be seen above). This page would benefit from more efficient use of space and anchor links, which would to allow users to find what they need more quickly. "
         />
       </P>
-
     </Section>
     <Section
       title="Pain points"
@@ -393,11 +390,12 @@ export const MobileAccess = (
       </P>
 
       <P>
-        I was fortunate in that the customer success team had already started to hold training sessions
-        with actual users on this version of the table, and these training sessions
-        worked well as free covert usability tests. I could observe how users
-        interacted with the product, what they struggled to do, and where they
-        had questions. Some of the biggest issues I noticed:
+        I was fortunate in that the customer success team had already started to
+        hold training sessions with actual users on this version of the table,
+        and these training sessions worked well as free covert usability tests.
+        I could observe how users interacted with the product, what they
+        struggled to do, and where they had questions. Some of the biggest
+        issues I noticed:
       </P>
       <Ul>
         <Li>
@@ -499,7 +497,6 @@ export const MobileAccess = (
           immediately.
         </Li>
       </Ol>
-
     </Section>
     <Section
       id="phase-2-scaling"
@@ -619,15 +616,16 @@ export const MobileAccess = (
         language.
       </P>
       <P>
-        I'm particularly glad I took the time in this case, as we ended up implementing this preferred version. When I presented this to my
-        squad at our weekly design refinement session, the team preferred this
-        version because the modal component was challenging to work with and
-        moving that functionality to a page would be easy. </P>
+        I'm particularly glad I took the time in this case, as we ended up
+        implementing this preferred version. When I presented this to my squad
+        at our weekly design refinement session, the team preferred this version
+        because the modal component was challenging to work with and moving that
+        functionality to a page would be easy.{" "}
+      </P>
       <P>
-        To help cut scope, we
-        also decided to retire the single user invitation modal because it
-        didn’t make sense to build and maintain two different workflows. A win
-        all around!
+        To help cut scope, we also decided to retire the single user invitation
+        modal because it didn’t make sense to build and maintain two different
+        workflows. A win all around!
       </P>
       <P>
         <ImageGroup
@@ -676,7 +674,6 @@ export const MobileAccess = (
         “channel” a user was inviting people to.)
       </P>
 
-
       <Section title="Results" spaceAbove={40} indent={true} id="results">
         <P>
           After these changes were implemented, we observed a sizable increase
@@ -685,33 +682,49 @@ export const MobileAccess = (
         </P>
         <Ul>
           <Li>
-            Users were able to accomplish their tasks <B>~12% faster</B> than before, on average and
-            had <B>fewer questions</B> in the process.
+            Users were able to accomplish their tasks <B>~12% faster</B> than
+            before, on average and had <B>fewer questions</B> in the process.
           </Li>
           <Li>
-            Furthermore, due to the more intuitive interface, <B>users were able to figure out how to do many of the tasks by themselves</B>, decreasing the need for training sessions, which would save our internal team time and reduce the costs of offering the product.
+            Furthermore, due to the more intuitive interface,{" "}
+            <B>
+              users were able to figure out how to do many of the tasks by
+              themselves
+            </B>
+            , decreasing the need for training sessions, which would save our
+            internal team time and reduce the costs of offering the product.
           </Li>
           <Li>
-            In several of the sessions, we also received <B>unprompted comments about how “simple” and “easy to use” the product was</B>, from users who were pleasantly surprised. To
-            me, this is the ultimate sign of a job well done.
+            In several of the sessions, we also received{" "}
+            <B>
+              unprompted comments about how “simple” and “easy to use” the
+              product was
+            </B>
+            , from users who were pleasantly surprised. To me, this is the
+            ultimate sign of a job well done.
           </Li>
           <Li>
-            Most importantly, Todd, the property manager who represented our largest account, was thrilled, as this functionality was an absolute requirement for him and his team. A definite win for the team!
+            Most importantly, Todd, the property manager who represented our
+            largest account, was thrilled, as this functionality was an absolute
+            requirement for him and his team. A definite win for the team!
           </Li>
         </Ul>
       </Section>
-      <Section title="To be continued..." spaceAbove={40} indent={true} id="next steps"></Section>
+      <Section
+        title="To be continued..."
+        spaceAbove={40}
+        indent={true}
+        id="next steps"
+      ></Section>
       <P>
-        I wish I'd had a chance to see users interact with these changes at scale after
-        implementation (wider rollout was delayed because another business unit
-        was also planning to make changes to this form), so that I could learn how our quantitiative metrics improved after implementation.
-
-        However, we were focused on shipping user role assignment flows next, and felt confident about the changes based on our training session observations, so we continued onward.
-
+        I wish I'd had a chance to see users interact with these changes at
+        scale after implementation (wider rollout was delayed because another
+        business unit was also planning to make changes to this form), so that I
+        could learn how our quantitiative metrics improved after implementation.
+        However, we were focused on shipping user role assignment flows next,
+        and felt confident about the changes based on our training session
+        observations, so we continued onward.
       </P>
     </Section>
-
-
-
   </Container>
 );

@@ -119,6 +119,10 @@ const ProjectHeader = (props) => {
         close={() => setOpen(false)}
         slides={[{ src: `/images/${props.pictureFile}` }]}
         plugins={[Fullscreen, Zoom]}
+        render={{
+          buttonPrev: () => null,
+          buttonNext: () => null,
+        }}
       />
     </Container>
   );
