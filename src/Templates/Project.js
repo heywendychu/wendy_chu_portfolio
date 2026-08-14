@@ -13,6 +13,7 @@ import ProjectLink from "../UserInterface/ProjectLink";
 import { AccessManagement } from "../AccessManagement";
 import { MobileAccess } from "../MobileAccess";
 import { AllbirdsPDP } from "../AllbirdsPDP";
+import { ListingShare } from "../ListingShare";
 const Container = styled.div`
   margin: 0 70px;
 
@@ -1626,6 +1627,11 @@ const choosePage = (route, password, setPassword) => {
       route: "vts-mobile-access",
       // password: "squiggle",
       content: MobileAccess,
+    },
+    {
+      route: "vts-listing-share",
+      // password: "squiggle",
+      content: ListingShare,
     },
   ];
 
