@@ -1668,6 +1668,10 @@ const Project = (props) => {
                   text="Access Management"
                   route="vts-access-management"
                 />
+                <ProjectLink
+                  text="Market - Listing Sharing"
+                  href="https://wendychu.notion.site/VTS-Market-Listing-Sharing-24fa83b969a080509458f65937160636"
+                ></ProjectLink>
               </Company>
             </Column>
             <Column>
