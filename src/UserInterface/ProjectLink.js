@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
-const Container = styled(Link)`
+const containerCss = css`
   text-decoration: none;
 
   width: fit-content;
@@ -24,6 +24,14 @@ const Container = styled(Link)`
   }
 `;
 
+const LinkContainer = styled(Link)`
+  ${containerCss}
+`;
+
+const AnchorContainer = styled.a`
+  ${containerCss}
+`;
+
 const Span = styled.span`
   ${(props) =>
     props.present ? null : "box-shadow: 0 1px 0 rgba(33, 53, 113, 0.26);"}
@@ -35,14 +43,22 @@ const Span = styled.span`
 
 const ProjectLink = (props) => {
   const { name: currentRoute } = useParams();
+  if (!!props.href) {
+    return (
+      <AnchorContainer href={props.href} target="_blank" rel="noreferrer">
+        <Span>{props.text}</Span>
+      </AnchorContainer>
+    );
+  }
+
   return (
-    <Container
+    <LinkContainer
       present={props.route === currentRoute}
       footer={props.footer}
       to={`/projects/${props.route}`}
     >
       <Span present={props.route === currentRoute}>{props.text}</Span>
-    </Container>
+    </LinkContainer>
   );
 };
 

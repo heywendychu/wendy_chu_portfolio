@@ -1660,14 +1660,18 @@ const Project = (props) => {
         <CompanyWrapper>
           <CompanyContainer>
             <Column>
-              <Company title="Allbirds">
-                <ProjectLink text="Product Detail Page" route="allbirds-pdp" />
-              </Company>
               <Company title="VTS">
+                <ProjectLink
+                  text="Market Listing Share"
+                  href="https://wendychu.notion.site/VTS-Market-Listing-Sharing-24fa83b969a080509458f65937160636"
+                ></ProjectLink>
                 <ProjectLink
                   text="Access Management"
                   route="vts-access-management"
                 />
+              </Company>
+              <Company title="Allbirds">
+                <ProjectLink text="Product Detail Page" route="allbirds-pdp" />
               </Company>
             </Column>
             <Column>
