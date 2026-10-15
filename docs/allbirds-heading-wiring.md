@@ -1,5 +1,7 @@
 # Heading component wiring (revert notes)
 
+> **Historical (v1).** These notes describe the old hand-ported site, now in `legacy/`. Current conventions live in `docs/notion-porting-guide.md`.
+
 Trial of `src/UserInterface/Heading.js` across the case studies. Standalone
 bold-paragraph pseudo-headings (`<P><B>…</B></P>`) were replaced with semantic
 `<Heading level={3}>` elements. **These notes exist so the change can be

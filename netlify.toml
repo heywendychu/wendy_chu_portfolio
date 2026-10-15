@@ -1,0 +1,20 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[functions]
+  directory = "netlify/functions"
+
+# Long-cache fingerprinted assets and synced Notion images
+[[headers]]
+  for = "/_next/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/notion/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"

@@ -1,143 +1,52 @@
-# Porting a Notion case study into this portfolio
+# Writing case studies in Notion
 
-This is the canonical, living guide for turning a public Notion page into a
-project page on this site, consistently with what already exists. **Keep it up
-to date: whenever we make a new convention or change an existing one, edit this
-file in the same change.**
+Case studies are no longer ported by hand. Every build reads them straight from
+the **Portfolio projects** Notion database (`scripts/sync-notion.mjs`) and renders
+them with `components/Blocks.jsx`. This guide covers the conventions that mapping
+follows. Setup and the day-to-day workflow are in `docs/notion-setup.md`.
 
-Related docs:
-- `docs/allbirds-heading-wiring.md` — the first port (Allbirds PDP) and the
-  heading-normalization pass; useful as a worked example + revert log.
-- `scripts/notion_extract.py` — reusable extractor (below).
+**Keep it up to date: whenever we make a new convention or change an existing one,
+edit this file in the same change.**
 
----
+## Block → design mapping (implemented in `components/Blocks.jsx`)
 
-## 1. Extract the Notion content
-
-Notion pages are client-rendered — fetching the HTML (WebFetch/curl) returns
-nothing. Use the extractor, which calls Notion's unofficial `loadPageChunk`
-API and prints the ordered outline + downloadable image URLs:
-
-```bash
-python3 scripts/notion_extract.py <notion-url-or-page-id>
-```
-
-Under the hood (documented in case the script needs changing):
-- **Endpoint:** `POST https://<subdomain>.notion.site/api/v3/loadPageChunk`
-  with JSON body `{"pageId":"<dashed-uuid>","limit":200,"cursor":{"stack":[]},
-  "chunkNumber":0,"verticalColumns":false}`.
-- **Page id:** the trailing 32 hex chars of the URL, re-dashed `8-4-4-4-12`.
-- **Rich text:** `properties.title` is a list of `[text, [annotations]]`;
-  annotation `["b"]`=bold, `["i"]`=italic, `["a", url]`=link.
-- **Images:** `properties.source` is `attachment:<id>:<file>`. The public URL is
-  `https://<subdomain>.notion.site/image/<url-encoded-source>?table=block&id=<blockId>&cache=v2`.
-
-If a page is very long (>~200 blocks) it may paginate; `loadPageChunk` returns a
-`cursor` to fetch the next chunk. Extend the script if we hit that.
-
-## 2. Download images
-
-Create `public/images/<ProjectName>/` and download each image from the URL
-table the extractor prints. Use **descriptive kebab-case names** (not Notion's
-hashes), e.g. `old-size-selection.png`, `final-product-details.png`. Verify they
-are real images (`file public/images/<ProjectName>/*`) — a bad URL yields an
-HTML error body, not a PNG.
-
-```bash
-mkdir -p public/images/<ProjectName>
-curl -s -L -A "Mozilla/5.0" "<image-url>" -o public/images/<ProjectName>/<name>.png
-```
-
-## 3. Build the project file
-
-Create `src/<ProjectName>.js` exporting a single JSX const, modeled on
-`src/AllbirdsPDP.js` (the cleanest current example) or `src/AccessManagement.js`.
-Copy the standard styled components from one of those files: `Container`, `P`,
-`Ul`/`Ol`, `Li`, `B` (and `TwoCol`/`Col`, `StatCallout` if needed).
-
-### Block → component mapping
-
-| Notion block | Port to |
+| Notion block | Renders as |
 |---|---|
-| page title | `ProjectHeader` (see metadata note) — the page `<h1>` |
-| top-level structural sections | `Section title="…"` (red-line uppercase eyebrow, `<h2>`) |
-| subsection labels within a section | `<Heading level={3}>` |
-| deeper nested subheadings | `<Heading level={4}>` (reserved; unused so far) |
-| paragraph (`text`) | `<P>` |
-| bulleted_list / numbered_list | `<Ul><Li>…` (see list note) |
-| image | `<ImageGroup desktop="…" caption="…" />` |
-| column_list / column (side-by-side) | `TwoCol` + `Col` wrapping `ImageGroup`s (local to AllbirdsPDP) |
-| inline link | `<SpanLink href="…">` |
-| Figma / video embed | `<iframe …>` (see AccessManagement / Primary Nav) |
-| key result metric | `<StatCallout>` (non-heading; local to AllbirdsPDP) |
+| page **Name** + properties | Project header: company \| date, `h1` title, responsibilities, role summary, cover |
+| highest heading level used on the page | Section eyebrow (`h2`, red line, auto-UPPERCASE) |
+| next heading level down | `h3` subsection heading |
+| one more level down | `h4` |
+| text | body paragraph |
+| bulleted / numbered list | red-bullet list (nests) |
+| image | full-width figure; caption = caption + alt text; lightbox zoom |
+| columns | side-by-side, stacks below 768px |
+| callout | `StatCallout` (CanelaWeb 32px, a `<p>`, not a heading) |
+| quote | pull quote |
+| embed / video | responsive iframe (Figma 4:3, others 16:9); share links auto-converted |
+| divider | rule |
+| toggle | `<details>` |
+| link / @-mention of another project page | `/projects/<slug>` |
 
 ### The heading rule (important — this is our convention)
 
 The mapping is **role-based and relative**, not a mechanical 1:1 with Notion's
-heading types:
+heading types. Whatever the highest heading level on the page is, it becomes the
+section eyebrows, and the levels below it step down from there. This keeps a clean
+`h1 → h2 → h3` outline with **no skipped levels** (a WCAG / screen-reader
+requirement), no matter whether you wrote the case study with Heading 1s or
+Heading 2s as the top level.
 
-- The **highest** heading level actually used in the doc becomes the site's
-  `Section` eyebrows (the primary structural divider, rendered `<h2>`,
-  auto-UPPERCASED). In the Allbirds doc that was Notion `sub_header`.
-- The **next level down** — whether it's a real Notion heading *or* a bold-only
-  paragraph acting as a label — becomes `<Heading level={3}>`.
-- One level deeper → `<Heading level={4}>`.
-- This keeps a clean `h1 → h2 → h3` outline with **no skipped levels** (a WCAG /
-  screen-reader requirement). Do not jump from a `Section` straight to `h4`.
+### Keep these as text (not headings)
 
-### Keep these as-is (not headings)
+- **Inline bold run-in leads**: "**Research:** we interviewed…" stays a bold run-in
+  inside the paragraph. It's emphasis, not an outline node.
+- **Sentences that introduce a list** ("The previous size selection had several
+  issues:") stay bold paragraphs.
 
-- **Inline bold run-in leads** — `<P><B>label:</B> …continuing sentence</P>` —
-  stay as bold paragraphs. They're emphasis, and a run-in lead is a legitimate
-  readable pattern. Converting them breaks prose. (Examples across the site:
-  "New customers:", "Research:", etc.)
-- **Sentences that introduce a list** (e.g. "The previous size selection had
-  several issues:") stay as `<P><B>…</B></P>`.
+### Metadata
 
-### Lists
-
-The site renders **both** bulleted and numbered lists as red bullets — `Ul`,
-`Ol`, and `Li` are all styled with a red `•` via `::before` and no real numeric
-counter. So a Notion `numbered_list` becomes `<Ul>`; if you need visible
-numbers, prefix the text ("1. …") or add a real ordered style (none exists yet).
-
-### Metrics / StatCallout
-
-Standout result numbers (e.g. "+181% Uplift in Conversion") are values, not
-outline headings — use `StatCallout` (a `<p>`, CanelaWeb 32px). It currently
-carries **no color** by decision (see decisions log). It lives locally in
-`AllbirdsPDP.js`; **if a second project needs it, promote it to
-`src/UserInterface/StatCallout.js`** and import it (same for `TwoCol`/`Col`).
-
-### ProjectHeader metadata
-
-Notion docs usually have no metadata block, so fill these by hand:
-`company`, `date`, `title`, `responsibilities`, `roleSummary`, `pictureFile`
-(a hero image from the set), `alt`, `caption`. Don't invent a `date` — leave it
-`""` if unknown and confirm with the owner.
-
-## 4. Register the project
-
-1. **`src/Templates/Project.js`** — `import { <Name> } from "../<Name>";` and add
-   `{ route: "<kebab-route>", content: <Name> }` to the `data` array.
-2. **`src/Templates/Landing.js`** — add a `<ProjectLink text="…" route="…" />`
-   under the right `<Company>` in the WORK section. **New company →** add a new
-   `<Company title="…">` block.
-3. **`src/Templates/Project.js` footer** — add/append a
-   `<Company title="More from <Company>:" footer={true}>` block with the
-   `ProjectLink`(s) so cross-links appear at the bottom of project pages.
-
-## 5. Verify
-
-- Fast compile check (no full build needed):
-  ```bash
-  NODE_ENV=development node -e "require('@babel/core').transformFileSync('src/<Name>.js',{presets:['react-app']})"
-  ```
-- The dev server runs at `localhost:3000`; view the page at
-  `localhost:3000/projects/<route>`. Check desktop + mobile (768px breakpoint),
-  image lightbox/zoom, and links.
-
----
+Fill the database properties; don't put metadata in the page body. Don't invent a
+**Date**. Leave it blank if unknown.
 
 ## Conventions & decisions log
 
@@ -158,5 +67,20 @@ re-litigate it.
   value, not a heading; color treatment deferred pending a design decision.
 - **`StatCallout`, `TwoCol`, `Col` are local to `AllbirdsPDP.js` for now;**
   promote to `src/UserInterface/` on first reuse.
-- **Images: `public/images/<Project>/`, descriptive kebab-case names.**
+- **Images (v1): `public/images/<Project>/`, descriptive kebab-case names.** Still served for migrated content.
 - **Don't invent `ProjectHeader` `date`;** leave blank and confirm with owner.
+
+- **(v2) Content lives in Notion; the site is a static Next.js export on Netlify.**
+  — editing a case study shouldn't need code. Builds pull from Notion, so a broken
+  Notion response fails the build and the last good deploy stays live.
+- **(v2) Images are downloaded at build time into `public/notion/`, resized to
+  ≤2400px WebP (GIFs/SVGs untouched).** — Notion file URLs expire after an hour;
+  originals were up to 2.5MB each.
+- **(v2) Image caption doubles as alt text.** — Notion has no alt field for images.
+- **(v2) Mobile-only image variants (`ImageGroup mobile=`) are dropped;** the
+  desktop image is shown at all sizes. — only two existed, and Notion has no
+  per-breakpoint images.
+- **(v2) Client-side page passwords removed.** — they weren't real security (the
+  content shipped in the JS bundle). Unpublished = not built at all.
+- **(v2) Slugs kept identical to the old routes** (`/projects/allbirds-pdp`, …) so
+  existing links keep working.

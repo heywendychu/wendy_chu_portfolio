@@ -1,37 +1,28 @@
 {
   "name": "wendy_chu_portfolio",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "private": true,
+  "type": "module",
+  "scripts": {
+    "sync": "node scripts/sync-notion.mjs",
+    "dev": "next dev",
+    "build": "node scripts/sync-notion.mjs && next build",
+    "build:offline": "next build",
+    "start": "npx serve out",
+    "migrate:snapshot": "node scripts/migrate-to-notion.mjs --snapshot",
+    "migrate:push": "node scripts/migrate-to-notion.mjs --push"
+  },
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-router": "^5.1.2",
-    "react-router-dom": "^5.1.2",
-    "react-router-hash-link": "^1.2.2",
-    "react-router-scroll-top": "^0.3.1",
-    "react-scripts": "5.0.1",
-    "styled-components": "^4.4.0",
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "yet-another-react-lightbox": "^3.32.1"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "@babel/parser": "^7.28.0",
+    "sharp": "^0.34.0"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "engines": {
+    "node": ">=20"
   }
 }

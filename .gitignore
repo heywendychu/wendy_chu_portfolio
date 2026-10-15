@@ -21,3 +21,16 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Next.js
+/.next
+/out
+next-env.d.ts
+
+# Notion sync output (images downloaded at build time)
+/public/notion
+
+# local env (NOTION_TOKEN etc.)
+.env
+.env*.local
+.netlify
