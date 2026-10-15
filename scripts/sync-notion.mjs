@@ -244,6 +244,6 @@ async function main() {
 
 main().catch((err) => {
   // Fail the build so Netlify keeps the last good deploy live.
-  console.error("[sync] FAILED:", err.message);
+  console.error("[sync] FAILED:", err.message, err.cause ? `(${err.cause.code || err.cause.message})` : "");
   process.exit(1);
 });

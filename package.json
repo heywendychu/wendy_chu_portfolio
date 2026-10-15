@@ -13,14 +13,14 @@
     "migrate:push": "node scripts/migrate-to-notion.mjs --push"
   },
   "dependencies": {
-    "next": "^15.5.0",
+    "next": "^16.4.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "yet-another-react-lightbox": "^3.32.1"
   },
   "devDependencies": {
     "@babel/parser": "^7.28.0",
-    "sharp": "^0.34.0"
+    "sharp": "^0.35.5"
   },
   "engines": {
     "node": ">=20"

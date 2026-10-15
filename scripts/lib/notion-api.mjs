@@ -14,15 +14,27 @@ export function getToken() {
 
 export async function notion(path, { method = "GET", body, token = getToken() } = {}) {
   for (let attempt = 0; attempt < 6; attempt++) {
-    const res = await fetch(`${API}${path}`, {
-      method,
-      headers: {
-        Authorization: `Bearer ${token}`,
-        "Notion-Version": VERSION,
-        ...(body ? { "Content-Type": "application/json" } : {}),
-      },
-      body: body ? JSON.stringify(body) : undefined,
-    });
+    let res;
+    try {
+      res = await fetch(`${API}${path}`, {
+        method,
+        headers: {
+          Authorization: `Bearer ${token}`,
+          "Notion-Version": VERSION,
+          ...(body ? { "Content-Type": "application/json" } : {}),
+        },
+        body: body ? JSON.stringify(body) : undefined,
+        signal: AbortSignal.timeout(30000),
+      });
+    } catch (err) {
+      // network blip (DNS, reset, timeout): retry, then surface the real cause
+      if (attempt < 5) {
+        await sleep(1000 * 2 ** attempt);
+        continue;
+      }
+      const cause = err.cause?.code || err.cause?.message || err.message;
+      throw new Error(`Couldn't reach Notion for ${method} ${path} (${cause})`);
+    }
     if (res.status === 429 || res.status >= 500) {
       const wait = Number(res.headers.get("retry-after")) * 1000 || 1000 * 2 ** attempt;
       await sleep(wait);
