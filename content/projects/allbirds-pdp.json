@@ -1,0 +1,1558 @@
+{
+ "blocks": [
+  {
+   "id": "allbirds-pdp-1",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Over the course of ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Over the course of ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "6 months",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "6 months",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " at Allbirds, I nearly ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " at Allbirds, I nearly ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "doubled the conversion rate",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "doubled the conversion rate",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " with my design improvements.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " with my design improvements.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-2",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "As the only product designer at Allbirds, my primary responsibility was growth, and conversion rate was my KPI. I had free reign to pursue my goal, and most of my attention was focused on the product detail pages. I designed and ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "As the only product designer at Allbirds, my primary responsibility was growth, and conversion rate was my KPI. I had free reign to pursue my goal, and most of my attention was focused on the product detail pages. I designed and ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "A/B tested 10 sets of PDP enhancements",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "A/B tested 10 sets of PDP enhancements",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " during my time there. Individual test results varied from wildly positive (+170.7% in one case!) to neutral, and my designs yielded positive results overall. A few of the most notable examples are detailed below.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " during my time there. Individual test results varied from wildly positive (+170.7% in one case!) to neutral, and my designs yielded positive results overall. A few of the most notable examples are detailed below.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-3",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Improved size selection",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Improved size selection",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-4",
+   "type": "callout",
+   "callout": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "+181% Uplift in Conversion",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "+181% Uplift in Conversion",
+      "href": null
+     }
+    ],
+    "icon": {
+     "type": "emoji",
+     "emoji": "📈"
+    },
+    "color": "default"
+   }
+  },
+  {
+   "id": "allbirds-pdp-5",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The first and most impactful change I made was to size selection. Because selecting a size is a prerequisite to adding an item to cart, and adding to cart is a prerequisite to making a purchase, it is critical for businesses to make this process as easy as possible.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The first and most impactful change I made was to size selection. Because selecting a size is a prerequisite to adding an item to cart, and adding to cart is a prerequisite to making a purchase, it is critical for businesses to make this process as easy as possible.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-6",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The previous size selection had several issues (see image below):",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The previous size selection had several issues (see image below):",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-7",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "It was housed in a dropdown, which made it difficult for users to view and select in-stock sizes.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "It was housed in a dropdown, which made it difficult for users to view and select in-stock sizes.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-8",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The dropdown was positioned below the page “fold,” meaning most users would need to scroll to even see it.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The dropdown was positioned below the page “fold,” meaning most users would need to scroll to even see it.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-9",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Sold out sizes were not clearly communicated. The only indication was the “Add to Cart” button text changing to “Notify Me.”",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Sold out sizes were not clearly communicated. The only indication was the “Add to Cart” button text changing to “Notify Me.”",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-10",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Links between men’s and women’s versions of the same product were located above the product name, which did not match common patterns.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Links between men’s and women’s versions of the same product were located above the product name, which did not match common patterns.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-11",
+   "type": "image",
+   "image": {
+    "src": "/images/AllbirdsPDP/old-size-selection.png",
+    "width": 2924,
+    "height": 2136,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The previous size selection lived in a dropdown, was located below the “fold” for many users, and was divorced from gender selection. Can you tell that the currently selected size/color combination is out of stock?",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The previous size selection lived in a dropdown, was located below the “fold” for many users, and was divorced from gender selection. Can you tell that the currently selected size/color combination is out of stock?",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-12",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "I addressed the issues with the design below:",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "I addressed the issues with the design below:",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-13",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The product name, color, size, and CTA were lined up horizontally to create a logical progression. This also enabled the CTA to live above the fold and be immediately visible when users visit the page.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The product name, color, size, and CTA were lined up horizontally to create a logical progression. This also enabled the CTA to live above the fold and be immediately visible when users visit the page.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-14",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Sizes were displayed as individual tiles directly on the page, making it easy to see which sizes were in stock.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Sizes were displayed as individual tiles directly on the page, making it easy to see which sizes were in stock.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-15",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Links to the other gender’s version of the same product were moved above the size selection tiles and below the product name, as these were the most common placements on other shopping sites.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Links to the other gender’s version of the same product were moved above the size selection tiles and below the product name, as these were the most common placements on other shopping sites.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-16",
+   "type": "image",
+   "image": {
+    "src": "/images/AllbirdsPDP/new-size-selection.png",
+    "width": 2560,
+    "height": 2048,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "My updated size selection design displayed size selection using tiles and grouped gender with size. The updated layout made it more efficient to select options, and allowed the CTA to be immediately available above the page fold.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "My updated size selection design displayed size selection using tiles and grouped gender with size. The updated layout made it more efficient to select options, and allowed the CTA to be immediately available above the page fold.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-17",
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Other considerations:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Other considerations:",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-18",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "It may seem like the layout change was more drastic than necessary, since the original goal was to display size in a more efficient way. However, the existing layout could not elegantly accommodate all of the size tiles across our most common desktop screen sizes, so the layout would need to change regardless. I presented the minimal set of changes as “the most expedient option” (see below), and discussed it with product managers. We agreed that we would prefer to put our efforts toward a more holistic solution that addressed more of the desired changes.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "It may seem like the layout change was more drastic than necessary, since the original goal was to display size in a more efficient way. However, the existing layout could not elegantly accommodate all of the size tiles across our most common desktop screen sizes, so the layout would need to change regardless. I presented the minimal set of changes as “the most expedient option” (see below), and discussed it with product managers. We agreed that we would prefer to put our efforts toward a more holistic solution that addressed more of the desired changes.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-19",
+   "type": "image",
+   "image": {
+    "src": "/images/AllbirdsPDP/expedient-option.png",
+    "width": 2880,
+    "height": 2048,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "I presented this as the most expedient option. Though this would have worked to test the idea of displaying size tiles, it would have been a stopgap at best, and was rejected in favor of a more holistic solution.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "I presented this as the most expedient option. Though this would have worked to test the idea of displaying size tiles, it would have been a stopgap at best, and was rejected in favor of a more holistic solution.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-20",
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Results:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Results:",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-21",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "We A/B tested this layout against the previous layout on a few of our most popular products, and the results were staggeringly positive (and statistically significant). Though overall conversion on non-promo products during the test week was lower vs. the prior 2 weeks, all of the tested products showed at least a ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "We A/B tested this layout against the previous layout on a few of our most popular products, and the results were staggeringly positive (and statistically significant). Though overall conversion on non-promo products during the test week was lower vs. the prior 2 weeks, all of the tested products showed at least a ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "+30%",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "+30%",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " improvement in conversion. For the Men’s Cruiser, the improvement was an astounding ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " improvement in conversion. For the Men’s Cruiser, the improvement was an astounding ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "+181%",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "+181%",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " — numbers that are typically unheard of in this context!",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " — numbers that are typically unheard of in this context!",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-22",
+   "type": "image",
+   "image": {
+    "src": "/images/AllbirdsPDP/size-selection-results.png",
+    "width": 628,
+    "height": 366,
+    "caption": []
+   }
+  },
+  {
+   "id": "allbirds-pdp-23",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Given this version’s strong performance, after the test concluded, we rolled this version out to the rest of the site.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Given this version’s strong performance, after the test concluded, we rolled this version out to the rest of the site.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-24",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Product Details Revamp",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Product Details Revamp",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-25",
+   "type": "callout",
+   "callout": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "+23.5% Uplift in Conversion",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "+23.5% Uplift in Conversion",
+      "href": null
+     }
+    ],
+    "icon": {
+     "type": "emoji",
+     "emoji": "📈"
+    },
+    "color": "default"
+   }
+  },
+  {
+   "id": "allbirds-pdp-26",
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Why I wanted to revamp product details:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Why I wanted to revamp product details:",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-27",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Redesigning the product details text yielded another surprisingly impactful change to conversion. I chose to tackle this portion of the PDP because, compared to other e-commerce sites I’ve worked on, the Allbirds PDPs had fewer product details. We were trying to position ourselves as an eco-friendly premium brand, but we weren’t doing a good job of communicating that story to our customers. I had a hunch that this lack of key information was hurting our conversion rate.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Redesigning the product details text yielded another surprisingly impactful change to conversion. I chose to tackle this portion of the PDP because, compared to other e-commerce sites I’ve worked on, the Allbirds PDPs had fewer product details. We were trying to position ourselves as an eco-friendly premium brand, but we weren’t doing a good job of communicating that story to our customers. I had a hunch that this lack of key information was hurting our conversion rate.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-28",
+   "type": "image",
+   "image": {
+    "src": "/images/AllbirdsPDP/old-product-details.png",
+    "width": 2000,
+    "height": 821,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The initial state of the product details. This did not provide users with information they expected, such as design features and material composition. It was also difficult to skim this information quickly.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The initial state of the product details. This did not provide users with information they expected, such as design features and material composition. It was also difficult to skim this information quickly.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-29",
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Competitive Analysis Validation:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Competitive Analysis Validation:",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-30",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "I worked with Product Management to validate my thinking. We identified our key competitors, and I conducted a competitive analysis of their product details. Across the board, our competitors’ product details were more detailed than my own, with key details displayed as bullet points. I then identified examples relevant to what we wanted our details to look like. Rothy’s and Lululemon stood out as competitors with similar values and customer demographics.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "I worked with Product Management to validate my thinking. We identified our key competitors, and I conducted a competitive analysis of their product details. Across the board, our competitors’ product details were more detailed than my own, with key details displayed as bullet points. I then identified examples relevant to what we wanted our details to look like. Rothy’s and Lululemon stood out as competitors with similar values and customer demographics.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-31",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "I liked Rothy’s focus on materials and sustainability in their product details section. The bullet points make the information easy to digest, and the writing is concise while also being editorial enough to feel premium. (See below left)",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "I liked Rothy’s focus on materials and sustainability in their product details section. The bullet points make the information easy to digest, and the writing is concise while also being editorial enough to feel premium. (See below left)",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-32",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Additionally, I liked the way Lululemon included use cases for their products to help contextualize the design features. Additionally, the “why we made this” statement made each product feel thoughtful and intentional. (See below right)",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Additionally, I liked the way Lululemon included use cases for their products to help contextualize the design features. Additionally, the “why we made this” statement made each product feel thoughtful and intentional. (See below right)",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-33",
+   "type": "column_list",
+   "column_list": {},
+   "children": [
+    {
+     "id": "allbirds-pdp-34",
+     "type": "column",
+     "column": {},
+     "children": [
+      {
+       "id": "allbirds-pdp-35",
+       "type": "image",
+       "image": {
+        "src": "/images/AllbirdsPDP/rothys.png",
+        "width": 1725,
+        "height": 869,
+        "caption": [
+         {
+          "type": "text",
+          "text": {
+           "content": "Rothy’s product details (click to enlarge)",
+           "link": null
+          },
+          "annotations": {
+           "bold": false,
+           "italic": false,
+           "strikethrough": false,
+           "underline": false,
+           "code": false,
+           "color": "default"
+          },
+          "plain_text": "Rothy’s product details (click to enlarge)",
+          "href": null
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "id": "allbirds-pdp-36",
+     "type": "column",
+     "column": {},
+     "children": [
+      {
+       "id": "allbirds-pdp-37",
+       "type": "image",
+       "image": {
+        "src": "/images/AllbirdsPDP/lululemon.png",
+        "width": 1880,
+        "height": 1554,
+        "caption": [
+         {
+          "type": "text",
+          "text": {
+           "content": "Lululemon’s product details (click to enlarge)",
+           "link": null
+          },
+          "annotations": {
+           "bold": false,
+           "italic": false,
+           "strikethrough": false,
+           "underline": false,
+           "code": false,
+           "color": "default"
+          },
+          "plain_text": "Lululemon’s product details (click to enlarge)",
+          "href": null
+         }
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "allbirds-pdp-38",
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Design:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Design:",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-39",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "With my idea validated by the competitive landscape, and armed with examples I considered best-in-class, I iterated through some versions of what we envisioned for product details, and ultimately landed on the design below.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "With my idea validated by the competitive landscape, and armed with examples I considered best-in-class, I iterated through some versions of what we envisioned for product details, and ultimately landed on the design below.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-40",
+   "type": "image",
+   "image": {
+    "src": "/images/AllbirdsPDP/final-product-details.png",
+    "width": 1780,
+    "height": 1256,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The final product details design.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The final product details design.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-41",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "“Why we made this” gives us an opportunity to tell the product’s intro story. This reinforces our sustainability value prop by communicating purposefulness.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "“Why we made this” gives us an opportunity to tell the product’s intro story. This reinforces our sustainability value prop by communicating purposefulness.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-42",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "“Best for” gives customers an idea of how a product might fit into their lifestyle. This information helps distinguish whether a shoe is athletic vs. athleisure.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "“Best for” gives customers an idea of how a product might fit into their lifestyle. This information helps distinguish whether a shoe is athletic vs. athleisure.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-43",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "“Thoughtfully designed” elevates the products by giving details that may not be visible from the product images. The bullet points make it easy to digest the information quickly.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "“Thoughtfully designed” elevates the products by giving details that may not be visible from the product images. The bullet points make it easy to digest the information quickly.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-44",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "“Materials & Sustainability” are grouped because the two are very intertwined for the brand. Natural and recycled materials are a key piece of the brand, and that story was not communicated as clearly in the previous layout.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "“Materials & Sustainability” are grouped because the two are very intertwined for the brand. Natural and recycled materials are a key piece of the brand, and that story was not communicated as clearly in the previous layout.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-45",
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Other considerations:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Other considerations:",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-46",
+   "type": "image",
+   "image": {
+    "src": "/images/AllbirdsPDP/accordions-vs-tabs.png",
+    "width": 1650,
+    "height": 628,
+    "caption": []
+   }
+  },
+  {
+   "id": "allbirds-pdp-47",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "I had initially wanted to use tabs instead of accordions, as the tab titles would be visible closer to the top, and give stronger information scent to users. However, we ultimately decided to use accordions for several reasons:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "I had initially wanted to use tabs instead of accordions, as the tab titles would be visible closer to the top, and give stronger information scent to users. However, we ultimately decided to use accordions for several reasons:",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-48",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Accordions would allow us to display multiple pieces of information simultaneously. In the same vein, we would also be able to test different configurations of open/closed accordions.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Accordions would allow us to display multiple pieces of information simultaneously. In the same vein, we would also be able to test different configurations of open/closed accordions.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-49",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "We already planned to use accordions on mobile, and having the same pattern on desktop would be slightly easier to execute.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "We already planned to use accordions on mobile, and having the same pattern on desktop would be slightly easier to execute.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-50",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Accordions were more common than tabs on our competitors’ sites.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Accordions were more common than tabs on our competitors’ sites.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-51",
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Testing & Results:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Testing & Results:",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-52",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "We A/B tested the new product details design on 9 of our most popular products because the new layout required new copywriting, and we wanted to see whether there was a positive impact before investing in the work.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "We A/B tested the new product details design on 9 of our most popular products because the new layout required new copywriting, and we wanted to see whether there was a positive impact before investing in the work.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-53",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "We also tested 2 different variations of the product details: One version that included the “material hero” module and one that did not.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "We also tested 2 different variations of the product details: One version that included the “material hero” module and one that did not.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-54",
+   "type": "image",
+   "image": {
+    "src": "/images/AllbirdsPDP/product-details-results.png",
+    "width": 1491,
+    "height": 840,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Test variants and their associated results.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Test variants and their associated results.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-55",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "It’s even more interesting to me when an A/B test doesn’t perform as expected. After running the test for a week, the version showing both the new product details and the materials hero ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "It’s even more interesting to me when an A/B test doesn’t perform as expected. After running the test for a week, the version showing both the new product details and the materials hero ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "increased conversion by 23.5%",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "increased conversion by 23.5%",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " with 99.6% confidence, while results were essentially flat when the materials hero was removed.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " with 99.6% confidence, while results were essentially flat when the materials hero was removed.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "allbirds-pdp-56",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "This was a very positive and directional result, but we were flummoxed as to why the winning version performed so well. The new product details cards were meant to cover the information in both the 3-column layout and the “materials hero,” and continuing to display the materials hero seemed redundant to me. Perhaps the materials hero was flashy and made the product feel elevated, or the fabric close-up image was an important piece of information that was otherwise missing from the page. Regardless of the actual reasoning, results like these elicit even more ideas for experimentation!",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "This was a very positive and directional result, but we were flummoxed as to why the winning version performed so well. The new product details cards were meant to cover the information in both the 3-column layout and the “materials hero,” and continuing to display the materials hero seemed redundant to me. Perhaps the materials hero was flashy and made the product feel elevated, or the fabric close-up image was an important piece of information that was otherwise missing from the page. Regardless of the actual reasoning, results like these elicit even more ideas for experimentation!",
+      "href": null
+     }
+    ]
+   }
+  }
+ ]
+}

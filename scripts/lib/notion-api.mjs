@@ -1,7 +1,7 @@
 // Minimal Notion REST client (no SDK) shared by the sync and migration scripts.
 // Uses the stable 2022-06-28 API version so `databases/{id}/query` keeps working.
 
-const API = "https://api.notion.com/v1";
+const API = process.env.NOTION_API_BASE || "https://api.notion.com/v1"; // override only for tests
 const VERSION = "2022-06-28";
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));

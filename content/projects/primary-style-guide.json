@@ -1,0 +1,1748 @@
+{
+ "blocks": [
+  {
+   "id": "primary-style-guide-1",
+   "type": "image",
+   "image": {
+    "src": "/images/PrimarySG/Combo-links-buttons@2x.png",
+    "width": 1768,
+    "height": 2202,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Link & Button Styles",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Link & Button Styles",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-2",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Objectives",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Objectives",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-3",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Create visual and interaction consistency across the different parts of Primary's e-commerce web app.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Create visual and interaction consistency across the different parts of Primary's e-commerce web app.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-4",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "As a product design team of one, scale product design across the organization by empowering engineers and traditional marketing designers to easily make reasonable web design choices.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "As a product design team of one, scale product design across the organization by empowering engineers and traditional marketing designers to easily make reasonable web design choices.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-5",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Fold accessibility into the design system, so that all future products would pass WCAG 2.0 contrast ratios.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Fold accessibility into the design system, so that all future products would pass WCAG 2.0 contrast ratios.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-6",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Decrease the amount of code that needed to be loaded in order to improve site performance.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Decrease the amount of code that needed to be loaded in order to improve site performance.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-7",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Make it faster to design, code, and iterate on new products.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Make it faster to design, code, and iterate on new products.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-8",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Ensure that visual differences are meaningful and thought through.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Ensure that visual differences are meaningful and thought through.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-9",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Background",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Background",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-10",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "I was the first product designer hired at Primary, and I would be a team of one for nearly all of my time there. Because of that, my first priority was creatig a way to scale my work for the biggest possible organizational impact. To achieve this, one of the first things that I tackled was a unified digital style guide/design system.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "I was the first product designer hired at Primary, and I would be a team of one for nearly all of my time there. Because of that, my first priority was creatig a way to scale my work for the biggest possible organizational impact. To achieve this, one of the first things that I tackled was a unified digital style guide/design system.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-11",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Before I started at Primary, digital products were designed by more traditional brand designers who didn't have much experience with or understanding of digital design or code. Engineers would custom-style every new component, which would both take a long time and create lots of bloat. As a result, the app CSS contained hundereds of different text style combinations, randomly-sized spacings, and dozens of slightly different interface colors. Most of these subtle variations weren't particularly purposeful or intentional — they were just symptomatic of a lack of systemic design thinking and poor design/engineering collaboration.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Before I started at Primary, digital products were designed by more traditional brand designers who didn't have much experience with or understanding of digital design or code. Engineers would custom-style every new component, which would both take a long time and create lots of bloat. As a result, the app CSS contained hundereds of different text style combinations, randomly-sized spacings, and dozens of slightly different interface colors. Most of these subtle variations weren't particularly purposeful or intentional — they were just symptomatic of a lack of systemic design thinking and poor design/engineering collaboration.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-12",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Fortunately, I was received buy-in on this idea very early on from both my manager and the engineering team. In fact, one of the senior engineers, who eventually became my first design system partner, had already taken it upon himself to do a visual audit of some existing patterns to highlight the many inconsistencies. This was an excellent jumping-off point for the project and our close collaboration.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Fortunately, I was received buy-in on this idea very early on from both my manager and the engineering team. In fact, one of the senior engineers, who eventually became my first design system partner, had already taken it upon himself to do a visual audit of some existing patterns to highlight the many inconsistencies. This was an excellent jumping-off point for the project and our close collaboration.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-13",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Creating the style guide",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Creating the style guide",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-14",
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "1. Understanding the Problem",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "1. Understanding the Problem",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-15",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Despite knowing the importance of having a design system and having worked within one before, I had never created one from scratch, and had never needed to understand the way it would be structured in the code. Fortunately, my engineering partner had worked on a design system before at Etsy, and gave me a crash course on their design system's principles and a quick demonstration of how they used CSS utility classes, which was the first thing we would tackle.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Despite knowing the importance of having a design system and having worked within one before, I had never created one from scratch, and had never needed to understand the way it would be structured in the code. Fortunately, my engineering partner had worked on a design system before at Etsy, and gave me a crash course on their design system's principles and a quick demonstration of how they used CSS utility classes, which was the first thing we would tackle.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-16",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "I watched as he quickly changed the styling of some components by adding a combination of class names in the browser inspector. I had been used to CSS structured the other way around, with classes for specific components. By contrast, the utility class system seemed much easier to learn, manage, and apply and seemed way more flexible.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "I watched as he quickly changed the styling of some components by adding a combination of class names in the browser inspector. I had been used to CSS structured the other way around, with classes for specific components. By contrast, the utility class system seemed much easier to learn, manage, and apply and seemed way more flexible.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-17",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "This left me to decide on what the text styles, spacers, and names themselves should be.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "This left me to decide on what the text styles, spacers, and names themselves should be.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-18",
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "2. Research",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "2. Research",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-19",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "I began by searching for design system resources online, and found a fairly mixed bag. Design systems were still rather new at the time (March 2018), and though there existed some documentation, there weren't quite as many that persuasively explained the reasons behind the choices. However, ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "I began by searching for design system resources online, and found a fairly mixed bag. Design systems were still rather new at the time (March 2018), and though there existed some documentation, there weren't quite as many that persuasively explained the reasons behind the choices. However, ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "this article from Eightshapes",
+       "link": {
+        "url": "https://medium.com/eightshapes-llc/space-in-design-systems-188bcbae0d62"
+       }
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "this article from Eightshapes",
+      "href": "https://medium.com/eightshapes-llc/space-in-design-systems-188bcbae0d62"
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " and ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " and ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "this article from Ether",
+       "link": {
+        "url": "https://medium.com/@ethersystem/generating-design-system-spacing-aa69714160bc"
+       }
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "this article from Ether",
+      "href": "https://medium.com/@ethersystem/generating-design-system-spacing-aa69714160bc"
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " persuasively argued for a base-8 system for the following reasons:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " persuasively argued for a base-8 system for the following reasons:",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-20",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The base font size is usually 16px.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The base font size is usually 16px.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-21",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Most standard screen sizes are divisible by 8.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Most standard screen sizes are divisible by 8.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-22",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Base-8 scales better than base-10, as it can be divided evenly in half twice.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Base-8 scales better than base-10, as it can be divided evenly in half twice.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-23",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Base-8 gives designers a good number of meaningful options, but not too many the way base-6 (which Etsy used at the time) might.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Base-8 gives designers a good number of meaningful options, but not too many the way base-6 (which Etsy used at the time) might.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-24",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Google's Material Design system is base-8, it scales well, and they probably put a lot of thought into it.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Google's Material Design system is base-8, it scales well, and they probably put a lot of thought into it.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-25",
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "3. Design",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "3. Design",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-26",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Having decided on a base-8 system, many key decisions logically followed:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Having decided on a base-8 system, many key decisions logically followed:",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-27",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Spacings would scale using the Fibonacci sequence per the suggestion from the Ether article.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Spacings would scale using the Fibonacci sequence per the suggestion from the Ether article.",
+      "href": null
+     }
+    ]
+   },
+   "children": [
+    {
+     "id": "primary-style-guide-28",
+     "type": "image",
+     "image": {
+      "src": "/images/PrimarySG/sg-spacing@2x.jpg",
+      "width": 1768,
+      "height": 818,
+      "caption": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Primary's standard set of spacings.",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Primary's standard set of spacings.",
+        "href": null
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "primary-style-guide-29",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The standard text size would be 16px, and text would scale up and down from there.\nValuing numerical precision, I initially tried to create new text sizes in inrements of 8 and 4, once I tried creating some components, with the initial sizes, it was clear the system needed some more fine-grained scaling.\nAfter playing around with some different scaling options, I settled on differences of 2, 4, or multiples of 8, with the differences between adjacent styles being smaller going down, and larger going up. It wasn't quite as mathematically elegant as the Fibonacci sequence, but visually, it seemed to scale gracefully.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The standard text size would be 16px, and text would scale up and down from there.\nValuing numerical precision, I initially tried to create new text sizes in inrements of 8 and 4, once I tried creating some components, with the initial sizes, it was clear the system needed some more fine-grained scaling.\nAfter playing around with some different scaling options, I settled on differences of 2, 4, or multiples of 8, with the differences between adjacent styles being smaller going down, and larger going up. It wasn't quite as mathematically elegant as the Fibonacci sequence, but visually, it seemed to scale gracefully.",
+      "href": null
+     }
+    ]
+   },
+   "children": [
+    {
+     "id": "primary-style-guide-30",
+     "type": "image",
+     "image": {
+      "src": "/images/PrimarySG/sg-text-styles@2x.jpg",
+      "width": 1768,
+      "height": 3376,
+      "caption": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Primary's text styles.",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Primary's text styles.",
+        "href": null
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "primary-style-guide-31",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "I even initially tried creating my own grid system, roughly based on Bootstrap, but with 16px gutters instead of 15px ones, for the sake of maintaining a base-8 system. However, after discussing it with my engineering partner, I learned that we were already using the unadulterated Bootstrap grid on nearly all of our pages, and that even such a small change to the gutters could have a huge potential to break things all over the app. Because of that, though the numerical inconsistency bothered me, we decided to just keep our Bootstrap grid and breakpoints as they were.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "I even initially tried creating my own grid system, roughly based on Bootstrap, but with 16px gutters instead of 15px ones, for the sake of maintaining a base-8 system. However, after discussing it with my engineering partner, I learned that we were already using the unadulterated Bootstrap grid on nearly all of our pages, and that even such a small change to the gutters could have a huge potential to break things all over the app. Because of that, though the numerical inconsistency bothered me, we decided to just keep our Bootstrap grid and breakpoints as they were.",
+      "href": null
+     }
+    ]
+   },
+   "children": [
+    {
+     "id": "primary-style-guide-32",
+     "type": "image",
+     "image": {
+      "src": "/images/PrimarySG/sg-breakpoints@2x.jpg",
+      "width": 1768,
+      "height": 530,
+      "caption": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Primary's breakpoints.",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Primary's breakpoints.",
+        "href": null
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "primary-style-guide-33",
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "4. Test",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "4. Test",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-34",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Though I made the process sound very simple and logical above, in reality, there was a lot of guessing and checking and testing while I was working on developing the text styles and spacings. Design is, after all, not just math and logic, but feelings and aesthetics as well, and creating text scales and spacings in isolation would be a pointless exercise if they didn't work well in the context of a page. Because of this, I was simultaneously working on Primary's ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Though I made the process sound very simple and logical above, in reality, there was a lot of guessing and checking and testing while I was working on developing the text styles and spacings. Design is, after all, not just math and logic, but feelings and aesthetics as well, and creating text scales and spacings in isolation would be a pointless exercise if they didn't work well in the context of a page. Because of this, I was simultaneously working on Primary's ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "Ambassador Program page template",
+       "link": {
+        "url": "https://www.primary.com/ambassador/nicole"
+       }
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Ambassador Program page template",
+      "href": "https://www.primary.com/ambassador/nicole"
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " and testing out type, spacing scales, and colors as I went along.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " and testing out type, spacing scales, and colors as I went along.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-35",
+   "type": "image",
+   "image": {
+    "src": "/images/PrimarySG/primary-ambassador-page@2x.jpg",
+    "width": 1768,
+    "height": 4884,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Primary's Ambassador Program page. The first page to use the new style guide text and spacing utilities. ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Primary's Ambassador Program page. The first page to use the new style guide text and spacing utilities. ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "View it live",
+       "link": {
+        "url": "https://www.primary.com/ambassador/nicole"
+       }
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "View it live",
+      "href": "https://www.primary.com/ambassador/nicole"
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": ".",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": ".",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-36",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Testing on an actual page revealed issues around responsivness:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Testing on an actual page revealed issues around responsivness:",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-37",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Larger text sizes that worked well on large desktop screens looked far too big on a mobile phone. As a result, we built responsiveness into the text utilities, automatically shifting from the mobile size to the desktop size on viewports above 768px. This meant modifying the larger text sizes so that text on smaller screens would also look proportional and retain the intended information hierarchy. The smaller sizes remained the same on smaller screens in order to preserve legibility.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Larger text sizes that worked well on large desktop screens looked far too big on a mobile phone. As a result, we built responsiveness into the text utilities, automatically shifting from the mobile size to the desktop size on viewports above 768px. This meant modifying the larger text sizes so that text on smaller screens would also look proportional and retain the intended information hierarchy. The smaller sizes remained the same on smaller screens in order to preserve legibility.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-38",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Similarly, larger spacings that looked airy on large desktop screens created disproportionally massive gaps on mobile. To account for this, we created responsive spacing utilities tied to our bootstrap breakpoints so that we could now specify at which breakpoint a spacer size changes from one number to another. \nI also discovered that using the Fibonacci sequence for the spacing sizes allowed us to use the following rule of thumb: for any vertical space that looked right on desktop screens, the size that looked right on mobile screens was usually one size down, and vice versa. This realization led to significantly faster decisions when it came to designing vertical page flows, and allowed engineers to create reasonable-looking layouts on their own, a huge success in terms of scaling design.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Similarly, larger spacings that looked airy on large desktop screens created disproportionally massive gaps on mobile. To account for this, we created responsive spacing utilities tied to our bootstrap breakpoints so that we could now specify at which breakpoint a spacer size changes from one number to another. \nI also discovered that using the Fibonacci sequence for the spacing sizes allowed us to use the following rule of thumb: for any vertical space that looked right on desktop screens, the size that looked right on mobile screens was usually one size down, and vice versa. This realization led to significantly faster decisions when it came to designing vertical page flows, and allowed engineers to create reasonable-looking layouts on their own, a huge success in terms of scaling design.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-39",
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "5. Iterate",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "5. Iterate",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-40",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "As we used the style guide for more and more things, we made changes along the way, revisiting text weights and sizes, adding and removing utilities, deprecating fonts and colors, and adding more components and documentation. The style guide images shown here are merely the current state at the time of writing, and don't reflect the dozens of changes made since its inception over a year ago.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "As we used the style guide for more and more things, we made changes along the way, revisiting text weights and sizes, adding and removing utilities, deprecating fonts and colors, and adding more components and documentation. The style guide images shown here are merely the current state at the time of writing, and don't reflect the dozens of changes made since its inception over a year ago.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-41",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Moving toward a design system",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Moving toward a design system",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-42",
+   "type": "image",
+   "image": {
+    "src": "/images/PrimarySG/colors-new@2x.jpg",
+    "width": 1768,
+    "height": 4280,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The beginning of the Primary Design System.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The beginning of the Primary Design System.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-43",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "As both the design system and the team grew, design system documentation became more fragemented. We had information in various Confluence pages, Zeplin, the code itself, and, in people's minds and passed down through oral tradition. Onboarding full-time and freelance designers and engineers into the design system became a huge growing pain. We needed to create a more accessible and centralized place to store our style guide.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "As both the design system and the team grew, design system documentation became more fragemented. We had information in various Confluence pages, Zeplin, the code itself, and, in people's minds and passed down through oral tradition. Onboarding full-time and freelance designers and engineers into the design system became a huge growing pain. We needed to create a more accessible and centralized place to store our style guide.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-44",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Typically, design system documentation written by engineers was written for other engineers, and didn't contain visuals or provide enough detail around use cases for product design. Conversely, the visual documentation I had created had been created for myself and other designers, and didn't always refer to actual code or utility class names. This worked when most of the users of the system were also building the system, and others could be taught piecemeal, but as the team grew and design system knowledge became more diluted, it became harder and more time-consuming to rely on engineers to educate each other on usage. Furthermore, there was simply more nuance to design than anyone could easily commit to memory, and there wasn't a single source of truth other than, well, me. And that certainly would not scale.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Typically, design system documentation written by engineers was written for other engineers, and didn't contain visuals or provide enough detail around use cases for product design. Conversely, the visual documentation I had created had been created for myself and other designers, and didn't always refer to actual code or utility class names. This worked when most of the users of the system were also building the system, and others could be taught piecemeal, but as the team grew and design system knowledge became more diluted, it became harder and more time-consuming to rely on engineers to educate each other on usage. Furthermore, there was simply more nuance to design than anyone could easily commit to memory, and there wasn't a single source of truth other than, well, me. And that certainly would not scale.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-45",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "My engineering colleagues and I had been discussing this issue for a while, and had agreed that a centralized internal styleguide site would be the ideal solution, because it would be fairly simple to manage, new components could be easily added as they were built, any changes would automatically propagate, and all of the relevant information would be easily accessible to internal users. However, none of us had bandwidth or management approval to work on it. As a result, that idea sat in our minds for a while, never becoming reality.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "My engineering colleagues and I had been discussing this issue for a while, and had agreed that a centralized internal styleguide site would be the ideal solution, because it would be fairly simple to manage, new components could be easily added as they were built, any changes would automatically propagate, and all of the relevant information would be easily accessible to internal users. However, none of us had bandwidth or management approval to work on it. As a result, that idea sat in our minds for a while, never becoming reality.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-46",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "When there was a companywide hackaton a few months later, one of the engineers and I jumped at the opportunity to dedicate some time to fleshing out the idea. We ended up tackling the problem from two different dierctions: he worked on getting an MVP page of the existing components and documentation up in a digital format while I used my usual design process to envision what a better future state might look like.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "When there was a companywide hackaton a few months later, one of the engineers and I jumped at the opportunity to dedicate some time to fleshing out the idea. We ended up tackling the problem from two different dierctions: he worked on getting an MVP page of the existing components and documentation up in a digital format while I used my usual design process to envision what a better future state might look like.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-47",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Designing design system 2.0",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Designing design system 2.0",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-48",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Background:",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Background:",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " Because of the aforementioned issues with the existing design documentation, I wanted to create a resource to address the needs of both designers and engineers while also adhering to established best practices in design systems.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " Because of the aforementioned issues with the existing design documentation, I wanted to create a resource to address the needs of both designers and engineers while also adhering to established best practices in design systems.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-49",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Research:",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Research:",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " I was fortunate to be able to draw on my close working relationships with engineers at Primary. As the only product designer at the companyall design questions would eventually come to me, so I had been able to track trends in the kinds of questions being asked. , but I didn't want to merely stop there. So I looked into design system best practices in order to see how other organizations had done it.\nI began by looking at other examples of public design systems in this ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " I was fortunate to be able to draw on my close working relationships with engineers at Primary. As the only product designer at the companyall design questions would eventually come to me, so I had been able to track trends in the kinds of questions being asked. , but I didn't want to merely stop there. So I looked into design system best practices in order to see how other organizations had done it.\nI began by looking at other examples of public design systems in this ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "design system gallery",
+       "link": {
+        "url": "https://designsystemsrepo.com/design-systems-recent/"
+       }
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "design system gallery",
+      "href": "https://designsystemsrepo.com/design-systems-recent/"
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " to gather ideas and identify common methods of documentation. I particularly liked Shopify's ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " to gather ideas and identify common methods of documentation. I particularly liked Shopify's ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "Polaris Design System",
+       "link": {
+        "url": "https://polaris.shopify.com/"
+       }
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Polaris Design System",
+      "href": "https://polaris.shopify.com/"
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " as well as ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " as well as ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "Etrade's",
+       "link": {
+        "url": "https://etrade.design/colors"
+       }
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Etrade's",
+      "href": "https://etrade.design/colors"
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " and ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " and ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "CBRE Build's",
+       "link": {
+        "url": "https://blocks.cbrebuild.com/styles/colors/"
+       }
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "CBRE Build's",
+      "href": "https://blocks.cbrebuild.com/styles/colors/"
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " representations of colors. And of course, I also looked at Google's ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " representations of colors. And of course, I also looked at Google's ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "Material Design System",
+       "link": {
+        "url": "https://material.io/"
+       }
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Material Design System",
+      "href": "https://material.io/"
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": ", on which the original Primary Design System was loosely based. \nMy biggest “aha” moment coming out of this was that it's not enough to just document what the components are or how to use them. It was also important to explain the ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": ", on which the original Primary Design System was loosely based. \nMy biggest “aha” moment coming out of this was that it's not enough to just document what the components are or how to use them. It was also important to explain the ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "underlying principles",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "underlying principles",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " of the system alongside. We had just focused on documenting the \"what\" and \"how,\" and hadn’t given enough time to documenting the “why,” relying instead on ad hoc conversations to communicate this to our internal users. \nEngineers tend to be natural systems thinkers, and lack of documentation about the conceptual basis for the system made design decisions seem more arbitrary and less, well, systemic. It also failed to support an important personal goal I'd had since starting as the sole product designer at Primary: creating more product design understanding across the organization in order to scale design in the absence of more designers.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " of the system alongside. We had just focused on documenting the \"what\" and \"how,\" and hadn’t given enough time to documenting the “why,” relying instead on ad hoc conversations to communicate this to our internal users. \nEngineers tend to be natural systems thinkers, and lack of documentation about the conceptual basis for the system made design decisions seem more arbitrary and less, well, systemic. It also failed to support an important personal goal I'd had since starting as the sole product designer at Primary: creating more product design understanding across the organization in order to scale design in the absence of more designers.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-50",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Planning & Information Architecture:",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Planning & Information Architecture:",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " After the research, I created an inventory of the components that already existed and organized them into common sections, resulting in a rough information architecture of the existing system. This would simultaneously function as a to-do list for tackling the project a little at a time once the hackathon was over.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " After the research, I created an inventory of the components that already existed and organized them into common sections, resulting in a rough information architecture of the existing system. This would simultaneously function as a to-do list for tackling the project a little at a time once the hackathon was over.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-style-guide-51",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "More information coming soon! In the meantime, you can view the full style guide on ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "More information coming soon! In the meantime, you can view the full style guide on ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "Sketch Cloud",
+       "link": {
+        "url": "https://sketch.cloud/s/0Go8O/p/style-guide"
+       }
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Sketch Cloud",
+      "href": "https://sketch.cloud/s/0Go8O/p/style-guide"
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": ".",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": ".",
+      "href": null
+     }
+    ]
+   }
+  }
+ ]
+}

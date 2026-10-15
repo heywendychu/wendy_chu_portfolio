@@ -79,7 +79,7 @@ function jsxText(value) {
 // ---------------------------------------------------------------------------
 // rich text
 
-const INLINE = new Set(["B", "b", "strong", "em", "i", "SpanLink", "a", "br", "span", "u"]);
+const INLINE = new Set(["B", "b", "strong", "em", "i", "SpanLink", "a", "br", "span", "u", "Spacer"]);
 
 function richText(children, ann = {}, link = null, out = []) {
   for (const c of children) {
@@ -91,7 +91,7 @@ function richText(children, ann = {}, link = null, out = []) {
       if (typeof v === "string" && v) out.push({ content: v, ann, link });
     } else if (c.type === "JSXElement") {
       const n = nameOf(c);
-      if (n === "br") out.push({ content: "\n", ann, link });
+      if (n === "br" || n === "Spacer") out.push({ content: "\n", ann, link });
       else if (["B", "b", "strong"].includes(n)) richText(c.children, { ...ann, bold: true }, link, out);
       else if (["em", "i"].includes(n)) richText(c.children, { ...ann, italic: true }, link, out);
       else if (n === "u") richText(c.children, { ...ann, underline: true }, link, out);
@@ -139,7 +139,16 @@ const rt = (s) => toRich([{ content: s, ann: {}, link: null }]);
 
 const sentenceCase = (s) => (s === s.toUpperCase() ? s.charAt(0) + s.slice(1).toLowerCase() : s);
 const block = (type, data, children) => ({ type, [type]: data, ...(children?.length ? { children } : {}) });
-const imageBlock = (file, caption) => block("image", { type: "external", external: { url: `/images/${file}` }, caption: rt(caption || "") });
+const imageBlock = (file, caption) =>
+  block("image", { type: "external", external: { url: `/images/${file}` }, caption: Array.isArray(caption) ? caption : rt(caption || "") });
+
+/** A caption prop may be a string or JSX (bold, links…). */
+function captionOf(el) {
+  const a = el.openingElement.attributes.find((x) => x.name?.name === "caption");
+  const expr = a?.value?.type === "JSXExpressionContainer" ? a.value.expression : null;
+  if (expr && (expr.type === "JSXFragment" || expr.type === "JSXElement")) return toRich(richText([expr]));
+  return attr(el, "caption");
+}
 
 const SKIP = new Set(["Spacer", "br", "ProjectHeader", "Footer", "CompanyContainer", "Company", "ProjectLink"]);
 const WALK = new Set(["Container", "div", "Column", "Col", "MainRow", "CompanyWrapper", "span", "React.Fragment"]);
@@ -176,8 +185,20 @@ function convert(nodes, ctx = {}) {
       case "P":
       case "p":
       case "Paragraph": {
-        const r = toRich(richText(n.children));
-        if (r.length) out.push(block("paragraph", { rich_text: r }));
+        // a <P> can wrap images too: split into text runs and blocks, in order
+        let run = [];
+        const flush = () => {
+          const r = toRich(richText(run));
+          if (r.length) out.push(block("paragraph", { rich_text: r }));
+          run = [];
+        };
+        for (const c of n.children) {
+          if (c.type === "JSXElement" && !INLINE.has(nameOf(c))) {
+            flush();
+            out.push(...convert([c], ctx));
+          } else run.push(c);
+        }
+        flush();
         break;
       }
       case "StatCallout":
@@ -188,10 +209,25 @@ function convert(nodes, ctx = {}) {
       case "ul":
       case "ol": {
         const type = name.toLowerCase() === "ol" ? "numbered_list_item" : "bulleted_list_item";
+        let prevItem = null;
         for (const li of n.children.filter((c) => c.type === "JSXElement")) {
-          const inline = li.children.filter((c) => !(c.type === "JSXElement" && !INLINE.has(nameOf(c))));
-          const nested = li.children.filter((c) => c.type === "JSXElement" && !INLINE.has(nameOf(c)));
-          out.push(block(type, { rich_text: toRich(richText(inline)) }, convert(nested, ctx)));
+          const childName = nameOf(li);
+          if (["Ul", "Ol", "ul", "ol"].includes(childName) && prevItem) {
+            // a list nested directly inside a list belongs to the item before it
+            (prevItem.children ||= []).push(...convert([li], ctx));
+            continue;
+          }
+          if (childName !== "Li" && childName !== "li") {
+            // images/paragraphs mixed into a list: emit them between list items
+            out.push(...convert([li], ctx));
+            if (!SKIP.has(childName)) prevItem = null;
+            continue;
+          }
+          const isBlockEl = (c) => c.type === "JSXElement" && !INLINE.has(nameOf(c));
+          const inline = li.children.filter((c) => !isBlockEl(c));
+          const nested = li.children.filter(isBlockEl);
+          prevItem = block(type, { rich_text: toRich(richText(inline)) }, convert(nested, ctx));
+          out.push(prevItem);
         }
         break;
       }
@@ -199,7 +235,7 @@ function convert(nodes, ctx = {}) {
         const file = attr(n, "desktop");
         if (!file) break;
         if (attr(n, "mobile")) warn(`${ctx.slug}: mobile-only variant "${attr(n, "mobile")}" dropped (desktop image is used everywhere)`);
-        out.push(imageBlock(file, attr(n, "caption")));
+        out.push(imageBlock(file, captionOf(n)));
         break;
       }
       case "ProfilePicture":
@@ -329,7 +365,7 @@ try { sharp = (await import("sharp")).default; } catch {}
 async function dims(file) {
   if (!sharp) return {};
   try {
-    const m = await sharp(path.join(PUBLIC, "images", file)).metadata();
+    const m = await sharp(path.join(PUBLIC, "images", decodeURIComponent(file))).metadata();
     return { width: m.width, height: m.pageHeight || m.height };
   } catch { return {}; }
 }
@@ -385,9 +421,9 @@ async function snapshot({ projects, home }) {
 const MIME = { png: "image/png", jpg: "image/jpeg", jpeg: "image/jpeg", gif: "image/gif", webp: "image/webp", svg: "image/svg+xml" };
 
 async function upload(file) {
-  const abs = path.join(PUBLIC, "images", file);
+  const abs = path.join(PUBLIC, "images", decodeURIComponent(file));
   const ext = path.extname(file).slice(1).toLowerCase();
-  const filename = path.basename(file);
+  const filename = path.basename(decodeURIComponent(file));
   try {
     const created = await notion("/file_uploads", { method: "POST", body: { filename, content_type: MIME[ext] || "application/octet-stream" } });
     const form = new FormData();

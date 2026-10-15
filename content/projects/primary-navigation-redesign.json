@@ -1,0 +1,1707 @@
+{
+ "blocks": [
+  {
+   "id": "primary-navigation-redesign-1",
+   "type": "image",
+   "image": {
+    "src": "/images/PrimaryNav/mobile-navigation-d.png",
+    "width": 2652,
+    "height": 1713,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Mobile Navigation",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Mobile Navigation",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-2",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Objectives",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Objectives",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-3",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The project was meant to accomplish the following things:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The project was meant to accomplish the following things:",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-4",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Create a scalable and adminable navigation system that enables Primary to do more product storytelling.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Create a scalable and adminable navigation system that enables Primary to do more product storytelling.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-5",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Drive desktop users to PLPs rather than PDPs without negatively impacting the key metric: Add to Bag rate.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Drive desktop users to PLPs rather than PDPs without negatively impacting the key metric: Add to Bag rate.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-6",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Address user-facing experience, accessibility information architecture, and product naming issues present in the existing navigation.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Address user-facing experience, accessibility information architecture, and product naming issues present in the existing navigation.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-7",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Align with established interaction patterns and best practices.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Align with established interaction patterns and best practices.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-8",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Update visual design to be consistent with refreshed brand style guide.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Update visual design to be consistent with refreshed brand style guide.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-9",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Background",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Background",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-10",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Many factors motivated this navigation/landing page redesign project:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Many factors motivated this navigation/landing page redesign project:",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-11",
+   "type": "image",
+   "image": {
+    "src": "/images/PrimaryNav/old-desktop-nav-d@2x.jpg",
+    "width": 1768,
+    "height": 860,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Old Desktop Navigation",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Old Desktop Navigation",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-12",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Product assortment growth: ",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Product assortment growth: ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " Primary’s navigation had been the same since they launched in 2015 with just a few dozen products. By early 2019, the product assortment had grown to 300+, and it had become more and more challenging to communicate the the assortment within the existing navigation without breaking it.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " Primary’s navigation had been the same since they launched in 2015 with just a few dozen products. By early 2019, the product assortment had grown to 300+, and it had become more and more challenging to communicate the the assortment within the existing navigation without breaking it.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-13",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Desire for more product storytelling: ",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Desire for more product storytelling: ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " The creative and merchandising teams wanted to do more editorial storytelling and to communicate seasonality. Editorial emails had historically been high performers, but there was no way to leverage that content in the site experience, which seemed like a significant missed opportunity.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " The creative and merchandising teams wanted to do more editorial storytelling and to communicate seasonality. Editorial emails had historically been high performers, but there was no way to leverage that content in the site experience, which seemed like a significant missed opportunity.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-14",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Quantitative & qualitative data:",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Quantitative & qualitative data:",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " Analytics data and usability testing observations showed significant UX issues, especially in the desktop experience:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " Analytics data and usability testing observations showed significant UX issues, especially in the desktop experience:",
+      "href": null
+     }
+    ]
+   },
+   "children": [
+    {
+     "id": "primary-navigation-redesign-15",
+     "type": "bulleted_list_item",
+     "bulleted_list_item": {
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "In testing, desktop users (who make up ~70% of purchases) struggled with flyouts because small hover areas required precise mouse movements.",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "In testing, desktop users (who make up ~70% of purchases) struggled with flyouts because small hover areas required precise mouse movements.",
+        "href": null
+       }
+      ]
+     }
+    },
+    {
+     "id": "primary-navigation-redesign-16",
+     "type": "bulleted_list_item",
+     "bulleted_list_item": {
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Within the desktop flyouts, products were shown as small thumbnails that were difficult for users to see. This wasn’t a good way to showcase our products.",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Within the desktop flyouts, products were shown as small thumbnails that were difficult for users to see. This wasn’t a good way to showcase our products.",
+        "href": null
+       }
+      ]
+     }
+    },
+    {
+     "id": "primary-navigation-redesign-17",
+     "type": "bulleted_list_item",
+     "bulleted_list_item": {
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Analytics showed that most desktop users wouldn’t reach a product landing page (PLP) and would instead go directly to product detail pages (PDPs). Once there, it was difficult for users to view more products because they would need to go through the navigation again, amplifying the usability issues.",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Analytics showed that most desktop users wouldn’t reach a product landing page (PLP) and would instead go directly to product detail pages (PDPs). Once there, it was difficult for users to view more products because they would need to go through the navigation again, amplifying the usability issues.",
+        "href": null
+       }
+      ]
+     }
+    },
+    {
+     "id": "primary-navigation-redesign-18",
+     "type": "bulleted_list_item",
+     "bulleted_list_item": {
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Analytics also showed that the default “top 10” category flyout was by far the most interacted-with, which suggests that users might have missed the ability to view other categories for products more specific to their interests.",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Analytics also showed that the default “top 10” category flyout was by far the most interacted-with, which suggests that users might have missed the ability to view other categories for products more specific to their interests.",
+        "href": null
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "primary-navigation-redesign-19",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Non-standard product naming:",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Non-standard product naming:",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " Primary had been using some unconventional terms to refer to its product categories, (e.g. “babysuits” instead of “bodysuits” and “Per4orm” instead of “active”).",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " Primary had been using some unconventional terms to refer to its product categories, (e.g. “babysuits” instead of “bodysuits” and “Per4orm” instead of “active”).",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-20",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Rethinking the product taxonomy:",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Rethinking the product taxonomy:",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " There were also plans in the works to reorganize products according to internally understood attributes like cut and fabric. But I was skeptical and wanted to see how users would naturally categorize our products.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " There were also plans in the works to reorganize products according to internally understood attributes like cut and fabric. But I was skeptical and wanted to see how users would naturally categorize our products.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-21",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Design & implementation process",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Design & implementation process",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-22",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The design process was collaborative and agile, with twice-weekly progress check-ins between design and engineering and daily standups. My role in this process was essential, as detailed below.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The design process was collaborative and agile, with twice-weekly progress check-ins between design and engineering and daily standups. My role in this process was essential, as detailed below.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-23",
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "1. Research",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "1. Research",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-24",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Compiled existing user research & data and conducted stakeholder interviews.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Compiled existing user research & data and conducted stakeholder interviews.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-25",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Conducted visual cardsorting of kids & baby products using Optimalsort.\n",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Conducted visual cardsorting of kids & baby products using Optimalsort.\n",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "Results:",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Results:",
+      "href": null
+     }
+    ]
+   },
+   "children": [
+    {
+     "id": "primary-navigation-redesign-26",
+     "type": "bulleted_list_item",
+     "bulleted_list_item": {
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Most users talked about how they would organize their children’s closets by seasonality. Instead of arranging things by cut or fabric as merchandising had originally planned, they tended to arrange things by category, and then by seasonal attributes like sleeve length.",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Most users talked about how they would organize their children’s closets by seasonality. Instead of arranging things by cut or fabric as merchandising had originally planned, they tended to arrange things by category, and then by seasonal attributes like sleeve length.",
+        "href": null
+       }
+      ]
+     }
+    },
+    {
+     "id": "primary-navigation-redesign-27",
+     "type": "bulleted_list_item",
+     "bulleted_list_item": {
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "This is important, because most other retailers’ product assortments would naturally reflect seasonality as they phase products in and out of stock, but Primary’s assortment had always been intended to be evergreen, so this was a critical piece of insight for the business.",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "This is important, because most other retailers’ product assortments would naturally reflect seasonality as they phase products in and out of stock, but Primary’s assortment had always been intended to be evergreen, so this was a critical piece of insight for the business.",
+        "href": null
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "primary-navigation-redesign-28",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Conducted competitive analysis and competitive user testing with help from our UX researcher to quickly validate general directions for desktop and mobile. We were trying to decide between a few different interaction models on desktop and mobile, as shown below. \n",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Conducted competitive analysis and competitive user testing with help from our UX researcher to quickly validate general directions for desktop and mobile. We were trying to decide between a few different interaction models on desktop and mobile, as shown below. \n",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "Results:",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Results:",
+      "href": null
+     }
+    ]
+   },
+   "children": [
+    {
+     "id": "primary-navigation-redesign-29",
+     "type": "bulleted_list_item",
+     "bulleted_list_item": {
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "I narrowed the options down to a traditional hamburger menu on mobile and simple text-based flyouts on desktop, with space for some editorial content.",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "I narrowed the options down to a traditional hamburger menu on mobile and simple text-based flyouts on desktop, with space for some editorial content.",
+        "href": null
+       }
+      ]
+     }
+    },
+    {
+     "id": "primary-navigation-redesign-30",
+     "type": "bulleted_list_item",
+     "bulleted_list_item": {
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "These were both the most common patterns in our competitive analysis and the ones that users preferred, likely because of their familiarity.",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "These were both the most common patterns in our competitive analysis and the ones that users preferred, likely because of their familiarity.",
+        "href": null
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "primary-navigation-redesign-31",
+   "type": "image",
+   "image": {
+    "src": "/images/PrimaryNav/comp-analysis@2x.png",
+    "width": 1768,
+    "height": 1064,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Competitive Examples Gathered",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Competitive Examples Gathered",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-32",
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "2. Design",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "2. Design",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-33",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Sketched multiple desktop and mobile concepts based on research to quickly run by engineers and stakeholders.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Sketched multiple desktop and mobile concepts based on research to quickly run by engineers and stakeholders.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-34",
+   "type": "image",
+   "image": {
+    "src": "/images/PrimaryNav/sketches-m@2x.png",
+    "width": 1000,
+    "height": 1396,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Navigation Sketches",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Navigation Sketches",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-35",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Created low fidelity designs in Sketch, which I used to gather feedback from engineers and stakeholders. Made revisions based on their feedback.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Created low fidelity designs in Sketch, which I used to gather feedback from engineers and stakeholders. Made revisions based on their feedback.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-36",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Tested medium-fidelity desktop & mobile InVision prototypes with help from our UX researcher and made minor visual revisions. \n",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Tested medium-fidelity desktop & mobile InVision prototypes with help from our UX researcher and made minor visual revisions. \n",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "Desktop Prototype",
+       "link": {
+        "url": "https://invis.io/7GUCJ9RRM3K"
+       }
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Desktop Prototype",
+      "href": "https://invis.io/7GUCJ9RRM3K"
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "\n",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "\n",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "Mobile Prototype",
+       "link": {
+        "url": "https://invis.io/XBUCJBHJYN6#/360602640_Navigation_-320--_Main"
+       }
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Mobile Prototype",
+      "href": "https://invis.io/XBUCJBHJYN6#/360602640_Navigation_-320--_Main"
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-37",
+   "type": "image",
+   "image": {
+    "src": "/images/PrimaryNav/invision-desktop-nav@2x.jpg",
+    "width": 1768,
+    "height": 464,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Invision Desktop Navigation Prototype",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Invision Desktop Navigation Prototype",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-38",
+   "type": "image",
+   "image": {
+    "src": "/images/PrimaryNav/invision-mobile-nav@2x.jpg",
+    "width": 1768,
+    "height": 1538,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Invision Mobile Navigation Prototype",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Invision Mobile Navigation Prototype",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-39",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Created pixel-perfect production-ready designs to communicate with engineers in Zeplin.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Created pixel-perfect production-ready designs to communicate with engineers in Zeplin.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-40",
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "3. Build",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "3. Build",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-41",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Collaborated with engineers and stakeholders on design & interaction details and reasonable content limits for the CMS",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Collaborated with engineers and stakeholders on design & interaction details and reasonable content limits for the CMS",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-42",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Lead extensive QA of the design to ensure that it aligned with the design system, and worked with engineers to refine final visual design and animations",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Lead extensive QA of the design to ensure that it aligned with the design system, and worked with engineers to refine final visual design and animations",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-43",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "This navigation is currently live at ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "This navigation is currently live at ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "Primary.com",
+       "link": {
+        "url": "http://www.primary.com"
+       }
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Primary.com",
+      "href": "http://www.primary.com"
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "!",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "!",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-44",
+   "type": "video",
+   "video": {
+    "type": "external",
+    "external": {
+     "url": "https://vimeo.com/365849063"
+    },
+    "caption": [],
+    "src": "https://vimeo.com/365849063"
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-45",
+   "type": "video",
+   "video": {
+    "type": "external",
+    "external": {
+     "url": "https://vimeo.com/365849339"
+    },
+    "caption": [],
+    "src": "https://vimeo.com/365849339"
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-46",
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "4. Test",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "4. Test",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-47",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "After implementation, we conducted internal usability testing of the final product before releasing it to the public as a 50/50 A/B test for one month.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "After implementation, we conducted internal usability testing of the final product before releasing it to the public as a 50/50 A/B test for one month.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-48",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "We also conducted post-launch usability testing with external users experience to validate that the final product worked as expected for users.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "We also conducted post-launch usability testing with external users experience to validate that the final product worked as expected for users.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-49",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Results",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Results",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-50",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The project was considered a success, and after the A/B test validation, we ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The project was considered a success, and after the A/B test validation, we ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "released it to 100% of users",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "released it to 100% of users",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": ".",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": ".",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-51",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Metrics-wise, we ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Metrics-wise, we ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "increased PLP view rate on desktop by 15%",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "increased PLP view rate on desktop by 15%",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": ", and decreased PDP view rate by only 4%. There were no changes to PDP/PLP view rate on mobile or to our lead metric, add-to-bag rate, on desktop or mobile. Given the unchanged add-to-bag rate, we concluded that it's a positive trade-off since ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": ", and decreased PDP view rate by only 4%. There were no changes to PDP/PLP view rate on mobile or to our lead metric, add-to-bag rate, on desktop or mobile. Given the unchanged add-to-bag rate, we concluded that it's a positive trade-off since ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "more users are progressing down the funnel",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "more users are progressing down the funnel",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " than before.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " than before.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-52",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "In usability testing, users didn’t run into any of the previous usability issues, and were able to ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "In usability testing, users didn’t run into any of the previous usability issues, and were able to ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "navigate more quickly",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "navigate more quickly",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " to their desired categories. They also had an easier user flow going from Navigation to PLP to PDP and back to PLP.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " to their desired categories. They also had an easier user flow going from Navigation to PLP to PDP and back to PLP.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-navigation-redesign-53",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "With the new design, we were able to ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "With the new design, we were able to ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "double the number of top-level categories",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "double the number of top-level categories",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " that could be shown from 4 to 8, allowing Primary’s navigation to be more seasonal and editorial. Internal stakeholders were thrilled with the new editorial content slots and the ease with which they could change the navigation.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " that could be shown from 4 to 8, allowing Primary’s navigation to be more seasonal and editorial. Internal stakeholders were thrilled with the new editorial content slots and the ease with which they could change the navigation.",
+      "href": null
+     }
+    ]
+   }
+  }
+ ]
+}

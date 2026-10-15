@@ -435,6 +435,8 @@ code {
 .home__copy { max-width: 70%; }
 
 @media (max-width: 768px) {
+  .home { padding: 0 24px 100px; }
+  .not-found { width: calc(100% - 48px); }
   .home > .section:first-child { margin-top: 56px; }
   .about__text { width: 100%; max-width: none; }
   .about__portrait--desktop { display: none; }

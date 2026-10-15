@@ -1,0 +1,429 @@
+{
+ "title": "Portfolio home",
+ "blocks": [
+  {
+   "id": "home-1",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "About me",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "About me",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "home-2",
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Hi, I'm Wendy Chu.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Hi, I'm Wendy Chu.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "home-3",
+   "type": "image",
+   "image": {
+    "src": "/images/profile.png",
+    "width": 682,
+    "height": 688,
+    "caption": []
+   }
+  },
+  {
+   "id": "home-4",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Staff-level product designer in Los Angeles, CA, with 14+ years of experience across B2B and B2C. I've previously crafted digital experiences at ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Staff-level product designer in Los Angeles, CA, with 14+ years of experience across B2B and B2C. I've previously crafted digital experiences at ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "Allbirds",
+       "link": {
+        "url": "https://www.allbirds.com/"
+       }
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Allbirds",
+      "href": "https://www.allbirds.com/"
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": ", ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": ", ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "VTS",
+       "link": {
+        "url": "https://www.vts.com"
+       }
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "VTS",
+      "href": "https://www.vts.com"
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": ", ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": ", ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "Primary",
+       "link": {
+        "url": "https://www.primary.com"
+       }
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Primary",
+      "href": "https://www.primary.com"
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": ", and ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": ", and ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "Ralph Lauren",
+       "link": {
+        "url": "https://www.ralphlauren.com/"
+       }
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Ralph Lauren",
+      "href": "https://www.ralphlauren.com/"
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": ".",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": ".",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "home-5",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "As a design practitioner, I have deep experience across the entire product design process. I consistently drive projects from strategy and ideation to execution and delivery with a bias toward iteration and experimentation. Product managers love that I am data-driven, focus on delivering user value, and naturally break big projects into smaller iterative phases. Engineers love that I collaborate with them on solutions, can speak to the technical side of things, and strive to improve design documentation for their sakes. QAs love that I do my own design QA pass. Users love my passion for understanding and solving their problems. Design managers love my drive to learn new things and improve existing processes and communication methods.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "As a design practitioner, I have deep experience across the entire product design process. I consistently drive projects from strategy and ideation to execution and delivery with a bias toward iteration and experimentation. Product managers love that I am data-driven, focus on delivering user value, and naturally break big projects into smaller iterative phases. Engineers love that I collaborate with them on solutions, can speak to the technical side of things, and strive to improve design documentation for their sakes. QAs love that I do my own design QA pass. Users love my passion for understanding and solving their problems. Design managers love my drive to learn new things and improve existing processes and communication methods.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "home-6",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "As a design leader, I distinguish myself through excellent cross-functional collaboration and communication, and by balancing big-picture thinking and detail-oriented design work. I have a knack for coaxing order out of chaos. I love tackling ambiguous problems and creating processes and frameworks that foster communication, collaboration, and inclusion.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "As a design leader, I distinguish myself through excellent cross-functional collaboration and communication, and by balancing big-picture thinking and detail-oriented design work. I have a knack for coaxing order out of chaos. I love tackling ambiguous problems and creating processes and frameworks that foster communication, collaboration, and inclusion.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "home-7",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Work",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Work",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "home-8",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Contact",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Contact",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "home-9",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "I’m currently looking for a full-time ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "I’m currently looking for a full-time ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "senior/staff product design",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "senior/staff product design",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " role, preferably remote. I'd be most interested in: marketplaces, SaaS tools, design systems,and experiences that bridge digital and physical. If you think we might be a good fit, I'd love to chat! Get in touch with me at ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " role, preferably remote. I'd be most interested in: marketplaces, SaaS tools, design systems,and experiences that bridge digital and physical. If you think we might be a good fit, I'd love to chat! Get in touch with me at ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "hi@wendychu.design",
+       "link": {
+        "url": "mailto:hi@wendychu.design"
+       }
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "hi@wendychu.design",
+      "href": "mailto:hi@wendychu.design"
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "!",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "!",
+      "href": null
+     }
+    ]
+   }
+  }
+ ]
+}

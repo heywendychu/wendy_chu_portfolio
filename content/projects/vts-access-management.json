@@ -1,0 +1,2960 @@
+{
+ "blocks": [
+  {
+   "id": "vts-access-management-1",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "About the company",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "About the company",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-2",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "VTS (View The Space) is a company that develops SaaS products for commercial real estate. At the time I worked on this project, VTS had recently expanded into property management software with VTS Activate, a platform that allows commercial building managers to publish content and engage with their tenants.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "VTS (View The Space) is a company that develops SaaS products for commercial real estate. At the time I worked on this project, VTS had recently expanded into property management software with VTS Activate, a platform that allows commercial building managers to publish content and engage with their tenants.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-3",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "About the project",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "About the project",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-4",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "My team was responsible for adding access management functionality to the existing Activate platform. The team comprised of 1 product manager, 10 engineers, 2 QAs, 1 designer (me!).",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "My team was responsible for adding access management functionality to the existing Activate platform. The team comprised of 1 product manager, 10 engineers, 2 QAs, 1 designer (me!).",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-5",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "What is access management?",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "What is access management?",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-6",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Access management is the ability to manage who can access different parts of a building.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Access management is the ability to manage who can access different parts of a building.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-7",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "For example, if you are an employee who works in an office building, you would need access to the lobby, the floor containing your company’s office, and the office itself, but perhaps you shouldn’t have access to other floors or restricted areas like a security office.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "For example, if you are an employee who works in an office building, you would need access to the lobby, the floor containing your company’s office, and the office itself, but perhaps you shouldn’t have access to other floors or restricted areas like a security office.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-8",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Buildings that want this level of access control typically use keycards to manage access, and the keycards themselves are managed with access management software. Access credentials can also be stored digitally on a mobile device, adding greater convenience to tenants and easier management for security personnel.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Buildings that want this level of access control typically use keycards to manage access, and the keycards themselves are managed with access management software. Access credentials can also be stored digitally on a mobile device, adding greater convenience to tenants and easier management for security personnel.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-9",
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The scope I worked on:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The scope I worked on:",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-10",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Admins can digitally grant and remove access and set access groups (locations) for each user",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Admins can digitally grant and remove access and set access groups (locations) for each user",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-11",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Admins can grant access management permissions to other users",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Admins can grant access management permissions to other users",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-12",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Employees (end users) can use their phone as a keycard",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Employees (end users) can use their phone as a keycard",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-13",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Due to complexity, I’ll be focusing on just the admin portion for this case study.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Due to complexity, I’ll be focusing on just the admin portion for this case study.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-14",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The business case for access management",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The business case for access management",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-15",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Access management helped the business by gaining incremental revenue from both new and existing customers.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Access management helped the business by gaining incremental revenue from both new and existing customers.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-16",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "New customers:",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "New customers:",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " It was common knowledge in the industry that access control was dominated by a few companies with old technology and clunky interfaces. By digitizing keycards and creating an intuitive interface to manage them, we attracted new customers to the Activate platform on the strength of the access management product.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " It was common knowledge in the industry that access control was dominated by a few companies with old technology and clunky interfaces. By digitizing keycards and creating an intuitive interface to manage them, we attracted new customers to the Activate platform on the strength of the access management product.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-17",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Existing customers:",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Existing customers:",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " Access control was a paid add-on feature that worked within the Activate platform. Managing access through Activate would allow building managers to reduce the number of tools they use, streamline their operations, and potentially reduce their costs. Because most buildings that used Activate’s content publishing tools were larger ones with access control systems, it was a good fit for the existing customer base.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " Access control was a paid add-on feature that worked within the Activate platform. Managing access through Activate would allow building managers to reduce the number of tools they use, streamline their operations, and potentially reduce their costs. Because most buildings that used Activate’s content publishing tools were larger ones with access control systems, it was a good fit for the existing customer base.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-18",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Potential network effects",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Potential network effects",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "\nAccess management presented a huge user acquisition opportunity for VTS, as property managers could upsell their tenants on the ability to manage their own employees’ access. To do that, tenants would also need an Activate subscription. Because most of the buildings we served had dozens of businesses within, it was a huge potential opportunity for growth.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "\nAccess management presented a huge user acquisition opportunity for VTS, as property managers could upsell their tenants on the ability to manage their own employees’ access. To do that, tenants would also need an Activate subscription. Because most of the buildings we served had dozens of businesses within, it was a huge potential opportunity for growth.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-19",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Such an arrangement would benefit both parties. Property personnel wouldn’t need to manually manage access for those building employees, and companies would no longer need to go through an intermediary to modify their employees’ access.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Such an arrangement would benefit both parties. Property personnel wouldn’t need to manually manage access for those building employees, and companies would no longer need to go through an intermediary to modify their employees’ access.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-20",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Competitive research & user interviews",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Competitive research & user interviews",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-21",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Before embarking on design, I interviewed several existing and prospective clients with my PM and available squad engineers.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Before embarking on design, I interviewed several existing and prospective clients with my PM and available squad engineers.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-22",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Sidenote:",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": true,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Sidenote:",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " It’s important to me that everyone on the squad can listen to and observe our users firsthand so that they can better understand our average, less tech-savvy users. The experience is much more memorable than if I were to share clips or a report, and gets us all on the same page.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": true,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " It’s important to me that everyone on the squad can listen to and observe our users firsthand so that they can better understand our average, less tech-savvy users. The experience is much more memorable than if I were to share clips or a report, and gets us all on the same page.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-23",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "I asked users to demonstrate how they performed common tasks: setting up access for a new user, changing access, and removing access from a user. To prepare for these interviews, I first wrote down what I hoped to learn, and then wrote out a set of questions I wanted to ask. However, I kept these interviews conversational, and asked impromptu questions on relevant topics that came up.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "I asked users to demonstrate how they performed common tasks: setting up access for a new user, changing access, and removing access from a user. To prepare for these interviews, I first wrote down what I hoped to learn, and then wrote out a set of questions I wanted to ask. However, I kept these interviews conversational, and asked impromptu questions on relevant topics that came up.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-24",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "A selection of screenshots from our main competitive reference, HID, are shown below. Note: sensitive PII data has been blurred.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "A selection of screenshots from our main competitive reference, HID, are shown below. Note: sensitive PII data has been blurred.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-25",
+   "type": "image",
+   "image": {
+    "src": "/images/VTSAccess/HID_Mobile_IDs_-_blur.png",
+    "width": 3348,
+    "height": 1796,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "HID’s table does the job, but could benefit from better visual hierarchy and more specific inline actions for efficiency.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "HID’s table does the job, but could benefit from better visual hierarchy and more specific inline actions for efficiency.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-26",
+   "type": "image",
+   "image": {
+    "src": "/images/VTSAccess/image.png",
+    "width": 13586,
+    "height": 3576,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "HID’s user details page is very long, with many different sections (2 screen heights’ worth of content can be seen above). This page would benefit from more efficient use of space and anchor links, which would to allow users to find what they need more quickly.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "HID’s user details page is very long, with many different sections (2 screen heights’ worth of content can be seen above). This page would benefit from more efficient use of space and anchor links, which would to allow users to find what they need more quickly.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-27",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Pain points",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Pain points",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-28",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Existing workflows required many steps.",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Existing workflows required many steps.",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " Though expert users stated that these workflows were easy, the time it took to perform the tasks for a single user was more than ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " Though expert users stated that these workflows were easy, the time it took to perform the tasks for a single user was more than ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "1 minute.",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "1 minute.",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " It may not sound like much time, but considering how frequently our users would need to perform these tasks, it added up.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " It may not sound like much time, but considering how frequently our users would need to perform these tasks, it added up.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-29",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Interfaces had weak information hierarchy",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Interfaces had weak information hierarchy",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " — Many pages are long and contain a great deal of information, but there is no navigation (tabs, anchor links, etc.) when users land on these pages.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " — Many pages are long and contain a great deal of information, but there is no navigation (tabs, anchor links, etc.) when users land on these pages.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-30",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Layout made inefficient use of screen real estate —",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Layout made inefficient use of screen real estate —",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " Information could have been displayed more compactly without sacrificing usability or aesthetics. Though white space is important to include in a design, much of the white space in these interfaces looked unintentional.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " Information could have been displayed more compactly without sacrificing usability or aesthetics. Though white space is important to include in a design, much of the white space in these interfaces looked unintentional.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-31",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "User data intake was very manual",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "User data intake was very manual",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " — most users copied names and emails from a spreadsheet or paper to input the names and emails of each user.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " — most users copied names and emails from a spreadsheet or paper to input the names and emails of each user.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-32",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "After discussing with my PM and engineering lead, we agreed that it was feasible to address the above issues in the product we were building, as we did not yet have an existing product.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "After discussing with my PM and engineering lead, we agreed that it was feasible to address the above issues in the product we were building, as we did not yet have an existing product.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-33",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "User roles",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "User roles",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-34",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The user interviews also gave me a deeper understanding of the user roles we would serve and what they would be doing in the access management product.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The user interviews also gave me a deeper understanding of the user roles we would serve and what they would be doing in the access management product.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-35",
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Property manager",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Property manager",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-36",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The general manager of a particular building. Manages security personnel.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The general manager of a particular building. Manages security personnel.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-37",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Expert at managing access control systems.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Expert at managing access control systems.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-38",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Can grant and remove access for all users in the building.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Can grant and remove access for all users in the building.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-39",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Can grant and remove admin rights for all users in the building.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Can grant and remove admin rights for all users in the building.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-40",
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Security personnel",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Security personnel",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-41",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Responsible for managing day-to-day access for tenants and visitors of the building. Typically located in a front desk area.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Responsible for managing day-to-day access for tenants and visitors of the building. Typically located in a front desk area.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-42",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Proficient at managing access control systems.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Proficient at managing access control systems.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-43",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Can grant and remove access for tenants of the building.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Can grant and remove access for tenants of the building.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-44",
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Company access admin",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Company access admin",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-45",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Works for a tenant company as a general admin or receptionist. Responsible for coordinating employee access with the building security team, among other admin tasks.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Works for a tenant company as a general admin or receptionist. Responsible for coordinating employee access with the building security team, among other admin tasks.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-46",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Little to no experience managing access control systems.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Little to no experience managing access control systems.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-47",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Can grant and remove access for their company’s employees.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Can grant and remove access for their company’s employees.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-48",
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Employee",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Employee",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-49",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Works for a tenant company in the building",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Works for a tenant company in the building",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-50",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "No experience managing access control systems.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "No experience managing access control systems.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-51",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Doesn’t need to use the admin side of access at all",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Doesn’t need to use the admin side of access at all",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-52",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Identifying and splitting these roles out helped my team think critically about how each role would experience the product instead of thinking about everything as a jumble of features. Defining the user roles contextualized what we were building and why, and gave us a common language to talk about the different user roles",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Identifying and splitting these roles out helped my team think critically about how each role would experience the product instead of thinking about everything as a jumble of features. Defining the user roles contextualized what we were building and why, and gave us a common language to talk about the different user roles",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-53",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Design & testing",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Design & testing",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-54",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Design and testing for this project happened on a rolling basis over the course of ~ 9 months. I designed and worked iteratively with my squad to deliver multiple bundles of value to our users and stakeholders. I worked with my squad to ensure that each user-facing release made sense as a whole. Some of those bundles are detailed below.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Design and testing for this project happened on a rolling basis over the course of ~ 9 months. I designed and worked iteratively with my squad to deliver multiple bundles of value to our users and stakeholders. I worked with my squad to ensure that each user-facing release made sense as a whole. Some of those bundles are detailed below.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-55",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Phase 1: Polish existing functionality",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Phase 1: Polish existing functionality",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-56",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "One of my favorite parts of joining a new team is examining what exists with my fresh pair of eyes. One of the first things I do is to sit down with my PM and/or EM and take a tour of the product, asking questions as they occur to me to understand the decisions that had already been made. Though I also seek out qualitative and quantitative user data at this time, I find that my heuristic analysis of a product is often pretty closely aligned with user feedback.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "One of my favorite parts of joining a new team is examining what exists with my fresh pair of eyes. One of the first things I do is to sit down with my PM and/or EM and take a tour of the product, asking questions as they occur to me to understand the decisions that had already been made. Though I also seek out qualitative and quantitative user data at this time, I find that my heuristic analysis of a product is often pretty closely aligned with user feedback.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-57",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Below is the user access table design that existed when I first joined the team.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Below is the user access table design that existed when I first joined the team.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-58",
+   "type": "image",
+   "image": {
+    "src": "/images/VTSAccess/image%201.png",
+    "width": 2880,
+    "height": 2048,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The user access table design from before I joined the team.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The user access table design from before I joined the team.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-59",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "I was fortunate in that the customer success team had already started to hold training sessions with actual users on this version of the table, and these training sessions worked well as free covert usability tests. I could observe how users interacted with the product, what they struggled to do, and where they had questions. Some of the biggest issues I noticed:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "I was fortunate in that the customer success team had already started to hold training sessions with actual users on this version of the table, and these training sessions worked well as free covert usability tests. I could observe how users interacted with the product, what they struggled to do, and where they had questions. Some of the biggest issues I noticed:",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-60",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The actions dropdown at the end of each row was hidden behind a horizontal scroll due to the number of columns.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The actions dropdown at the end of each row was hidden behind a horizontal scroll due to the number of columns.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-61",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Users had difficulty understanding the toggle as relating to mobile access status, because the table header was not always visible.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Users had difficulty understanding the toggle as relating to mobile access status, because the table header was not always visible.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-62",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Users were startled by the modal that appeared after clicking on the toggle. It felt abrupt and did not match their interaction expectations.Modal that appeared when users click on the toggle to enable mobile access.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Users were startled by the modal that appeared after clicking on the toggle. It felt abrupt and did not match their interaction expectations.Modal that appeared when users click on the toggle to enable mobile access.",
+      "href": null
+     }
+    ]
+   },
+   "children": [
+    {
+     "id": "vts-access-management-63",
+     "type": "image",
+     "image": {
+      "src": "/images/VTSAccess/image%202.png",
+      "width": 2880,
+      "height": 2048,
+      "caption": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Modal that appeared when users click on the toggle to enable mobile access. This was updated as well. :)",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Modal that appeared when users click on the toggle to enable mobile access. This was updated as well. :)",
+        "href": null
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "vts-access-management-64",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Users had difficulty trtacking the change in status, and thought the system wasn’t working or that they had done something wrong.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Users had difficulty trtacking the change in status, and thought the system wasn’t working or that they had done something wrong.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-65",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "My design changes",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "My design changes",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-66",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Based on the information I gathered from user interviews and these training sessions, I changed several parts of the experience.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Based on the information I gathered from user interviews and these training sessions, I changed several parts of the experience.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-67",
+   "type": "image",
+   "image": {
+    "src": "/images/VTSAccess/image%203.png",
+    "width": 2880,
+    "height": 2048,
+    "caption": []
+   }
+  },
+  {
+   "id": "vts-access-management-68",
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "More efficient use of space:",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "More efficient use of space:",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " Space efficiency is important because 1280px is our user base’s third most common screen resolution. The previous design required so much truncation at that screen width, that it was barely usable. After checking with my team I was able to hide and group information to make a more compact and usable interface. I grouped the name and primary email into one column, hid the company column if it was all the same company, and hid the source and sync status columns, as this was only relevant to our internal team. These changes allowed our users to focus on only the most relevant information, and made the table less daunting for company access admins.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " Space efficiency is important because 1280px is our user base’s third most common screen resolution. The previous design required so much truncation at that screen width, that it was barely usable. After checking with my team I was able to hide and group information to make a more compact and usable interface. I grouped the name and primary email into one column, hid the company column if it was all the same company, and hid the source and sync status columns, as this was only relevant to our internal team. These changes allowed our users to focus on only the most relevant information, and made the table less daunting for company access admins.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-69",
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Replaced toggle with status chip:",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Replaced toggle with status chip:",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " A toggle was a poor fit for the access enablement action, as a toggle affordance conveys a simple and immediate action, while enabling access was an async, external process that could take some time. To better represent the nature of the action, I replaced the toggle with a status chip that contained a dropdown, which could easily accommodate a loading state and convey more complex statuses. The dropdown menu interaction also allowed the confirmation modal to feel more natural, as a modal often appears after selection of a dropdown item, but rarely after a toggle interaction. Though a toggle is more efficient, users are unlikely to enable or disable a particular user's access frequently enough for it to make a difference, so the tradeoff still made sense.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " A toggle was a poor fit for the access enablement action, as a toggle affordance conveys a simple and immediate action, while enabling access was an async, external process that could take some time. To better represent the nature of the action, I replaced the toggle with a status chip that contained a dropdown, which could easily accommodate a loading state and convey more complex statuses. The dropdown menu interaction also allowed the confirmation modal to feel more natural, as a modal often appears after selection of a dropdown item, but rarely after a toggle interaction. Though a toggle is more efficient, users are unlikely to enable or disable a particular user's access frequently enough for it to make a difference, so the tradeoff still made sense.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-70",
+   "type": "numbered_list_item",
+   "numbered_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Additional status feedback:",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Additional status feedback:",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " Because enabling and disabling mobile access was asynchronous, it was important for users to be informed that their request was received. I added a processing state (with an animated spinner) to the status chip as well as toasts to confirm the intended action.Ideally, I would have had a toast come up when the action had been completed, but my engineering lead told me that wasn’t feasible. After some brainstorming, we landed on an idea that was both user-friendly and technically simple: refresh the table after a few seconds so that the status chip would (hopefully) have changed from processing to another status, communicating the same information to users. Though these are small interaction details, they made users feel confident that things were working — even if the status didn’t change immediately.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " Because enabling and disabling mobile access was asynchronous, it was important for users to be informed that their request was received. I added a processing state (with an animated spinner) to the status chip as well as toasts to confirm the intended action.Ideally, I would have had a toast come up when the action had been completed, but my engineering lead told me that wasn’t feasible. After some brainstorming, we landed on an idea that was both user-friendly and technically simple: refresh the table after a few seconds so that the status chip would (hopefully) have changed from processing to another status, communicating the same information to users. Though these are small interaction details, they made users feel confident that things were working — even if the status didn’t change immediately.",
+      "href": null
+     }
+    ]
+   },
+   "children": [
+    {
+     "id": "vts-access-management-71",
+     "type": "image",
+     "image": {
+      "src": "/images/VTSAccess/image%204.png",
+      "width": 1446,
+      "height": 512,
+      "caption": []
+     }
+    }
+   ]
+  },
+  {
+   "id": "vts-access-management-72",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Phase 2: Scaling",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Phase 2: Scaling",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-73",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Revenue for access management was tied to the number of access-enabled users, so we decided to focus next on functionality that would increase the rate at which access-enabled users could be added. Although we had a usable product for controlling access, key tasks like adding and importing users were still being handled by our internal team. In order to scale up, we would need to build workflows that would allow users to do these tasks.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Revenue for access management was tied to the number of access-enabled users, so we decided to focus next on functionality that would increase the rate at which access-enabled users could be added. Although we had a usable product for controlling access, key tasks like adding and importing users were still being handled by our internal team. In order to scale up, we would need to build workflows that would allow users to do these tasks.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-74",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "To solve this, we decided to do two tracks of work in parallel: bulk user invitation with access enablement and admin role assignment. We arrived at this approach after holding a quick-and-dirty brainstorm session in which the we looked at the existing interfaces, discussed desired functionality and potential design solutions, and estimated sizing for both engineering and design. After discussing options and taking our aggressive timeline into account, These two areas were fairly separate in the codebase and the product, so working on them in parallel wouldn’t be counterproductive. Though I knew that this would result in a lot of work falling on me at once, I felt confident about the approaches we’d just discussed. Worst case, I could deliver a subset of the design to get engineers going while I finished the rest, or I could renegotiate timelines.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "To solve this, we decided to do two tracks of work in parallel: bulk user invitation with access enablement and admin role assignment. We arrived at this approach after holding a quick-and-dirty brainstorm session in which the we looked at the existing interfaces, discussed desired functionality and potential design solutions, and estimated sizing for both engineering and design. After discussing options and taking our aggressive timeline into account, These two areas were fairly separate in the codebase and the product, so working on them in parallel wouldn’t be counterproductive. Though I knew that this would result in a lot of work falling on me at once, I felt confident about the approaches we’d just discussed. Worst case, I could deliver a subset of the design to get engineers going while I finished the rest, or I could renegotiate timelines.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-75",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Access-enabled invitation",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Access-enabled invitation",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-76",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "I decided to tackle the invitation flow first, as user invitation flows already existed, so I wouldn’t need to start from scratch. However, the existing interfaces were outdated and contained solely within modals, and they ended up being a bit of work to revamp.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "I decided to tackle the invitation flow first, as user invitation flows already existed, so I wouldn’t need to start from scratch. However, the existing interfaces were outdated and contained solely within modals, and they ended up being a bit of work to revamp.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-77",
+   "type": "image",
+   "image": {
+    "src": "/images/VTSAccess/image%205.png",
+    "width": 3456,
+    "height": 1818,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Existing single invitation modal",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Existing single invitation modal",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-78",
+   "type": "image",
+   "image": {
+    "src": "/images/VTSAccess/image%206.png",
+    "width": 2880,
+    "height": 1814,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Existing bulk invitation modal",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Existing bulk invitation modal",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-79",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Option 1: Minimal UI changes",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Option 1: Minimal UI changes",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-80",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "As a designer, it pained me to see such crude interfaces, but I needed to take the timeline into account as well. In an effort to minimize scope, I initially proposed cleaning up the modal interfaces by replacing old components with design system components, moving around some buttons to add add clarity, and adding the new functionality on top of those updates. Below are the designs I came up with.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "As a designer, it pained me to see such crude interfaces, but I needed to take the timeline into account as well. In an effort to minimize scope, I initially proposed cleaning up the modal interfaces by replacing old components with design system components, moving around some buttons to add add clarity, and adding the new functionality on top of those updates. Below are the designs I came up with.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-81",
+   "type": "image",
+   "image": {
+    "src": "/images/VTSAccess/image%207.png",
+    "width": 2882,
+    "height": 1804,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Single invitation modal with minimal UI updates and added functionality",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Single invitation modal with minimal UI updates and added functionality",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-82",
+   "type": "image",
+   "image": {
+    "src": "/images/VTSAccess/image%208.png",
+    "width": 2882,
+    "height": 1804,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Bulk invitation modal with minimal UI updates and new functionality",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Bulk invitation modal with minimal UI updates and new functionality",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-83",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "I didn’t like the idea of the complex bulk invite functionality being contained in a modal, especially because checking the “Enable mobile access…” option would require users to select access groups, which would potentially require a second modal. But given the desire to ship this functionality quickly, I wanted to provide the squad with a minimal option, as there would be opportunities to refine the experience later. Besides, just making the UI updates would already be an improvement, so it would still be a win.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "I didn’t like the idea of the complex bulk invite functionality being contained in a modal, especially because checking the “Enable mobile access…” option would require users to select access groups, which would potentially require a second modal. But given the desire to ship this functionality quickly, I wanted to provide the squad with a minimal option, as there would be opportunities to refine the experience later. Besides, just making the UI updates would already be an improvement, so it would still be a win.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-84",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Option 2: Full page (the winner!)",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Option 2: Full page (the winner!)",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-85",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Time permitting, I often mock up and show a version that may be a bit larger in scope, but offers a significantly better user experience in exchange. In this case, I mocked up a full-page version of the form because the additional space made it easier to view the list of invited users and to display the access group selection on the same page, rather than in a second step. Plus, it aligned with the latest Activate design language.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Time permitting, I often mock up and show a version that may be a bit larger in scope, but offers a significantly better user experience in exchange. In this case, I mocked up a full-page version of the form because the additional space made it easier to view the list of invited users and to display the access group selection on the same page, rather than in a second step. Plus, it aligned with the latest Activate design language.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-86",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "I'm particularly glad I took the time in this case, as we ended up implementing this preferred version. When I presented this to my squad at our weekly design refinement session, the team preferred this version because the modal component was challenging to work with and moving that functionality to a page would be easy.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "I'm particularly glad I took the time in this case, as we ended up implementing this preferred version. When I presented this to my squad at our weekly design refinement session, the team preferred this version because the modal component was challenging to work with and moving that functionality to a page would be easy.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-87",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "To help cut scope, we also decided to retire the single user invitation modal because it didn’t make sense to build and maintain two different workflows. A win all around!",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "To help cut scope, we also decided to retire the single user invitation modal because it didn’t make sense to build and maintain two different workflows. A win all around!",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-88",
+   "type": "image",
+   "image": {
+    "src": "/images/VTSAccess/image%209.png",
+    "width": 1064,
+    "height": 976,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The full page version of the bulk invite form, which my squad preferred.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The full page version of the bulk invite form, which my squad preferred.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-89",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Enable mobile access on top or at the bottom?",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Enable mobile access on top or at the bottom?",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-90",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Though we were all aligned on implementing the full page form, we debated whether the “Enable mobile access” checkbox should be located above or below the user invitation fields. I had thought was that it would make the most sense below, because it was a secondary setting — users entering a form to invite users would be primed to enter names and emails, so putting mobile access first could feel strange, and users could miss it if they skipped to the other form fields and hit the “Send invites” button. However, my PM made the fair point that because the same settings would apply to all of the invited users in a batch (i.e. they couldn’t be set per user), it would make more sense to lead with the option to enable mobile access.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Though we were all aligned on implementing the full page form, we debated whether the “Enable mobile access” checkbox should be located above or below the user invitation fields. I had thought was that it would make the most sense below, because it was a secondary setting — users entering a form to invite users would be primed to enter names and emails, so putting mobile access first could feel strange, and users could miss it if they skipped to the other form fields and hit the “Send invites” button. However, my PM made the fair point that because the same settings would apply to all of the invited users in a batch (i.e. they couldn’t be set per user), it would make more sense to lead with the option to enable mobile access.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-91",
+   "type": "image",
+   "image": {
+    "src": "/images/VTSAccess/image%2010.png",
+    "width": 1536,
+    "height": 720,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Users would only see the access group selection fields if they check to enable mobile access.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Users would only see the access group selection fields if they check to enable mobile access.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-92",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "We ultimately put the checkbox above the invite fields to give mobile access more priority on the page. When I asked the design team and other stakeholders for their opinions, there was a slight preference towards putting it on top. Both options seemed reasonable to me, and this was a case where we just needed to make a decision, as changing the position after the fact would be easy. (Note: Mobile access enablement was not the only bulk action. There could be more depending on the specific “channel” a user was inviting people to.)",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "We ultimately put the checkbox above the invite fields to give mobile access more priority on the page. When I asked the design team and other stakeholders for their opinions, there was a slight preference towards putting it on top. Both options seemed reasonable to me, and this was a case where we just needed to make a decision, as changing the position after the fact would be easy. (Note: Mobile access enablement was not the only bulk action. There could be more depending on the specific “channel” a user was inviting people to.)",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-93",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Prototype",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Prototype",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-94",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "To help illustrate how everything fit together, I created a medium-fidelty clickable prototype in Figma to illustrate the workflows. Try it out below, or ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "To help illustrate how everything fit together, I created a medium-fidelty clickable prototype in Figma to illustrate the workflows. Try it out below, or ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "view it in a new tab",
+       "link": {
+        "url": "https://www.figma.com/proto/aN6i5F4K2myDmuxIEYJmHt/IMS-Access?content-scaling=fixed&kind=proto&node-id=9249-253010&page-id=9249%3A252125&scaling=min-zoom&starting-point-node-id=9249%3A253010&t=ZKn8pEOJGi8ps67f-1"
+       }
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "view it in a new tab",
+      "href": "https://www.figma.com/proto/aN6i5F4K2myDmuxIEYJmHt/IMS-Access?content-scaling=fixed&kind=proto&node-id=9249-253010&page-id=9249%3A252125&scaling=min-zoom&starting-point-node-id=9249%3A253010&t=ZKn8pEOJGi8ps67f-1"
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": ".",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": ".",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-95",
+   "type": "embed",
+   "embed": {
+    "url": "https://embed.figma.com/proto/aN6i5F4K2myDmuxIEYJmHt/IMS-Access?page-id=9249%3A252125&node-id=9249-253010&scaling=contain&viewport-controls=true&starting-point-node-id=9249%3A253010&embed-host=share",
+    "caption": [],
+    "src": "https://embed.figma.com/proto/aN6i5F4K2myDmuxIEYJmHt/IMS-Access?page-id=9249%3A252125&node-id=9249-253010&scaling=contain&viewport-controls=true&starting-point-node-id=9249%3A253010&embed-host=share"
+   }
+  },
+  {
+   "id": "vts-access-management-96",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Results",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Results",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-97",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "After these changes were implemented, we observed a sizable increase in qualitative usability during onboarding sessions with company access admins:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "After these changes were implemented, we observed a sizable increase in qualitative usability during onboarding sessions with company access admins:",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-98",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Users were able to accomplish their tasks ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Users were able to accomplish their tasks ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "~12% faster",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "~12% faster",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " than before, on average and had ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " than before, on average and had ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "fewer questions",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "fewer questions",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " in the process.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " in the process.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-99",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Furthermore, due to the more intuitive interface, ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Furthermore, due to the more intuitive interface, ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "users were able to figure out how to do many of the tasks by themselves",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "users were able to figure out how to do many of the tasks by themselves",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": ", decreasing the need for training sessions, which would save our internal team time and reduce the costs of offering the product.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": ", decreasing the need for training sessions, which would save our internal team time and reduce the costs of offering the product.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-100",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "In several of the sessions, we also received ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "In several of the sessions, we also received ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "unprompted comments about how “simple” and “easy to use” the product was",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "unprompted comments about how “simple” and “easy to use” the product was",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": ", from users who were pleasantly surprised.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": ", from users who were pleasantly surprised.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-101",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "This updated functionality also gave our existing customers more confidence in our product. In particular, Todd, the property manager who represented our largest account, was thrilled, as this functionality was an absolute requirement for him and his team. He was excited to roll out access management to more of his buildings and evangelize the system to other property managers in his network.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "This updated functionality also gave our existing customers more confidence in our product. In particular, Todd, the property manager who represented our largest account, was thrilled, as this functionality was an absolute requirement for him and his team. He was excited to roll out access management to more of his buildings and evangelize the system to other property managers in his network.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-102",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "To be continued...",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "To be continued...",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "vts-access-management-103",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "I wish I'd had a chance to see users interact with these changes at scale after implementation, so that I could learn how our quantitiative metrics improved after implementation. However, wider rollout was delayed because another business unit was also planning to make changes to this form. However, based on the qualitative usability data and positive fedback from key stakeholders, the team felt confident enough about the changes, to move on to the second part of scaling: role assignment.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "I wish I'd had a chance to see users interact with these changes at scale after implementation, so that I could learn how our quantitiative metrics improved after implementation. However, wider rollout was delayed because another business unit was also planning to make changes to this form. However, based on the qualitative usability data and positive fedback from key stakeholders, the team felt confident enough about the changes, to move on to the second part of scaling: role assignment.",
+      "href": null
+     }
+    ]
+   }
+  }
+ ]
+}

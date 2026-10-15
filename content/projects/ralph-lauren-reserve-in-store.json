@@ -1,0 +1,1028 @@
+{
+ "blocks": [
+  {
+   "id": "ralph-lauren-reserve-in-store-1",
+   "type": "image",
+   "image": {
+    "src": "/images/wclogo.png",
+    "width": 175,
+    "height": 175,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Reserve in Store mobile flow.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Reserve in Store mobile flow.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-2",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Objectives",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Objectives",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-3",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "This project had 3 distinct phases, each of which had different objectives.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "This project had 3 distinct phases, each of which had different objectives.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-4",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Phase 1: Find in Store -",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Phase 1: Find in Store -",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " Allow users to locate products they are considering online in a nearby Ralph Lauren store so that they can receive it faster and/or make a final decision after interacting with the product in person. This was meant to be an MVP and a basis for further omnichannel integration.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " Allow users to locate products they are considering online in a nearby Ralph Lauren store so that they can receive it faster and/or make a final decision after interacting with the product in person. This was meant to be an MVP and a basis for further omnichannel integration.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-5",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Phase 2: Reserve in store -",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Phase 2: Reserve in store -",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " Allow users to easily reserve products online for in-store browsing and purchase.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " Allow users to easily reserve products online for in-store browsing and purchase.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-6",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Phase 3: UX Improvements & Replatforming -",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Phase 3: UX Improvements & Replatforming -",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " Redesign and refactor the experience for as part of the replatforming initiative.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " Redesign and refactor the experience for as part of the replatforming initiative.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-7",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Challenges",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Challenges",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-8",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Technical & platform limitations: It was difficult to develop on the eBay commerce platform, so this functionality needed to be built using an A/B testing platform called Monetate.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Technical & platform limitations: It was difficult to develop on the eBay commerce platform, so this functionality needed to be built using an A/B testing platform called Monetate.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-9",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Relatively small store footprint: There were only a few dozen non-outlet Ralph Lauren stores that would have the same inventory as the website, and they are concentrated mostly on the US east coast.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Relatively small store footprint: There were only a few dozen non-outlet Ralph Lauren stores that would have the same inventory as the website, and they are concentrated mostly on the US east coast.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-10",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Many omnichannel touchpoints: Because the experience would span across the website, email, and stores, coordinating all of those parts of the experience would be challenging.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Many omnichannel touchpoints: Because the experience would span across the website, email, and stores, coordinating all of those parts of the experience would be challenging.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-11",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Difficult to track completion: Because the transaction would end in stores, it would be difficult to accurately track completion and conversion rates, and we would have to rely on store associates' reports for any information.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Difficult to track completion: Because the transaction would end in stores, it would be difficult to accurately track completion and conversion rates, and we would have to rely on store associates' reports for any information.",
+      "href": null
+     }
+    ]
+   },
+   "children": [
+    {
+     "id": "ralph-lauren-reserve-in-store-12",
+     "type": "paragraph",
+     "paragraph": {
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Cannibalization concerns: Because the digital and store revenue streams were separate, there were concerns that encouraging users to visit stores would actually take a way from digital revenue.",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Cannibalization concerns: Because the digital and store revenue streams were separate, there were concerns that encouraging users to visit stores would actually take a way from digital revenue.",
+        "href": null
+       }
+      ]
+     }
+    },
+    {
+     "id": "ralph-lauren-reserve-in-store-13",
+     "type": "paragraph",
+     "paragraph": {
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Uncertain store availability: In-store stock levels couldn't be confirmed until a store associate actually located the item, so there was always room for an unhappy path and customer disappointment.",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Uncertain store availability: In-store stock levels couldn't be confirmed until a store associate actually located the item, so there was always room for an unhappy path and customer disappointment.",
+        "href": null
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-14",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Phase 1: find in store",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Phase 1: find in store",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-15",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Research:",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Research:",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " The product manager and I began this project by collaborating on a competitive analysis. We identified competitors with find in store functionality like Gap, Target, and Home Depot, and discussed which experiences we liked and didn't like.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " The product manager and I began this project by collaborating on a competitive analysis. We identified competitors with find in store functionality like Gap, Target, and Home Depot, and discussed which experiences we liked and didn't like.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-16",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "We then conducted some guerilla user research with some of our non-product coworkers in order to gain some quick user insight, and learned the following:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "We then conducted some guerilla user research with some of our non-product coworkers in order to gain some quick user insight, and learned the following:",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-17",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Users wanted an integrated way to get directions to the store.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Users wanted an integrated way to get directions to the store.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-18",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Users generally preferred stores being grouped first by whether there was stock available and then by distance from their location, as this made it easiest for them to see the relevant stores.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Users generally preferred stores being grouped first by whether there was stock available and then by distance from their location, as this made it easiest for them to see the relevant stores.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-19",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Users would sometimes select a different size or color if their first choice wasn't available because they valued seeing the item in person.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Users would sometimes select a different size or color if their first choice wasn't available because they valued seeing the item in person.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-20",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "If the item wasn't available in a nearby store, users still wanted to be able to easily add the product to their bag.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "If the item wasn't available in a nearby store, users still wanted to be able to easily add the product to their bag.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-21",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Design:",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Design:",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " Next, the product manager documented the user flow, and I created wireframes of the experience, which later became an ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " Next, the product manager documented the user flow, and I created wireframes of the experience, which later became an ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "Axure prototype",
+       "link": {
+        "url": "https://ltk0op.axshare.com/#p=in_store_availability"
+       }
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Axure prototype",
+      "href": "https://ltk0op.axshare.com/#p=in_store_availability"
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " as it was the most effective way to document and communicate the flows, logic, and various states involved. We incorporated the learnings from guerilla usability testing by:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " as it was the most effective way to document and communicate the flows, logic, and various states involved. We incorporated the learnings from guerilla usability testing by:",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-22",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Linking to the store locator experience as a lightweight way to provide directions to the store",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Linking to the store locator experience as a lightweight way to provide directions to the store",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-23",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Sorting by availability by default, rather than distance, as we had originally planned.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Sorting by availability by default, rather than distance, as we had originally planned.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-24",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Making it easy to change the product selection in the Find in Store overlay while populating any selections on the PDP by default.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Making it easy to change the product selection in the Find in Store overlay while populating any selections on the PDP by default.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-25",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Incorporating logic so that only products that might be available in stores at all would display a \"Find in Store\" link, to minimize user frustration.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Incorporating logic so that only products that might be available in stores at all would display a \"Find in Store\" link, to minimize user frustration.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-26",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Adding an Add to Bag CTA to the null search results state.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Adding an Add to Bag CTA to the null search results state.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-27",
+   "type": "image",
+   "image": {
+    "src": "/images/RLHOPS/RL-FIS-prototype.png",
+    "width": 1904,
+    "height": 1458,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Find in store desktop prototype. ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Find in store desktop prototype. ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "View it live",
+       "link": {
+        "url": "https://ltk0op.axshare.com/#p=in_store_availability"
+       }
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "View it live",
+      "href": "https://ltk0op.axshare.com/#p=in_store_availability"
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": ".",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": ".",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-28",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "We then worked with a visual designer to create production-ready mockups before working with an engineer to build out the experience.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "We then worked with a visual designer to create production-ready mockups before working with an engineer to build out the experience.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-29",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Results:",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Results:",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " After we released the experience, we very quickly received positive feedback from stores. In just the first few weeks, dozens of stores had been contacted about products, and one such contact was directly responsible for selling an expensive watch worth $20k. The experience gave the stores teams many new customer contacts, bringing more customers into the world of Ralph Lauren.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " After we released the experience, we very quickly received positive feedback from stores. In just the first few weeks, dozens of stores had been contacted about products, and one such contact was directly responsible for selling an expensive watch worth $20k. The experience gave the stores teams many new customer contacts, bringing more customers into the world of Ralph Lauren.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-30",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Phase 2: reserve in store",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Phase 2: reserve in store",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-31",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "After Find in Store was a success, we sought to make the experience even smoother for users by integrating a simple way for them to place an item on hold at a store directly through the interface.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "After Find in Store was a success, we sought to make the experience even smoother for users by integrating a simple way for them to place an item on hold at a store directly through the interface.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-32",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Research:",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Research:",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " Previously, users who wanted to confirm availability would have to call the store or send an email, but we knew from talking to store associates and customers that people didn't necessarily like the experience of calling, as they might need to wait a while. Emailing was also not ideal because users would need to draft their own message, and might not include all the information that a store associate would need, leading to more back and forth and a sub-optimal experience for both sides.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " Previously, users who wanted to confirm availability would have to call the store or send an email, but we knew from talking to store associates and customers that people didn't necessarily like the experience of calling, as they might need to wait a while. Emailing was also not ideal because users would need to draft their own message, and might not include all the information that a store associate would need, leading to more back and forth and a sub-optimal experience for both sides.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "ralph-lauren-reserve-in-store-33",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The product manager and I began the project with competitive research. We looked at what competitors with excellent",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The product manager and I began the project with competitive research. We looked at what competitors with excellent",
+      "href": null
+     }
+    ]
+   }
+  }
+ ]
+}

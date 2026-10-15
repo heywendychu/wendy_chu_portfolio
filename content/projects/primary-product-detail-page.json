@@ -1,0 +1,2189 @@
+{
+ "blocks": [
+  {
+   "id": "primary-product-detail-page-1",
+   "type": "image",
+   "image": {
+    "src": "/images/PrimaryPDP/pdp-i-phone-mockup@2x.png",
+    "width": 1732,
+    "height": 1142,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Product Detail Page - Mobile",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Product Detail Page - Mobile",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-2",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Objectives",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Objectives",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-3",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Make it easier for users to select their desired size & color of products by displaying more specific availability information (bidirectional stock indication)",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Make it easier for users to select their desired size & color of products by displaying more specific availability information (bidirectional stock indication)",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-4",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Increase add to bag rate by moving selectors higher up on the page",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Increase add to bag rate by moving selectors higher up on the page",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-5",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Display product photography more prominently and flexibly",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Display product photography more prominently and flexibly",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-6",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Communicate design details and quality",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Communicate design details and quality",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-7",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Reinforce our commitment to gender-free apparel",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Reinforce our commitment to gender-free apparel",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-8",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Align with established interaction patterns and best practices",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Align with established interaction patterns and best practices",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-9",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Update visual design to be consistent with refreshed brand style guide",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Update visual design to be consistent with refreshed brand style guide",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-10",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Improve accessibility by ensuring that all text passes WCAG 2.0 AAA contrast standards and increasing the smallest text size.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Improve accessibility by ensuring that all text passes WCAG 2.0 AAA contrast standards and increasing the smallest text size.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-11",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Background",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Background",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-12",
+   "type": "image",
+   "image": {
+    "src": "/images/PrimaryPDP/old-pdp@2x.png",
+    "width": 1768,
+    "height": 1274,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Old product detail page",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Old product detail page",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-13",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The product detail page (PDP) is arguably the most important page at the top of the purchase funnel, and most of our best-performing Facebook ads and emails link directly to PDPs. As a result, a redesign project started and stopped many times before finally being prioritized, and was the result of significant research and thinking. The biggest motivations were:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The product detail page (PDP) is arguably the most important page at the top of the purchase funnel, and most of our best-performing Facebook ads and emails link directly to PDPs. As a result, a redesign project started and stopped many times before finally being prioritized, and was the result of significant research and thinking. The biggest motivations were:",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-14",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Usability issues & standard patterns:",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Usability issues & standard patterns:",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " On the vast majority of ecommerce product detail pages (PDPs), color selection is positioned above size. Primary’s PDP, however, had size selection before color selection.\nUsability testing I’d conducted on Primary's PDP showed that, despite size being positioned above color, about half the time users would look through colors before selecting their appropriate size. This works fine if every size and color is in stock, users became confused when a color suddenly went out of stock after they selected a size, because it goes against the color-first convention that they've subconsciously become used to.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " On the vast majority of ecommerce product detail pages (PDPs), color selection is positioned above size. Primary’s PDP, however, had size selection before color selection.\nUsability testing I’d conducted on Primary's PDP showed that, despite size being positioned above color, about half the time users would look through colors before selecting their appropriate size. This works fine if every size and color is in stock, users became confused when a color suddenly went out of stock after they selected a size, because it goes against the color-first convention that they've subconsciously become used to.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-15",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Inefficiency:",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Inefficiency:",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " On mobile (~70% of traffic), positioning color swatches below size selections forced users to repeatedly scroll up and down the page when selecting a color and subsequently viewing an image.\nOn desktop, the product details appeared above the size/color selectors and the add to bag button, causing users to have to scroll in order to view selections and add products to their bag, especially on products with longer descriptions. Changing this would make size/color selection significantly more efficient, and we hoped that it would thereby increase the add to bag rate.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " On mobile (~70% of traffic), positioning color swatches below size selections forced users to repeatedly scroll up and down the page when selecting a color and subsequently viewing an image.\nOn desktop, the product details appeared above the size/color selectors and the add to bag button, causing users to have to scroll in order to view selections and add products to their bag, especially on products with longer descriptions. Changing this would make size/color selection significantly more efficient, and we hoped that it would thereby increase the add to bag rate.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-16",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Accessibility:",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Accessibility:",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " In usability testing, users occasionally mentioned having difficulty reading text or wished that text was bigger. The text in size selectors and the size chart was indeed small, and the text contrast oftentimes did not pass WCAG 2.0 standards.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " In usability testing, users occasionally mentioned having difficulty reading text or wished that text was bigger. The text in size selectors and the size chart was indeed small, and the text contrast oftentimes did not pass WCAG 2.0 standards.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-17",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "New and improved photography:",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "New and improved photography:",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " Primary used to photograph and retouch every size and color combination for their on-model images. However, I discovered in usability that users typically wouldn’t notice this detail and would occasionally even get distracted by the extra information. As a result, we shifted the photo strategy and began photographing fewer sizes of children and investing in higher quality photos and more angles.\nThe new photos were amazing, but the existing photo slots were both limited in number and fairly small. It also took a significant number of clicks/work for users to look through all of the images. We needed a better way to display all of this new imagery and allow users to easily look through it all.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " Primary used to photograph and retouch every size and color combination for their on-model images. However, I discovered in usability that users typically wouldn’t notice this detail and would occasionally even get distracted by the extra information. As a result, we shifted the photo strategy and began photographing fewer sizes of children and investing in higher quality photos and more angles.\nThe new photos were amazing, but the existing photo slots were both limited in number and fairly small. It also took a significant number of clicks/work for users to look through all of the images. We needed a better way to display all of this new imagery and allow users to easily look through it all.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-18",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Desire to communicate product quality:",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Desire to communicate product quality:",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " Although Primary has consistently received high NPS scores (usually in the high 80s to low 90s), a common complaint has been about the prices, which are reasonable, but not quite bargainous. The products are both ethically produced and high quality, with thoughtful design details (pockets on dresses, thumbholes on hoodies, OEKO-Tex certified fabric), but that’s not obvious from looking on the website, which is a huge missed opportunity.\nWe hypothesized that communicating product quality with better imagery and product attribute icon callouts would serve to elevate both the site experience and the products themselves, so that users would believe that they are getting amazing quality for a fair price.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " Although Primary has consistently received high NPS scores (usually in the high 80s to low 90s), a common complaint has been about the prices, which are reasonable, but not quite bargainous. The products are both ethically produced and high quality, with thoughtful design details (pockets on dresses, thumbholes on hoodies, OEKO-Tex certified fabric), but that’s not obvious from looking on the website, which is a huge missed opportunity.\nWe hypothesized that communicating product quality with better imagery and product attribute icon callouts would serve to elevate both the site experience and the products themselves, so that users would believe that they are getting amazing quality for a fair price.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-19",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Design & implementation process",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Design & implementation process",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-20",
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "1. Research",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "1. Research",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-21",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "I began by gathering my many rounds of previous PDP design artifacts and pulled out the things that were still relevant in order to jump start the new project.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "I began by gathering my many rounds of previous PDP design artifacts and pulled out the things that were still relevant in order to jump start the new project.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-22",
+   "type": "image",
+   "image": {
+    "src": "/images/PrimaryPDP/pdp-drafts@2x.png",
+    "width": 1768,
+    "height": 3086,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Previous PDP design explorations, addressing challenges such as multiple prices, multiple patterns, and elevated imagery.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Previous PDP design explorations, addressing challenges such as multiple prices, multiple patterns, and elevated imagery.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-23",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "I also compiled existing user research & data, and conducted competitive analysis of other ecommerce sites.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "I also compiled existing user research & data, and conducted competitive analysis of other ecommerce sites.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-24",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "With assistance from a freelancer UX researcher, I conducted competitive usability testing on a subset of competitor PDPs that we believed to have a good experience based on usability heuristics. We focused on bi-directional size/color selection (J. Crew), vertically scrolling images on desktop (Everlane, Aritzia, Totokaelo).",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "With assistance from a freelancer UX researcher, I conducted competitive usability testing on a subset of competitor PDPs that we believed to have a good experience based on usability heuristics. We focused on bi-directional size/color selection (J. Crew), vertically scrolling images on desktop (Everlane, Aritzia, Totokaelo).",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-25",
+   "type": "image",
+   "image": {
+    "src": "/images/PrimaryPDP/Jcrew_Bidirectional_2.gif",
+    "width": 776,
+    "height": 712,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "J.Crew's bidirectional size/color selectors",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "J.Crew's bidirectional size/color selectors",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-26",
+   "type": "image",
+   "image": {
+    "src": "/images/PrimaryPDP/EverlaneScroll.gif",
+    "width": 800,
+    "height": 549,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Everlane's vertically scrolling product images",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Everlane's vertically scrolling product images",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-27",
+   "type": "image",
+   "image": {
+    "src": "/images/PrimaryPDP/pdp-totokaelo@2x.jpg",
+    "width": 1768,
+    "height": 1830,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Totokaelo's 2-column image layout",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Totokaelo's 2-column image layout",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-28",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Results:",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Results:",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " Bidirectional size and color selection was intuitive for all 10 users we tested. Users generally liked the ease of being able to scroll through images vertically and found it intuitive. However, some found Totokaelo’s 2-column layout to be distracting and preferred to view larger images in a single column instead. Users also preferred having thumbnails on the side so that they could preview and jump to their desired image.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " Bidirectional size and color selection was intuitive for all 10 users we tested. Users generally liked the ease of being able to scroll through images vertically and found it intuitive. However, some found Totokaelo’s 2-column layout to be distracting and preferred to view larger images in a single column instead. Users also preferred having thumbnails on the side so that they could preview and jump to their desired image.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-29",
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "2. Design",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "2. Design",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-30",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "After usability testing, I jumped right into rough mockups because I already had some older designs and a good sense of the project objectives, as noted above. I put together low-fidelity mockups based on the research results to get buy-in and alignment on the design from stakeholders.\nThe response was quite positive, with the only open questions being around which product attributes we most wanted to elevate. We decided to put a pin in that part of the concept until merchandising could work on that content strategy.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "After usability testing, I jumped right into rough mockups because I already had some older designs and a good sense of the project objectives, as noted above. I put together low-fidelity mockups based on the research results to get buy-in and alignment on the design from stakeholders.\nThe response was quite positive, with the only open questions being around which product attributes we most wanted to elevate. We decided to put a pin in that part of the concept until merchandising could work on that content strategy.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-31",
+   "type": "image",
+   "image": {
+    "src": "/images/PrimaryPDP/pdp-rough-mocks@2x.png",
+    "width": 1760,
+    "height": 4744,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Rough Mockups",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Rough Mockups",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-32",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "After getting buy-in and feedback, I worked with a freelance UI designer to refine the visual design of the page, using the existing style guide.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "After getting buy-in and feedback, I worked with a freelance UI designer to refine the visual design of the page, using the existing style guide.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-33",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Because a change to the image layout would impact an expensive upcoming photoshoot, I wanted to make extra sure that we were going in the right direction in terms of the image display. With help from a freelance UX researcher, we put together some rough Invision prototypes of the different versions for balanced comparison testing of the image layout.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Because a change to the image layout would impact an expensive upcoming photoshoot, I wanted to make extra sure that we were going in the right direction in terms of the image display. With help from a freelance UX researcher, we put together some rough Invision prototypes of the different versions for balanced comparison testing of the image layout.",
+      "href": null
+     }
+    ]
+   },
+   "children": [
+    {
+     "id": "primary-product-detail-page-34",
+     "type": "bulleted_list_item",
+     "bulleted_list_item": {
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "On Desktop: ",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "On Desktop: ",
+        "href": null
+       },
+       {
+        "type": "text",
+        "text": {
+         "content": "single column with thumbnails",
+         "link": {
+          "url": "https://invis.io/HRS0FHRA86U"
+         }
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "single column with thumbnails",
+        "href": "https://invis.io/HRS0FHRA86U"
+       },
+       {
+        "type": "text",
+        "text": {
+         "content": ", ",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": ", ",
+        "href": null
+       },
+       {
+        "type": "text",
+        "text": {
+         "content": "single column without thumbnails",
+         "link": {
+          "url": "https://invis.io/H3UCNABZECR"
+         }
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "single column without thumbnails",
+        "href": "https://invis.io/H3UCNABZECR"
+       },
+       {
+        "type": "text",
+        "text": {
+         "content": ", and ",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": ", and ",
+        "href": null
+       },
+       {
+        "type": "text",
+        "text": {
+         "content": "two-column without thumbnails",
+         "link": {
+          "url": "https://invis.io/UCUCNBA6935"
+         }
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "two-column without thumbnails",
+        "href": "https://invis.io/UCUCNBA6935"
+       },
+       {
+        "type": "text",
+        "text": {
+         "content": ".",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": ".",
+        "href": null
+       }
+      ]
+     }
+    },
+    {
+     "id": "primary-product-detail-page-35",
+     "type": "bulleted_list_item",
+     "bulleted_list_item": {
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "On Mobile: ",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "On Mobile: ",
+        "href": null
+       },
+       {
+        "type": "text",
+        "text": {
+         "content": "visual peek affordance",
+         "link": {
+          "url": "https://invis.io/MKUCNFQBT68"
+         }
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "visual peek affordance",
+        "href": "https://invis.io/MKUCNFQBT68"
+       }
+      ]
+     }
+    },
+    {
+     "id": "primary-product-detail-page-36",
+     "type": "bulleted_list_item",
+     "bulleted_list_item": {
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Results: ",
+         "link": null
+        },
+        "annotations": {
+         "bold": true,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Results: ",
+        "href": null
+       },
+       {
+        "type": "text",
+        "text": {
+         "content": " The results of prototype testing were similar to what we saw in competitive testing, so we were able to confidently move forward with a single-column scrollable layout with thumbnails.",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": " The results of prototype testing were similar to what we saw in competitive testing, so we were able to confidently move forward with a single-column scrollable layout with thumbnails.",
+        "href": null
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "primary-product-detail-page-37",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "I then took the final designs from the UI designer, cleaned it up in a few places where things didn’t match the style guide, and made it ready for production in Zeplin.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "I then took the final designs from the UI designer, cleaned it up in a few places where things didn’t match the style guide, and made it ready for production in Zeplin.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-38",
+   "type": "image",
+   "image": {
+    "src": "/images/PrimaryPDP/pdp-andrii@2x.png",
+    "width": 1768,
+    "height": 5722,
+    "caption": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Final mockups",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Final mockups",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-39",
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "3. Prioritize",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "3. Prioritize",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-40",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "After the design was ready for production, I worked with a team of two engineers to break down and prioritize the different phases of the PDP project. We initially broke it down into three main phases:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "After the design was ready for production, I worked with a team of two engineers to break down and prioritize the different phases of the PDP project. We initially broke it down into three main phases:",
+      "href": null
+     }
+    ]
+   },
+   "children": [
+    {
+     "id": "primary-product-detail-page-41",
+     "type": "bulleted_list_item",
+     "bulleted_list_item": {
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "1.1:",
+         "link": null
+        },
+        "annotations": {
+         "bold": true,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "1.1:",
+        "href": null
+       },
+       {
+        "type": "text",
+        "text": {
+         "content": " Update the size & color selectors and the add to bag area so that we can isolate the bidirectional behavior for A/B testing purposes.",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": " Update the size & color selectors and the add to bag area so that we can isolate the bidirectional behavior for A/B testing purposes.",
+        "href": null
+       }
+      ]
+     }
+    },
+    {
+     "id": "primary-product-detail-page-42",
+     "type": "bulleted_list_item",
+     "bulleted_list_item": {
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "1.2:",
+         "link": null
+        },
+        "annotations": {
+         "bold": true,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "1.2:",
+        "href": null
+       },
+       {
+        "type": "text",
+        "text": {
+         "content": " Refactor the rest of the page (we were gradually transitioning the app from Angular to React).",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": " Refactor the rest of the page (we were gradually transitioning the app from Angular to React).",
+        "href": null
+       }
+      ]
+     }
+    },
+    {
+     "id": "primary-product-detail-page-43",
+     "type": "bulleted_list_item",
+     "bulleted_list_item": {
+      "rich_text": [
+       {
+        "type": "text",
+        "text": {
+         "content": "1.3:",
+         "link": null
+        },
+        "annotations": {
+         "bold": true,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "1.3:",
+        "href": null
+       },
+       {
+        "type": "text",
+        "text": {
+         "content": " Implement scrolling images and product attribute icons — We planned for these to happen last because, though we were very excited about them, we didn't want these to be a dependency for any other phase because these would require more decision-making from other teams, and would take longer to finalize.",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": " Implement scrolling images and product attribute icons — We planned for these to happen last because, though we were very excited about them, we didn't want these to be a dependency for any other phase because these would require more decision-making from other teams, and would take longer to finalize.",
+        "href": null
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "primary-product-detail-page-44",
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "4. Build",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "4. Build",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-45",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "During the build phase, I collaborated closely with the engineers building the project in an agile process we constantly communicated during this process in order to collaboratively solve new issues and edge cases. \nFor example: Our engineer discovered that it was actually extremely difficult to set up the size swatches as originally designed because swatches would require different border styling depending on their position, and it was complicated to determine the position given the responsiveness of the page. We solved this by working through a few design variations together before settling on an option we thought worked best.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "During the build phase, I collaborated closely with the engineers building the project in an agile process we constantly communicated during this process in order to collaboratively solve new issues and edge cases. \nFor example: Our engineer discovered that it was actually extremely difficult to set up the size swatches as originally designed because swatches would require different border styling depending on their position, and it was complicated to determine the position given the responsiveness of the page. We solved this by working through a few design variations together before settling on an option we thought worked best.",
+      "href": null
+     }
+    ]
+   },
+   "children": [
+    {
+     "id": "primary-product-detail-page-46",
+     "type": "image",
+     "image": {
+      "src": "/images/PrimaryPDP/PDPSizeSelectors.jpg",
+      "width": 768,
+      "height": 1596,
+      "caption": [
+       {
+        "type": "text",
+        "text": {
+         "content": "Size selector variations",
+         "link": null
+        },
+        "annotations": {
+         "bold": false,
+         "italic": false,
+         "strikethrough": false,
+         "underline": false,
+         "code": false,
+         "color": "default"
+        },
+        "plain_text": "Size selector variations",
+        "href": null
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "primary-product-detail-page-47",
+   "type": "heading_2",
+   "heading_2": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "5. Test",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "5. Test",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-48",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "We released phase 1.1 internally, and the feedback about the new layout and bidirectional interaction was very positive, as internal users found it more efficient to use.\nHowever, stakeholders in merchandising were concerned that on some products, we would be mixing in-stock and out of stock colors in a random way. After talking through some possible solutions together, we settled on displaying every color swatch for which there is stock in some size, hiding colors that were out of stock in every size, and moving out of stock colors to the end of the list. This allowed the swatches to behave in a consistent manner while also helping users clearly see which colors were available for their selected size.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "We released phase 1.1 internally, and the feedback about the new layout and bidirectional interaction was very positive, as internal users found it more efficient to use.\nHowever, stakeholders in merchandising were concerned that on some products, we would be mixing in-stock and out of stock colors in a random way. After talking through some possible solutions together, we settled on displaying every color swatch for which there is stock in some size, hiding colors that were out of stock in every size, and moving out of stock colors to the end of the list. This allowed the swatches to behave in a consistent manner while also helping users clearly see which colors were available for their selected size.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-49",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "At this stage, we realized that separately A/B testing phase 1.1 (refactoring only the size/color selectors while keeping the rest of the page in Angular) was going to be significantly more difficult than anticipated, because it required making sure things didn't break in 3 different environments (version A, version B, and the future all-React page). After discussing as a team, we decided to combine phases 1.1 and 1.2 into one larger release for A/B testing against the old Angular page.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "At this stage, we realized that separately A/B testing phase 1.1 (refactoring only the size/color selectors while keeping the rest of the page in Angular) was going to be significantly more difficult than anticipated, because it required making sure things didn't break in 3 different environments (version A, version B, and the future all-React page). After discussing as a team, we decided to combine phases 1.1 and 1.2 into one larger release for A/B testing against the old Angular page.",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-50",
+   "type": "heading_1",
+   "heading_1": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Results",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Results",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-51",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "The new PDP was completed in late 2019, and was released to the public as a 50/50 A/B test for one month. It was considered a big success on desktop and mobile, as we saw a significant boost in almost every metric we tracked:",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "The new PDP was completed in late 2019, and was released to the public as a 50/50 A/B test for one month. It was considered a big success on desktop and mobile, as we saw a significant boost in almost every metric we tracked:",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-52",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Desktop",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Desktop",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-53",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Add to Cart: ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Add to Cart: ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "+4%",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "+4%",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-54",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Order Value: ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Order Value: ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "+2.7%",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "+2.7%",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-55",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Basket Size: ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Basket Size: ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "+2.4%",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "+2.4%",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-56",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Checkout Starts: ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Checkout Starts: ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "+3%",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "+3%",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-57",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Checkout Completions: ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Checkout Completions: ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "+2.4%",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "+2.4%",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-58",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Mobile",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Mobile",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-59",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Add to cart: -2%",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Add to cart: -2%",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-60",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Order Value: ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Order Value: ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "+5%",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "+5%",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-61",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Basket Size: ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Basket Size: ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "+5%",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "+5%",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-62",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Checkout Starts: ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Checkout Starts: ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "+4%",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "+4%",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-63",
+   "type": "bulleted_list_item",
+   "bulleted_list_item": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "Checkout Completions: ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "Checkout Completions: ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "+4.6%",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "+4.6%",
+      "href": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "primary-product-detail-page-64",
+   "type": "paragraph",
+   "paragraph": {
+    "rich_text": [
+     {
+      "type": "text",
+      "text": {
+       "content": "If these numbers seem small to you, it's important to remember that it is challenging to influence conversion on an e-commerce site using design alone, and that these are ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "If these numbers seem small to you, it's important to remember that it is challenging to influence conversion on an e-commerce site using design alone, and that these are ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "statistically significant results",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "statistically significant results",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " from an A/B test. In the realm of a business that does millions of dollars of sales per year, these numbers represent a significant increase in revenue that will continue forward in time. What's most interesting to me about these numbers is that the add to cart rate decreased on mobile, yet none of the other metrics did. My best guess is that the taller aspect ratio of the new photography pushed down the add to cart button by a little bit on mobile, but the overall design served to ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " from an A/B test. In the realm of a business that does millions of dollars of sales per year, these numbers represent a significant increase in revenue that will continue forward in time. What's most interesting to me about these numbers is that the add to cart rate decreased on mobile, yet none of the other metrics did. My best guess is that the taller aspect ratio of the new photography pushed down the add to cart button by a little bit on mobile, but the overall design served to ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "elevate the brand",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "elevate the brand",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": " and the products, ",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": " and the products, ",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "increasing consumer confidenc",
+       "link": null
+      },
+      "annotations": {
+       "bold": true,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "increasing consumer confidenc",
+      "href": null
+     },
+     {
+      "type": "text",
+      "text": {
+       "content": "e and perceived product value. Further iterations to increase the add to cart rate could display the size and color swatches in a horizontally scrolling container, display a \"sticky\" Add to Cart button that is always visible, or decrease the height of the images slightly so that the Add to Cart button is higher up on the page.",
+       "link": null
+      },
+      "annotations": {
+       "bold": false,
+       "italic": false,
+       "strikethrough": false,
+       "underline": false,
+       "code": false,
+       "color": "default"
+      },
+      "plain_text": "e and perceived product value. Further iterations to increase the add to cart rate could display the size and color swatches in a horizontally scrolling container, display a \"sticky\" Add to Cart button that is always visible, or decrease the height of the images slightly so that the Add to Cart button is higher up on the page.",
+      "href": null
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,176 @@
+[
+  {
+    "slug": "vts-market-listing-share",
+    "title": "Market Listing Share",
+    "menuLabel": "Market Listing Share",
+    "company": "VTS",
+    "externalUrl": "https://wendychu.notion.site/VTS-Market-Listing-Sharing-24fa83b969a080509458f65937160636",
+    "order": 10,
+    "published": true,
+    "date": "",
+    "responsibilities": "",
+    "roleSummary": "",
+    "description": "",
+    "cover": null
+  },
+  {
+    "slug": "vts-access-management",
+    "title": "Access Management Case Study",
+    "menuLabel": "Access Management",
+    "company": "VTS",
+    "date": "2024",
+    "responsibilities": "Discovery, UX/UI Design, Prototyping, Usability testing, Design QA ",
+    "roleSummary": "End-to-end design of admin & end user-facing interfaces for unlocking doors in commercial buildings.",
+    "externalUrl": null,
+    "order": 20,
+    "published": true,
+    "description": "",
+    "cover": {
+      "src": "/images/VTSAccess/AMgroup.png",
+      "width": 3888,
+      "height": 2048,
+      "alt": "",
+      "caption": ""
+    }
+  },
+  {
+    "slug": "allbirds-pdp",
+    "title": "Product Detail Page Enhancements",
+    "menuLabel": "Product Detail Page",
+    "company": "Allbirds",
+    "date": "",
+    "responsibilities": "UX Research, UX/UI Design, A/B Testing, Prototyping",
+    "roleSummary": "As the sole product designer at Allbirds, I focused on growth and nearly doubled the conversion rate over 6 months through 10 sets of A/B tested PDP enhancements.",
+    "externalUrl": null,
+    "order": 30,
+    "published": true,
+    "description": "",
+    "cover": {
+      "src": "/images/AllbirdsPDP/new-size-selection.png",
+      "width": 2560,
+      "height": 2048,
+      "alt": "Updated Allbirds product detail page size selection",
+      "caption": "My updated size selection design displayed sizes as tiles and grouped gender with size."
+    }
+  },
+  {
+    "slug": "primary-navigation-redesign",
+    "title": "Navigation Redesign",
+    "menuLabel": "Navigation Redesign",
+    "company": "Primary.com",
+    "date": "May 2019",
+    "responsibilities": "UX Research, Information Architecture, Interaction Design, Visual Design",
+    "roleSummary": "Managed one freelance UX researcher. Worked closely with internal stakeholders and engineers.",
+    "externalUrl": null,
+    "order": 40,
+    "published": true,
+    "description": "",
+    "cover": {
+      "src": "/images/PrimaryNav/laptop-mockup.png",
+      "width": 1772,
+      "height": 1086,
+      "alt": "Desktop Navigation Flyout",
+      "caption": "Desktop Navigation Flyout"
+    }
+  },
+  {
+    "slug": "primary-product-detail-page",
+    "title": "Product Detail Page",
+    "menuLabel": "Product Detail Page",
+    "company": "Primary.com",
+    "date": "Jan 2020",
+    "responsibilities": "UX Research, Strategy, UX Design, Visual Design",
+    "roleSummary": "Increased conversion and by 4.6% on mobile and 2.4% on desktop. Managed a UX research freelancer and a freelance UI designer for parts of this project. Worked closely with internal stakeholders and engineers.",
+    "externalUrl": null,
+    "order": 50,
+    "published": true,
+    "description": "",
+    "cover": {
+      "src": "/images/PrimaryPDP/pdp-laptop-mockup@2x.png",
+      "width": 1768,
+      "height": 1084,
+      "alt": "Primary Product Detail Page - Desktop",
+      "caption": "Product Detail Page - Desktop"
+    }
+  },
+  {
+    "slug": "primary-style-guide",
+    "title": "Style Guide & Design System",
+    "menuLabel": "Design System",
+    "company": "Primary.com",
+    "date": "",
+    "responsibilities": "System Design, Documentation, Visual Design, Interaction Design",
+    "roleSummary": "Created, iterated on, and maintained Primary's first digital design system in close partnership with engineers. Managed Sketch component library and Zeplin style guide. Advocated for usage and consistency across the organization and discouraged creation of one-offs.",
+    "externalUrl": null,
+    "order": 60,
+    "published": true,
+    "description": "",
+    "cover": {
+      "src": "/images/PrimarySG/Combo-colors-text@2x.png",
+      "width": 1768,
+      "height": 2166,
+      "alt": "Colors & Text Styles",
+      "caption": "Colors & Text Styles"
+    }
+  },
+  {
+    "slug": "ralph-lauren-reserve-in-store",
+    "title": "Reserve in Store",
+    "menuLabel": "Reserve in Store",
+    "company": "Ralph Lauren",
+    "date": "2015 - 2017",
+    "responsibilities": "User Research, Strategy, UX Design, Service Design, Prototyping",
+    "roleSummary": "Worked with a product manager, store director, visual designer, and developer throughout the project.",
+    "externalUrl": null,
+    "order": 904,
+    "published": false,
+    "description": "",
+    "cover": {
+      "src": "/images/wclogo.png",
+      "width": 175,
+      "height": 175,
+      "alt": "Reserve in Store overlay",
+      "caption": "Reserve in Store desktop overlay."
+    }
+  },
+  {
+    "slug": "ralph-lauren-returns-flow",
+    "title": "Returns Process",
+    "menuLabel": "Returns Process",
+    "company": "Ralph Lauren",
+    "date": "2017",
+    "responsibilities": "User Research, Strategy, UX Design, Service Design",
+    "roleSummary": "Designed and created Primary's Find in Store feature. Built upon the existing experience to create Reserve in Store, which added the ability to automatically reserve items using a web interface.",
+    "externalUrl": null,
+    "order": 905,
+    "published": false,
+    "description": "",
+    "cover": {
+      "src": "/images/wclogo.png",
+      "width": 175,
+      "height": 175,
+      "alt": "Reserve in Store overlay",
+      "caption": "Reserve in Store overlay."
+    }
+  },
+  {
+    "slug": "vts-mobile-access",
+    "title": "Mobile Access",
+    "menuLabel": "Mobile Access",
+    "company": "VTS",
+    "date": "2024",
+    "responsibilities": "Discovery, UX/UI Design, Prototyping, Usability testing, Design QA ",
+    "roleSummary": "End-to-end design of mobile\n       interfaces for unlocking doors in commercial buildings.",
+    "externalUrl": null,
+    "order": 908,
+    "published": false,
+    "description": "",
+    "cover": {
+      "src": "/images/VTSAccess/AMgroup.png",
+      "width": 3888,
+      "height": 2048,
+      "alt": "",
+      "caption": ""
+    }
+  }
+]
