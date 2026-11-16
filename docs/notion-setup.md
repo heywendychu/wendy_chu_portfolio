@@ -61,7 +61,7 @@ Anything before the first heading shows up as an intro with no section label.
 | Date | Shown next to the company ("Primary.com \| May 2019") |
 | Responsibilities | "Responsibilities: …" line |
 | Role summary | Paragraph under the title. Also used as the Google/LinkedIn description. |
-| Cover | Hero image at the top. If it's empty, an image at the very top of the page (before any text) becomes the hero instead. |
+| Cover | Hero image at the top. If it's empty, the image(s) at the very top of the page (before any text) become the hero instead; two or more sit side by side at the same height. |
 | Cover alt / Cover caption | Hero image alt text and caption |
 | External URL | Makes the row a link instead of a page |
 | Description | Optional custom Google/LinkedIn description |

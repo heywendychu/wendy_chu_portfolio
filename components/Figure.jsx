@@ -6,11 +6,11 @@ import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import "yet-another-react-lightbox/styles.css";
 
 // Image + optional caption. Click to open a zoomable lightbox.
-export default function Figure({ src, alt = "", width, height, caption, priority = false, className = "" }) {
+export default function Figure({ src, alt = "", width, height, caption, priority = false, className = "", style }) {
   const [open, setOpen] = useState(false);
   if (!src) return null;
   return (
-    <figure className={`figure ${className}`}>
+    <figure className={`figure ${className}`} style={style}>
       <button type="button" className="figure__button" onClick={() => setOpen(true)} aria-label={`Enlarge image${alt ? `: ${alt}` : ""}`}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img

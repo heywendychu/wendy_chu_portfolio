@@ -195,14 +195,23 @@ async function main() {
     console.log(`[sync]  • ${project.company} — ${title}${published ? "" : " (draft)"}`);
     if (!externalUrl) {
       const blocks = await clean(await getBlockTree(page.id));
-      // No Cover property? An image at the very top of the page (before any text) becomes the cover.
+      // No Cover property? Images at the very top of the page (before any text) become the cover.
+      // Two or more are shown side by side at the same height.
       if (!project.cover) {
-        const first = blocks.findIndex((b) => !(b.type === "paragraph" && !b.paragraph.rich_text?.length));
-        const b = blocks[first];
-        if (b?.type === "image") {
+        let i = 0;
+        const covers = [];
+        while (i < blocks.length) {
+          const b = blocks[i];
+          if (b.type === "paragraph" && !b.paragraph.rich_text?.length) { i++; continue; }
+          if (b.type !== "image") break;
           const caption = (b.image.caption || []).map((t) => t.plain_text).join("");
-          project.cover = { src: b.image.src, width: b.image.width, height: b.image.height, alt: text(page, "Cover alt") || caption || title, caption: text(page, "Cover caption") || caption };
-          blocks.splice(0, first + 1);
+          covers.push({ src: b.image.src, width: b.image.width, height: b.image.height, alt: caption || title, caption });
+          i++;
+        }
+        if (covers.length) {
+          blocks.splice(0, i);
+          project.cover = { ...covers[0], alt: text(page, "Cover alt") || covers[0].alt, caption: text(page, "Cover caption") || (covers.length === 1 ? covers[0].caption : "") };
+          if (covers.length > 1) project.covers = covers;
         }
       }
       project.blocks = blocks;

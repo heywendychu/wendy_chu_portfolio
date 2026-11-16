@@ -88,5 +88,6 @@ re-litigate it.
   column are ~190px each, too small to read (approved on the design review, #1).
 - **(v2) A callout's first line is the figure, the rest its label; consecutive callouts
   form a row of stats.** — Market Listing Share's results (approved, #2 B).
-- **(v2) With no Cover property, a top-of-page image becomes the cover.** — lets a page
-  moved in from elsewhere keep its own lead image (Market Listing Share, #3 A).
+- **(v2) With no Cover property, the images at the top of the page become the cover;**
+  two or more sit side by side at equal height. — Market Listing Share opens with two
+  screenshots (approved on the design review, #3 C2).

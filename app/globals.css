@@ -381,6 +381,8 @@ code {
 .project-header__detail + .project-header__detail { margin-top: 24px; }
 .project-header__label { font-weight: 500; }
 .figure--hero { margin-top: 56px; }
+.cover-row { display: flex; gap: 20px; align-items: flex-start; margin-top: 56px; }
+.cover-row__item { flex: var(--ar) 1 0; min-width: 0; margin: 0; }
 
 .project-footer {
   width: 100%;
@@ -397,6 +399,8 @@ code {
   .project-header { margin-top: 56px; }
   .project-header__detail { font-size: 14px; width: 100%; }
   .figure--hero { margin-top: 32px; }
+  .cover-row { flex-direction: column; gap: 16px; margin-top: 32px; }
+  .cover-row__item { flex: none; width: 100%; }
   .project-footer { padding-top: 16px; }
   .project-footer .work { width: calc(100% - 48px); }
 }
