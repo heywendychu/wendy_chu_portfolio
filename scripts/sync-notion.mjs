@@ -195,6 +195,16 @@ async function main() {
     console.log(`[sync]  • ${project.company} — ${title}${published ? "" : " (draft)"}`);
     if (!externalUrl) {
       const blocks = await clean(await getBlockTree(page.id));
+      // No Cover property? An image at the very top of the page (before any text) becomes the cover.
+      if (!project.cover) {
+        const first = blocks.findIndex((b) => !(b.type === "paragraph" && !b.paragraph.rich_text?.length));
+        const b = blocks[first];
+        if (b?.type === "image") {
+          const caption = (b.image.caption || []).map((t) => t.plain_text).join("");
+          project.cover = { src: b.image.src, width: b.image.width, height: b.image.height, alt: text(page, "Cover alt") || caption || title, caption: text(page, "Cover caption") || caption };
+          blocks.splice(0, first + 1);
+        }
+      }
       project.blocks = blocks;
     }
     projects.push(project);

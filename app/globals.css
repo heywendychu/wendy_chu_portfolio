@@ -238,6 +238,26 @@ code {
   color: var(--ink);
 }
 
+.stat-item { min-width: 0; }
+.stat-label {
+  margin: 6px 0 0;
+  font-family: var(--mono);
+  font-size: 12px;
+  line-height: 1.6;
+  letter-spacing: 0.4px;
+  color: var(--ink-2);
+  text-wrap: pretty;
+}
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 24px 32px;
+  margin: 28px 0 8px;
+}
+.stats .stat { margin: 0; font-size: 40px; }
+.stat-item > .stat { margin-top: 0; }
+.stat-item:not(.stats > *) { margin-top: 24px; }
+
 .quote {
   margin: 32px 0 0;
   padding: 0 0 0 24px;
@@ -268,13 +288,13 @@ code {
 .table th { font-family: var(--mono); font-weight: 500; font-size: 12px; letter-spacing: 0.8px; }
 
 /* Body copy inside indented sections lines up with the eyebrow text. */
-.section--indent > :is(.body, .list, .subheading, .stat, .quote, .toggle, .code, .table-wrap) {
+.section--indent > :is(.body, .list, .subheading, .stat, .stat-item, .stats, .quote, .toggle, .code, .table-wrap) {
   margin-left: var(--indent);
   margin-right: var(--indent);
 }
 @media (max-width: 768px) {
   .body, .list li { font-size: 15px; letter-spacing: 0.19px; }
-  .section--indent > :is(.body, .list, .subheading, .stat, .quote, .toggle, .code, .table-wrap) {
+  .section--indent > :is(.body, .list, .subheading, .stat, .stat-item, .stats, .quote, .toggle, .code, .table-wrap) {
     margin-left: 0;
     margin-right: 0;
   }
@@ -320,8 +340,11 @@ code {
 }
 .column > .figure:first-child { margin-top: 40px; }
 .column > .body { margin-top: 24px; }
+.columns--wrap { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.columns--wrap .column > .figure:first-child { margin-top: 24px; }
 @media (max-width: 768px) {
   .columns { grid-template-columns: 1fr; gap: 0; }
+  .stats .stat { font-size: 32px; }
 }
 
 /* ---------- project page ---------- */

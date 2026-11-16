@@ -8,7 +8,10 @@
 //   bulleted / numbered list                 → red-bullet list
 //   image                                    → full-width figure + caption + lightbox
 //   columns                                  → side-by-side (stacks on mobile)
-//   callout                                  → stat callout ("+181% Uplift in Conversion")
+//   callout                                  → stat ("+181% Uplift in Conversion"); a line break
+//                                              splits figure and label; callouts in a row
+//                                              line up side by side
+//   3+ columns                               → wrap to two per row
 //   quote                                    → pull quote
 //   embed / video (Figma, Vimeo, YouTube…)   → responsive iframe
 //   divider                                  → thin rule
@@ -58,6 +61,15 @@ export default function Blocks({ blocks = [], topLevel = 0 }) {
   const out = [];
   for (let i = 0; i < blocks.length; i++) {
     const b = blocks[i];
+    // Callouts in a row become a row of stats ("+61%" big, the next line as its label).
+    if (b.type === "callout") {
+      const items = [b];
+      while (blocks[i + 1] && blocks[i + 1].type === "callout") items.push(blocks[++i]);
+      out.push(items.length > 1
+        ? <div key={b.id || i} className="stats">{items.map((it, j) => <Stat key={it.id || j} block={it} />)}</div>
+        : <Stat key={b.id || i} block={b} />);
+      continue;
+    }
     const listTag = LIST_TYPES[b.type];
     if (listTag) {
       const items = [b];
@@ -124,7 +136,8 @@ function Block({ block: b, topLevel }) {
 
     case "column_list":
       return (
-        <div className="columns" style={{ "--cols": b.children?.length || 2 }}>
+        // 3+ columns wrap to two per row so screenshots stay readable
+        <div className={`columns ${(b.children?.length || 2) > 2 ? "columns--wrap" : ""}`} style={{ "--cols": b.children?.length || 2 }}>
           {(b.children || []).map((col, i) => (
             <div className="column" key={col.id || i}>
               <Blocks blocks={col.children} topLevel={topLevel} />
@@ -133,12 +146,6 @@ function Block({ block: b, topLevel }) {
         </div>
       );
 
-    case "callout":
-      return (
-        <p className="stat">
-          <RichText text={data.rich_text} />
-        </p>
-      );
 
     case "quote":
       return (
@@ -225,6 +232,39 @@ function Block({ block: b, topLevel }) {
       // child_page, child_database, unsupported… are skipped on purpose
       return null;
   }
+}
+
+// A callout: the first line is the figure, anything after a line break is its label.
+function splitAtBreak(rt = []) {
+  const head = [], tail = [];
+  let hit = false;
+  for (const t of rt) {
+    const txt = t.plain_text ?? t.text?.content ?? "";
+    if (hit) { tail.push(t); continue; }
+    const k = txt.indexOf("\n");
+    if (k < 0) { head.push(t); continue; }
+    hit = true;
+    const mk = (str) => ({ ...t, plain_text: str, text: { ...(t.text || {}), content: str } });
+    if (k > 0) head.push(mk(txt.slice(0, k)));
+    if (k < txt.length - 1) tail.push(mk(txt.slice(k + 1)));
+  }
+  return [head, tail];
+}
+
+function Stat({ block }) {
+  const [figure, label] = splitAtBreak(block.callout?.rich_text);
+  return (
+    <div className="stat-item">
+      <p className="stat">
+        <RichText text={figure} />
+      </p>
+      {label.length ? (
+        <p className="stat-label">
+          <RichText text={label} />
+        </p>
+      ) : null}
+    </div>
+  );
 }
 
 // ---------------------------------------------------------------------------

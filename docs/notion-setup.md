@@ -38,8 +38,8 @@ Write normally in Notion. The site maps Notion blocks onto the portfolio's style
 | Text | Body paragraph. **Bold**, *italic* and links all work. |
 | Bulleted or numbered list | Red-bullet list (indent to nest) |
 | Image (upload or paste) | Full-width image. The image **caption** becomes the caption *and* the alt text. Click to zoom. |
-| Columns (drag blocks side by side) | Side-by-side images or text. Stacks on mobile. |
-| Callout | Big stat line, like "+181% Uplift in Conversion" |
+| Columns (drag blocks side by side) | Side-by-side images or text. Rows of 3 or more wrap to two per row. Stacks on mobile. |
+| Callout | Big stat line, like "+181% Uplift in Conversion". Put a line break (Shift+Enter) after the number to give it a small label underneath; callouts in a row sit side by side. |
 | Quote | Pull quote |
 | Embed / video (Figma, Vimeo, YouTube, Loom) | Responsive embedded player. Paste the normal share link. |
 | Divider | Thin rule |
@@ -61,7 +61,7 @@ Anything before the first heading shows up as an intro with no section label.
 | Date | Shown next to the company ("Primary.com \| May 2019") |
 | Responsibilities | "Responsibilities: …" line |
 | Role summary | Paragraph under the title. Also used as the Google/LinkedIn description. |
-| Cover | Hero image at the top |
+| Cover | Hero image at the top. If it's empty, an image at the very top of the page (before any text) becomes the hero instead. |
 | Cover alt / Cover caption | Hero image alt text and caption |
 | External URL | Makes the row a link instead of a page |
 | Description | Optional custom Google/LinkedIn description |

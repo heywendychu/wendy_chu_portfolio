@@ -84,3 +84,9 @@ re-litigate it.
   content shipped in the JS bundle). Unpublished = not built at all.
 - **(v2) Slugs kept identical to the old routes** (`/projects/allbirds-pdp`, …) so
   existing links keep working.
+- **(v2) Rows of 3+ columns wrap to two per row.** — four wireframes across an 840px
+  column are ~190px each, too small to read (approved on the design review, #1).
+- **(v2) A callout's first line is the figure, the rest its label; consecutive callouts
+  form a row of stats.** — Market Listing Share's results (approved, #2 B).
+- **(v2) With no Cover property, a top-of-page image becomes the cover.** — lets a page
+  moved in from elsewhere keep its own lead image (Market Listing Share, #3 A).
