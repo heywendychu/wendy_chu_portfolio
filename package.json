@@ -13,7 +13,7 @@
     "migrate:push": "node scripts/migrate-to-notion.mjs --push"
   },
   "dependencies": {
-    "next": "^16.4.1",
+    "next": "^16.4.6",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "yet-another-react-lightbox": "^3.32.1"
