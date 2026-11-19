@@ -458,7 +458,6 @@ code {
 .fw__img {
   position: relative;
   aspect-ratio: 16 / 10;
-  border-radius: 12px;
   background: #ffd6c6;
   overflow: hidden;
 }
@@ -469,7 +468,6 @@ code {
   top: 8%;
   bottom: 0;
   overflow: hidden;
-  border-radius: 10px 10px 0 0;
   box-shadow: 0 12px 32px rgba(27, 44, 99, 0.16);
   background: #fff;
 }
@@ -500,7 +498,7 @@ code {
   border: 1px solid var(--underline);
   border-radius: 999px;
 }
-.fw__row:focus-visible { outline: 2px solid var(--accent); outline-offset: 6px; border-radius: 12px; }
+.fw__row:focus-visible { outline: 2px solid var(--accent); outline-offset: 6px; }
 
 @media (max-width: 768px) {
   .fw { gap: 40px; }
