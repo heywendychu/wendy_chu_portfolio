@@ -6,10 +6,17 @@ import Link from "next/link";
 // drops the white box so a cut-out image (e.g. a laptop mockup) sits straight on the peach.
 function Thumb({ project }) {
   const img = project.homeImage || project.cover;
+  // Cut-out images show their full width (same side padding as the others) and are pushed down
+  // so about 12% of the image runs off the bottom of the frame, like the screenshots do.
+  let panelStyle;
+  if (project.imageTransparent && img?.width && img?.height) {
+    const heightPct = (84 * 1.6 * img.height) / img.width; // image height as % of the 16:10 frame
+    panelStyle = { top: `${Math.max(8, 100 - heightPct * 0.88).toFixed(1)}%` };
+  }
   return (
     <div className={`fw__img ${project.imageTransparent ? "fw__img--clear" : ""}`} aria-hidden="true">
       {img?.src ? (
-        <div className="fw__panel">
+        <div className="fw__panel" style={panelStyle}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={img.src}
