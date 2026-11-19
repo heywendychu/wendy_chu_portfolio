@@ -147,6 +147,10 @@ async function clean(blocks) {
 // ---------------------------------------------------------------------------
 
 async function main() {
+  // Local runs: read .env.local (Netlify sets these variables itself).
+  for (const f of [".env.local", ".env"]) {
+    try { process.loadEnvFile(path.join(ROOT, f)); } catch {}
+  }
   if (!process.env.NOTION_TOKEN) {
     console.warn("[sync] NOTION_TOKEN not set — building from the committed snapshot in content/");
     return;
