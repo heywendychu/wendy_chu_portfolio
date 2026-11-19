@@ -65,6 +65,7 @@ Anything before the first heading shows up as an intro with no section label.
 | Cover alt / Cover caption | Hero image alt text and caption |
 | Homepage image | Optional. The thumbnail on the home page. Leave it empty to use the Cover (or the first image on the page). |
 | Image position | Top / Center / Bottom: which part of the homepage image shows in its frame. Defaults to Top. |
+| Transparent background | Tick it when the homepage image has a see-through background (like a laptop mockup): no white box behind it, and the whole image shows. |
 | Outcome | One line under the title on the home page, e.g. the result. |
 | Skills | Up to 3 tags shown under the outcome on the home page. |
 | External URL | Makes the row a link instead of a page |

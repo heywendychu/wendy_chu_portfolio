@@ -219,6 +219,7 @@ async function main() {
       order: Number(text(page, "Order")) || 999,
       homeImage: homeImage ? { ...homeImage, alt: text(page, "Cover alt") || title } : null,
       imagePosition: ["top", "center", "bottom"].includes(position) ? position : "top",
+      imageTransparent: !!prop(page, "Transparent background")?.checkbox,
       outcome: text(page, "Outcome"),
       skills: (prop(page, "Skills")?.multi_select || []).map((o) => o.name).slice(0, 3),
       published,

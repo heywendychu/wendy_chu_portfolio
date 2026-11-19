@@ -2,11 +2,12 @@ import Link from "next/link";
 
 // Home page work list: one row per project with a framed thumbnail.
 // The thumbnail is the Notion "Homepage image" (or the cover if that's empty),
-// cropped from the "Image position" (Top / Center / Bottom).
+// cropped from the "Image position" (Top / Center / Bottom). "Transparent background"
+// drops the white box so a cut-out image (e.g. a laptop mockup) sits straight on the peach.
 function Thumb({ project }) {
   const img = project.homeImage || project.cover;
   return (
-    <div className="fw__img" aria-hidden="true">
+    <div className={`fw__img ${project.imageTransparent ? "fw__img--clear" : ""}`} aria-hidden="true">
       {img?.src ? (
         <div className="fw__panel">
           {/* eslint-disable-next-line @next/next/no-img-element */}

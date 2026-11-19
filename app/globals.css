@@ -472,6 +472,9 @@ code {
   background: #fff;
 }
 .fw__panel img { width: 100%; height: 100%; object-fit: cover; display: block; }
+/* Cut-out images: no white box or box shadow; the whole image shows, with a shadow that follows its shape. */
+.fw__img--clear .fw__panel { background: transparent; box-shadow: none; overflow: visible; }
+.fw__img--clear .fw__panel img { object-fit: contain; filter: drop-shadow(0 12px 20px rgba(27, 44, 99, 0.16)); }
 /* Hover: the frame and its screenshot lift together as one piece. */
 .fw__img { transition: transform 0.25s ease, box-shadow 0.25s ease; }
 .fw__row:hover .fw__img { transform: translateY(-6px); box-shadow: 0 16px 36px rgba(27, 44, 99, 0.12); }
