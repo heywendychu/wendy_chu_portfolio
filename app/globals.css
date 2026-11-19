@@ -443,6 +443,71 @@ code {
   .work__link { line-height: 1.4; letter-spacing: 0.47px; }
 }
 
+/* ---------- featured work (home) ---------- */
+
+.fw { list-style: none; margin: 40px 0 0; padding: 0; display: grid; gap: 48px; }
+.fw__row {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 32px;
+  align-items: center;
+  color: var(--ink);
+  text-decoration: none;
+}
+/* Peach frame; the screenshot sits inset by the same amount left, right and top and runs off the bottom. */
+.fw__img {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  border-radius: 12px;
+  background: #ffd6c6;
+  overflow: hidden;
+}
+.fw__panel {
+  position: absolute;
+  left: 8%;
+  right: 8%;
+  top: 8%;
+  bottom: 0;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 12px 32px rgba(27, 44, 99, 0.16);
+  background: #fff;
+  transition: transform 0.25s ease;
+}
+.fw__panel img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.fw__row:hover .fw__panel { transform: translateY(-4px); }
+@media (prefers-reduced-motion: reduce) { .fw__row:hover .fw__panel { transform: none; } }
+.fw__co {
+  margin: 0 0 6px;
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: var(--ink-2);
+}
+.fw__title { margin: 0; font-family: var(--serif); font-weight: 400; font-size: 30px; line-height: 1.25; }
+.fw__title span:first-child { box-shadow: 0 1px 0 var(--underline); transition: box-shadow 0.15s; }
+.fw__row:hover .fw__title span:first-child { box-shadow: 0 1px 0 var(--accent); }
+.fw__ext { font-family: var(--sans); font-size: 0.5em; margin-left: 6px; vertical-align: 0.6em; color: var(--accent); }
+.fw__outcome { margin: 12px 0 0; font-size: 15px; line-height: 1.55; }
+.fw__tags { list-style: none; margin: 14px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.fw__tags li {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.4px;
+  padding: 3px 10px;
+  border: 1px solid var(--underline);
+  border-radius: 999px;
+}
+.fw__row:focus-visible { outline: 2px solid var(--accent); outline-offset: 6px; border-radius: 12px; }
+
+@media (max-width: 768px) {
+  .fw { gap: 40px; }
+  .fw__row { grid-template-columns: 1fr; gap: 16px; }
+  .fw__title { font-size: 26px; }
+}
+
 /* ---------- home ---------- */
 
 .home { width: 100%; display: flex; flex-direction: column; align-items: center; padding-bottom: 100px; }

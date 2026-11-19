@@ -2,7 +2,7 @@ import Blocks from "@/components/Blocks";
 import Figure from "@/components/Figure";
 import RichText from "@/components/RichText";
 import Section from "@/components/Section";
-import WorkList from "@/components/WorkList";
+import FeaturedWork from "@/components/FeaturedWork";
 import { getProjects } from "@/lib/content";
 import { getHomeSections } from "@/lib/home";
 
@@ -42,7 +42,7 @@ export default function Home() {
           {s.kind === "work" ? (
             <>
               <Blocks blocks={s.blocks} />
-              <WorkList projects={projects} />
+              <FeaturedWork projects={projects} />
             </>
           ) : i === 0 ? (
             <About blocks={s.blocks} />

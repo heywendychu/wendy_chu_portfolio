@@ -11,7 +11,15 @@
     "responsibilities": "",
     "roleSummary": "",
     "description": "",
-    "cover": null
+    "cover": null,
+    "outcome": "0\u21921 marketing tools for brokers: 61% more listings shared after a one-click redesign",
+    "skills": [
+      "0\u21921",
+      "UX/UI",
+      "Testing"
+    ],
+    "imagePosition": "top",
+    "homeImage": null
   },
   {
     "slug": "vts-access-management",
@@ -31,7 +39,15 @@
       "height": 2048,
       "alt": "",
       "caption": ""
-    }
+    },
+    "outcome": "Phones as keycards for office buildings: 1 designer, 10 engineers, 9 months",
+    "skills": [
+      "Discovery",
+      "UX/UI",
+      "Prototyping"
+    ],
+    "imagePosition": "top",
+    "homeImage": null
   },
   {
     "slug": "allbirds-pdp",
@@ -51,7 +67,15 @@
       "height": 2048,
       "alt": "Updated Allbirds product detail page size selection",
       "caption": "My updated size selection design displayed sizes as tiles and grouped gender with size."
-    }
+    },
+    "outcome": "Brought in after an agency redesign hurt conversion; nearly doubled it as the sole designer",
+    "skills": [
+      "Audit",
+      "UX/UI",
+      "A/B testing"
+    ],
+    "imagePosition": "top",
+    "homeImage": null
   },
   {
     "slug": "primary-navigation-redesign",
@@ -71,7 +95,15 @@
       "height": 1086,
       "alt": "Desktop Navigation Flyout",
       "caption": "Desktop Navigation Flyout"
-    }
+    },
+    "outcome": "+15% category page views and twice the top-level categories",
+    "skills": [
+      "Research",
+      "IA",
+      "Interaction"
+    ],
+    "imagePosition": "top",
+    "homeImage": null
   },
   {
     "slug": "primary-product-detail-page",
@@ -91,7 +123,15 @@
       "height": 1084,
       "alt": "Primary Product Detail Page - Desktop",
       "caption": "Product Detail Page - Desktop"
-    }
+    },
+    "outcome": "+4.6% mobile checkout completions from an A/B-tested redesign",
+    "skills": [
+      "Research",
+      "Strategy",
+      "A/B testing"
+    ],
+    "imagePosition": "top",
+    "homeImage": null
   },
   {
     "slug": "primary-style-guide",
@@ -111,7 +151,15 @@
       "height": 2166,
       "alt": "Colors & Text Styles",
       "caption": "Colors & Text Styles"
-    }
+    },
+    "outcome": "Primary's first design system, built as its first product design hire",
+    "skills": [
+      "Systems",
+      "Documentation",
+      "Leadership"
+    ],
+    "imagePosition": "top",
+    "homeImage": null
   },
   {
     "slug": "ralph-lauren-reserve-in-store",

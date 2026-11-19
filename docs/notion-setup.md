@@ -63,6 +63,10 @@ Anything before the first heading shows up as an intro with no section label.
 | Role summary | Paragraph under the title. Also used as the Google/LinkedIn description. |
 | Cover | Hero image at the top. If it's empty, the image(s) at the very top of the page (before any text) become the hero instead; two or more sit side by side at the same height. |
 | Cover alt / Cover caption | Hero image alt text and caption |
+| Homepage image | Optional. The thumbnail on the home page. Leave it empty to use the Cover (or the first image on the page). |
+| Image position | Top / Center / Bottom: which part of the homepage image shows in its frame. Defaults to Top. |
+| Outcome | One line under the title on the home page, e.g. the result. |
+| Skills | Up to 3 tags shown under the outcome on the home page. |
 | External URL | Makes the row a link instead of a page |
 | Description | Optional custom Google/LinkedIn description |
 

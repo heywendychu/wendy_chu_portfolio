@@ -96,7 +96,10 @@ async function download(url, key, { raw = false } = {}) {
 async function localiseFile(fileObj, key) {
   if (!fileObj) return null;
   if (fileObj.type === "external") {
-    const url = fileObj.external.url;
+    let url = fileObj.external.url;
+    // A link to an image already on this site (e.g. https://wendychu.design/images/...) → local path.
+    const own = url.match(/^https?:\/\/(?:www\.)?wendychu\.design(\/[^?#]*)/);
+    if (own) url = own[1];
     // A path into this site's own /public (used by the migrated snapshot) needs no download.
     if (url.startsWith("/")) return { src: url, ...(await localDims(url)) };
     return { src: url };
@@ -176,6 +179,10 @@ async function main() {
     const coverFiles = prop(page, "Cover")?.files || [];
     const cover = coverFiles[0] ? await localiseFile(coverFiles[0], `${page.id}:cover:${page.last_edited_time}`) : null;
     const externalUrl = text(page, "External URL", "External link");
+    // Homepage thumbnail: "Homepage image" if set, otherwise the cover. "Image position" picks the crop.
+    const homeFiles = prop(page, "Homepage image")?.files || [];
+    const homeImage = homeFiles[0] ? await localiseFile(homeFiles[0], `${page.id}:home:${page.last_edited_time}`) : null;
+    const position = (text(page, "Image position") || "Top").toLowerCase();
 
     const project = {
       id: page.id,
@@ -190,6 +197,10 @@ async function main() {
       cover: cover ? { ...cover, alt: text(page, "Cover alt") || title, caption: text(page, "Cover caption") } : null,
       externalUrl: externalUrl || null,
       order: Number(text(page, "Order")) || 999,
+      homeImage: homeImage ? { ...homeImage, alt: text(page, "Cover alt") || title } : null,
+      imagePosition: ["top", "center", "bottom"].includes(position) ? position : "top",
+      outcome: text(page, "Outcome"),
+      skills: (prop(page, "Skills")?.multi_select || []).map((o) => o.name).slice(0, 3),
       published,
     };
     console.log(`[sync]  • ${project.company} — ${title}${published ? "" : " (draft)"}`);
