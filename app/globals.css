@@ -472,16 +472,12 @@ code {
   border-radius: 10px 10px 0 0;
   box-shadow: 0 12px 32px rgba(27, 44, 99, 0.16);
   background: #fff;
-  transition: transform 0.25s ease;
 }
 .fw__panel img { width: 100%; height: 100%; object-fit: cover; display: block; }
-/* Hover: the whole frame lifts, and the screenshot rises a little more inside it. */
+/* Hover: the frame and its screenshot lift together as one piece. */
 .fw__img { transition: transform 0.25s ease, box-shadow 0.25s ease; }
 .fw__row:hover .fw__img { transform: translateY(-6px); box-shadow: 0 16px 36px rgba(27, 44, 99, 0.12); }
-.fw__row:hover .fw__panel { transform: translateY(-4px); }
-@media (prefers-reduced-motion: reduce) {
-  .fw__row:hover .fw__img, .fw__row:hover .fw__panel { transform: none; }
-}
+@media (prefers-reduced-motion: reduce) { .fw__row:hover .fw__img { transform: none; } }
 .fw__co {
   margin: 0 0 12px;
   font-family: var(--mono);
