@@ -254,6 +254,18 @@ async function main() {
         }
       }
       project.blocks = blocks;
+      // "Homepage image override", picked in the review page's Thumbnails tab:
+      //   page:N     → the Nth image on the case-study page (1 = first, counting a top-of-page cover)
+      //   /home/...  → an image file added to the site's public/home folder
+      const override = text(page, "Homepage image override").trim();
+      if (override) {
+        const pageImages = [...(project.covers || (project.cover && !coverFiles[0] ? [project.cover] : []))];
+        const walk = (bs) => (bs || []).forEach((b) => { if (b.type === "image" && b.image?.src) pageImages.push({ src: b.image.src, width: b.image.width, height: b.image.height }); walk(b.children); });
+        walk(blocks);
+        const m = override.match(/^page:(\d+)$/i);
+        if (m && pageImages[+m[1] - 1]) project.homeImage = { ...pageImages[+m[1] - 1], alt: title };
+        else if (override.startsWith("/home/")) project.homeImage = { src: override, ...(await localDims(override)), alt: title };
+      }
     }
     projects.push(project);
   }
