@@ -483,7 +483,7 @@ code {
   .fw__row:hover .fw__img, .fw__row:hover .fw__panel { transform: none; }
 }
 .fw__co {
-  margin: 0 0 6px;
+  margin: 0 0 12px;
   font-family: var(--mono);
   font-size: 12px;
   font-weight: 500;
