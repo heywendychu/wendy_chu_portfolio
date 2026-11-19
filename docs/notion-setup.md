@@ -64,10 +64,10 @@ Anything before the first heading shows up as an intro with no section label.
 | Cover | Hero image at the top. If it's empty, the image(s) at the very top of the page (before any text) become the hero instead; two or more sit side by side at the same height. |
 | Cover alt / Cover caption | Hero image alt text and caption |
 | Homepage image | Optional. The thumbnail on the home page. Leave it empty to use the Cover (or the first image on the page). |
-| Image position | Top / Center / Bottom: which part of the homepage image shows in its frame. Defaults to Top. |
-| Transparent background | Tick it when the homepage image has a see-through background (like a laptop mockup): no white box behind it, and the whole image shows. |
+| Image position | No longer used by the leaf tiles (kept for older crops). |
+| Transparent background | Tick it when the homepage image has a see-through background (like phone mockups): it sits whole inside the leaf with a soft shadow that follows its shape. |
 | Image zoom / Image x / Image y | Filled in from the design review page's Thumbnails tab (drag and zoom). When set they override Image position. Clear all three to go back to automatic. |
-| Outcome | One line under the title on the home page, e.g. the result. |
+| Outcome | The big headline on the homepage tile (keep it short, e.g. "Increased e-commerce conversion by 3x"); the project name sits under it. |
 | Skills | Up to 3 tags shown under the outcome on the home page. |
 | External URL | Makes the row a link instead of a page |
 | Description | Optional custom Google/LinkedIn description |

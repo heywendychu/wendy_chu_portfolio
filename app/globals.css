@@ -443,72 +443,61 @@ code {
   .work__link { line-height: 1.4; letter-spacing: 0.47px; }
 }
 
-/* ---------- featured work (home) ---------- */
+/* ---------- featured work (home): leaf tiles ---------- */
+/* Type and spacing from the Figma "Project Tile" frame; leaf crops from design review option F. */
 
-.fw { list-style: none; margin: 40px 0 0; padding: 0; display: grid; gap: 48px; }
-.fw__row {
+.lf-list { list-style: none; margin: 48px 0 0; padding: 0; display: grid; gap: 72px; }
+.lf__row {
   display: grid;
-  grid-template-columns: 1.15fr 1fr;
-  gap: 32px;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1fr);
+  gap: 56px;
   align-items: center;
   color: var(--ink);
   text-decoration: none;
 }
-/* Peach frame; the screenshot sits inset by the same amount left, right and top and runs off the bottom. */
-.fw__img {
+.lf--flip .lf__row { grid-template-columns: minmax(0, 1fr) minmax(0, 0.8fr); }
+.lf--flip .lf__text { order: 2; }
+.lf__text { max-width: 356px; }
+.lf__co { margin: 0 0 8px; font: 500 13px/24px var(--mono); letter-spacing: 0.8px; color: var(--ink-2); }
+.lf__h { margin: 0; font: 400 32px/48px var(--serif); letter-spacing: 0.53px; color: var(--ink); text-wrap: balance; }
+.lf__sub { margin: 8px 0 0; font: 400 16px/24px var(--sans); letter-spacing: 0.2px; }
+.lf__tags { list-style: none; margin: 24px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.lf__tags li {
+  display: flex; align-items: center; height: 24px; padding: 4px 8px 5px; border-radius: 20px;
+  background: rgba(255, 170, 142, 0.45); font: 400 14px/20px var(--mono); color: var(--ink-2);
+}
+.lf__more {
+  display: inline-flex; align-items: center; gap: 4px; margin-top: 48px;
+  font: 500 13px/24px var(--mono); letter-spacing: 0.8px; text-transform: uppercase; transition: color 0.15s;
+}
+.lf__arrow { transition: transform 0.2s; }
+.lf__row:hover .lf__more, .lf__row:focus-visible .lf__more { color: var(--accent); }
+.lf__row:hover .lf__arrow { transform: translateX(4px); }
+
+/* The leaf: two small corners, two big curves. Images are positioned by % (see lib/leaf.js) and only the leaf crops them. */
+.lf__shape {
   position: relative;
-  aspect-ratio: 16 / 10;
-  border-radius: 12px; /* the peach frame is rounded; the screenshot inside stays square */
+  aspect-ratio: 1.07 / 1;
   background: #ffd6c6;
+  border: 1.5px solid #f2a693;
+  border-radius: 24px 46% 24px 46% / 24px 50% 24px 50%;
   overflow: hidden;
+  transition: transform 0.25s ease;
 }
-.fw__panel {
-  position: absolute;
-  left: 8%;
-  right: 8%;
-  top: 8%;
-  bottom: 0;
-  overflow: hidden;
-  box-shadow: 0 12px 32px rgba(27, 44, 99, 0.16);
-  background: #fff;
-}
-.fw__panel img { width: 100%; height: 100%; object-fit: cover; display: block; }
-/* Cut-out images: no white box or box shadow, a shadow that follows the image's shape,
-   full width, and the bottom running off the frame (top offset set in FeaturedWork). */
-.fw__img--clear .fw__panel { background: transparent; box-shadow: none; overflow: visible; }
-.fw__img--clear .fw__panel img { height: auto; object-fit: initial; filter: drop-shadow(0 12px 20px rgba(27, 44, 99, 0.16)); }
-/* Hover: the frame and its screenshot lift together as one piece. */
-.fw__img { transition: transform 0.25s ease, box-shadow 0.25s ease; }
-.fw__row:hover .fw__img { transform: translateY(-6px); box-shadow: 0 16px 36px rgba(27, 44, 99, 0.12); }
-@media (prefers-reduced-motion: reduce) { .fw__row:hover .fw__img { transform: none; } }
-.fw__co {
-  margin: 0 0 12px;
-  font-family: var(--mono);
-  font-size: 12px;
-  font-weight: 500;
-  letter-spacing: 0.3px;
-  color: var(--ink-2);
-}
-.fw__title { margin: 0; font-family: var(--serif); font-weight: 400; font-size: 30px; line-height: 1.25; }
-.fw__title span:first-child { box-shadow: 0 1px 0 var(--underline); transition: box-shadow 0.15s; }
-.fw__row:hover .fw__title span:first-child { box-shadow: 0 1px 0 var(--accent); }
-.fw__ext { font-family: var(--sans); font-size: 0.5em; margin-left: 6px; vertical-align: 0.6em; color: var(--accent); }
-.fw__outcome { margin: 12px 0 0; font-size: 15px; line-height: 1.55; }
-.fw__tags { list-style: none; margin: 14px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
-.fw__tags li {
-  font-family: var(--mono);
-  font-size: 11px;
-  letter-spacing: 0.4px;
-  padding: 3px 10px;
-  border: 1px solid var(--underline);
-  border-radius: 999px;
-}
-.fw__row:focus-visible { outline: 2px solid var(--accent); outline-offset: 6px; }
+.lf--flip .lf__shape { border-radius: 46% 24px 46% 24px / 50% 24px 50% 24px; }
+.lf__shape img { position: absolute; height: auto; max-width: none; display: block; box-shadow: 0 12px 32px rgba(27, 44, 99, 0.16); }
+.lf__shape.is-clear img { box-shadow: none; filter: drop-shadow(0 12px 20px rgba(27, 44, 99, 0.16)); }
+.lf__row:hover .lf__shape { transform: translateY(-6px); }
+@media (prefers-reduced-motion: reduce) { .lf__row:hover .lf__shape, .lf__row:hover .lf__arrow { transform: none; } }
+.lf__row:focus-visible { outline: 2px solid var(--accent); outline-offset: 8px; border-radius: 12px; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
 @media (max-width: 768px) {
-  .fw { gap: 40px; }
-  .fw__row { grid-template-columns: 1fr; gap: 16px; }
-  .fw__title { font-size: 26px; }
+  .lf-list { gap: 56px; }
+  .lf__row, .lf--flip .lf__row { grid-template-columns: 1fr; gap: 24px; }
+  .lf__shape { order: -1; }
+  .lf--flip .lf__text { order: 0; }
+  .lf__more { margin-top: 24px; }
 }
 
 /* ---------- home ---------- */
