@@ -458,6 +458,7 @@ code {
 .fw__img {
   position: relative;
   aspect-ratio: 16 / 10;
+  border-radius: 12px; /* the peach frame is rounded; the screenshot inside stays square */
   background: #ffd6c6;
   overflow: hidden;
 }
