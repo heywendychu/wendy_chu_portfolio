@@ -63,10 +63,26 @@ export const slugify = (s) =>
 // ---------------------------------------------------------------------------
 // images
 
+// Fetch an image, retrying dropped connections (UND_ERR_SOCKET, resets, timeouts).
+async function fetchImage(url) {
+  for (let attempt = 0; ; attempt++) {
+    try {
+      const res = await fetch(url, { signal: AbortSignal.timeout(60000) });
+      if (res.status >= 500 && attempt < 4) throw new Error(`HTTP ${res.status}`);
+      if (!res.ok) throw Object.assign(new Error(`download ${res.status} ${url.slice(0, 80)}`), { final: true });
+      return { res, buf: Buffer.from(await res.arrayBuffer()) };
+    } catch (err) {
+      if (err.final || attempt >= 4) {
+        const cause = err.cause?.code || err.cause?.message || err.message;
+        throw new Error(`Couldn't download image ${url.split("?")[0].slice(-60)} (${cause})`);
+      }
+      await new Promise((r) => setTimeout(r, 1000 * 2 ** attempt));
+    }
+  }
+}
+
 async function download(url, key, { raw = false } = {}) {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`download ${res.status} ${url.slice(0, 80)}`);
-  const buf = Buffer.from(await res.arrayBuffer());
+  const { res, buf } = await fetchImage(url);
   const type = res.headers.get("content-type") || "";
   let ext = (new URL(url).pathname.match(/\.([a-z0-9]{2,5})$/i)?.[1] || type.split("/")[1] || "png").toLowerCase();
   if (ext === "jpeg") ext = "jpg";
