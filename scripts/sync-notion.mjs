@@ -220,6 +220,13 @@ async function main() {
       homeImage: homeImage ? { ...homeImage, alt: text(page, "Cover alt") || title } : null,
       imagePosition: ["top", "center", "bottom"].includes(position) ? position : "top",
       imageTransparent: !!prop(page, "Transparent background")?.checkbox,
+      // Exact crop from the review page's Thumbnails tab (all three or none): image width as % of the
+      // inner frame, and its left/top offset as % of the inner frame's width/height.
+      imageCrop: (() => {
+        const n = (k) => { const v = prop(page, k)?.number; return typeof v === "number" ? v : null; };
+        const zoom = n("Image zoom"), x = n("Image x"), y = n("Image y");
+        return zoom && x !== null && y !== null ? { zoom, x, y } : null;
+      })(),
       outcome: text(page, "Outcome"),
       skills: (prop(page, "Skills")?.multi_select || []).map((o) => o.name).slice(0, 3),
       published,

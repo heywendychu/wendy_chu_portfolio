@@ -66,6 +66,7 @@ Anything before the first heading shows up as an intro with no section label.
 | Homepage image | Optional. The thumbnail on the home page. Leave it empty to use the Cover (or the first image on the page). |
 | Image position | Top / Center / Bottom: which part of the homepage image shows in its frame. Defaults to Top. |
 | Transparent background | Tick it when the homepage image has a see-through background (like a laptop mockup): no white box behind it, and the whole image shows. |
+| Image zoom / Image x / Image y | Filled in from the design review page's Thumbnails tab (drag and zoom). When set they override Image position. Clear all three to go back to automatic. |
 | Outcome | One line under the title on the home page, e.g. the result. |
 | Skills | Up to 3 tags shown under the outcome on the home page. |
 | External URL | Makes the row a link instead of a page |

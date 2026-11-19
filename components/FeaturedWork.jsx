@@ -9,7 +9,12 @@ function Thumb({ project }) {
   // Cut-out images show their full width (same side padding as the others) and are pushed down
   // so about 12% of the image runs off the bottom of the frame, like the screenshots do.
   let panelStyle;
-  if (project.imageTransparent && img?.width && img?.height) {
+  let imgStyle = { objectPosition: `center ${project.imagePosition || "top"}` };
+  const crop = project.imageCrop;
+  if (crop) {
+    // Set by eye on the review page: exact size and position inside the frame.
+    imgStyle = { position: "absolute", width: `${crop.zoom}%`, height: "auto", left: `${crop.x}%`, top: `${crop.y}%`, maxWidth: "none", objectFit: "initial" };
+  } else if (project.imageTransparent && img?.width && img?.height) {
     const heightPct = (84 * 1.6 * img.height) / img.width; // image height as % of the 16:10 frame
     panelStyle = { top: `${Math.max(8, 100 - heightPct * 0.88).toFixed(1)}%` };
   }
@@ -25,7 +30,7 @@ function Thumb({ project }) {
             height={img.height}
             loading="lazy"
             decoding="async"
-            style={{ objectPosition: `center ${project.imagePosition || "top"}` }}
+            style={imgStyle}
           />
         </div>
       ) : null}
