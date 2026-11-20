@@ -19,15 +19,20 @@ const Arrow = () => (
 // "Image zoom / x / y" (from the review page's Thumbnails tab) are % of the inner panel.
 function Thumb({ project }) {
   const img = project.homeImage || project.cover;
-  let panelStyle;
-  let imgStyle = { objectPosition: `center ${project.imagePosition || "top"}` };
-  const crop = project.imageCrop;
-  if (crop) {
-    imgStyle = { position: "absolute", width: `${crop.zoom}%`, height: "auto", left: `${crop.x}%`, top: `${crop.y}%`, maxWidth: "none", objectFit: "initial" };
-  } else if (project.imageTransparent && img?.width && img?.height) {
-    const heightPct = (84 * 1.6 * img.height) / img.width; // image height as % of the 16:10 frame
-    panelStyle = { top: `${Math.max(8, 100 - heightPct * 0.88).toFixed(1)}%` };
-  }
+  // The screenshot always spans the panel's full width (never cropped at the sides); only the bottom is cut off.
+  // Panel: inset 8% left/right/top of the 16:10 frame, running off the bottom. A wide, short image gets a
+  // shorter panel (it starts lower) so it still runs a little off the bottom instead of leaving a gap.
+  const ratio = img?.width && img?.height ? img.width / img.height : 1.6;
+  const frameH = (84 * 1.6) / ratio; // image height as % of the frame height
+  const top = Math.max(8, 100 - frameH * 0.88);
+  const panelH = 100 - top; // panel height as % of the frame
+  const overflow = (frameH / panelH) * 100 - 100; // how far (% of panel) the image runs past the bottom
+  let y = 0;
+  if (project.imageCrop && typeof project.imageCrop.y === "number") y = project.imageCrop.y;
+  else if (top <= 8) y = -overflow * ({ top: 0, center: 0.5, bottom: 1 }[project.imagePosition] ?? 0);
+  y = Math.min(0, Math.max(-overflow, y));
+  const panelStyle = top > 8 ? { top: `${top.toFixed(1)}%` } : undefined;
+  const imgStyle = { position: "absolute", left: 0, top: `${y.toFixed(1)}%`, width: "100%", height: "auto", maxWidth: "none", objectFit: "initial" };
   return (
     <div className={`fw__img ${project.imageTransparent ? "fw__img--clear" : ""}`} aria-hidden="true">
       {img?.src ? (

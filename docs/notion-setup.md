@@ -67,7 +67,7 @@ Anything before the first heading shows up as an intro with no section label.
 | Image position | No longer used by the leaf tiles (kept for older crops). |
 | Transparent background | Tick it when the homepage image has a see-through background (like phone mockups): it sits whole inside the leaf with a soft shadow that follows its shape. |
 | Homepage image override | Set from the review page's Thumbnails tab when you pick a different picture: `page:3` = the 3rd image on the case-study page, `/home/file.webp` = an image you uploaded there. Overrides Homepage image. |
-| Image zoom / Image x / Image y | Filled in from the design review page's Thumbnails tab (drag and zoom). When set they override Image position. Clear all three to go back to automatic. |
+| Image y | Filled in from the design review page's Thumbnails tab (drag up or down). The screenshot always fills the frame's width and is only cut off at the bottom; Image y moves it up to show a lower part. When set it overrides Image position. Clear it to go back to automatic. (Image zoom and Image x are no longer used.) |
 | Outcome | The line under the project name on the homepage tile (the result). |
 | Skills | Up to 3 tags shown under the outcome on the home page. |
 | External URL | Makes the row a link instead of a page |
