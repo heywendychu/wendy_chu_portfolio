@@ -47,7 +47,7 @@ function Tile({ project, flip }) {
     <>
       <div className="lf__text">
         <p className="lf__co">{project.company}</p>
-        <h3 className="lf__h">{HEADLINE_IS_OUTCOME ? project.outcome || project.menuLabel : project.menuLabel}</h3>
+        <h3 className="lf__h"><span className="lf__hl">{HEADLINE_IS_OUTCOME ? project.outcome || project.menuLabel : project.menuLabel}</span></h3>
         {project.outcome ? <p className="lf__sub">{HEADLINE_IS_OUTCOME ? project.menuLabel : project.outcome}</p> : null}
         {project.skills?.length ? (
           <ul className="lf__tags">

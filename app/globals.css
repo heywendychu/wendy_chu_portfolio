@@ -508,8 +508,17 @@ code {
 .fw__img--clear .fw__panel img { height: auto; object-fit: initial; filter: drop-shadow(0 12px 20px rgba(27, 44, 99, 0.16)); }
 .fw__img--crop:not(.fw__img--clear) .fw__panel { overflow: visible; clip-path: inset(0 -20% -20% -20%); background: transparent; box-shadow: none; }
 .fw__img--crop:not(.fw__img--clear) .fw__panel img { box-shadow: 0 12px 32px rgba(27, 44, 99, 0.16); }
-.lf__row:hover .fw__img { transform: translateY(-6px); box-shadow: 0 16px 36px rgba(27, 44, 99, 0.12); }
-@media (prefers-reduced-motion: reduce) { .lf__row:hover .fw__img { transform: none; } }
+/* Hover (design review 15, A + D): the screenshot zooms in a little inside the frame, and a thin red
+   line draws in under the project name (one per line when it wraps). */
+.fw__panel img { transition: transform 0.4s ease; transform-origin: 50% 0; }
+.lf__row:hover .fw__panel img, .lf__row:focus-visible .fw__panel img { transform: scale(1.06); }
+.lf__hl {
+  background: linear-gradient(var(--accent), var(--accent)) 0 100% / 0 1px no-repeat;
+  -webkit-box-decoration-break: clone; box-decoration-break: clone;
+  transition: background-size 0.3s ease;
+}
+.lf__row:hover .lf__hl, .lf__row:focus-visible .lf__hl { background-size: 100% 1px; }
+@media (prefers-reduced-motion: reduce) { .lf__row:hover .fw__panel img, .lf__row:focus-visible .fw__panel img { transform: none; } .lf__hl { transition: none; } }
 .lf__row { grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.15fr); }
 .lf--flip .lf__row { grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.8fr); }
 @media (max-width: 768px) { .lf__row, .lf--flip .lf__row { grid-template-columns: 1fr; } .fw__img { order: -1; } }
