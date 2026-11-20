@@ -42,9 +42,10 @@ function Thumb({ project }) {
   );
 }
 
-// Design review 18 (A): every tile has its image on the right, so the text lines up in one column.
-// Set to true to alternate image right / left again.
+// Design review 18 (B): every tile has its image on the left and its text in one column on the right.
+// Set IMAGE_LEFT to false for images on the right, or ALTERNATE to true to alternate sides again.
 const ALTERNATE = false;
+const IMAGE_LEFT = true;
 
 function Tile({ project, flip }) {
   const body = (
@@ -84,7 +85,7 @@ export default function FeaturedWork({ projects }) {
   return (
     <ul className="lf-list">
       {projects.map((p, i) => (
-        <Tile key={p.slug} project={p} flip={ALTERNATE && i % 2 === 1} />
+        <Tile key={p.slug} project={p} flip={ALTERNATE ? i % 2 === 1 : IMAGE_LEFT} />
       ))}
     </ul>
   );
