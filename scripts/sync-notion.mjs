@@ -81,7 +81,33 @@ async function fetchImage(url) {
   }
 }
 
+// Images already in public/notion/ from an earlier sync (key → file), and the ones this sync uses.
+// Keys include the block's or page's last-edited time, so an unchanged image is reused, not re-downloaded,
+// and the folder is never emptied mid-sync (the local preview keeps working while a sync runs).
+let EXISTING = new Map();
+const USED = new Set();
+
+/** Write a file in one step (temp file + rename) so a running preview never reads half a file. */
+async function writeAtomic(file, data) {
+  const tmp = `${file}.tmp-${process.pid}`;
+  await fs.writeFile(tmp, data);
+  await fs.rename(tmp, file);
+}
+
 async function download(url, key, { raw = false } = {}) {
+  const base0 = crypto.createHash("sha1").update(key).digest("hex").slice(0, 16);
+  const have = EXISTING.get(base0);
+  if (have) {
+    USED.add(have);
+    let dims = {};
+    if (sharp && !raw) {
+      try {
+        const m = await sharp(path.join(IMG_DIR, have), { failOn: "none" }).metadata();
+        dims = { width: m.width, height: m.pageHeight || m.height };
+      } catch {}
+    }
+    return { src: `/notion/${have}`, ...dims };
+  }
   const { res, buf } = await fetchImage(url);
   const type = res.headers.get("content-type") || "";
   let ext = (new URL(url).pathname.match(/\.([a-z0-9]{2,5})$/i)?.[1] || type.split("/")[1] || "png").toLowerCase();
@@ -93,11 +119,13 @@ async function download(url, key, { raw = false } = {}) {
     const img = sharp(buf, { failOn: "none" }).rotate();
     const out = await img.resize({ width: MAX_WIDTH, withoutEnlargement: true }).webp({ quality: 86 }).toBuffer({ resolveWithObject: true });
     const file = `${base}.webp`;
-    await fs.writeFile(path.join(IMG_DIR, file), out.data);
+    await writeAtomic(path.join(IMG_DIR, file), out.data);
+    USED.add(file);
     return { src: `/notion/${file}`, width: out.info.width, height: out.info.height };
   }
   const file = `${base}.${ext === "svg+xml" ? "svg" : ext}`;
-  await fs.writeFile(path.join(IMG_DIR, file), buf);
+  await writeAtomic(path.join(IMG_DIR, file), buf);
+  USED.add(file);
   let dims = {};
   if (sharp && !raw) {
     try {
@@ -176,8 +204,10 @@ async function main() {
   if (!dbId) throw new Error("NOTION_DATABASE_ID is not set");
   const includeDrafts = process.env.NOTION_INCLUDE_DRAFTS === "1";
 
-  await fs.rm(IMG_DIR, { recursive: true, force: true });
   await fs.mkdir(IMG_DIR, { recursive: true });
+  EXISTING = new Map(
+    (await fs.readdir(IMG_DIR)).filter((n) => /^[0-9a-f]{16}\.[a-z0-9]+$/.test(n)).map((n) => [n.split(".")[0], n])
+  );
 
   console.log("[sync] querying projects database…");
   const pages = await paginate(`/databases/${dbId}/query`, { method: "POST", body: {} });
@@ -299,16 +329,24 @@ async function main() {
   relink(home.blocks);
 
   // write
-  await fs.rm(path.join(CONTENT, "projects"), { recursive: true, force: true });
   await fs.mkdir(path.join(CONTENT, "projects"), { recursive: true });
+  const written = new Set();
   for (const p of projects) {
     if (p.blocks) {
-      await fs.writeFile(path.join(CONTENT, "projects", `${p.slug}.json`), JSON.stringify({ blocks: p.blocks }));
+      await writeAtomic(path.join(CONTENT, "projects", `${p.slug}.json`), JSON.stringify({ blocks: p.blocks }));
+      written.add(`${p.slug}.json`);
       delete p.blocks;
     }
   }
-  await fs.writeFile(path.join(CONTENT, "projects.json"), JSON.stringify(projects, null, 2));
-  await fs.writeFile(path.join(CONTENT, "home.json"), JSON.stringify(home));
+  await writeAtomic(path.join(CONTENT, "projects.json"), JSON.stringify(projects, null, 2));
+  await writeAtomic(path.join(CONTENT, "home.json"), JSON.stringify(home));
+  // Only now remove what this sync no longer uses (old project files and images).
+  for (const n of await fs.readdir(path.join(CONTENT, "projects"))) {
+    if (n.endsWith(".json") && !written.has(n)) await fs.rm(path.join(CONTENT, "projects", n), { force: true });
+  }
+  for (const n of await fs.readdir(IMG_DIR)) {
+    if (/^[0-9a-f]{16}\.[a-z0-9]+$/.test(n) && !USED.has(n)) await fs.rm(path.join(IMG_DIR, n), { force: true });
+  }
   console.log(`[sync] done: ${projects.length} projects`);
 }
 
