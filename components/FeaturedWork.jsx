@@ -22,6 +22,8 @@ function Thumb({ project }) {
   let panelStyle;
   let imgStyle = { objectPosition: `center ${project.imagePosition || "top"}` };
   const crop = project.imageCrop;
+  // An exact crop may run into the side margins, out to the frame's edges (the frame clips it there);
+  // the top still starts at the panel's top edge.
   if (crop) {
     imgStyle = { position: "absolute", width: `${crop.zoom}%`, height: "auto", left: `${crop.x}%`, top: `${crop.y}%`, maxWidth: "none", objectFit: "initial" };
   } else if (project.imageTransparent && img?.width && img?.height) {
@@ -29,7 +31,7 @@ function Thumb({ project }) {
     panelStyle = { top: `${Math.max(8, 100 - heightPct * 0.88).toFixed(1)}%` };
   }
   return (
-    <div className={`fw__img ${project.imageTransparent ? "fw__img--clear" : ""}`} aria-hidden="true">
+    <div className={`fw__img${project.imageTransparent ? " fw__img--clear" : ""}${crop ? " fw__img--crop" : ""}`} aria-hidden="true">
       {img?.src ? (
         <div className="fw__panel" style={panelStyle}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
