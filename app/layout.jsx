@@ -1,5 +1,6 @@
 import "./globals.css";
 import Header from "@/components/Header";
+import PageTransitions from "@/components/PageTransitions";
 import { getNav } from "@/lib/home";
 import { site } from "@/lib/content";
 
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
         <a href="#main" className="skip-link">Skip to content</a>
         <Header nav={getNav()} />
         <main id="main">{children}</main>
+        <PageTransitions />
       </body>
     </html>
   );
