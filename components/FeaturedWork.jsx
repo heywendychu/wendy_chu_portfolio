@@ -17,7 +17,19 @@ const Arrow = () => (
 // Rectangle thumbnail (design review B7): rounded peach frame, square screenshot inset 8% left,
 // right and top, running off the bottom. "Transparent background" drops the white box.
 // "Image zoom / x / y" (from the review page's Thumbnails tab) are % of the inner panel.
-function Thumb({ project }) {
+// How wide the thumbnail image is drawn, for the browser to pick the right size from srcset.
+// The frame is at most 462px wide on desktop (100vw - 48px on phones); the panel is 84% of it.
+const FRAME = 462;
+function thumbSizes(project, img) {
+  const panel = FRAME * 0.84;
+  const ratio = img.width && img.height ? img.width / img.height : 1.6;
+  let w = panel;
+  if (project.imageCrop) w = (panel * project.imageCrop.zoom) / 100;
+  else if (!project.imageTransparent) w = Math.max(panel, FRAME * 0.625 * 0.92 * ratio); // object-fit: cover
+  return `(max-width: 768px) calc((100vw - 48px) * ${(w / FRAME).toFixed(3)}), ${Math.ceil(w)}px`;
+}
+
+function Thumb({ project, first }) {
   const img = project.homeImage || project.cover;
   let panelStyle;
   let imgStyle = { objectPosition: `center ${project.imagePosition || "top"}` };
@@ -35,7 +47,18 @@ function Thumb({ project }) {
       {img?.src ? (
         <div className="fw__panel" style={panelStyle}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={img.src} alt="" width={img.width} height={img.height} loading="lazy" decoding="async" style={imgStyle} />
+          <img
+            src={img.src}
+            srcSet={project.thumbSrcSet || undefined}
+            sizes={project.thumbSrcSet ? thumbSizes(project, img) : undefined}
+            alt=""
+            width={img.width}
+            height={img.height}
+            loading={first ? "eager" : "lazy"}
+            fetchPriority={first ? "high" : undefined}
+            decoding="async"
+            style={imgStyle}
+          />
         </div>
       ) : null}
     </div>
@@ -47,7 +70,7 @@ function Thumb({ project }) {
 const ALTERNATE = false;
 const IMAGE_LEFT = true;
 
-function Tile({ project, flip }) {
+function Tile({ project, flip, first }) {
   const body = (
     <>
       <div className="lf__text">
@@ -67,7 +90,7 @@ function Tile({ project, flip }) {
           {project.externalUrl ? <span className="visually-hidden"> (opens in a new tab)</span> : null}
         </span>
       </div>
-      <Thumb project={project} />
+      <Thumb project={project} first={first} />
     </>
   );
   return (
@@ -85,7 +108,7 @@ export default function FeaturedWork({ projects }) {
   return (
     <ul className="lf-list">
       {projects.map((p, i) => (
-        <Tile key={p.slug} project={p} flip={ALTERNATE ? i % 2 === 1 : IMAGE_LEFT} />
+        <Tile key={p.slug} project={p} flip={ALTERNATE ? i % 2 === 1 : IMAGE_LEFT} first={i === 0} />
       ))}
     </ul>
   );

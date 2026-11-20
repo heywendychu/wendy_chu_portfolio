@@ -94,6 +94,32 @@ async function writeAtomic(file, data) {
   await fs.rename(tmp, file);
 }
 
+/**
+ * Smaller copies of a homepage thumbnail (480/800/1200/1800px wide WebP, never wider than the original),
+ * so the browser downloads only the size the tile needs. Returns a srcset string, or null.
+ */
+const THUMB_WIDTHS = [480, 800, 1200, 1800];
+async function thumbVariants(img) {
+  if (!sharp || !img?.src?.startsWith("/notion/") || !img.width || !/\.webp$/.test(img.src)) return null;
+  const file = img.src.slice("/notion/".length);
+  const base = file.replace(/\.webp$/, "");
+  const parts = [];
+  for (const w of THUMB_WIDTHS) {
+    if (w >= img.width) break;
+    const out = `${base}-w${w}.webp`;
+    const outPath = path.join(IMG_DIR, out);
+    try { await fs.access(outPath); } catch {
+      const buf = await sharp(path.join(IMG_DIR, file)).resize({ width: w }).webp({ quality: 80 }).toBuffer();
+      await writeAtomic(outPath, buf);
+    }
+    USED.add(out);
+    parts.push(`/notion/${out} ${w}w`);
+  }
+  if (!parts.length) return null;
+  parts.push(`${img.src} ${img.width}w`);
+  return parts.join(", ");
+}
+
 async function download(url, key, { raw = false } = {}) {
   const base0 = crypto.createHash("sha1").update(key).digest("hex").slice(0, 16);
   const have = EXISTING.get(base0);
@@ -248,6 +274,7 @@ async function main() {
       externalUrl: externalUrl || null,
       order: Number(text(page, "Order")) || 999,
       homeImage: homeImage ? { ...homeImage, alt: text(page, "Cover alt") || title } : null,
+      thumbSrcSet: await thumbVariants(homeImage || cover),
       imagePosition: ["top", "center", "bottom"].includes(position) ? position : "top",
       imageTransparent: !!prop(page, "Transparent background")?.checkbox,
       // Exact crop from the review page's Thumbnails tab (all three or none): image width and left
@@ -345,7 +372,7 @@ async function main() {
     if (n.endsWith(".json") && !written.has(n)) await fs.rm(path.join(CONTENT, "projects", n), { force: true });
   }
   for (const n of await fs.readdir(IMG_DIR)) {
-    if (/^[0-9a-f]{16}\.[a-z0-9]+$/.test(n) && !USED.has(n)) await fs.rm(path.join(IMG_DIR, n), { force: true });
+    if (/^[0-9a-f]{16}(-w\d+)?\.[a-z0-9]+$/.test(n) && !USED.has(n)) await fs.rm(path.join(IMG_DIR, n), { force: true });
   }
   console.log(`[sync] done: ${projects.length} projects`);
 }
