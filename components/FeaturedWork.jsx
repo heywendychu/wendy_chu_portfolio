@@ -1,9 +1,13 @@
 import Link from "next/link";
 
 // Home page work list: one tile per project, alternating sides.
-// Text (from Figma "Project Tile"): company, the Outcome as the headline, the project name,
+// Text (from Figma "Project Tile"): company, the project name as the headline, the Outcome,
 // up to 3 Skills tags and READ MORE with Wendy's arrow. The picture: Notion "Homepage image"
 // (or the cover) in a rectangle frame. (The leaf version is in git history and lib/leaf.js.)
+// Which line is the big headline: the project name (Menu label) with the Outcome under it,
+// or flip to true for the Outcome as the headline with the project name under it.
+const HEADLINE_IS_OUTCOME = false;
+
 const Arrow = () => (
   <svg className="lf__arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true">
     <path d="M0 3.367V2.132H7.592L5.863 0H7.423L9.659 2.756L7.423 5.499H5.863L7.605 3.367H0Z" fill="currentColor" />
@@ -41,8 +45,8 @@ function Tile({ project, flip }) {
     <>
       <div className="lf__text">
         <p className="lf__co">{project.company}</p>
-        <h3 className="lf__h">{project.outcome || project.menuLabel}</h3>
-        {project.outcome ? <p className="lf__sub">{project.menuLabel}</p> : null}
+        <h3 className="lf__h">{HEADLINE_IS_OUTCOME ? project.outcome || project.menuLabel : project.menuLabel}</h3>
+        {project.outcome ? <p className="lf__sub">{HEADLINE_IS_OUTCOME ? project.menuLabel : project.outcome}</p> : null}
         {project.skills?.length ? (
           <ul className="lf__tags">
             {project.skills.map((s) => (

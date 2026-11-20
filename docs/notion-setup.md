@@ -68,7 +68,7 @@ Anything before the first heading shows up as an intro with no section label.
 | Transparent background | Tick it when the homepage image has a see-through background (like phone mockups): it sits whole inside the leaf with a soft shadow that follows its shape. |
 | Homepage image override | Set from the review page's Thumbnails tab when you pick a different picture: `page:3` = the 3rd image on the case-study page, `/home/file.webp` = an image you uploaded there. Overrides Homepage image. |
 | Image zoom / Image x / Image y | Filled in from the design review page's Thumbnails tab (drag and zoom). When set they override Image position. Clear all three to go back to automatic. |
-| Outcome | The big headline on the homepage tile (keep it short, e.g. "Increased e-commerce conversion by 3x"); the project name sits under it. |
+| Outcome | The line under the project name on the homepage tile (the result). |
 | Skills | Up to 3 tags shown under the outcome on the home page. |
 | External URL | Makes the row a link instead of a page |
 | Description | Optional custom Google/LinkedIn description |
