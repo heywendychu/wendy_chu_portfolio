@@ -221,7 +221,7 @@ async function main() {
       imagePosition: ["top", "center", "bottom"].includes(position) ? position : "top",
       imageTransparent: !!prop(page, "Transparent background")?.checkbox,
       // Exact crop from the review page's Thumbnails tab (all three or none): image width and left
-      // offset as % of the leaf's width, top offset as % of its height (see lib/leaf.js).
+      // offset as % of the thumbnail's inner panel width, top offset as % of its height.
       imageCrop: (() => {
         const n = (k) => { const v = prop(page, k)?.number; return typeof v === "number" ? v : null; };
         const zoom = n("Image zoom"), x = n("Image x"), y = n("Image y");

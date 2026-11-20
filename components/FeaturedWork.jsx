@@ -1,33 +1,36 @@
 import Link from "next/link";
-import { autoCrop } from "@/lib/leaf";
 
 // Home page work list: one tile per project, alternating sides.
 // Text (from Figma "Project Tile"): company, the Outcome as the headline, the project name,
-// up to 3 Skills tags and READ MORE with Wendy's arrow. The picture sits in a leaf-shaped
-// peach panel: Notion "Homepage image" (or the cover), placed by "Image zoom / x / y" when set
-// in the review page's Thumbnails tab, otherwise automatically (see lib/leaf.js).
+// up to 3 Skills tags and READ MORE with Wendy's arrow. The picture: Notion "Homepage image"
+// (or the cover) in a rectangle frame. (The leaf version is in git history and lib/leaf.js.)
 const Arrow = () => (
   <svg className="lf__arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true">
     <path d="M0 3.367V2.132H7.592L5.863 0H7.423L9.659 2.756L7.423 5.499H5.863L7.605 3.367H0Z" fill="currentColor" />
   </svg>
 );
 
-function Leaf({ project, flip }) {
+// Rectangle thumbnail (design review B7): rounded peach frame, square screenshot inset 8% left,
+// right and top, running off the bottom. "Transparent background" drops the white box.
+// "Image zoom / x / y" (from the review page's Thumbnails tab) are % of the inner panel.
+function Thumb({ project }) {
   const img = project.homeImage || project.cover;
-  const crop = project.imageCrop || autoCrop({ width: img?.width, height: img?.height, transparent: project.imageTransparent, flip });
+  let panelStyle;
+  let imgStyle = { objectPosition: `center ${project.imagePosition || "top"}` };
+  const crop = project.imageCrop;
+  if (crop) {
+    imgStyle = { position: "absolute", width: `${crop.zoom}%`, height: "auto", left: `${crop.x}%`, top: `${crop.y}%`, maxWidth: "none", objectFit: "initial" };
+  } else if (project.imageTransparent && img?.width && img?.height) {
+    const heightPct = (84 * 1.6 * img.height) / img.width; // image height as % of the 16:10 frame
+    panelStyle = { top: `${Math.max(8, 100 - heightPct * 0.88).toFixed(1)}%` };
+  }
   return (
-    <div className={`lf__shape ${project.imageTransparent ? "is-clear" : ""}`} aria-hidden="true">
+    <div className={`fw__img ${project.imageTransparent ? "fw__img--clear" : ""}`} aria-hidden="true">
       {img?.src ? (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img
-          src={img.src}
-          alt=""
-          width={img.width}
-          height={img.height}
-          loading="lazy"
-          decoding="async"
-          style={{ width: `${crop.zoom}%`, left: `${crop.x}%`, top: `${crop.y}%` }}
-        />
+        <div className="fw__panel" style={panelStyle}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={img.src} alt="" width={img.width} height={img.height} loading="lazy" decoding="async" style={imgStyle} />
+        </div>
       ) : null}
     </div>
   );
@@ -53,7 +56,7 @@ function Tile({ project, flip }) {
           {project.externalUrl ? <span className="visually-hidden"> (opens in a new tab)</span> : null}
         </span>
       </div>
-      <Leaf project={project} flip={flip} />
+      <Thumb project={project} />
     </>
   );
   return (
